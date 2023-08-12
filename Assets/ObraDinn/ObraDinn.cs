@@ -9,6 +9,8 @@ public class ObraDinn : MonoBehaviour
     public Material thresholdMat;
     public Camera cam;
 
+    public Vector2Int dimension;
+
     void Start() {
         cam = GetComponent<Camera>();
     }
@@ -19,8 +21,8 @@ public class ObraDinn : MonoBehaviour
     }
 
     void OnRenderImage(RenderTexture src, RenderTexture dst) {
-        RenderTexture large = RenderTexture.GetTemporary(1920, 1080, 0, RenderTextureFormat.ARGB32); // 1640, 940
-        RenderTexture main = RenderTexture.GetTemporary(1920/2, 1080/2, 0, RenderTextureFormat.ARGB32); // 820, 470
+        RenderTexture large = RenderTexture.GetTemporary(dimension[0], dimension[1], 0, RenderTextureFormat.ARGB32); // 1640, 940
+        RenderTexture main = RenderTexture.GetTemporary(dimension[0] /2, dimension[1] /2, 0, RenderTextureFormat.ARGB32); // 820, 470
         large.filterMode = FilterMode.Point;
         main.filterMode = FilterMode.Trilinear;
 
