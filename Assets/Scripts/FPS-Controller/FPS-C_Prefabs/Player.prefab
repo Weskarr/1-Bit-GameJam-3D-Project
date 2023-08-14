@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6268786116922714611}
   - component: {fileID: 6268786116922714612}
   - component: {fileID: 6268786116922714613}
+  - component: {fileID: 6701861244274282108}
   m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
@@ -25,12 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6268786116922714614}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6268786117941654322}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &6268786116922714612
 Camera:
@@ -46,9 +48,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -83,6 +93,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6268786116922714614}
   m_Enabled: 1
+--- !u!114 &6701861244274282108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268786116922714614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0accf9456c2b7e14999cc5f9a0ac34cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InteractorSource: {fileID: 7604698798001834109}
+  interactRange: 3
 --- !u!1 &6268786117941654324
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,13 +132,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6268786117941654324}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6268786116922714611}
+  - {fileID: 7604698798001834109}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &6268786117941654321
 CharacterController:
@@ -124,9 +150,17 @@ CharacterController:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6268786117941654324}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Height: 2
   m_Radius: 0.3
   m_SlopeLimit: 44
@@ -146,6 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 346263cb502d6294f8780863a6301738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementEnabled: 1
   extensionsEnabled: 0
   slopeSlideEnabled: 1
   sprintEnabled: 1
@@ -204,8 +239,12 @@ MonoBehaviour:
   crouchHeadHitLayerMask:
     serializedVersion: 2
     m_Bits: 51
+  walkBackwards: 0
+  strafe: 0
   turnSpeed: 360
   sprintTurnMult: 2
+  cameraAlignSpeed: 0
+  customInputSystem: {fileID: 0}
   jumpBtnCustom: Jump
   crouchBtnCustom: Fire1
   runBtnCustom: Fire3
@@ -215,3 +254,34 @@ MonoBehaviour:
   xMouseNameCustom: Mouse X
   yMouseNameCustom: Mouse Y
   Extensions: []
+--- !u!1 &6945470112126966351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7604698798001834109}
+  m_Layer: 8
+  m_Name: InteractTrans
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7604698798001834109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6945470112126966351}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 1.792, z: 0.254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6268786117941654322}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

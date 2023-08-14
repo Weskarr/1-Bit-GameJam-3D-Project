@@ -6,6 +6,18 @@ using UnityEngine;
 public class EchoManager : MonoBehaviour
 {
 
+    private static EchoManager echo;
+
+    public static EchoManager instance {
+        get {
+            return echo;
+        }
+    }
+
+    void OnEnable() { echo = this; }
+
+    void OnDisable() { echo = null; }
+
 
     // For echo expansion
     [SerializeField]
@@ -53,18 +65,24 @@ public class EchoManager : MonoBehaviour
         _echoMat.SetFloat("_Radius", 0f); // Make sure you set to 0, otherwise changes stick after game is ended.
     }
 
-    private void LightsOff()
+    public bool LightsOff()
     {
+        // Return whether this actually changed something
+        bool ret = !_lightsOff;
         _lightsOff = true;
         _echoMatMassAssigner.AssignEchoMat();
         ResetEcho();
+        return ret;
     }
 
-    private void LightsOn()
+    public bool LightsOn()
     {
+        // Return whether this actually changed something
+        bool ret = _lightsOff;
         _lightsOff = false;
         _echoMatMassAssigner.UnassignEchoNat();
         ResetEcho();
+        return ret;
     }
 
     private void Update()
@@ -81,11 +99,14 @@ public class EchoManager : MonoBehaviour
             }
         }
 
-        if (_lightsOff == true && Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Q)) // Spacebar or Q = to echo
+        if (_lightsOff == true && Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Q)) // Spacebar or Q = to echo
         {
-            ResetEcho();
-            if (_isEchoing == false)
+            
+            if (!_isEchoing){
+                ResetEcho();
                 StartCoroutine(EchoExpansion());
+            }
+               
         }
     }
 
