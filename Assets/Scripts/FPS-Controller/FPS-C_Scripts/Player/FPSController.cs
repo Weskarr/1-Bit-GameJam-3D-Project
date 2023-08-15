@@ -50,6 +50,9 @@ namespace TheFirstPerson
         [ConditionalHide(new string[] { "customCameraTransform" , "thirdPersonMode"}, false, false, true)]
         public Transform cam;
 
+        [Header("Wwise Events")]
+        public AK.Wwise.Event myFootstep;
+
         [Header("Jump Settings")]
         [ConditionalHide("jumpEnabled", true)]
         public bool definedByHeight = false;
@@ -233,6 +236,10 @@ namespace TheFirstPerson
         float groundAngle;
         bool instantMomentumChange = false;
 
+        //Wwise
+        private bool footstepIsPlaying = false;
+        private float lastFootstepTime = 0;
+
         //sliding
         bool slide;
         Vector3 hitNormal;
@@ -308,6 +315,8 @@ namespace TheFirstPerson
 
             controllerInfo = GetInfo();
             ExecuteExtension(ExtFunc.Start);
+
+            lastFootstepTime = Time.time;
         }
 
         void Update()
@@ -658,6 +667,22 @@ namespace TheFirstPerson
                         targetMove *= currentBackwardMult;
                     }
                     targetMove += side * currentMoveSpeed * xIn * currentStrafeMult;
+                }
+                if (!footstepIsPlaying)
+                {
+                    myFootstep.Post(gameObject);
+                    lastFootstepTime = Time.time;
+                    footstepIsPlaying = true;
+                }
+                else
+                {
+                    if (moveSpeed > 1)
+                    {
+                        if (Time.time - lastFootstepTime > 200 / moveSpeed * Time.deltaTime)
+                        {
+                            footstepIsPlaying = false;
+                        }
+                    }
                 }
             }
             return targetMove;

@@ -284,6 +284,11 @@
 										<Sound Name="Ambience_Clock_Loop" ID="{53970E08-BCDC-4741-8C50-7AD3C02FCB13}" ShortID="535026127">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">

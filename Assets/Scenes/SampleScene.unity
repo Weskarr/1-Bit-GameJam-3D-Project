@@ -1520,6 +1520,10 @@ PrefabInstance:
       propertyPath: crouchTransitionSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6268786117941654323, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
+      propertyPath: myFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d79f659896d6947d4b2df963d3ec64fa, type: 2}
     - target: {fileID: 6268786117941654324, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3039,7 +3043,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610914690}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2145a64ee9d1640479a98c7d6b69a6fc, type: 3}
   m_Name: 
