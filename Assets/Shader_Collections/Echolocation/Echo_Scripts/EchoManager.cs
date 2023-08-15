@@ -43,7 +43,9 @@ public class EchoManager : MonoBehaviour
     [SerializeField]
     private bool _lightsOff = false;
     [SerializeField]
-    private EchoMatMassAssigner _echoMatMassAssigner;
+    private GameObject[] _lightsOnObjects;
+    [SerializeField]
+    private GameObject[] _lightsOffObjects;
 
     // Extra
     [SerializeField]
@@ -70,7 +72,12 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = !_lightsOff;
         _lightsOff = true;
-        _echoMatMassAssigner.AssignEchoMat();
+        foreach (GameObject go in _lightsOnObjects) {
+            go.SetActive(false);
+        }
+        foreach (GameObject go in _lightsOffObjects) {
+            go.SetActive(true);
+        }
         ResetEcho();
         return ret;
     }
@@ -80,7 +87,12 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = _lightsOff;
         _lightsOff = false;
-        _echoMatMassAssigner.UnassignEchoNat();
+        foreach (GameObject go in _lightsOnObjects) {
+            go.SetActive(true);
+        }
+        foreach (GameObject go in _lightsOffObjects) {
+            go.SetActive(false);
+        }
         ResetEcho();
         return ret;
     }
