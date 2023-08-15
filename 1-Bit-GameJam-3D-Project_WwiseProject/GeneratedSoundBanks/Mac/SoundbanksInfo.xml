@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A53D825F-E742-8536-3001-FA8CE7EC96A0}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="29752148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_10.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="69290928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_04.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="101304777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_03.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112068193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience_Clock_Loop.wav</ShortName>
+					<CachePath>SFX/Ambience_Clock_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="500430144" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_08.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566364833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_09.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="657053874" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_02.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="676147703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_07.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="833179533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_01.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924890128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_05.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1044853674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_Wood_06.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_Wood_06_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="112068193"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1323502295" Name="Play_Player_Footsteps_Wood" DurationType="OneShot" DurationMin="0.19069281" DurationMax="0.57767636">
+					<MediaRefs>
+						<MediaRef Id="29752148"/>
+						<MediaRef Id="69290928"/>
+						<MediaRef Id="101304777"/>
+						<MediaRef Id="500430144"/>
+						<MediaRef Id="566364833"/>
+						<MediaRef Id="657053874"/>
+						<MediaRef Id="676147703"/>
+						<MediaRef Id="833179533"/>
+						<MediaRef Id="924890128"/>
+						<MediaRef Id="1044853674"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E8B6FBE8-9BFA-5A21-4975-99A63A1011CD}</FileHash>
+</SoundBanksInfo>

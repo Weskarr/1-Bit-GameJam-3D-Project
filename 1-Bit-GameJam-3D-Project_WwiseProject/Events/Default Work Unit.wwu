@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="World" ID="{844037BC-6300-4995-908B-67F897D5462E}" ShortID="698078213">
+					<ChildrenList>
+						<Folder Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" ShortID="759337724">
+							<ChildrenList>
+								<Event Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}">
+									<ChildrenList>
+										<Action Name="" ID="{07BE0080-FEBC-449F-BA02-9DE24E354A14}" ShortID="314508766">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Footsteps_Wood" ID="{3F994322-4102-4DEA-AA0E-0F42F4D40734}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" ShortID="432296587">
+							<ChildrenList>
+								<Event Name="Play_Ambience_Clock_Loop" ID="{72833C2F-9E3E-4D20-B9CE-B971F503B5FA}">
+									<ChildrenList>
+										<Action Name="" ID="{0C2D1D53-09B3-424C-94B3-1F878552D26D}" ShortID="812810382">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambience_Clock_Loop" ID="{53970E08-BCDC-4741-8C50-7AD3C02FCB13}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Ambience_Clock_Loop" ID="{B37BC57D-0159-4DF0-B596-6803F4783378}">
+									<ChildrenList>
+										<Action Name="" ID="{156EA03E-0313-4591-BD50-6E8DB30FBDA7}" ShortID="148096262">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambience_Clock_Loop" ID="{53970E08-BCDC-4741-8C50-7AD3C02FCB13}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

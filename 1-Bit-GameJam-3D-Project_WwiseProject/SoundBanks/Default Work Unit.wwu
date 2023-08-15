@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{813E7980-13E9-48D5-925A-ACCDDDF7AAD3}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{813E7980-13E9-48D5-925A-ACCDDDF7AAD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{DCF9D454-CE25-4122-91C4-7A456574D436}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Ambience_Clock_Loop" ID="{72833C2F-9E3E-4D20-B9CE-B971F503B5FA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambience_Clock_Loop" ID="{B37BC57D-0159-4DF0-B596-6803F4783378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
