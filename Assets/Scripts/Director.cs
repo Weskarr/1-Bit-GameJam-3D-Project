@@ -22,8 +22,6 @@ public class Director : MonoBehaviour
     EchoManager echoManager;
     public FPSController player;
 
-    public AudioSource door1Sound;
-
     public float startPauseTime;
     public float lightsOffWait;
 
@@ -46,7 +44,6 @@ public class Director : MonoBehaviour
         yield return new WaitForSeconds(startPauseTime);
         echoManager.LightsOn();
         player.movementEnabled = true;
-        door1Sound.Play();
         canSleep = false;
         StartCoroutine(lightsOff());
     }

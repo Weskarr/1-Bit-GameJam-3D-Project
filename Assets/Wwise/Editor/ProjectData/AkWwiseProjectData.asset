@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b7964a7a53882049b6b23d7c893462ce
-    ParentPath: Virtual Acoustics/Default Work Unit
+    ParentPath: Virtual Acoustics\Default Work Unit
     guid: b7964a7a53882049b6b23d7c893462ce
     GuidInternal: 
-    m_lastTime: -8585096132518474138
+    m_lastTime: -8585094526018195231
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: cf62697036e8b149a875548d00e4c73f
-    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585096132518524126
+    m_lastTime: -8585094526018660432
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 80793e81e913d548925aaccdddf7aad3
-    ParentPath: SoundBanks/Default Work Unit
+    ParentPath: SoundBanks\Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585094745741362045
+    m_lastTime: -8585094526018225264
     List:
     - name: Main
       guid: 54d4f9dc25ce224191c47a456574d436
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 54d4f9dc25ce224191c47a456574d436
-      Path: SoundBanks/Default Work Unit/Main
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
-  - PhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b160a9b7e077d1499156be92b9f82962
-    ParentPath: Events/Default Work Unit
+    ParentPath: Events\Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585094541940266040
+    m_lastTime: -8585094526019060757
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -112,7 +112,7 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: a3d1ba4d042e7448bf13d9b8e834a40e
-      Path: Events/Default Work Unit/World/Ambience
+      Path: Events\Default Work Unit\World\Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -135,7 +135,7 @@ MonoBehaviour:
       - ElementName: Play_Ambience_Clock_Loop
         ObjectType: 3
         guid: 2f3c83723e9e204db9ceb971f503b5fa
-      Path: Events/Default Work Unit/World/Ambience/Play_Ambience_Clock_Loop
+      Path: Events\Default Work Unit\World\Ambience\Play_Ambience_Clock_Loop
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
@@ -158,7 +158,7 @@ MonoBehaviour:
       - ElementName: Play_Player_Footsteps_Wood
         ObjectType: 3
         guid: 785a1930e9c9b84e912fe158b3306378
-      Path: Events/Default Work Unit/World/Player/Play_Player_Footsteps_Wood
+      Path: Events\Default Work Unit\World\Player\Play_Player_Footsteps_Wood
       maxAttenuation: 0
       maxDuration: 0.57767636
       minDuration: 0.19069281
@@ -178,7 +178,7 @@ MonoBehaviour:
       - ElementName: Player
         ObjectType: 4
         guid: 20056e7ff77dd046aee3d92985e5c4db
-      Path: Events/Default Work Unit/World/Player
+      Path: Events\Default Work Unit\World\Player
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -201,7 +201,7 @@ MonoBehaviour:
       - ElementName: Stop_Ambience_Clock_Loop
         ObjectType: 3
         guid: 7dc57bb35901f04db5966803f4783378
-      Path: Events/Default Work Unit/World/Ambience/Stop_Ambience_Clock_Loop
+      Path: Events\Default Work Unit\World\Ambience\Stop_Ambience_Clock_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -218,12 +218,12 @@ MonoBehaviour:
       - ElementName: World
         ObjectType: 4
         guid: bc37408400639549908b67f897d5462e
-      Path: Events/Default Work Unit/World
+      Path: Events\Default Work Unit\World
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -231,13 +231,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c0f63c476475754ead71100cb51d1bd3
-    ParentPath: Game Parameters/Default Work Unit
+    ParentPath: Game Parameters\Default Work Unit
     guid: c0f63c476475754ead71100cb51d1bd3
     GuidInternal: 
-    m_lastTime: -8585096132518529901
+    m_lastTime: -8585094526019050750
     List: []
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -245,13 +245,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3a11c9e2aa43484c925da731bddf6397
-    ParentPath: States/Default Work Unit
+    ParentPath: States\Default Work Unit
     guid: 3a11c9e2aa43484c925da731bddf6397
     GuidInternal: 
-    m_lastTime: -8585096132518490231
+    m_lastTime: -8585094526018215253
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -259,10 +259,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
-    ParentPath: Switches/Default Work Unit
+    ParentPath: Switches\Default Work Unit
     guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
     GuidInternal: 
-    m_lastTime: -8585094541940037498
+    m_lastTime: -8585094526018215253
     List:
     - name: New_Switch_Group
       guid: 8542da5d90c45746b37d8e65cc679cd4
@@ -277,7 +277,7 @@ MonoBehaviour:
       - ElementName: New_Switch_Group
         ObjectType: 11
         guid: 8542da5d90c45746b37d8e65cc679cd4
-      Path: Switches/Default Work Unit/New_Switch_Group
+      Path: Switches\Default Work Unit\New_Switch_Group
       values:
       - name: Bedroom
         guid: fe58c4003d1fbf4891a994511fb67a50
@@ -299,7 +299,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -307,13 +307,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 810460807133634ea4cfabeddb460d1e
-    ParentPath: Triggers/Default Work Unit
+    ParentPath: Triggers\Default Work Unit
     guid: 810460807133634ea4cfabeddb460d1e
     GuidInternal: 
-    m_lastTime: -8585096132518480631
+    m_lastTime: -8585094526018205245
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0700000008000000090000001c000000060100000701000072010000730100007c0100007f01000082010000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

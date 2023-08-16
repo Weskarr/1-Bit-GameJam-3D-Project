@@ -118,6 +118,7 @@ GameObject:
   - component: {fileID: 6268786117941654322}
   - component: {fileID: 6268786117941654321}
   - component: {fileID: 6268786117941654323}
+  - component: {fileID: 8441710237708190193}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -197,6 +198,10 @@ MonoBehaviour:
   normaliseMoveInput: 0
   moveInFixedUpdate: 0
   cam: {fileID: 0}
+  myFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   definedByHeight: 0
   variableHeight: 1
   coyoteTime: 0.1
@@ -254,6 +259,18 @@ MonoBehaviour:
   xMouseNameCustom: Mouse X
   yMouseNameCustom: Mouse Y
   Extensions: []
+--- !u!114 &8441710237708190193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6268786117941654324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c4ff87fa708b44b9112b07adce66b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6945470112126966351
 GameObject:
   m_ObjectHideFlags: 0
