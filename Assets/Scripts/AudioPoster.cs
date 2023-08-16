@@ -7,7 +7,10 @@ public class AudioPoster : MonoBehaviour
 {
     FPSController movementScript;
 
+    public GameObject behindGO;
+
     public float footstepDuration;
+    public float behindStepDelay;
 
     //Wwise
     private bool footstepIsPlaying = false;
@@ -28,6 +31,7 @@ public class AudioPoster : MonoBehaviour
         if (movementScript.moving) {
             if (!footstepIsPlaying) {
                 myFootstep.Post(gameObject);
+                StartCoroutine(delayedSound());
                 EchoManager.instance.StartEcho();
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;
@@ -39,5 +43,10 @@ public class AudioPoster : MonoBehaviour
                 }
             }
         }
+    }
+
+    IEnumerator delayedSound() {
+        yield return new WaitForSeconds(behindStepDelay);
+        myFootstep.Post(behindGO);
     }
 }
