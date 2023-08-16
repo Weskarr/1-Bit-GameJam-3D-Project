@@ -453,6 +453,26 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Test_Tone" ID="{BE066B30-4247-429B-9668-A15451809F92}" ShortID="741721537">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Sine" ID="{CE2893D4-7288-492E-B73A-9C8E07FE16AE}" ShortID="844065003" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sine" ID="{CE2893D4-7288-492E-B73A-9C8E07FE16AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<Folder Name="Window" ID="{0F5E0274-F25A-43EC-A3C4-387FB5862582}" ShortID="963950234">
 									<ChildrenList>
@@ -465,6 +485,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{0CE95233-2F8B-4C3F-8A3A-6583BF354064}" ShortID="246644019">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{70A25C7C-E20F-403E-B255-D8608C62A1E5}" ShortID="64019436" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{70A25C7C-E20F-403E-B255-D8608C62A1E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Window_Close_Loop" ID="{996B8439-6D6A-4FFB-A28B-BDDF7E0FD647}" ShortID="832053005">
 											<ReferenceList>
@@ -475,6 +515,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{755FBC88-EBCC-40F4-8249-ED712196C51B}" ShortID="83710481">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{ED214212-1E58-43D8-B1F2-E2FF43869763}" ShortID="580798756" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{ED214212-1E58-43D8-B1F2-E2FF43869763}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -489,6 +549,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{140FAA30-B320-4D94-A1E5-A292C8C284B6}" ShortID="805178337">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{05A0948C-F305-4620-A6DA-AA6B5EF8B9A1}" ShortID="1052820268" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{05A0948C-F305-4620-A6DA-AA6B5EF8B9A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -1052,6 +1132,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{E979FB14-3206-4395-9B2F-3C596147A350}" ShortID="725685514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{03EF48DB-07C0-4986-A9FD-09602793FCBC}" ShortID="511942729" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{03EF48DB-07C0-4986-A9FD-09602793FCBC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -1178,6 +1278,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{38350D96-33E9-4EA6-ADE7-FCE9D37DA190}" ShortID="191257398">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{6385DD2C-22B3-46C6-9102-D5BF5C68B273}" ShortID="1049442557" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{6385DD2C-22B3-46C6-9102-D5BF5C68B273}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Sink_Handles_Off" ID="{40181C9D-CEB4-4034-B64E-05A5E4B46467}" ShortID="7219064">
 													<ReferenceList>
@@ -1188,6 +1308,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{A79D93F9-5114-46DB-A557-67575EAE0C8A}" ShortID="629099543">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{FD570607-D411-43F7-AFEB-6D0C1542EBA8}" ShortID="929454766" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{FD570607-D411-43F7-AFEB-6D0C1542EBA8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1664,6 +1804,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{4797D2C2-8F2E-43F8-96A3-756EFFC7956C}" ShortID="913397480">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{3BECC103-4FFF-4075-B103-F42847F2D147}" ShortID="350148234" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{3BECC103-4FFF-4075-B103-F42847F2D147}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Trash_Lid_Open" ID="{33E59164-2E29-43D7-AF4C-D3A80F6FA71B}" ShortID="617474452">
 													<ReferenceList>
@@ -1674,6 +1834,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{EBD4AD15-E4AA-49D2-89CE-60F922C17333}" ShortID="232849941">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{B381F3DF-ED5F-4E44-83F9-7BA956EB6369}" ShortID="729185475" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{B381F3DF-ED5F-4E44-83F9-7BA956EB6369}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1686,6 +1866,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{0BC9CBF2-97E3-4016-9B57-EE868B1E652D}" ShortID="385739174">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{1E0B3847-CC08-4089-B2BE-CF7FF5721621}" ShortID="266347165" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{1E0B3847-CC08-4089-B2BE-CF7FF5721621}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -1702,6 +1902,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{6363B6C1-B20C-44D2-962F-EABA1A2B7704}" ShortID="327449050">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{89D2C4C6-FD20-459A-BD87-EB1A7DB8EC6A}" ShortID="1020784281" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{89D2C4C6-FD20-459A-BD87-EB1A7DB8EC6A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Shower_Door_Open" ID="{5BC3D36D-5138-497B-B30A-B643A98CFD24}" ShortID="391272460">
 													<ReferenceList>
@@ -1712,6 +1932,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{A9118ECC-9D15-4AB0-852D-FAAF00A8FC71}" ShortID="820207229">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{81476CAE-2CD4-4B0A-8C6F-27AA5ECBA43B}" ShortID="815784796" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{81476CAE-2CD4-4B0A-8C6F-27AA5ECBA43B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1724,6 +1964,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{64A6E779-C206-4916-884D-B294EEBA66FE}" ShortID="880422328">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{AD7C1793-5049-4A76-9A0D-901B29D20E6E}" ShortID="104068118" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{AD7C1793-5049-4A76-9A0D-901B29D20E6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<Folder Name="Handles" ID="{093DF143-9F0C-4F86-9430-4A65C55763E9}" ShortID="724727426"/>
 									</ChildrenList>
@@ -1741,6 +2001,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{943E43EE-B7E9-4254-B861-3F10524ADD15}" ShortID="280971520">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{E7D2139C-5771-4ADB-8493-FEF5964F0682}" ShortID="49149454" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{E7D2139C-5771-4ADB-8493-FEF5964F0682}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Toilet_Lid_Close" ID="{AC08E356-909E-4167-BC40-AC4815108D84}" ShortID="622069817">
 													<ReferenceList>
@@ -1751,6 +2031,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{BA3A52AE-1C0B-416C-892C-1CF4F9CF5A14}" ShortID="169997753">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{FD9F83E6-FF05-4B5A-9790-4602FD00C868}" ShortID="667808462" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{FD9F83E6-FF05-4B5A-9790-4602FD00C868}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -2041,6 +2341,26 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Test_Tone" ID="{5922EBAC-C521-41F5-8978-970E4B9394A4}" ShortID="828841954">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Sine" ID="{EF1F7410-80D9-4554-845E-ABAF2C27E9F2}" ShortID="901638558" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sine" ID="{EF1F7410-80D9-4554-845E-ABAF2C27E9F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<Folder Name="Door" ID="{2F81566B-E9ED-40E5-B927-C6775F673F28}" ShortID="320659715">
 											<ChildrenList>
@@ -2053,6 +2373,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{107C2470-900A-4A3B-9E78-40457BFFBDF0}" ShortID="204873263">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{EB698125-2FBA-40D2-B52E-41AE3265C395}" ShortID="77184484" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{EB698125-2FBA-40D2-B52E-41AE3265C395}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fusebox_Door_Close" ID="{8EED78E2-3AB8-42D1-9296-38F2D8F7AA97}" ShortID="458956863">
 													<ReferenceList>
@@ -2063,6 +2403,26 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Test_Tone" ID="{EC27A637-791B-4906-B611-6BFE36B309DD}" ShortID="604249960">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Sine" ID="{C973EEF6-4F80-439F-9E72-D0BEE9F20C0A}" ShortID="621078901" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Sine" ID="{C973EEF6-4F80-439F-9E72-D0BEE9F20C0A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
