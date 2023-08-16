@@ -1,17 +1,71 @@
 Event	ID	Name			Wwise Object Path	Notes
+	59459483	Play_Player_Echo			\Default Work Unit\Play_Player_Echo	
+	85260089	Play_Sink_Handles_On			\Default Work Unit\Play_Sink_Handles_On	
+	105949735	Play_Fridge_Door_Open			\Default Work Unit\Play_Fridge_Door_Open	
+	115528144	Play_Celing_Light_Loop			\Default Work Unit\Play_Celing_Light_Loop	
+	140088172	Play_Wash_Machine_Knob			\Default Work Unit\Play_Wash_Machine_Knob	
+	304768047	Play_Trash_Lid_Close			\Default Work Unit\Play_Trash_Lid_Close	
+	422001050	Play_TV_Power_On			\Default Work Unit\Play_TV_Power_On	
+	465373113	Play_Wash_Door_Open			\Default Work Unit\Play_Wash_Door_Open	
+	470009873	Play_Freezer_Door_Open			\Default Work Unit\Play_Freezer_Door_Open	
+	612620834	Play_Fusebox_Door_Open			\Default Work Unit\Play_Fusebox_Door_Open	
+	717201584	Play_TV_Power_Off			\Default Work Unit\Play_TV_Power_Off	
+	761936719	Play_Fusebox_Breaker_On			\Default Work Unit\Play_Fusebox_Breaker_On	
+	822157893	Play_Sink_Handles_Off			\Default Work Unit\Play_Sink_Handles_Off	
+	969296927	Play_Wash_Door_Close			\Default Work Unit\Play_Wash_Door_Close	
 	1323502295	Play_Player_Footsteps_Wood			\Default Work Unit\World\Player\Play_Player_Footsteps_Wood	
+	1660008929	Play_Door_Open			\Default Work Unit\Play_Door_Open	
+	1717998074	Play_Stalker_Footsteps			\Default Work Unit\Play_Stalker_Footsteps	
 	1829767974	Play_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Play_Ambience_Clock_Loop	
+	1841648030	Play_Trash_Bag_Pickup			\Default Work Unit\Play_Trash_Bag_Pickup	
+	1958703520	Play_Drawer_Open			\Default Work Unit\Play_Drawer_Open	
+	2141857383	Play_Cabinet_Small_Close			\Default Work Unit\Play_Cabinet_Small_Close	
+	2225339950	Play_Shower_Door_Open			\Default Work Unit\Play_Shower_Door_Open	
+	2292458263	Play_Door_Close			\Default Work Unit\Play_Door_Close	
+	2315829540	Play_Drawer_Close			\Default Work Unit\Play_Drawer_Close	
+	2320097534	Play_Toilet_Lid_Open			\Default Work Unit\Play_Toilet_Lid_Open	
+	2332875111	Play_Freezer_Door_Close			\Default Work Unit\Play_Freezer_Door_Close	
+	2352193513	Play_Trash_Lid_Open			\Default Work Unit\Play_Trash_Lid_Open	
+	2531064299	Play_Cabinet_Large_Close			\Default Work Unit\Play_Cabinet_Large_Close	
+	2531764854	Play_Fusebox_Door_Close			\Default Work Unit\Play_Fusebox_Door_Close	
+	2575131963	Play_Door_Handle			\Default Work Unit\Play_Door_Handle	
+	2637930989	Play_Fridge_Door_Close			\Default Work Unit\Play_Fridge_Door_Close	
+	2746477793	Play_Shower_On_Loop			\Default Work Unit\Play_Shower_On_Loop	
+	2754573889	Play_TV_Loop			\Default Work Unit\Play_TV_Loop	
+	2776939461	Play_Fridge_Open_Loop			\Default Work Unit\Play_Fridge_Open_Loop	
 	2887940980	Stop_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Stop_Ambience_Clock_Loop	
+	3094035634	Play_Toilet_Flush			\Default Work Unit\Play_Toilet_Flush	
+	3111854812	Play_Standing_Light_Loop			\Default Work Unit\Play_Standing_Light_Loop	
+	3287628333	Play_Cabinet_Large_Open			\Default Work Unit\Play_Cabinet_Large_Open	
+	3290767985	Play_Utility_Room_Loop			\Default Work Unit\Play_Utility_Room_Loop	
+	3292911894	Play_Cabinet_Utility_Open			\Default Work Unit\Play_Cabinet_Utility_Open	
+	3308998819	Play_Fusebox_Breaker_Off			\Default Work Unit\Play_Fusebox_Breaker_Off	
+	3621687239	Play_Fusebox_Button			\Default Work Unit\Play_Fusebox_Button	
+	3721638250	Play_Sink_On_Loop			\Default Work Unit\Play_Sink_On_Loop	
+	3797716684	Play_Window_Close_Loop			\Default Work Unit\Play_Window_Close_Loop	
+	3866338882	Play_Cabinet_Utility_Close			\Default Work Unit\Play_Cabinet_Utility_Close	
+	3954534161	Play_Cabinet_Small_Open			\Default Work Unit\Play_Cabinet_Small_Open	
+	3993278548	Play_Drunk_Footsteps			\Default Work Unit\Play_Drunk_Footsteps	
+	4125304698	Play_Toilet_Lid_Close			\Default Work Unit\Play_Toilet_Lid_Close	
+	4281644042	Play_Shower_Door_Close			\Default Work Unit\Play_Shower_Door_Close	
+	4291075070	Play_Window_Open_Loop			\Default Work Unit\Play_Window_Open_Loop	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	444089	DoorCabinet 6018_09_5	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Large\Cabinet_Large_Open\DoorCabinet 6018_09_5		419936
 	29752148	Player_Footstep_Wood_10	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_10		44260
+	37149225	DoorCabinet 6018_09_3	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Utility\Cabinet_Utility_Open\DoorCabinet 6018_09_3		452704
 	69290928	Player_Footstep_Wood_04	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_04		19592
+	79665570	DoorCabinet 6018_09_1	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Utility\Cabinet_Utility_Close\DoorCabinet 6018_09_1		278624
 	101304777	Player_Footstep_Wood_03	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_03		34292
 	112068193	Ambience_Clock_Loop	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Ambience_Clock_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Clock_Loop\Ambience_Clock_Loop		2116960
+	315886849	DoorCabinet 6018_09_7	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Large\Cabinet_Large_Close\DoorCabinet 6018_09_7		317536
+	465081962	DoorCabinet 6018_09_2	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Small\Cabinet_Small_Close\DoorCabinet 6018_09_2		118880
 	500430144	Player_Footstep_Wood_08	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_08		35624
+	531886203	DoorCabinet 6018_09_6	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Large\Cabinet_Large_Close\DoorCabinet 6018_09_6		417888
 	566364833	Player_Footstep_Wood_09	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_09		44260
 	657053874	Player_Footstep_Wood_02	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_02		23268
 	676147703	Player_Footstep_Wood_07	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_07		41964
+	819368908	DoorCabinet 6018_09_4	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\DoorCabinet 6018_09_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Intractables\Cabinet\Cabinet_Small\Cabinet_Small_Open\DoorCabinet 6018_09_4		215136
 	833179533	Player_Footstep_Wood_01	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_01		34292
 	924890128	Player_Footstep_Wood_05	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_05		34016
 	1044853674	Player_Footstep_Wood_06	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Player_Footstep_Wood_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Footsteps\Player_Footsteps_Wood\Player_Footstep_Wood_06		36910

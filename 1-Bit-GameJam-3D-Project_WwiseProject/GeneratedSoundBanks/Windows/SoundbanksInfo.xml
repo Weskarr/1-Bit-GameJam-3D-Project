@@ -29,17 +29,29 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E62FF0A5-CAF8-9F7D-8064-B24D518A0E04}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{317B47D0-94C2-94A2-F15D-156CD1BC4320}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="444089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_5.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_5_10C4C929.wem</CachePath>
+				</File>
 				<File Id="29752148" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_10.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="37149225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_3.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_3_10C4C929.wem</CachePath>
+				</File>
 				<File Id="69290928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_04.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="79665570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_1.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="101304777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_03.wav</ShortName>
@@ -49,9 +61,21 @@
 					<ShortName>Ambience_Clock_Loop.wav</ShortName>
 					<CachePath>SFX/Ambience_Clock_Loop_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="315886849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_7.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_7_10C4C929.wem</CachePath>
+				</File>
+				<File Id="465081962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_2.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="500430144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_08.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="531886203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_6.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_6_10C4C929.wem</CachePath>
 				</File>
 				<File Id="566364833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_09.wav</ShortName>
@@ -64,6 +88,10 @@
 				<File Id="676147703" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_07.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="819368908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DoorCabinet 6018_09_4.wav</ShortName>
+					<CachePath>SFX/DoorCabinet 6018_09_4_10C4C929.wem</CachePath>
 				</File>
 				<File Id="833179533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_01.wav</ShortName>
@@ -84,6 +112,55 @@
 						<MediaRef Id="112068193"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2531064299" Name="Play_Cabinet_Large_Close" DurationType="OneShot" DurationMin="1.6533333" DurationMax="2.176">
+					<MediaRefs>
+						<MediaRef Id="315886849"/>
+						<MediaRef Id="531886203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3287628333" Name="Play_Cabinet_Large_Open" DurationType="OneShot" DurationMin="2.1866667" DurationMax="2.1866667">
+					<MediaRefs>
+						<MediaRef Id="444089"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2141857383" Name="Play_Cabinet_Small_Close" DurationType="OneShot" DurationMin="0.61866665" DurationMax="0.61866665">
+					<MediaRefs>
+						<MediaRef Id="465081962"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3954534161" Name="Play_Cabinet_Small_Open" DurationType="OneShot" DurationMin="1.12" DurationMax="1.12">
+					<MediaRefs>
+						<MediaRef Id="819368908"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3866338882" Name="Play_Cabinet_Utility_Close" DurationType="OneShot" DurationMin="1.4506667" DurationMax="1.4506667">
+					<MediaRefs>
+						<MediaRef Id="79665570"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3292911894" Name="Play_Cabinet_Utility_Open" DurationType="OneShot" DurationMin="2.3573334" DurationMax="2.3573334">
+					<MediaRefs>
+						<MediaRef Id="37149225"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="115528144" Name="Play_Celing_Light_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2292458263" Name="Play_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2575131963" Name="Play_Door_Handle" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1660008929" Name="Play_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2315829540" Name="Play_Drawer_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1958703520" Name="Play_Drawer_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3993278548" Name="Play_Drunk_Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2332875111" Name="Play_Freezer_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="470009873" Name="Play_Freezer_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2637930989" Name="Play_Fridge_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="105949735" Name="Play_Fridge_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2776939461" Name="Play_Fridge_Open_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3308998819" Name="Play_Fusebox_Breaker_Off" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="761936719" Name="Play_Fusebox_Breaker_On" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3621687239" Name="Play_Fusebox_Button" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2531764854" Name="Play_Fusebox_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="612620834" Name="Play_Fusebox_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="59459483" Name="Play_Player_Echo" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1323502295" Name="Play_Player_Footsteps_Wood" DurationType="OneShot" DurationMin="0.19069281" DurationMax="0.57767636">
 					<MediaRefs>
 						<MediaRef Id="29752148"/>
@@ -98,9 +175,32 @@
 						<MediaRef Id="1044853674"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2225339950" Name="Play_Shower_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2746477793" Name="Play_Shower_On_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="822157893" Name="Play_Sink_Handles_Off" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="85260089" Name="Play_Sink_Handles_On" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3721638250" Name="Play_Sink_On_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1717998074" Name="Play_Stalker_Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3111854812" Name="Play_Standing_Light_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3094035634" Name="Play_Toilet_Flush" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4125304698" Name="Play_Toilet_Lid_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2320097534" Name="Play_Toilet_Lid_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1841648030" Name="Play_Trash_Bag_Pickup" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="304768047" Name="Play_Trash_Lid_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2352193513" Name="Play_Trash_Lid_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2754573889" Name="Play_TV_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="717201584" Name="Play_TV_Power_Off" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="422001050" Name="Play_TV_Power_On" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3290767985" Name="Play_Utility_Room_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="969296927" Name="Play_Wash_Door_Close" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="465373113" Name="Play_Wash_Door_Open" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="140088172" Name="Play_Wash_Machine_Knob" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3797716684" Name="Play_Window_Close_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4291075070" Name="Play_Window_Open_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A218ACC6-610F-C775-8CDD-A8D4A0FA093B}</FileHash>
+	<FileHash>{2A704EB9-0C65-ACBD-201A-7EBD8CDD68C3}</FileHash>
 </SoundBanksInfo>

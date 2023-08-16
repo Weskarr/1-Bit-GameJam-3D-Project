@@ -51,6 +51,523 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_Cabinet_Utility_Open" ID="{446C0962-B442-4A05-AD99-46C995C0E137}">
+					<ChildrenList>
+						<Action Name="" ID="{EE96BCC1-6F7C-4843-93EC-0066D47F4B20}" ShortID="1013485658">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Utility_Open" ID="{60A67081-2105-4EFF-8C46-DC43445E91A1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cabinet_Utility_Close" ID="{D1B827B9-3DC3-4A2C-8935-A1D3F8EAB2A5}">
+					<ChildrenList>
+						<Action Name="" ID="{F5EFE4C0-8FA5-4D1C-AAA2-64BCB3191627}" ShortID="1047348341">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Utility_Close" ID="{576BBA0F-7029-4337-A558-7F65305C0EAC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cabinet_Small_Open" ID="{7B438BB2-CF0F-4BFB-B082-9A8D88C0F7D9}">
+					<ChildrenList>
+						<Action Name="" ID="{20EFD89F-AF8C-4555-87EF-3A88D7B70F94}" ShortID="251955680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Small_Open" ID="{7F375591-0F9D-4747-831C-2CCB5129A64F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cabinet_Small_Close" ID="{E106E828-B0B3-448E-8947-1B272B7301BE}">
+					<ChildrenList>
+						<Action Name="" ID="{3F5300CC-18C9-49F8-9619-6046358AB1BC}" ShortID="532435763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Small_Close" ID="{9C56EF11-784F-4170-BB1D-EB63636EAD0F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cabinet_Large_Open" ID="{9B9670F7-3867-4CCE-83C9-7B06A4293D77}">
+					<ChildrenList>
+						<Action Name="" ID="{A99CA18F-2A21-43CB-B8D6-4ECEB29EFD95}" ShortID="509790849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Large_Open" ID="{3F090305-0C28-4BFF-B515-C5DDD2C90FFA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cabinet_Large_Close" ID="{8A6709E9-B9F6-4056-8D41-DC51B5DF10B6}">
+					<ChildrenList>
+						<Action Name="" ID="{4E036428-92A1-4EB7-BAB1-3DAD3FB808F7}" ShortID="303542289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cabinet_Large_Close" ID="{C2191B8A-4EB4-4B47-997D-17965824AEBE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Close" ID="{D321C616-07BD-47F9-9AF0-1C782208AFF8}">
+					<ChildrenList>
+						<Action Name="" ID="{74A945E2-2D91-43FC-84FE-B07164E1B8BE}" ShortID="580551630">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Close" ID="{3FB51FAA-7C4F-4367-99A1-0E8A1F22FCF1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Open" ID="{88C0D04F-430B-4002-A24B-8F773A316325}">
+					<ChildrenList>
+						<Action Name="" ID="{73810200-8403-4343-B1FC-FEEB4004405F}" ShortID="499895531">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open" ID="{65B28FE1-EF8F-40FE-9930-D25997CFF45B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Handle" ID="{3CE9C9E2-341B-4B9A-B745-643E4884F154}">
+					<ChildrenList>
+						<Action Name="" ID="{49FB5C6C-0722-4D53-9235-4AC2CFC21710}" ShortID="605043275">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Handle" ID="{696FC3CB-7E11-41F6-950D-546E69FAFCB2}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drawer_Open" ID="{554EBE9B-564A-4F5B-B03A-048A573BDE2C}">
+					<ChildrenList>
+						<Action Name="" ID="{74EE2D27-1840-49C6-A817-65BBAB1620C5}" ShortID="579078804">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drawer_Open" ID="{27C1C8FA-3CCC-4502-8917-01DFF3F58748}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drawer_Close" ID="{42A2DBCA-BA9F-479F-98FF-83FB2674B882}">
+					<ChildrenList>
+						<Action Name="" ID="{8D61EF10-1D71-4758-AD39-704A1ECB40E5}" ShortID="550774240">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Freezer_Door_Close" ID="{3C690E89-A4A6-42B8-859F-19FBECEB318C}">
+					<ChildrenList>
+						<Action Name="" ID="{978552C7-269D-4719-B9A3-EA79EAC3BAB5}" ShortID="551618357">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Freezer_Door_Close" ID="{05F22250-52FF-49B4-90F0-B32358DB08A6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Freezer_Door_Open" ID="{F9C50C79-6005-47B2-A4DB-F14B4351D46D}">
+					<ChildrenList>
+						<Action Name="" ID="{62498AC6-A7D9-41D0-87B4-416A9BD94460}" ShortID="1010370662">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Freezer_Door_Open" ID="{6839D568-A3A2-4434-9972-0B8D23439153}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fridge_Door_Close" ID="{B727C9EE-C11C-4E83-BD41-B64FBB6E5022}">
+					<ChildrenList>
+						<Action Name="" ID="{F97ED1AB-54E8-4FE7-A00C-5773A0F5223A}" ShortID="110633278">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fridge_Door_Close" ID="{AAAEF5C1-6B13-426D-A3DB-AAED61A287B8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fridge_Door_Open" ID="{55714A91-E016-4A88-AC58-29B7CC5F5383}">
+					<ChildrenList>
+						<Action Name="" ID="{F20B812E-45A2-42E2-A54E-C4E6D739C820}" ShortID="876909079">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fridge_Door_Open" ID="{32548D11-1EF3-42B9-8117-F08E27603117}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fusebox_Breaker_Off" ID="{1AC0C108-3AED-4079-AF62-82CE3D84CD0C}">
+					<ChildrenList>
+						<Action Name="" ID="{9B9C08E9-6492-45EC-BE4D-3139A9A40B66}" ShortID="877217345">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fusebox_Breaker_Off" ID="{4A1DF9A0-F50D-4B41-BDD0-4286CE4252B7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fusebox_Breaker_On" ID="{06338CF0-A94D-4E65-9FDE-F019B06497D9}">
+					<ChildrenList>
+						<Action Name="" ID="{0A500942-FCF9-4EBC-AEC3-C7C0432418A0}" ShortID="419753023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fusebox_Breaker_On" ID="{4340231B-1026-4CF4-93FA-8AE5DB93F88F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fusebox_Door_Close" ID="{7C521DA4-F012-40B7-9E62-6B9C4118764B}">
+					<ChildrenList>
+						<Action Name="" ID="{166EF8D0-22A6-4C6A-A5E4-7153C5F24996}" ShortID="197700152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fusebox_Door_Close" ID="{8EED78E2-3AB8-42D1-9296-38F2D8F7AA97}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fusebox_Door_Open" ID="{F547A621-E065-428A-826B-E7DA379B8D08}">
+					<ChildrenList>
+						<Action Name="" ID="{ED3CCBCA-91AD-43EC-BFF4-AB183CBF9A68}" ShortID="47307266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fusebox_Door_Open" ID="{9E48CC45-0543-4BA3-9D62-CF633A12B2D0}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fusebox_Button" ID="{7F3ABECB-365F-429F-85A3-EC2E30320BC6}">
+					<ChildrenList>
+						<Action Name="" ID="{8EEBB320-F2CF-46AB-B19A-5154D8B3F06F}" ShortID="583880205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fusebox_Button" ID="{C370E6A6-2E78-4068-B147-42B29C7C482B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fridge_Open_Loop" ID="{A433CF81-C56D-439C-8D13-229184689369}">
+					<ChildrenList>
+						<Action Name="" ID="{7BDA86AD-8CBF-43A9-91A8-182CCD65E0FC}" ShortID="159951484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fridge_Open_Loop" ID="{F811D1DC-0E57-4E3F-999F-5CDC6932001C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shower_On_Loop" ID="{2A7BAA25-D7D2-40AC-97C2-249577C64961}">
+					<ChildrenList>
+						<Action Name="" ID="{B9304255-2F0E-4341-B63B-A827930C9871}" ShortID="859341867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shower_On_Loop" ID="{9A9AF18D-9CD5-48C3-A5AB-FDD8B708B6A9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shower_Door_Close" ID="{0E22483C-3126-4DEA-8B52-8492E190BD64}">
+					<ChildrenList>
+						<Action Name="" ID="{886D0A94-7EFB-45B4-9BD7-BF26FF34A377}" ShortID="663799677">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shower_Door_Close" ID="{6939C568-3257-4CBD-BB85-CB133CBDAB79}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Shower_Door_Open" ID="{DB2B766A-200A-4432-9586-D6FBFB562D75}">
+					<ChildrenList>
+						<Action Name="" ID="{549AC3D9-9D36-4E4E-A170-B2E20FEDDE48}" ShortID="395673875">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shower_Door_Open" ID="{5BC3D36D-5138-497B-B30A-B643A98CFD24}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sink_Handles_Off" ID="{D923FD33-9567-4A8B-B4AD-4A64C3F4F05C}">
+					<ChildrenList>
+						<Action Name="" ID="{11E0DC62-3E26-4C97-9147-7681A2F6A43B}" ShortID="830359727">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sink_Handles_Off" ID="{40181C9D-CEB4-4034-B64E-05A5E4B46467}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sink_Handles_On" ID="{FD4C0AFF-110A-49EA-856E-1A7B5525862B}">
+					<ChildrenList>
+						<Action Name="" ID="{8BFEE052-CDC1-4DC4-B017-8C749B96D90C}" ShortID="424574726">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sink_Handles_On" ID="{BA1C09BA-7D44-4B16-8684-4A4F52237A8B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sink_On_Loop" ID="{6FB6064F-722F-4096-80E4-7EC94844AB79}">
+					<ChildrenList>
+						<Action Name="" ID="{2A8B0E9C-D7EF-422B-805A-88B0CBCD6A15}" ShortID="604498080">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sink_On_Loop" ID="{700E62DC-602A-41C0-AC65-EBFD814928B7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Standing_Light_Loop" ID="{23D9ED48-BEA6-4367-81EF-101795CBE533}">
+					<ChildrenList>
+						<Action Name="" ID="{167E01A8-E6D1-46F9-94A0-F9EA6E9C76F6}" ShortID="673244184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Standing_Light_Loop" ID="{5C12F324-27C0-4FCD-B55E-CFC1C7F97EB5}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Toilet_Flush" ID="{DE553974-0961-4BE4-852E-866234AF9F46}">
+					<ChildrenList>
+						<Action Name="" ID="{ED2D1683-F36D-41E7-A598-D0D34F42E95E}" ShortID="225539184">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Toilet_Flush" ID="{C790318D-750E-42D8-A84B-35BB075A07BA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Toilet_Lid_Close" ID="{02E174DC-8DEF-4CCB-A6F5-D7513D9ADDDF}">
+					<ChildrenList>
+						<Action Name="" ID="{4B6E42B3-37E1-461F-89ED-72B27B70C8BC}" ShortID="395128828">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Toilet_Lid_Close" ID="{AC08E356-909E-4167-BC40-AC4815108D84}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Toilet_Lid_Open" ID="{92AA38BE-3BCB-489D-86BA-B7118B8582EB}">
+					<ChildrenList>
+						<Action Name="" ID="{6796408F-ACB8-494B-8859-9F7F4215C28C}" ShortID="376462485">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Toilet_Lid_Open" ID="{97BCD67E-33D0-49FB-86BE-54A49511889C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Trash_Lid_Close" ID="{B9E23DB9-16FA-4349-9A27-8B2A668DD93A}">
+					<ChildrenList>
+						<Action Name="" ID="{B3E4B5DC-415C-4F3C-82E0-17D15854AD0D}" ShortID="309859096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trash_Lid_Close" ID="{4BA04100-A069-4932-8BEE-FBFBAF739D85}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Trash_Lid_Open" ID="{B760361F-0E39-4A72-BF71-EDBB6022BABA}">
+					<ChildrenList>
+						<Action Name="" ID="{D114C8E3-AA8C-4C74-A46C-8CAD89F8313F}" ShortID="828386432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trash_Lid_Open" ID="{33E59164-2E29-43D7-AF4C-D3A80F6FA71B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Trash_Bag_Pickup" ID="{305F85D7-3ADC-480D-AD6C-A742BBB2C4B2}">
+					<ChildrenList>
+						<Action Name="" ID="{981A7B8C-554A-4363-B575-8072C9AA4FBF}" ShortID="231357579">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Trash_Bag_Pickup" ID="{1511D11A-5A04-4931-846E-E7665487E6CF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TV_Power_Off" ID="{758ED34B-35DE-4F37-80ED-C658FC4C0D57}">
+					<ChildrenList>
+						<Action Name="" ID="{4B15691B-5ECA-475C-8E00-80B26B4D6288}" ShortID="246833567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV_Power_Off" ID="{8662FD96-5A82-421E-994D-9032264E5694}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TV_Power_On" ID="{75ACD35D-A5B4-46B4-8E92-EBE39A709D0F}">
+					<ChildrenList>
+						<Action Name="" ID="{40342940-A9AA-4937-8C87-E38C75B5B734}" ShortID="23887754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV_Power_On" ID="{4C7C0170-4A8F-4BD3-8BEB-08C3557FB47E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TV_Loop" ID="{A8E753FF-3086-4B00-94F4-85A966B57D1B}">
+					<ChildrenList>
+						<Action Name="" ID="{AF21CFCE-F670-4AD0-BD0D-C984C1C41557}" ShortID="305001547">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV_Loop" ID="{11A08FB4-25AA-4042-9191-5821C46D213C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wash_Door_Close" ID="{5D649E97-8990-4EFB-8BC0-3912739BE87A}">
+					<ChildrenList>
+						<Action Name="" ID="{4396192D-7F8B-4393-A77F-677CE670B2ED}" ShortID="847158388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wash_Door_Close" ID="{836990BE-B3D8-4F6A-9F81-08F5B0566251}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wash_Door_Open" ID="{B7E9348C-AE01-4925-97E1-5D401205B2F3}">
+					<ChildrenList>
+						<Action Name="" ID="{BCED2F1C-1228-4E61-BFD7-C6D2F4DCDBDE}" ShortID="179478988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wash_Door_Open" ID="{AFBA8B6E-839B-4440-A49C-1DCEBD7690FA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wash_Machine_Knob" ID="{715F783C-56EE-47FA-A0C9-A2EC03D771A8}">
+					<ChildrenList>
+						<Action Name="" ID="{638DA788-5CD5-4568-B57F-1FA874D1BBFA}" ShortID="939930569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wash_Machine_Knob" ID="{167EEB07-B84B-4568-B5F5-FE1DE36B08AF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Echo" ID="{E8BD0401-AA0B-4247-A95F-F330F8D22B83}">
+					<ChildrenList>
+						<Action Name="" ID="{DDF69F27-4C3E-484F-9869-E690D4AAD8BB}" ShortID="1045264469">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Echo" ID="{AFC824E0-81E1-4F9A-9E13-6DA0020C575B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Utility_Room_Loop" ID="{6DDBD8E8-607B-4D4B-B977-D9895BC9FA0F}">
+					<ChildrenList>
+						<Action Name="" ID="{88DEA547-C0E0-4A9E-8961-05B3A26883D4}" ShortID="104167958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Utility_Room_Loop" ID="{FB335E44-09C2-4058-9325-75CD492595FD}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Window_Close_Loop" ID="{B9016D57-E370-4D1B-A30E-FDB6232A6A51}">
+					<ChildrenList>
+						<Action Name="" ID="{5B794B2F-40F9-4443-9AF7-51F6715110EE}" ShortID="798186623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Window_Close_Loop" ID="{996B8439-6D6A-4FFB-A28B-BDDF7E0FD647}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}">
+					<ChildrenList>
+						<Action Name="" ID="{A0992482-290D-444D-822E-7A6AF519FCFC}" ShortID="857416349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Window_Open_Loop" ID="{65A3CB05-5703-459D-8589-531812560C24}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Celing_Light_Loop" ID="{AE5644F5-858C-4509-AB56-A20A001ABD93}">
+					<ChildrenList>
+						<Action Name="" ID="{A4A3AD4C-AE42-4297-8D0F-8C4C8151E3F0}" ShortID="173867314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Celing_Light_Loop" ID="{B74CEBC0-80E5-4429-A5BA-F4750449DEEB}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}">
+					<ChildrenList>
+						<Action Name="" ID="{A8165B75-4B8C-46AE-9B90-C3CCCC919A04}" ShortID="817727463">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drunk_Footsteps" ID="{FBDD5A77-D206-4FDC-84C5-1A03BE3B3916}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stalker_Footsteps" ID="{FDC3AB31-06BF-4CFB-A0D1-6C90A83AF97A}">
+					<ChildrenList>
+						<Action Name="" ID="{F2FDC68D-BAB2-4BD0-9AFD-0DDE7F2535DA}" ShortID="445829438">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stalker_Footsteps" ID="{7C9540BF-4F54-4449-9E2D-100BB5C2B4AE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

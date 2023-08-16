@@ -454,6 +454,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_3" ID="{479DA244-FE99-4A23-927E-CBCD65567842}" ShortID="299708317">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_3" ID="{B9F83A66-50BE-4A62-966B-864D5CB52FEB}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="37149225"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_3" ID="{B9F83A66-50BE-4A62-966B-864D5CB52FEB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Utility_Close" ID="{576BBA0F-7029-4337-A558-7F65305C0EAC}" ShortID="636113733">
 													<ReferenceList>
@@ -464,6 +488,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_1" ID="{67B53D19-CB97-48A9-B017-9D2364760AAA}" ShortID="521191598">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_1" ID="{C7AF498E-DF4F-41D5-81DB-1996ABCB802B}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="79665570"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_1" ID="{C7AF498E-DF4F-41D5-81DB-1996ABCB802B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -478,6 +526,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_5" ID="{18829EAE-3917-4DDC-9F27-8E99FFB36308}" ShortID="847150176">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_5" ID="{0F9AAC54-0A6C-4A5E-855C-66506A45815A}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_5.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="444089"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_5" ID="{0F9AAC54-0A6C-4A5E-855C-66506A45815A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Large_Close" ID="{C2191B8A-4EB4-4B47-997D-17965824AEBE}" ShortID="522626385">
 													<ReferenceList>
@@ -488,6 +560,52 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_6" ID="{5A95D4D6-DA37-4372-A731-3BD8D5F778DE}" ShortID="954363909">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_6" ID="{8B68F558-6E7C-48CE-ABD6-A5A5F2EDD0A5}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_6.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="531886203"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_6" ID="{8B68F558-6E7C-48CE-ABD6-A5A5F2EDD0A5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DoorCabinet 6018_09_7" ID="{CDDBA4E1-9902-4C83-AA84-643307F0A4D9}" ShortID="470397602">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_7" ID="{B13DF57A-4717-4312-AB29-3C9E146EE58C}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_7.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="315886849"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_7" ID="{B13DF57A-4717-4312-AB29-3C9E146EE58C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -502,6 +620,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_4" ID="{9F54B951-C85A-42A5-9C58-DF46756C5500}" ShortID="278585242">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_4" ID="{D17F9F29-BEB0-4729-9788-20135A271274}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="819368908"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_4" ID="{D17F9F29-BEB0-4729-9788-20135A271274}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Small_Close" ID="{9C56EF11-784F-4170-BB1D-EB63636EAD0F}" ShortID="253366176">
 													<ReferenceList>
@@ -512,6 +654,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorCabinet 6018_09_2" ID="{1BA0DF6D-9207-48A6-8AFD-80C0758656C3}" ShortID="104493726">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorCabinet 6018_09_2" ID="{282D06E3-723B-4A2C-9193-3A30F935BB10}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorCabinet 6018_09_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="465081962"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorCabinet 6018_09_2" ID="{282D06E3-723B-4A2C-9193-3A30F935BB10}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -555,7 +721,16 @@
 														</Reference>
 													</ReferenceList>
 												</RandomSequenceContainer>
-												<Folder Name="Drawer_Close" ID="{2F0CB2A1-7147-4113-AE59-CABC40537D62}" ShortID="122329971"/>
+												<RandomSequenceContainer Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" ShortID="1016321825">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>
@@ -757,8 +932,26 @@
 									<ChildrenList>
 										<Folder Name="Door" ID="{7078753B-7261-4C18-AF1C-885E01464359}" ShortID="676757007">
 											<ChildrenList>
-												<Folder Name="Shower_Door_Open" ID="{DD34E409-9DA3-4C5E-B24C-357D0D5F2A51}" ShortID="950326709"/>
-												<Folder Name="Shower_Door_Close" ID="{9E8887DC-101C-4273-B273-162930AADD33}" ShortID="987081033"/>
+												<RandomSequenceContainer Name="Shower_Door_Close" ID="{6939C568-3257-4CBD-BB85-CB133CBDAB79}" ShortID="558926728">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Shower_Door_Open" ID="{5BC3D36D-5138-497B-B30A-B643A98CFD24}" ShortID="391272460">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="Shower_On_Loop" ID="{9A9AF18D-9CD5-48C3-A5AB-FDD8B708B6A9}" ShortID="126582611">
