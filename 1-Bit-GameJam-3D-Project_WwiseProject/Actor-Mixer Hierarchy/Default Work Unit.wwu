@@ -271,6 +271,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Footsteps Gravel" ID="{838D91BD-3086-4FFE-B6D3-6306EDC9F2BE}" ShortID="1056211441">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Footsteps Gravel" ID="{6591B464-B470-4D09-9DCE-6B4FFF55B807}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Footsteps Gravel.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="55990598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Footsteps Gravel" ID="{6591B464-B470-4D09-9DCE-6B4FFF55B807}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_Footsteps_Tile" ID="{996FBCA5-EC0A-4101-B068-330CEAB94C2F}" ShortID="891189386">
 											<ReferenceList>
@@ -281,6 +310,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Footsteps Run Hard Floor 01" ID="{379628CB-9680-4308-869B-F99A4F676147}" ShortID="955141314">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Footsteps Run Hard Floor 01" ID="{54AE8C2C-E3FD-43C7-B7B4-F6673A28B999}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="24.8896732247532"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Footsteps Run Hard Floor 01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="916159817"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Footsteps Run Hard Floor 01" ID="{54AE8C2C-E3FD-43C7-B7B4-F6673A28B999}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Player_Footsteps_Stone" ID="{FB1D6E09-804B-45E5-AFDE-F8696C80FFCF}" ShortID="629268454">
 											<ReferenceList>
@@ -291,6 +349,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Footsteps Run Hard Floor 01" ID="{0A332EDC-92B7-428E-96CE-365C7A936D11}" ShortID="386259317">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Footsteps Run Hard Floor 01" ID="{B6600E42-846C-4DF6-92B5-FB13D01DA780}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="24.8896732247532"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Footsteps Run Hard Floor 01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="916159817"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Footsteps Run Hard Floor 01" ID="{B6600E42-846C-4DF6-92B5-FB13D01DA780}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -420,6 +507,34 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop" ID="{BED0F58F-D34B-4547-9CBF-F645994BA6FC}" ShortID="888749703">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop" ID="{418191B7-8A88-4DA0-9775-99A4401D5176}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="753808601"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop" ID="{418191B7-8A88-4DA0-9775-99A4401D5176}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -434,6 +549,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bare_Feet_HW4_MED_WALK_L" ID="{8F539F4A-2F7E-4A53-A115-318AB6C56D8A}" ShortID="179357794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bare_Feet_HW4_MED_WALK_L" ID="{EB57C76C-224A-4FBA-8ECF-376FAAEDCA65}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.84813278008299"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.4"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bare_Feet_HW4_MED_WALK.L.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="22674253"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bare_Feet_HW4_MED_WALK_L" ID="{EB57C76C-224A-4FBA-8ECF-376FAAEDCA65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -696,6 +840,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DeskDrawer 6028_52_1" ID="{3C0708BB-9273-4B38-A282-8C5282BBF556}" ShortID="239992580">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_52_1" ID="{214A3523-BC41-4A51-AEEF-753FF5EB11C3}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_52_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="573562435"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_52_1" ID="{214A3523-BC41-4A51-AEEF-753FF5EB11C3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DeskDrawer 6028_52_2" ID="{C2E1095F-F179-43E3-875C-3DA227FED0C3}" ShortID="793770162">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_52_2" ID="{04A3E696-9893-451E-B8B6-17CF778DDBFB}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_52_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="759443125"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_52_2" ID="{04A3E696-9893-451E-B8B6-17CF778DDBFB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DeskDrawer 6028_53_3" ID="{BE1F29F0-314C-4255-83AF-F935DFE564B0}" ShortID="994270571">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_53_3" ID="{173DA99D-5E08-40CF-A7D0-9A526BA43205}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_53_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="352765158"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_53_3" ID="{173DA99D-5E08-40CF-A7D0-9A526BA43205}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Drawer_Close_Empty" ID="{FAA6A588-7F7E-4F57-A94A-D1A1F1EF9F3E}" ShortID="98722821">
 													<ReferenceList>
@@ -706,6 +918,52 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DeskDrawer 6028_52_3" ID="{CD4F27F8-2C4F-4DFE-8C95-5F0F5113E8C3}" ShortID="553650386">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_52_3" ID="{42D915ED-6C7C-4C87-B8C2-8502CFEB8BD3}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_52_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="855674886"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_52_3" ID="{42D915ED-6C7C-4C87-B8C2-8502CFEB8BD3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DeskDrawer 6028_53_4" ID="{CE1818C6-F3AF-4D15-A445-6787C7B426B1}" ShortID="127704665">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_53_4" ID="{7A61CB62-8F68-445A-BEF1-CE2B71F19D48}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_53_4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="842564892"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_53_4" ID="{7A61CB62-8F68-445A-BEF1-CE2B71F19D48}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -720,6 +978,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DeskDrawer 6028_53_1" ID="{81F5B37B-061D-4FC4-94E3-35AC3812F3C5}" ShortID="813652245">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DeskDrawer 6028_53_1" ID="{D21F1DF7-563C-4900-8283-BE6678F5F569}">
+																	<Language>SFX</Language>
+																	<AudioFile>DeskDrawer 6028_53_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="768322248"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DeskDrawer 6028_53_1" ID="{D21F1DF7-563C-4900-8283-BE6678F5F569}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" ShortID="1016321825">
 													<ReferenceList>
@@ -730,6 +1012,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Drawer 6018_33_3" ID="{4DE35367-FC8B-4FC6-AAAB-F926B900C806}" ShortID="964946689">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Drawer 6018_33_3" ID="{A946F758-4171-4470-A973-1C4589D66D2B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Drawer 6018_33_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="129015237"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Drawer 6018_33_3" ID="{A946F758-4171-4470-A973-1C4589D66D2B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -759,6 +1065,62 @@
 										<Folder Name="Pills" ID="{09F1B9AC-EF7F-41D8-B6EF-AD9BFCF00EA4}" ShortID="469785528"/>
 										<Folder Name="Screwdriver" ID="{477D27AB-E8C2-48B3-8DE8-3494774EC512}" ShortID="316355790"/>
 										<Folder Name="Wrench" ID="{2FA6F3C4-1FE8-44F9-84CA-DCCC19E2DE8A}" ShortID="491967972"/>
+										<RandomSequenceContainer Name="Pickup" ID="{B09EBFDC-242A-4A5E-AF6C-56CDA0E2F56C}" ShortID="714110597">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="foley_object_grab_pickup_04" ID="{2550C337-D402-4A3C-B5E1-538802A2D6DC}" ShortID="978843107">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="foley_object_grab_pickup_04" ID="{F34B2C33-B762-4FDC-9D3B-14B3F95F4E58}">
+															<Language>SFX</Language>
+															<AudioFile>foley_object_grab_pickup_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="509857907"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="foley_object_grab_pickup_04" ID="{F34B2C33-B762-4FDC-9D3B-14B3F95F4E58}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="foley_sports_bag_grab_pickup_catch_04" ID="{4A0FC9CC-EC0E-4581-8C9B-0252C87380CA}" ShortID="1051689406">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="foley_sports_bag_grab_pickup_catch_04" ID="{8788EB7F-F8FB-4EF5-A5BB-0DDE67E4FBA5}">
+															<Language>SFX</Language>
+															<AudioFile>foley_sports_bag_grab_pickup_catch_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="849882323"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="foley_sports_bag_grab_pickup_catch_04" ID="{8788EB7F-F8FB-4EF5-A5BB-0DDE67E4FBA5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Sink" ID="{006DE1FF-7C67-48B6-AA61-37B9CFD0EA1C}" ShortID="37605564">
@@ -772,6 +1134,38 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{FDBD9947-C0D1-48B4-A1B0-BBC37F9C11DE}" ShortID="42385000">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{7FD32F26-4C51-48BD-BB69-7F0DE178FC5A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.51751037344398"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.81643153526971"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom..wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="890681058"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{7FD32F26-4C51-48BD-BB69-7F0DE178FC5A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<Folder Name="Handles" ID="{67DD3313-A49D-4F59-87C8-10083F493488}" ShortID="1026354380">
 											<ChildrenList>
@@ -797,6 +1191,48 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
+										<RandomSequenceContainer Name="Sink_Drip_Loop" ID="{CCBA8FEA-9E15-4492-812B-66EAE74AE90C}" ShortID="104024390">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="05 Drips From Faucet Into Water In Sink" ID="{52A10015-50C3-4005-A07A-B0DF745C0FB6}" ShortID="723395555">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="05 Drips From Faucet Into Water In Sink" ID="{E7E3DA22-0DC1-400C-9B80-6678FBA4C6CD}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="20.1417427385892"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.9271369294606"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>05 Drips From Faucet Into Water In Sink.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="854949411"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="05 Drips From Faucet Into Water In Sink" ID="{E7E3DA22-0DC1-400C-9B80-6678FBA4C6CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Fridge" ID="{3C488874-A1BE-4C22-B225-D1E18307A35C}" ShortID="910910965">
@@ -812,6 +1248,30 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorRefrigerator 6048_49_1" ID="{778069AC-D2E9-44C6-99EB-A0DB7B923C19}" ShortID="1034622667">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_49_1" ID="{809239E5-CC96-460C-BE3D-ED20099BBB9A}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_49_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="454006259"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_49_1" ID="{809239E5-CC96-460C-BE3D-ED20099BBB9A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fridge_Door_Close" ID="{AAAEF5C1-6B13-426D-A3DB-AAED61A287B8}" ShortID="233446533">
 													<ReferenceList>
@@ -822,6 +1282,57 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="FRIDGE_DOOR_SLAM_HUM_01_CS" ID="{C1AEE3DC-BEBF-4FFA-A83A-3A12DC7CEE4D}" ShortID="373809179">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FRIDGE_DOOR_SLAM_HUM_01_CS" ID="{FAD523E3-155D-4752-A839-35B0584D493F}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="3.05296818810512"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.05296818810512"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="238130164"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FRIDGE_DOOR_SLAM_HUM_01_CS" ID="{FAD523E3-155D-4752-A839-35B0584D493F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DoorRefrigerator 6048_51_2" ID="{D77E70CE-9C35-4A7D-A355-C9B40BA1A9AC}" ShortID="388847788">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_51_2" ID="{EB822AE0-FBE7-4F58-A0E0-F88734319B87}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_51_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="252798503"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_51_2" ID="{EB822AE0-FBE7-4F58-A0E0-F88734319B87}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -836,6 +1347,56 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorRefrigerator 6048_51_1" ID="{301AA467-0FD1-433E-8762-F0808328A264}" ShortID="927544948">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_51_1" ID="{67373161-CC77-4C00-817D-72077864CEF4}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_51_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="583694688"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_51_1" ID="{67373161-CC77-4C00-817D-72077864CEF4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="61 Refrigerator Door Opens And Closes With Latch Click" ID="{FF52A0A2-CB03-4D4E-BE42-DC660D20CA49}" ShortID="97098057">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="61 Refrigerator Door Opens And Closes With Latch Click" ID="{0FBB1774-E51E-454C-91DA-9251C2FE82FC}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.03081604426003"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>61 Refrigerator Door Opens And Closes With Latch Click.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="311327703"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="61 Refrigerator Door Opens And Closes With Latch Click" ID="{0FBB1774-E51E-454C-91DA-9251C2FE82FC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Freezer_Door_Close" ID="{05F22250-52FF-49B4-90F0-B32358DB08A6}" ShortID="580636160">
 													<ReferenceList>
@@ -846,6 +1407,74 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorRefrigerator 6048_49_2" ID="{FDD4441D-10E5-42E0-988C-83DEAB64C84F}" ShortID="732470720">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_49_2" ID="{4F92C252-E653-431B-9909-5B1D69D24476}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_49_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="703608910"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_49_2" ID="{4F92C252-E653-431B-9909-5B1D69D24476}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DoorRefrigerator 6048_50_1" ID="{3A4544F3-C756-4053-B71F-163299BBF026}" ShortID="1000462509">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_50_1" ID="{44C1EFA7-23B8-4848-83DA-4038D30C5047}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_50_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="723691887"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_50_1" ID="{44C1EFA7-23B8-4848-83DA-4038D30C5047}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="DoorRefrigerator 6048_50_2" ID="{CD9F86A1-ABF2-4622-9D50-4772D118DD3C}" ShortID="553677597">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorRefrigerator 6048_50_2" ID="{F49AB330-4084-42FC-A3DA-3F221B9F6BFD}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorRefrigerator 6048_50_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="853215338"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorRefrigerator 6048_50_2" ID="{F49AB330-4084-42FC-A3DA-3F221B9F6BFD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -858,12 +1487,86 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="62 Refrigerator Compressor Motor Turn On Steady And Off" ID="{A4AE9FBF-FB36-455D-AE96-3D6D18C82B3B}" ShortID="516194299">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="62 Refrigerator Compressor Motor Turn On Steady And Off" ID="{3DF5FAC6-BF92-4924-ADB7-292EA3C597DC}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.75352697095436"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.8305394190871"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>62 Refrigerator Compressor Motor Turn On Steady And Off.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="876215196"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="62 Refrigerator Compressor Motor Turn On Steady And Off" ID="{3DF5FAC6-BF92-4924-ADB7-292EA3C597DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Oven" ID="{C8476C7B-547A-409D-846F-C293777B95D4}" ShortID="94957493">
 									<ChildrenList>
-										<Folder Name="Oven Buttons" ID="{66CD9009-851E-400D-9BF2-1B4BC7E0F12D}" ShortID="103447922"/>
+										<Folder Name="Oven Buttons" ID="{66CD9009-851E-400D-9BF2-1B4BC7E0F12D}" ShortID="103447922">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Oven_Beep" ID="{7A82F4F6-2A64-4BFC-B2F9-C0F722A2B531}" ShortID="25738000">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{6A6BE8C4-BCE4-4E33-A73E-0FF1E19AEB17}" ShortID="813173807">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{83D0FB87-189A-4FB4-9A4F-9B2551CCA4DF}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="18.5"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="20"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="233508396"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{83D0FB87-189A-4FB4-9A4F-9B2551CCA4DF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 										<Folder Name="Oven Door" ID="{1407AD3F-0FD7-463F-8447-B0EAF8E59F70}" ShortID="113353979">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Oven_Door_Open" ID="{66514F34-87E3-43BF-9939-D73727ECCFB7}" ShortID="180669554">
@@ -875,6 +1578,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{ED126BD0-2C9E-4681-967F-412D890E1E1B}" ShortID="761192499">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{948FF808-C4E8-43BA-96EE-AC24EDEC3FEF}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.23590594744121"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="6944452"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{948FF808-C4E8-43BA-96EE-AC24EDEC3FEF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Oven_Door_Close" ID="{95AE4B1B-2E81-465D-A44B-0470E637B43A}" ShortID="377429585">
 													<ReferenceList>
@@ -885,6 +1617,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{D839FD3E-BBEC-4252-B59E-EB9A729A1216}" ShortID="193201108">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{26131B5E-9B29-4C88-9C4C-8370632F2C66}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.03264177040111"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="3.5"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="901250480"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{26131B5E-9B29-4C88-9C4C-8370632F2C66}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1002,6 +1763,62 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="74 Toilet Flush 2 Old Type" ID="{2DE03D23-257A-4485-8974-F6F94B8DB8B4}" ShortID="77272053">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="74 Toilet Flush 2 Old Type" ID="{DACC11FD-CB69-43B3-A831-0C41865867C9}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="4.38063623789765"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.09100968188105"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>74 Toilet Flush 2 Old Type.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="482672395"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="74 Toilet Flush 2 Old Type" ID="{DACC11FD-CB69-43B3-A831-0C41865867C9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{9AB84D10-BFEB-4F49-B84F-4D63D445295D}" ShortID="951286301">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{8931F368-93B5-4FBE-8D04-B2D06FD25D1C}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="9.55435684647303"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.8605809128631"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1061037271"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{8931F368-93B5-4FBE-8D04-B2D06FD25D1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -1017,6 +1834,35 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting_ Close Perspective_" ID="{990B276D-9D77-428F-AF97-277F9D6F4679}" ShortID="119513495">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting_ Close Perspective_" ID="{3A4F4022-7D44-411F-BD2C-54F147A6FF0A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.278118948824343"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.11247579529737"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting. Close Perspective..wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="914824857"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting_ Close Perspective_" ID="{3A4F4022-7D44-411F-BD2C-54F147A6FF0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<Folder Name="Wash Door" ID="{7819FFF5-80AF-430B-B4B7-9BCF4292A787}" ShortID="632228135">
 											<ChildrenList>
@@ -1029,6 +1875,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{D93C328A-E34F-463E-9DD8-97F438E3B01C}" ShortID="109988575">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{6766952E-FF57-4EDE-9CD4-39A61BA478B7}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.47402489626556"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.34307053941909"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="148774718"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{6766952E-FF57-4EDE-9CD4-39A61BA478B7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Wash_Door_Close" ID="{836990BE-B3D8-4F6A-9F81-08F5B0566251}" ShortID="767458787">
 													<ReferenceList>
@@ -1039,6 +1914,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{86865DA6-9E72-40F3-9334-13A490343DE3}" ShortID="854491396">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{A78AC984-ECF5-4F5D-BF40-E544DE8ACF61}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.54058091286307"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.68614107883818"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="441456926"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{A78AC984-ECF5-4F5D-BF40-E544DE8ACF61}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1057,6 +1961,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{495D0BE4-ACE9-44DD-A72A-5B4A784239F2}" ShortID="527282099">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{CFC6E866-35C7-4659-98C3-C7B07C049382}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.763485477178423"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.71784232365145"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="456848155"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{CFC6E866-35C7-4659-98C3-C7B07C049382}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fusebox_Breaker_Off" ID="{4A1DF9A0-F50D-4B41-BDD0-4286CE4252B7}" ShortID="968692544">
 													<ReferenceList>
@@ -1067,6 +2000,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{C0ACA699-232C-412A-ACF8-DEAEAB980E02}" ShortID="236590779">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{1E8ED0F5-B34E-4755-AECF-480C64A3678D}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.954356846473031"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="952922977"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{1E8ED0F5-B34E-4755-AECF-480C64A3678D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1120,6 +2082,35 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="TV Old On Off 01" ID="{437BCD98-A06A-475F-B421-C47F149E9AE4}" ShortID="1001784506">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TV Old On Off 01" ID="{5D02CE33-91AA-4463-B734-5B444FBD97A3}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.00796642861847"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>TV Old On Off 01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="310800964"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TV Old On Off 01" ID="{5D02CE33-91AA-4463-B734-5B444FBD97A3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="TV_Power_Off" ID="{8662FD96-5A82-421E-994D-9032264E5694}" ShortID="914698115">
 													<ReferenceList>
@@ -1130,6 +2121,34 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="TV Old On Off 01" ID="{A2377E64-1069-4A66-A858-77C42B5EB5A0}" ShortID="827276748">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="TV Old On Off 01" ID="{5849DB4C-467E-4459-B4BA-1A9C03D78C50}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.70036864538346"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>TV Old On Off 01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="965341472"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="TV Old On Off 01" ID="{5849DB4C-467E-4459-B4BA-1A9C03D78C50}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
@@ -1142,6 +2161,38 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="TelevisionStatic_BW_50827" ID="{C4991704-F3AE-4623-86C1-7BE741FF862A}" ShortID="889704549">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="TelevisionStatic_BW_50827" ID="{F5998E1D-3F6F-441D-B038-7D2C92310FF9}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="13.2935878284924"/>
+																<Property Name="TrimEnd" Type="Real64" Value="27.4617538035961"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>TelevisionStatic_BW.50827.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="906693199"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="TelevisionStatic_BW_50827" ID="{F5998E1D-3F6F-441D-B038-7D2C92310FF9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
@@ -1156,6 +2207,62 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="04 Wood Door #4_ Open And Close With Squeak" ID="{5F8EA998-B085-4414-A3CC-79200D9F46C8}" ShortID="1056801088">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="04 Wood Door #4_ Open And Close With Squeak" ID="{61486362-EADE-46AD-9CF2-2554718A9BDE}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.484094052558783"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.80082987551867"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>04 Wood Door #4_ Open And Close With Squeak.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="958533742"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="04 Wood Door #4_ Open And Close With Squeak" ID="{61486362-EADE-46AD-9CF2-2554718A9BDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="05 Wood Door #5_ Open With Squeak And Close With Bounce" ID="{864925AF-E4D0-4444-9C66-5AD3EACAB652}" ShortID="860249442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="05 Wood Door #5_ Open With Squeak And Close With Bounce" ID="{ED9B8B17-7153-4DCB-8134-9CB34187FF9B}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.37477178423236"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>05 Wood Door #5_ Open With Squeak And Close With Bounce.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="741383288"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="05 Wood Door #5_ Open With Squeak And Close With Bounce" ID="{ED9B8B17-7153-4DCB-8134-9CB34187FF9B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Door_Close" ID="{3FB51FAA-7C4F-4367-99A1-0E8A1F22FCF1}" ShortID="356899480">
 											<ReferenceList>
@@ -1166,17 +2273,167 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="01 Wood Door #1_ Open And Close With Metal Latch Knob" ID="{60BDC16F-6875-4376-A9F1-92E3BA521843}" ShortID="568596945">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="01 Wood Door #1_ Open And Close With Metal Latch Knob" ID="{505752CB-BF0A-469F-9426-DB8BD1B6E950}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="2.96957123098202"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.96957123098202"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>01 Wood Door #1_ Open And Close With Metal Latch Knob.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="589509217"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="01 Wood Door #1_ Open And Close With Metal Latch Knob" ID="{505752CB-BF0A-469F-9426-DB8BD1B6E950}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle" ID="{D2B4B798-3B60-4D68-872E-DAA955ACC768}" ShortID="692456116">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle" ID="{4991375F-346F-49E8-9526-8B5677A4099A}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.6597510373444"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.6597510373444"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="843634942"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle" ID="{4991375F-346F-49E8-9526-8B5677A4099A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="03 Wood Door #3_ Open And Slam With Metal Latch Knob" ID="{A592D73D-057D-457F-8CAB-2ACE5E9E4091}" ShortID="986851626">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="03 Wood Door #3_ Open And Slam With Metal Latch Knob" ID="{9E3BD426-00E1-48A2-912F-2B95BA7C6BF2}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="2.01881051175657"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.01881051175657"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="29066256"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="03 Wood Door #3_ Open And Slam With Metal Latch Knob" ID="{9E3BD426-00E1-48A2-912F-2B95BA7C6BF2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Door_Handle" ID="{696FC3CB-7E11-41F6-950D-546E69FAFCB2}" ShortID="519584949">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-												</Reference>
-											</ReferenceList>
-										</RandomSequenceContainer>
+										<Folder Name="Handle" ID="{67AB006A-A8FA-4492-AC84-6B75698D4921}" ShortID="453262605">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Door_Handle_Shake" ID="{48AF8BB2-1064-4F99-9E2A-9650B386666D}" ShortID="298014193">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="DoorHandleTurn_BW_63950" ID="{AA638158-9FE6-49F9-A3A7-972D6B62F09D}" ShortID="163955680">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="DoorHandleTurn_BW_63950" ID="{CCFFBEE8-58F6-4AE9-BCCE-28C851240646}">
+																	<Language>SFX</Language>
+																	<AudioFile>DoorHandleTurn_BW.63950.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="356872919"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="DoorHandleTurn_BW_63950" ID="{CCFFBEE8-58F6-4AE9-BCCE-28C851240646}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Door_Handle" ID="{696FC3CB-7E11-41F6-950D-546E69FAFCB2}" ShortID="519584949">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Door,Handle,Old,Apt,Mvs,Slow" ID="{120054A9-7DA5-4D30-B99D-8C435BF4591C}" ShortID="776487559">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Door,Handle,Old,Apt,Mvs,Slow" ID="{0B7439EE-8614-4A09-A49A-FA6426E1E1E7}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.755253112033195"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Door,Handle,Old,Apt,Mvs,Slow.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="840610040"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Door,Handle,Old,Apt,Mvs,Slow" ID="{0B7439EE-8614-4A09-A49A-FA6426E1E1E7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>

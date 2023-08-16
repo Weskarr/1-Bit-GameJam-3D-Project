@@ -235,28 +235,58 @@
 								</Folder>
 								<Folder Name="Drawer" ID="{55E8D25A-A76D-47A0-956C-BC873A9A0624}" ShortID="79560862">
 									<ChildrenList>
-										<Event Name="Play_Drawer_Close" ID="{42A2DBCA-BA9F-479F-98FF-83FB2674B882}">
+										<Folder Name="Empty" ID="{E9B88F2E-333A-47B2-A9F6-AFA8EDF3F4E9}" ShortID="695796413">
 											<ChildrenList>
-												<Action Name="" ID="{8D61EF10-1D71-4758-AD39-704A1ECB40E5}" ShortID="550774240">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
+												<Event Name="Play_Drawer_Open_Empty" ID="{9E238B82-264A-4B8D-8627-8F463895175E}">
+													<ChildrenList>
+														<Action Name="" ID="{41F14374-5A38-4C01-AEF9-DCFD40B2A9C2}" ShortID="449201404">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Drawer_Open_Empty" ID="{637B5110-B11F-478D-9736-DD524CC97AB4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_Drawer_Close_Empty" ID="{D6D10904-B068-42D0-9900-F50A9206F148}">
+													<ChildrenList>
+														<Action Name="" ID="{A22A6366-E4B2-40E8-8CD0-3731AF673610}" ShortID="297453951">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Drawer_Close_Empty" ID="{FAA6A588-7F7E-4F57-A94A-D1A1F1EF9F3E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
 											</ChildrenList>
-										</Event>
-										<Event Name="Play_Drawer_Open" ID="{554EBE9B-564A-4F5B-B03A-048A573BDE2C}">
+										</Folder>
+										<Folder Name="Item" ID="{23E75DFB-0965-4329-B51B-D1556CC88DC7}" ShortID="625456203">
 											<ChildrenList>
-												<Action Name="" ID="{74EE2D27-1840-49C6-A817-65BBAB1620C5}" ShortID="579078804">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Drawer_Open" ID="{27C1C8FA-3CCC-4502-8917-01DFF3F58748}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
+												<Event Name="Play_Drawer_Close" ID="{42A2DBCA-BA9F-479F-98FF-83FB2674B882}">
+													<ChildrenList>
+														<Action Name="" ID="{8D61EF10-1D71-4758-AD39-704A1ECB40E5}" ShortID="550774240">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_Drawer_Open" ID="{554EBE9B-564A-4F5B-B03A-048A573BDE2C}">
+													<ChildrenList>
+														<Action Name="" ID="{74EE2D27-1840-49C6-A817-65BBAB1620C5}" ShortID="579078804">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Drawer_Open" ID="{27C1C8FA-3CCC-4502-8917-01DFF3F58748}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
 											</ChildrenList>
-										</Event>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Fridge" ID="{85061A5C-AE4F-4518-9D91-41EB187E367E}" ShortID="913569765">
@@ -654,6 +684,17 @@
 										</Folder>
 									</ChildrenList>
 								</Folder>
+								<Event Name="Play_Pickup" ID="{874C69DE-2566-421B-A85E-F6D6CEB782E8}">
+									<ChildrenList>
+										<Action Name="" ID="{D87C4A66-6BE0-48E8-9BBD-A8001E4A9443}" ShortID="60079904">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pickup" ID="{B09EBFDC-242A-4A5E-AF6C-56CDA0E2F56C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" ShortID="861757817">

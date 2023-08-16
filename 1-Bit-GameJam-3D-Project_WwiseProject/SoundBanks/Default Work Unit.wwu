@@ -6,35 +6,125 @@
 				<SoundBank Name="Main" ID="{DCF9D454-CE25-4122-91C4-7A456574D436}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Door_Open" ID="{88C0D04F-430B-4002-A24B-8F773A316325}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="05 Drips From Faucet Into Water In Sink" ID="{52A10015-50C3-4005-A07A-B0DF745C0FB6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Intractibles" ID="{C010928D-E6BE-4008-9291-3B7271FB775B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven Buttons" ID="{66CD9009-851E-400D-9BF2-1B4BC7E0F12D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rooms" ID="{FFBA125E-E273-401F-8EB5-954F983986B1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sink_Handles_Off" ID="{40181C9D-CEB4-4034-B64E-05A5E4B46467}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV_Loop" ID="{11A08FB4-25AA-4042-9191-5821C46D213C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_50_1" ID="{3A4544F3-C756-4053-B71F-163299BBF026}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Large_Close" ID="{8A6709E9-B9F6-4056-8D41-DC51B5DF10B6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Utility_Room_Loop" ID="{FB335E44-09C2-4058-9325-75CD492595FD}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox_Button" ID="{C370E6A6-2E78-4068-B147-42B29C7C482B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Breaker_Off" ID="{1AC0C108-3AED-4079-AF62-82CE3D84CD0C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Toilet" ID="{80DC3447-D14E-407A-A1B6-4742AFF03FD5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Large" ID="{75DFCF23-6A49-407E-B588-6EA5DEF19750}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sink_On_Loop" ID="{6FB6064F-722F-4096-80E4-7EC94844AB79}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven" ID="{C8476C7B-547A-409D-846F-C293777B95D4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_08" ID="{76EFE4CF-BE54-40AC-AEDB-9E97E2D5AA6D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_On_Loop" ID="{2A7BAA25-D7D2-40AC-97C2-249577C64961}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Door_Close" ID="{7C521DA4-F012-40B7-9E62-6B9C4118764B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{3AD8685A-4BAF-40D8-9CF1-6833909E2C40}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door" ID="{2F81566B-E9ED-40E5-B927-C6775F673F28}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{86865DA6-9E72-40F3-9334-13A490343DE3}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Open" ID="{65B28FE1-EF8F-40FE-9930-D25997CFF45B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps_Tile" ID="{996FBCA5-EC0A-4101-B068-330CEAB94C2F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{C0ACA699-232C-412A-ACF8-DEAEAB980E02}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shower" ID="{F0BB8002-61BB-414F-AFCD-31FC483F1968}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Toilet_Lid_Close" ID="{AC08E356-909E-4167-BC40-AC4815108D84}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Small_Close" ID="{9C56EF11-784F-4170-BB1D-EB63636EAD0F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sink_On_Loop" ID="{700E62DC-602A-41C0-AC65-EBFD814928B7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pills" ID="{09F1B9AC-EF7F-41D8-B6EF-AD9BFCF00EA4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Standing Light" ID="{BFE6A397-33BE-41EB-889C-3B0716815336}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Handle" ID="{696FC3CB-7E11-41F6-950D-546E69FAFCB2}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV_Power_Off" ID="{8662FD96-5A82-421E-994D-9032264E5694}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lid" ID="{199215B9-8385-4246-BE1F-43356755E89A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Echo" ID="{E8BD0401-AA0B-4247-A95F-F330F8D22B83}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{D839FD3E-BBEC-4252-B59E-EB9A729A1216}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_53_3" ID="{BE1F29F0-314C-4255-83AF-F935DFE564B0}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge_Door_Close" ID="{AAAEF5C1-6B13-426D-A3DB-AAED61A287B8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Battery" ID="{F691E6F2-7B68-427B-A091-238090046687}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Door_Open" ID="{F547A621-E065-428A-826B-E7DA379B8D08}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps Run Hard Floor 01" ID="{0A332EDC-92B7-428E-96CE-365C7A936D11}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting_ Close Perspective_" ID="{990B276D-9D77-428F-AF97-277F9D6F4679}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Button" ID="{7F3ABECB-365F-429F-85A3-EC2E30320BC6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_4" ID="{9F54B951-C85A-42A5-9C58-DF46756C5500}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Freezer_Door_Close" ID="{3C690E89-A4A6-42B8-859F-19FBECEB318C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge_Door_Open" ID="{32548D11-1EF3-42B9-8117-F08E27603117}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox_Door_Close" ID="{8EED78E2-3AB8-42D1-9296-38F2D8F7AA97}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Toilet_Flush" ID="{C790318D-750E-42D8-A84B-35BB075A07BA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_49_2" ID="{FDD4441D-10E5-42E0-988C-83DEAB64C84F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_06" ID="{DB5B2FB1-71F1-4305-A2A4-314808419556}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps Run Hard Floor 01" ID="{379628CB-9680-4308-869B-F99A4F676147}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wash Door" ID="{7819FFF5-80AF-430B-B4B7-9BCF4292A787}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Utility_Close" ID="{576BBA0F-7029-4337-A558-7F65305C0EAC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_51_1" ID="{301AA467-0FD1-433E-8762-F0808328A264}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Lid_Close" ID="{B9E23DB9-16FA-4349-9A27-8B2A668DD93A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Close" ID="{3FB51FAA-7C4F-4367-99A1-0E8A1F22FCF1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Standing_Light_Loop" ID="{23D9ED48-BEA6-4367-81EF-101795CBE533}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_6" ID="{5A95D4D6-DA37-4372-A731-3BD8D5F778DE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hammer" ID="{36A26B48-200E-4374-8930-21B6EF253F67}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="01 Wood Door #1_ Open And Close With Metal Latch Knob" ID="{60BDC16F-6875-4376-A9F1-92E3BA521843}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Open_Loop" ID="{A433CF81-C56D-439C-8D13-229184689369}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Entities" ID="{B355F47C-EBFA-43AC-BF3B-1FCA032CCD96}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven_Door_Open" ID="{66514F34-87E3-43BF-9939-D73727ECCFB7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Trash_Lid_Open" ID="{33E59164-2E29-43D7-AF4C-D3A80F6FA71B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_52_2" ID="{C2E1095F-F179-43E3-875C-3DA227FED0C3}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bed" ID="{FB662DC3-687E-43E6-84A3-ECC7648DBB1B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Window" ID="{0F5E0274-F25A-43EC-A3C4-387FB5862582}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Window" ID="{469C7A39-0C0F-440A-94AE-51E398FE081B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="04 Wood Door #4_ Open And Close With Squeak" ID="{5F8EA998-B085-4414-A3CC-79200D9F46C8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Celing_Light_Loop" ID="{B74CEBC0-80E5-4429-A5BA-F4750449DEEB}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_04" ID="{F9948914-9FC5-4431-AB53-C22CDEC9543E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Door_Open" ID="{DB2B766A-200A-4432-9586-D6FBFB562D75}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Freezer_Door_Open" ID="{6839D568-A3A2-4434-9972-0B8D23439153}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Freezer Door" ID="{F7948780-6E45-4439-A3F3-F375BB09B6AC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wash_Door_Open" ID="{AFBA8B6E-839B-4440-A49C-1DCEBD7690FA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="05 Wood Door #5_ Open With Squeak And Close With Bounce" ID="{864925AF-E4D0-4444-9C66-5AD3EACAB652}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stalker_Footsteps" ID="{7C9540BF-4F54-4449-9E2D-100BB5C2B4AE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="74 Toilet Flush 2 Old Type" ID="{2DE03D23-257A-4485-8974-F6F94B8DB8B4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Small_Close" ID="{E106E828-B0B3-448E-8947-1B272B7301BE}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sink_Drip_Loop" ID="{CCBA8FEA-9E15-4492-812B-66EAE74AE90C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Handle" ID="{67AB006A-A8FA-4492-AC84-6B75698D4921}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_49_1" ID="{778069AC-D2E9-44C6-99EB-A0DB7B923C19}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{495D0BE4-ACE9-44DD-A72A-5B4A784239F2}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wrench" ID="{2FA6F3C4-1FE8-44F9-84CA-DCCC19E2DE8A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer_Open" ID="{27C1C8FA-3CCC-4502-8917-01DFF3F58748}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Celing_Light_Loop" ID="{AE5644F5-858C-4509-AB56-A20A001ABD93}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fridge" ID="{85061A5C-AE4F-4518-9D91-41EB187E367E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop" ID="{BED0F58F-D34B-4547-9CBF-F645994BA6FC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{8C160A73-05BD-454B-9F86-A41EF7FF22E8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_05" ID="{53F40532-FB35-4557-9F52-2DC9F6BAB641}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="62 Refrigerator Compressor Motor Turn On Steady And Off" ID="{A4AE9FBF-FB36-455D-AE96-3D6D18C82B3B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wash_Machine_Knob" ID="{167EEB07-B84B-4568-B5F5-FE1DE36B08AF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="03 Wood Door #3_ Open And Slam With Metal Latch Knob" ID="{A592D73D-057D-457F-8CAB-2ACE5E9E4091}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="foley_sports_bag_grab_pickup_catch_04" ID="{4A0FC9CC-EC0E-4581-8C9B-0252C87380CA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Window_Open_Loop" ID="{65A3CB05-5703-459D-8589-531812560C24}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps_Stone" ID="{FB1D6E09-804B-45E5-AFDE-F8696C80FFCF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_03" ID="{AE522BA2-FD60-45F7-9C2B-A6EED54AC699}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_50_2" ID="{CD9F86A1-ABF2-4622-9D50-4772D118DD3C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TelevisionStatic_BW_50827" ID="{C4991704-F3AE-4623-86C1-7BE741FF862A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rooms" ID="{06BD4548-C338-4629-B23A-71E5E46172B0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Large" ID="{F6E22304-46B2-463B-AAC8-B5CAC71890F1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{D93C328A-E34F-463E-9DD8-97F438E3B01C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven Door" ID="{1407AD3F-0FD7-463F-8447-B0EAF8E59F70}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bottle" ID="{330117E4-F7B6-464F-9C4D-B5474670F7D0}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven_Door_Close" ID="{95AE4B1B-2E81-465D-A44B-0470E637B43A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{ED126BD0-2C9E-4681-967F-412D890E1E1B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Power" ID="{0CCB2B46-2BB4-4686-846A-5805F9E03DBC}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Clock_Loop" ID="{96DA7EA7-7B4C-46A6-8D07-D5D38BE9D35C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_On" ID="{75ACD35D-A5B4-46B4-8E92-EBE39A709D0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drunk" ID="{10A94FFE-540B-46B7-B171-37371C068681}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_07" ID="{AF385204-1C18-46B9-A126-BE16B102FFA9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience_Clock_Loop" ID="{53970E08-BCDC-4741-8C50-7AD3C02FCB13}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Small_Open" ID="{7F375591-0F9D-4747-831C-2CCB5129A64F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fridge Door" ID="{F6AD4143-993F-4756-BB92-E715092C46D6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV Old On Off 01" ID="{437BCD98-A06A-475F-B421-C47F149E9AE4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SInk" ID="{E34349F5-9CD8-476B-947B-E9A71F877264}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer_Open_Empty" ID="{637B5110-B11F-478D-9736-DD524CC97AB4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{9CBE60BF-887C-4795-AE6F-2ECBE514481F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Close" ID="{42A2DBCA-BA9F-479F-98FF-83FB2674B882}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Drawer" ID="{55E8D25A-A76D-47A0-956C-BC873A9A0624}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -42,53 +132,139 @@
 						<ObjectRef Name="Wash" ID="{E654FD0E-372B-47D4-8FDB-F6AE7CB9DF57}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Door_Close" ID="{D321C616-07BD-47F9-9AF0-1C782208AFF8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Machine_Knob" ID="{715F783C-56EE-47FA-A0C9-A2EC03D771A8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer" ID="{01EE05B4-E262-480B-9FFA-2BBAE6C908D7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Bag_Pickup" ID="{305F85D7-3ADC-480D-AD6C-A742BBB2C4B2}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox" ID="{11812E5C-9FED-4814-B01D-95068933DD33}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{1FE7A6A9-720E-482A-95AD-2E0E27311A99}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Trash" ID="{A5ADD7F5-6B24-4835-BD2C-B96CE60F8440}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Freezer Door" ID="{5B9E2F04-F528-4845-86B0-2D9A32A39B0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Lid_Open" ID="{92AA38BE-3BCB-489D-86BA-B7118B8582EB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Power" ID="{C087B5E2-F2E6-489D-84EE-1C51D5F45AC8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_2" ID="{1BA0DF6D-9207-48A6-8AFD-80C0758656C3}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_1" ID="{67B53D19-CB97-48A9-B017-9D2364760AAA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Screwdriver" ID="{477D27AB-E8C2-48B3-8DE8-3494774EC512}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{FDBD9947-C0D1-48B4-A1B0-BBC37F9C11DE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sink" ID="{006DE1FF-7C67-48B6-AA61-37B9CFD0EA1C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shower_On_Loop" ID="{9A9AF18D-9CD5-48C3-A5AB-FDD8B708B6A9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TV" ID="{887D235E-04FC-48D3-9138-17A977682F8B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Door_Open" ID="{B7E9348C-AE01-4925-97E1-5D401205B2F3}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Trash_Bag_Pickup" ID="{1511D11A-5A04-4931-846E-E7665487E6CF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Trash_Lid_Close" ID="{4BA04100-A069-4932-8BEE-FBFBAF739D85}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{35FC8715-9946-494B-8CAD-FBF349DF81DA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Standing Light" ID="{9A78982F-60D7-4952-92B1-19BA69E2A08B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Empty" ID="{C98AB14A-87F0-495E-BA66-07AE424141EB}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shower_Door_Open" ID="{5BC3D36D-5138-497B-B30A-B643A98CFD24}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Small" ID="{8AF2CDD6-1F83-4994-9024-E62DC8D5A5DA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="World" ID="{844037BC-6300-4995-908B-67F897D5462E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_02" ID="{26720F1A-DDAF-49A9-9592-E219BA1EC6C2}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Freezer_Door_Close" ID="{05F22250-52FF-49B4-90F0-B32358DB08A6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_10" ID="{122646B4-BAD8-49E7-924D-0BA512D7FED8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sink_Handles_On" ID="{FD4C0AFF-110A-49EA-856E-1A7B5525862B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorHandleTurn_BW_63950" ID="{AA638158-9FE6-49F9-A3A7-972D6B62F09D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Toilet_Lid_Open" ID="{97BCD67E-33D0-49FB-86BE-54A49511889C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Utility_Open" ID="{446C0962-B442-4A05-AD99-46C995C0E137}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_3" ID="{479DA244-FE99-4A23-927E-CBCD65567842}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Utility_Close" ID="{D1B827B9-3DC3-4A2C-8935-A1D3F8EAB2A5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="foley_object_grab_pickup_04" ID="{2550C337-D402-4A3C-B5E1-538802A2D6DC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bare_Feet_HW4_MED_WALK_L" ID="{8F539F4A-2F7E-4A53-A115-318AB6C56D8A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge Door" ID="{7BFA5704-D9BE-4A54-AF16-1D8A369F64AC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup" ID="{B09EBFDC-242A-4A5E-AF6C-56CDA0E2F56C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV Old On Off 01" ID="{A2377E64-1069-4A66-A858-77C42B5EB5A0}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Lid_Open" ID="{B760361F-0E39-4A72-BF71-EDBB6022BABA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorRefrigerator 6048_51_2" ID="{D77E70CE-9C35-4A7D-A355-C9B40BA1A9AC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Door_Open" ID="{55714A91-E016-4A88-AC58-29B7CC5F5383}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sink_Handles_Off" ID="{D923FD33-9567-4A8B-B4AD-4A64C3F4F05C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lid" ID="{601B03C9-F5C6-4A98-A8A0-7F32DA8025C9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Loop" ID="{A8E753FF-3086-4B00-94F4-85A966B57D1B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV" ID="{90B46935-5770-4B0C-9FF7-434905CD79E6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sink_Handles_On" ID="{BA1C09BA-7D44-4B16-8684-4A4F52237A8B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_52_1" ID="{3C0708BB-9273-4B38-A282-8C5282BBF556}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox_Breaker_Off" ID="{4A1DF9A0-F50D-4B41-BDD0-4286CE4252B7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Large_Close" ID="{C2191B8A-4EB4-4B47-997D-17965824AEBE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Breaker" ID="{A4C9EC86-C045-4B70-9C18-EDB4DF50D058}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Door_Handle" ID="{3CE9C9E2-341B-4B9A-B745-643E4884F154}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox_Door_Open" ID="{9E48CC45-0543-4BA3-9D62-CF633A12B2D0}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_09" ID="{CBC05AF2-E69B-4BC8-A880-1BEC2AB5A197}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shower" ID="{49BB2817-3973-4BCD-8C6C-68C1A470CE31}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flashlight" ID="{2352E263-4433-4BD3-88D5-BC90C4356918}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TV_Power_On" ID="{4C7C0170-4A8F-4BD3-8BEB-08C3557FB47E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Drunk" ID="{EBB180D3-A5FF-4BDB-82A5-169C60B39929}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Flush" ID="{DE553974-0961-4BE4-852E-866234AF9F46}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Small_Open" ID="{7B438BB2-CF0F-4BFB-B082-9A8D88C0F7D9}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Oven_Beep" ID="{7A82F4F6-2A64-4BFC-B2F9-C0F722A2B531}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Large_Open" ID="{3F090305-0C28-4BFF-B515-C5DDD2C90FFA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wash Machine" ID="{7F23C4DF-B443-4C02-8679-37C13A9A6F51}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Utility" ID="{A121771C-9774-4C0A-8177-5A50EDFAF57B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door" ID="{7078753B-7261-4C18-AF1C-885E01464359}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge" ID="{3C488874-A1BE-4C22-B225-D1E18307A35C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door" ID="{A6D4AC7C-E263-4C48-9D70-9ECFFAFF20CF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Small" ID="{E32542AF-2387-4C79-BAE8-854E2FF7A174}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_7" ID="{CDDBA4E1-9902-4C83-AA84-643307F0A4D9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet" ID="{4C031CB3-8846-4C99-8F1A-E80CA18A8A39}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shower_Door_Close" ID="{6939C568-3257-4CBD-BB85-CB133CBDAB79}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stalker" ID="{8C15E521-A2E7-4CC2-A8E3-21DA04AF64CE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Lid_Close" ID="{02E174DC-8DEF-4CCB-A6F5-D7513D9ADDDF}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="World" ID="{D02D3F97-3592-4CCD-9B22-B478CAEA0AFF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Large_Open" ID="{9B9670F7-3867-4CCE-83C9-7B06A4293D77}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ductape" ID="{5EDE313E-41CC-4CED-8B61-0CB63D961675}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fusebox_Breaker_On" ID="{4340231B-1026-4CF4-93FA-8AE5DB93F88F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stalker_Footsteps" ID="{FDC3AB31-06BF-4CFB-A0D1-6C90A83AF97A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_53_4" ID="{CE1818C6-F3AF-4D15-A445-6787C7B426B1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Window_Close_Loop" ID="{B9016D57-E370-4D1B-A30E-FDB6232A6A51}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ambience_Clock_Loop" ID="{72833C2F-9E3E-4D20-B9CE-B971F503B5FA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door,Handle,Old,Apt,Mvs,Slow" ID="{120054A9-7DA5-4D30-B99D-8C435BF4591C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lid" ID="{B6BEF27F-ED45-4D47-BFB9-7FBCCA7F9AC8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Utility_Room_Loop" ID="{6DDBD8E8-607B-4D4B-B977-D9895BC9FA0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="61 Refrigerator Door Opens And Closes With Latch Click" ID="{FF52A0A2-CB03-4D4E-BE42-DC660D20CA49}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle" ID="{D2B4B798-3B60-4D68-872E-DAA955ACC768}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Item" ID="{BA7430CD-6BDE-4D8B-BDAF-F4FA45A2F0BF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fusebox" ID="{730CEF69-D310-4DB7-A903-9745F906E7A1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lid" ID="{28C1D9B8-73B3-4DC4-A6B0-0A07D5CE070A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DoorCabinet 6018_09_5" ID="{18829EAE-3917-4DDC-9F27-8E99FFB36308}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Door_Close" ID="{0E22483C-3126-4DEA-8B52-8492E190BD64}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps_Wood" ID="{3F994322-4102-4DEA-AA0E-0F42F4D40734}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Ambience_Clock_Loop" ID="{B37BC57D-0159-4DF0-B596-6803F4783378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_52_3" ID="{CD4F27F8-2C4F-4DFE-8C95-5F0F5113E8C3}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Toilet" ID="{F9DEC7E4-8477-4E14-8F96-65D7A54C6FA2}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickups" ID="{4DEFDB2E-0AA4-4E16-95FC-F2CE9CC86D8D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Breaker" ID="{5EA0FE78-86B7-4E17-A4CB-520DEE86B77B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{6A6BE8C4-BCE4-4E33-A73E-0FF1E19AEB17}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fridge_Open_Loop" ID="{F811D1DC-0E57-4E3F-999F-5CDC6932001C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fuse" ID="{E32C6106-2B60-4E44-84CA-DA5525DC15B4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Breaker_On" ID="{06338CF0-A94D-4E65-9FDE-F019B06497D9}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Door_Close" ID="{B727C9EE-C11C-4E83-BD41-B64FBB6E5022}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Wood_01" ID="{ACF47048-5E8C-4ED6-97F1-4FB2D0EF8EB9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{5C8CF617-9F33-4EF5-80AE-10F88AD451AB}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Door_Close" ID="{5D649E97-8990-4EFB-8BC0-3912739BE87A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Utility_Open" ID="{60A67081-2105-4EFF-8C46-DC43445E91A1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Intractables" ID="{1336AAA0-F29C-4F23-A23E-F22B40A79A2E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_Off" ID="{758ED34B-35DE-4F37-80ED-C658FC4C0D57}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Cabinet_Utility" ID="{C1746C88-40FB-4F46-AEA5-BC16E347D64F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{9AB84D10-BFEB-4F49-B84F-4D63D445295D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer_Close_Empty" ID="{FAA6A588-7F7E-4F57-A94A-D1A1F1EF9F3E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Handles" ID="{67DD3313-A49D-4F59-87C8-10083F493488}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Open" ID="{554EBE9B-564A-4F5B-B03A-048A573BDE2C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wash_Door_Close" ID="{836990BE-B3D8-4F6A-9F81-08F5B0566251}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet" ID="{F2F3A165-4C1E-4F6F-8B1C-A46F112666D8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footsteps_Carpet" ID="{88FA80E9-AFD5-4F74-B62D-69527F7EEFA4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Handles" ID="{093DF143-9F0C-4F86-9430-4A65C55763E9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Handle_Shake" ID="{48AF8BB2-1064-4F99-9E2A-9650B386666D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Echo" ID="{AFC824E0-81E1-4F9A-9E13-6DA0020C575B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DeskDrawer 6028_53_1" ID="{81F5B37B-061D-4FC4-94E3-35AC3812F3C5}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drawer 6018_33_3" ID="{4DE35367-FC8B-4FC6-AAAB-F926B900C806}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Handles" ID="{25EBAD17-8832-4FC7-B293-4FAAD6D9D1B7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Standing_Light_Loop" ID="{5C12F324-27C0-4FCD-B55E-CFC1C7F97EB5}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{811FCF6D-5DDD-4FD0-8F48-F10B68CDD726}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Trash" ID="{D451E17C-C680-4FD7-BFE7-DB5CF3A5C7A0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drunk_Footsteps" ID="{FBDD5A77-D206-4FDC-84C5-1A03BE3B3916}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FRIDGE_DOOR_SLAM_HUM_01_CS" ID="{C1AEE3DC-BEBF-4FFA-A83A-3A12DC7CEE4D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Window_Close_Loop" ID="{996B8439-6D6A-4FFB-A28B-BDDF7E0FD647}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps Gravel" ID="{838D91BD-3086-4FFE-B6D3-6306EDC9F2BE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

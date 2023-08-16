@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585094456336341244
+    m_lastTime: -8585094437645176800
     List:
     - name: Main
       guid: 54d4f9dc25ce224191c47a456574d436
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585094456336409931
+    m_lastTime: -8585094433458699160
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -244,7 +244,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Door
-      guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
+      guid: a9a6e71f0e722a4895ad2e0e27311a99
       id: 1877847629
       PathAndIcons:
       - ElementName: Events
@@ -259,13 +259,10 @@ MonoBehaviour:
       - ElementName: Intractibles
         ObjectType: 4
         guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Fusebox
-        ObjectType: 4
-        guid: 69ef0c7310d3b74da9039745f906e7a1
       - ElementName: Door
         ObjectType: 4
-        guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
-      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
+        guid: a9a6e71f0e722a4895ad2e0e27311a99
+      Path: Events/Default Work Unit/World/Intractibles/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -296,6 +293,32 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Door
+      guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Fusebox
+        ObjectType: 4
+        guid: 69ef0c7310d3b74da9039745f906e7a1
+      - ElementName: Door
+        ObjectType: 4
+        guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
       guid: bf60be9c7c889547ae6f2ecbe514481f
       id: 1877847629
       PathAndIcons:
@@ -318,29 +341,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: bf60be9c7c889547ae6f2ecbe514481f
       Path: Events/Default Work Unit/World/Intractibles/Wash/Door
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Door
-      guid: a9a6e71f0e722a4895ad2e0e27311a99
-      id: 1877847629
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Door
-        ObjectType: 4
-        guid: a9a6e71f0e722a4895ad2e0e27311a99
-      Path: Events/Default Work Unit/World/Intractibles/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -387,6 +387,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: d380b1ebffa5db4b82a5169c60b39929
       Path: Events/Default Work Unit/World/Entities/Drunk
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Empty
+      guid: 2e8fb8e93a33b247a9f6afa8edf3f4e9
+      id: 3354297748
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Drawer
+        ObjectType: 4
+        guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Empty
+        ObjectType: 4
+        guid: 2e8fb8e93a33b247a9f6afa8edf3f4e9
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -554,9 +580,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Lid
-      guid: b915921985834642be1f43356755e89a
-      id: 444705604
+    - name: Item
+      guid: fb5de72365092943b51bd1556cc88dc7
+      id: 1222624712
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -570,13 +596,13 @@ MonoBehaviour:
       - ElementName: Intractibles
         ObjectType: 4
         guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Toilet
+      - ElementName: Drawer
         ObjectType: 4
-        guid: 4734dc804ed17a40a1b64742aff03fd5
-      - ElementName: Lid
+        guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Item
         ObjectType: 4
-        guid: b915921985834642be1f43356755e89a
-      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
+        guid: fb5de72365092943b51bd1556cc88dc7
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -603,6 +629,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: b8d9c128b373c44da6b00a07d5ce070a
       Path: Events/Default Work Unit/World/Intractibles/Trash/Lid
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lid
+      guid: b915921985834642be1f43356755e89a
+      id: 444705604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Toilet
+        ObjectType: 4
+        guid: 4734dc804ed17a40a1b64742aff03fd5
+      - ElementName: Lid
+        ObjectType: 4
+        guid: b915921985834642be1f43356755e89a
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -850,8 +902,8 @@ MonoBehaviour:
         guid: 16c621d3bd07f9479af01c782208aff8
       Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Close
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 3.4478562
+      minDuration: 3.340249
     - name: Play_Door_Handle
       guid: e2c9e93c1b349a4bb745643e4884f154
       id: 2575131963
@@ -876,8 +928,8 @@ MonoBehaviour:
         guid: e2c9e93c1b349a4bb745643e4884f154
       Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Handle
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.75525314
+      minDuration: 0.75525314
     - name: Play_Door_Open
       guid: 4fd0c0880b430240a24b8f773a316325
       id: 1660008929
@@ -902,8 +954,8 @@ MonoBehaviour:
         guid: 4fd0c0880b430240a24b8f773a316325
       Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Open
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 2.3747718
+      minDuration: 2.3167357
     - name: Play_Drawer_Close
       guid: cadba2429fba9f4798ff83fb2674b882
       id: 2315829540
@@ -923,13 +975,45 @@ MonoBehaviour:
       - ElementName: Drawer
         ObjectType: 4
         guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Item
+        ObjectType: 4
+        guid: fb5de72365092943b51bd1556cc88dc7
       - ElementName: Play_Drawer_Close
         ObjectType: 3
         guid: cadba2429fba9f4798ff83fb2674b882
-      Path: Events/Default Work Unit/World/Intractibles/Drawer/Play_Drawer_Close
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item/Play_Drawer_Close
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.2906667
+      minDuration: 1.2906667
+    - name: Play_Drawer_Close_Empty
+      guid: 0409d1d668b0d0429900f50a9206f148
+      id: 70222198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Drawer
+        ObjectType: 4
+        guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Empty
+        ObjectType: 4
+        guid: 2e8fb8e93a33b247a9f6afa8edf3f4e9
+      - ElementName: Play_Drawer_Close_Empty
+        ObjectType: 3
+        guid: 0409d1d668b0d0429900f50a9206f148
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty/Play_Drawer_Close_Empty
+      maxAttenuation: 0
+      maxDuration: 2.9546666
+      minDuration: 2.88
     - name: Play_Drawer_Open
       guid: 9bbe4e554a565b4fb03a048a573bde2c
       id: 1958703520
@@ -949,13 +1033,45 @@ MonoBehaviour:
       - ElementName: Drawer
         ObjectType: 4
         guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Item
+        ObjectType: 4
+        guid: fb5de72365092943b51bd1556cc88dc7
       - ElementName: Play_Drawer_Open
         ObjectType: 3
         guid: 9bbe4e554a565b4fb03a048a573bde2c
-      Path: Events/Default Work Unit/World/Intractibles/Drawer/Play_Drawer_Open
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item/Play_Drawer_Open
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.088
+      minDuration: 1.088
+    - name: Play_Drawer_Open_Empty
+      guid: 828b239e4a268d4b86278f463895175e
+      id: 1237346242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Drawer
+        ObjectType: 4
+        guid: 5ad2e8556da7a047956cbc873a9a0624
+      - ElementName: Empty
+        ObjectType: 4
+        guid: 2e8fb8e93a33b247a9f6afa8edf3f4e9
+      - ElementName: Play_Drawer_Open_Empty
+        ObjectType: 3
+        guid: 828b239e4a268d4b86278f463895175e
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty/Play_Drawer_Open_Empty
+      maxAttenuation: 0
+      maxDuration: 2.912
+      minDuration: 1.248
     - name: Play_Drunk_Footsteps
       guid: 89f4cf9fce0aaa498e3a9b8b3bb59b25
       id: 3993278548
@@ -980,8 +1096,8 @@ MonoBehaviour:
         guid: 89f4cf9fce0aaa498e3a9b8b3bb59b25
       Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Footsteps
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.8
+      minDuration: 0.8
     - name: Play_Freezer_Door_Close
       guid: 890e693ca6a4b842859f19fbeceb318c
       id: 2332875111
@@ -1009,8 +1125,8 @@ MonoBehaviour:
         guid: 890e693ca6a4b842859f19fbeceb318c
       Path: Events/Default Work Unit/World/Intractibles/Fridge/Freezer Door/Play_Freezer_Door_Close
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.5226667
+      minDuration: 0.26666668
     - name: Play_Freezer_Door_Open
       guid: 790cc5f90560b247a4dbf14b4351d46d
       id: 470009873
@@ -1038,8 +1154,8 @@ MonoBehaviour:
         guid: 790cc5f90560b247a4dbf14b4351d46d
       Path: Events/Default Work Unit/World/Intractibles/Fridge/Freezer Door/Play_Freezer_Door_Open
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 2.030816
+      minDuration: 0.21333334
     - name: Play_Fridge_Door_Close
       guid: eec927b71cc1834ebd41b64fbb6e5022
       id: 2637930989
@@ -1067,8 +1183,8 @@ MonoBehaviour:
         guid: eec927b71cc1834ebd41b64fbb6e5022
       Path: Events/Default Work Unit/World/Intractibles/Fridge/Fridge Door/Play_Fridge_Door_Close
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.98969847
+      minDuration: 0.85333335
     - name: Play_Fridge_Door_Open
       guid: 914a715516e0884aac5829b7cc5f5383
       id: 105949735
@@ -1096,8 +1212,8 @@ MonoBehaviour:
         guid: 914a715516e0884aac5829b7cc5f5383
       Path: Events/Default Work Unit/World/Intractibles/Fridge/Fridge Door/Play_Fridge_Door_Open
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.65066665
+      minDuration: 0.65066665
     - name: Play_Fridge_Open_Loop
       guid: 81cf33a46dc59c438d13229184689369
       id: 2776939461
@@ -1151,8 +1267,8 @@ MonoBehaviour:
         guid: 08c1c01aed3a7940af6282ce3d84cd0c
       Path: Events/Default Work Unit/World/Intractibles/Fusebox/Breaker/Play_Fusebox_Breaker_Off
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.95435685
+      minDuration: 0.95435685
     - name: Play_Fusebox_Breaker_On
       guid: f08c33064da9654e9fdef019b06497d9
       id: 761936719
@@ -1180,8 +1296,8 @@ MonoBehaviour:
         guid: f08c33064da9654e9fdef019b06497d9
       Path: Events/Default Work Unit/World/Intractibles/Fusebox/Breaker/Play_Fusebox_Breaker_On
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.95435685
+      minDuration: 0.95435685
     - name: Play_Fusebox_Button
       guid: cbbe3a7f5f369f4285a3ec2e30320bc6
       id: 3621687239
@@ -1266,6 +1382,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Pickup
+      guid: de694c8766251b42a85ef6d6ceb782e8
+      id: 3860455926
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Play_Pickup
+        ObjectType: 3
+        guid: de694c8766251b42a85ef6d6ceb782e8
+      Path: Events/Default Work Unit/World/Intractibles/Play_Pickup
+      maxAttenuation: 0
+      maxDuration: 0.5430521
+      minDuration: 0.3166875
     - name: Play_Player_Echo
       guid: 0104bde80baa4742a95ff330f8d22b83
       id: 59459483
@@ -1504,8 +1643,8 @@ MonoBehaviour:
         guid: 31abc3fdbf06fb4ca0d16c90a83af97a
       Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Footsteps
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.55186725
+      minDuration: 0.55186725
     - name: Play_Standing_Light_Loop
       guid: 48edd923a6be674381ef101795cbe533
       id: 3111854812
@@ -1556,8 +1695,8 @@ MonoBehaviour:
         guid: 743955de6109e44b852e866234af9f46
       Path: Events/Default Work Unit/World/Intractibles/Toilet/Play_Toilet_Flush
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 11.86058
+      minDuration: 5.0910096
     - name: Play_Toilet_Lid_Close
       guid: dc74e102ef8dcb4ca6f5d7513d9adddf
       id: 4125304698
@@ -1753,8 +1892,8 @@ MonoBehaviour:
         guid: 4bd38e75de35374f80edc658fc4c0d57
       Path: Events/Default Work Unit/World/Intractibles/TV/Power/Play_TV_Power_Off
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.4713547
+      minDuration: 1.4713547
     - name: Play_TV_Power_On
       guid: 5dd3ac75b4a5b4468e92ebe39a709d0f
       id: 422001050
@@ -1782,8 +1921,8 @@ MonoBehaviour:
         guid: 5dd3ac75b4a5b4468e92ebe39a709d0f
       Path: Events/Default Work Unit/World/Intractibles/TV/Power/Play_TV_Power_On
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 2.0079665
+      minDuration: 2.0079665
     - name: Play_Utility_Room_Loop
       guid: e8d8db6d7b604b4db977d9895bc9fa0f
       id: 3290767985
@@ -1837,8 +1976,8 @@ MonoBehaviour:
         guid: 979e645d9089fb4e8bc03912739be87a
       Path: Events/Default Work Unit/World/Intractibles/Wash/Door/Play_Wash_Door_Close
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.1455601
+      minDuration: 1.1455601
     - name: Play_Wash_Door_Open
       guid: 8c34e9b701ae254997e15d401205b2f3
       id: 465373113
@@ -1866,8 +2005,8 @@ MonoBehaviour:
         guid: 8c34e9b701ae254997e15d401205b2f3
       Path: Events/Default Work Unit/World/Intractibles/Wash/Door/Play_Wash_Door_Open
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.8690456
+      minDuration: 0.8690456
     - name: Play_Wash_Machine_Knob
       guid: 3c785f71ee56fa47a0c9a2ec03d771a8
       id: 140088172
@@ -1892,8 +2031,8 @@ MonoBehaviour:
         guid: 3c785f71ee56fa47a0c9a2ec03d771a8
       Path: Events/Default Work Unit/World/Intractibles/Wash/Play_Wash_Machine_Knob
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.83435684
+      minDuration: 0.83435684
     - name: Play_Window_Close_Loop
       guid: 576d01b970e31b4da30efdb6232a6a51
       id: 3797716684
@@ -2352,7 +2491,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585096132518480631
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000
+  ExpandedFileSystemItemIds: 020000000300000004000000060000001700000019000000
   ExpandedWaapiItemIds: 030000000400000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
