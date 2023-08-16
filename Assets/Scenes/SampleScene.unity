@@ -1826,10 +1826,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a50cce0090714488ea500e3434d12e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1116270476}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18a50cce0090714488ea500e3434d12e, type: 3}
 --- !u!1 &133177902
 GameObject:
@@ -8211,7 +8208,7 @@ NavMeshAgent:
   m_Speed: 1.35
   m_Acceleration: 10
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 240
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
@@ -17975,32 +17972,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78e4fbe9432f6ce4b83cdfed56443f08, type: 3}
---- !u!1 &1116270472 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a50cce0090714488ea500e3434d12e, type: 3}
-  m_PrefabInstance: {fileID: 131507859}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1116270473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18a50cce0090714488ea500e3434d12e, type: 3}
   m_PrefabInstance: {fileID: 131507859}
   m_PrefabAsset: {fileID: 0}
---- !u!208 &1116270476
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116270472}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 1.3000001, y: 0.47400004, z: 1.7}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 0.1, y: 0.42400002, z: -0.70000005}
-  m_TimeToStationary: 0.5
 --- !u!4 &1119841260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
@@ -27319,7 +27295,7 @@ NavMeshAgent:
   m_Speed: 0.75
   m_Acceleration: 10
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 240
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
