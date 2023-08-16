@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585094745741415460
+    m_lastTime: -8585094541940266040
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -262,8 +262,42 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
     GuidInternal: 
-    m_lastTime: -8585095296400314685
-    List: []
+    m_lastTime: -8585094541940037498
+    List:
+    - name: New_Switch_Group
+      guid: 8542da5d90c45746b37d8e65cc679cd4
+      id: 2250165792
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
+      - ElementName: New_Switch_Group
+        ObjectType: 11
+        guid: 8542da5d90c45746b37d8e65cc679cd4
+      Path: Switches/Default Work Unit/New_Switch_Group
+      values:
+      - name: Bedroom
+        guid: fe58c4003d1fbf4891a994511fb67a50
+        id: 3788924735
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
+        - ElementName: New_Switch_Group
+          ObjectType: 11
+          guid: 8542da5d90c45746b37d8e65cc679cd4
+        - ElementName: Bedroom
+          ObjectType: 10
+          guid: fe58c4003d1fbf4891a994511fb67a50
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:

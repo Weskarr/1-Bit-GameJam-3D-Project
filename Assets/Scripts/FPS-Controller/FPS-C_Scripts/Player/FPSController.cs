@@ -678,7 +678,7 @@ namespace TheFirstPerson
                 {
                     if (moveSpeed > 1)
                     {
-                        if (Time.time - lastFootstepTime > 200 / moveSpeed * Time.deltaTime)
+                        if (Time.time - lastFootstepTime > 175 / moveSpeed * Time.deltaTime)
                         {
                             footstepIsPlaying = false;
                         }
