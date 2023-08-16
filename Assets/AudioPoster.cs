@@ -28,6 +28,7 @@ public class AudioPoster : MonoBehaviour
         if (movementScript.moving) {
             if (!footstepIsPlaying) {
                 myFootstep.Post(gameObject);
+                EchoManager.instance.StartEcho();
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;
             } else {
