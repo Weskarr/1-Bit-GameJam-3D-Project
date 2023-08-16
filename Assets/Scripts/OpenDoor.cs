@@ -20,24 +20,59 @@ public class OpenDoor : MonoBehaviour, Interactable {
     }
 
     public void Interact() {
-        if (!opening && !opened) {
+        
+        //if (!opening && !opened) 
+        if (!opening && !opened)
+        {
             fuseOpen.Post(gameObject);
+            opening = true;
+            startTime = Time.time;
+        }
+        else if (!opening && opened)
+        {
             opening = true;
             startTime = Time.time;
         }
     }
 
     private void Update() {
-        if (opening && !opened) {
-            float p = (Time.time - startTime) / doorRotationDuration;
-            if (p >= 1) {
-                transform.rotation = Quaternion.Euler(0, endDoorRotation, p);
-                opened = true;
-            } else {
-                float r = Mathf.LerpAngle(startDoorRotation, endDoorRotation, p);
-                transform.rotation = Quaternion.Euler(0, r, 0);
+
+        if (opening)
+        {
+            if (!opened)
+            {
+                float p = (Time.time - startTime) / doorRotationDuration;
+                if (p >= 1)
+                {
+                    transform.rotation = Quaternion.Euler(0, endDoorRotation, 0);
+                    opened = true;
+                    opening = false;
+                }
+                else
+                {
+                    float r = Mathf.LerpAngle(startDoorRotation, endDoorRotation, p);
+                    transform.rotation = Quaternion.Euler(0, r, 0);
+                }
+
             }
+            else if (opened)
+            {
+                float p = (Time.time - startTime) / (doorRotationDuration / 2);
+                if (p >= 1)
+                {
+                    transform.rotation = Quaternion.Euler(0, startDoorRotation, 0);
+                    opened = false;
+                    opening = false;
+                }
+                else
+                {
+                    float r = Mathf.LerpAngle(endDoorRotation, startDoorRotation, p);
+                    transform.rotation = Quaternion.Euler(0, r, 0);
+                }
+            }
+
         }
+
     }
 
 }
