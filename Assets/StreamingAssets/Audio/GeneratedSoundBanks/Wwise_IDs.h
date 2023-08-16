@@ -18,6 +18,20 @@ namespace AK
         static const AkUniqueID STOP_AMBIENCE_CLOCK_LOOP = 2887940980U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace NEW_SWITCH_GROUP
+        {
+            static const AkUniqueID GROUP = 2250165792U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID BEDROOM = 3788924735U;
+            } // namespace SWITCH
+        } // namespace NEW_SWITCH_GROUP
+
+    } // namespace SWITCHES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

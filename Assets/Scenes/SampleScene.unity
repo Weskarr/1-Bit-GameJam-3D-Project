@@ -2587,6 +2587,10 @@ PrefabInstance:
       propertyPath: footstepDuration
       value: 175
       objectReference: {fileID: 0}
+    - target: {fileID: 8441710237708190193, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
+      propertyPath: myFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: d79f659896d6947d4b2df963d3ec64fa, type: 2}
     m_RemovedComponents:
     - {fileID: 6268786116922714613, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
     m_RemovedGameObjects: []
@@ -3315,7 +3319,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1713651145}
-  door1Sound: {fileID: 462002882}
   startPauseTime: 1.5
   lightsOffWait: 5
   switches:

@@ -21,15 +21,8 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
-			<SwitchGroups>
-				<SwitchGroup Id="2250165792" Name="New_Switch_Group">
-					<Switches>
-						<Switch Id="3788924735" Name="Bedroom"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E62FF0A5-CAF8-9F7D-8064-B24D518A0E04}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A53D825F-E742-8536-3001-FA8CE7EC96A0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -102,5 +95,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A218ACC6-610F-C775-8CDD-A8D4A0FA093B}</FileHash>
+	<FileHash>{0A19FA73-504D-ED17-ABAC-C65B3BBAE3CB}</FileHash>
 </SoundBanksInfo>
