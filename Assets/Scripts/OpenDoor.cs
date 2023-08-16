@@ -131,5 +131,7 @@ public class OpenDoor : MonoBehaviour, Interactable
 
             this.transform.rotation = Quaternion.Euler(0, currentRotation, 0);
         }
+
+        Debug.Log("cycle");
     }
 }
