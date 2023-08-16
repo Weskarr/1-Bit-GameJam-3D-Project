@@ -115,11 +115,15 @@ public class EchoManager : MonoBehaviour
         {
             
             if (!_isEchoing){
-                ResetEcho();
-                StartCoroutine(EchoExpansion());
+                StartEcho();
             }
                
         }
+    }
+
+    public void StartEcho() {
+        ResetEcho();
+        StartCoroutine(EchoExpansion());
     }
 
     private void ResetEcho()
