@@ -10195,6 +10195,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 374604994}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!1 &587417369
 GameObject:
   m_ObjectHideFlags: 0
@@ -20079,6 +20087,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 484443321}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!1 &1055203935 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b1e5dd3d3988830409d69c6ea93c3684, type: 3}
@@ -20148,6 +20164,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 58101005}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
 --- !u!1 &1056134615
 GameObject:
   m_ObjectHideFlags: 0
@@ -25776,6 +25800,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 1176314196}
   interactionHighLightMaterial: {fileID: 0}
   normalMaterial: {fileID: 0}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!65 &1428683556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30251,6 +30283,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 2036874549}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!65 &1767094702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30923,6 +30963,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuses: 
+  powerOutage:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   breakers:
   - {fileID: 73429273}
   - {fileID: 954543087}
@@ -31917,6 +31961,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 149055831}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!4 &1839319374 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2123793833878204981, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
@@ -35817,6 +35869,14 @@ MonoBehaviour:
   lightSwitchButton: {fileID: 768722812}
   interactionHighLightMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
   normalMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
+  onSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f7b3a6de268bf44b691f3f39bb94aafe, type: 2}
+  offSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d06a4ea2b802f49518542ab271b0508e, type: 2}
 --- !u!65 &2109491876
 BoxCollider:
   m_ObjectHideFlags: 0
