@@ -40,7 +40,13 @@ public class MasterMind : MonoBehaviour
     [SerializeField]
     private bool hallwayLightIsOn; // ID 6
 
+    [Header("Behaviour")]
+    [SerializeField]
+    private bool enteringWindow = false;
+
     [Header("Entities")]
+    [SerializeField]
+    private bool AnyoneOnPlayField;
     [SerializeField]
     private bool childAtPlay;
     [SerializeField]
@@ -67,6 +73,17 @@ public class MasterMind : MonoBehaviour
     {
         checkIfWindowIsOpen();
         checkIfLightIsOff();
+        AnyEntitiesOnThePlayField();
+
+        if (aWindowIsOpen == true && enteringWindow == false)
+        {
+            StartCoroutine(EnteringWindowCountdown());
+        }
+        else if (aWindowIsOpen == false && enteringWindow == true)
+        {
+            StopCoroutine(EnteringWindowCountdown());
+            enteringWindow = false;
+        }
     }
 
 
@@ -228,6 +245,56 @@ public class MasterMind : MonoBehaviour
         madame = this.transform.GetChild(3).gameObject;
         granny = this.transform.GetChild(4).gameObject;
     }
+    private void AnyEntitiesOnThePlayField()
+    {
+        if (childAtPlay == true ||
+            drunkAtPlay == true ||
+            stalkerAtPlay == true ||
+            madameAtPlay == true ||
+            grannyAtPlay == true)
+        {
+            AnyoneOnPlayField = true;
+        }
+        else
+        {
+            AnyoneOnPlayField = false;
+        }
+    }
+    private void EntityEntersPlayField()
+    {
+        int random = Random.Range(0, 5);
+
+        switch (random)
+        {
+            case 0:
+                childAtPlay = true;
+                child.SetActive(true);
+                break;
+            case 1:
+                drunkAtPlay = true;
+                drunk.SetActive(true);
+                break;
+            case 2:
+                stalkerAtPlay = true;
+                stalker.SetActive(true);
+                break;
+            case 3:
+                madameAtPlay = true;
+                madame.SetActive(true);
+                break;
+            case 4:
+                grannyAtPlay = true;
+                granny.SetActive(true);
+                break;
+        }
+    }
     //
 
+    IEnumerator EnteringWindowCountdown()
+    {
+        enteringWindow = true;
+        yield return new WaitForSeconds(30f);
+        EntityEntersPlayField();
+        enteringWindow = false;
+    }
 }
