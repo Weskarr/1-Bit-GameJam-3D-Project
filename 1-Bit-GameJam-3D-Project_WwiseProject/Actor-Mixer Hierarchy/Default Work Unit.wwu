@@ -25,9 +25,14 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
+												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>-6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-20</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -37,6 +42,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -172,28 +180,6 @@
 														<ActiveSource Name="Player_Footstep_Wood_06" ID="{1D79CE74-1EE9-416A-928F-B09D600D196B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Footstep_Wood_07" ID="{AF385204-1C18-46B9-A126-BE16B102FFA9}" ShortID="469276198">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Footstep_Wood_07" ID="{1C5BE7C7-AFA3-43AD-95F9-7596169DFD0C}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Footstep_Wood_07.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="676147703"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Footstep_Wood_07" ID="{1C5BE7C7-AFA3-43AD-95F9-7596169DFD0C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="Player_Footstep_Wood_08" ID="{76EFE4CF-BE54-40AC-AEDB-9E97E2D5AA6D}" ShortID="520728183">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -216,7 +202,7 @@
 														<ActiveSource Name="Player_Footstep_Wood_08" ID="{6EE79BD1-0DF5-4773-A9BF-402390014BB4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Footstep_Wood_09" ID="{CBC05AF2-E69B-4BC8-A880-1BEC2AB5A197}" ShortID="24990670">
+												<Sound Name="Player_Footstep_Wood_07" ID="{CBC05AF2-E69B-4BC8-A880-1BEC2AB5A197}" ShortID="24990670">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -236,28 +222,6 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Player_Footstep_Wood_09" ID="{2A33949E-1828-48BF-99FF-C79DD9BFC3CF}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Footstep_Wood_10" ID="{122646B4-BAD8-49E7-924D-0BA512D7FED8}" ShortID="194752815">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Footstep_Wood_10" ID="{D2288F7C-65CF-4A19-9117-1B46215D0AE2}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Footstep_Wood_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="29752148"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Footstep_Wood_10" ID="{D2288F7C-65CF-4A19-9117-1B46215D0AE2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -390,6 +354,30 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Player_Echo" ID="{E71CD534-132F-4712-9295-1CF24F394AD6}" ShortID="214813605">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Sine" ID="{077C7E27-D969-4D0E-B4D2-4C8E041DB332}" ShortID="921414868" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+													<PropertyList>
+														<Property Name="SineDuration" Type="Real32" Value="0.25"/>
+														<Property Name="SineGain" Type="Real32" Value="-15"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sine" ID="{077C7E27-D969-4D0E-B4D2-4C8E041DB332}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -409,6 +397,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -541,7 +532,18 @@
 								<Folder Name="Rooms" ID="{FFBA125E-E273-401F-8EB5-954F983986B1}" ShortID="908413198">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Utility_Room_Loop" ID="{FB335E44-09C2-4058-9325-75CD492595FD}" ShortID="656210854">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Utility Room" ID="{B820D3EB-BD36-4853-942F-033848D7B282}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -550,7 +552,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{140FAA30-B320-4D94-A1E5-A292C8C284B6}" ShortID="805178337">
+												<Sound Name="Utility room front(2)" ID="{5DCBF3F6-9834-4512-8AD9-6CE0C765B98A}" ShortID="579403109">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -560,12 +565,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{05A0948C-F305-4620-A6DA-AA6B5EF8B9A1}" ShortID="1052820268" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="Utility room front(2)" ID="{024E2E85-4514-4217-85DC-912935B43B66}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>Utility room front(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="698292043"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{05A0948C-F305-4620-A6DA-AA6B5EF8B9A1}" Platform="Linked"/>
+														<ActiveSource Name="Utility room front(2)" ID="{024E2E85-4514-4217-85DC-912935B43B66}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

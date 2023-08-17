@@ -9,10 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{56F7F64B-94D3-2614-2D54-0723B949DE5E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A4B6F89E-8F06-C9C9-2F2A-ADF66A6AA571}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -21,6 +24,15 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1572913279" Name="RoomVerb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="2250165792" Name="New_Switch_Group">
 					<Switches>
@@ -29,17 +41,13 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B04A4DA0-4CCF-39CD-E73F-7C46F9CC6031}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6CEB0C13-8D42-5BB5-CC7A-C62A94C1F88A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="444089" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_5.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_5_10C4C929.wem</CachePath>
-				</File>
-				<File Id="6944452" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
-					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._004C062F.wem</CachePath>
 				</File>
 				<File Id="22674253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bare_Feet_HW4_MED_WALK.L.wav</ShortName>
@@ -49,17 +57,9 @@
 					<ShortName>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</ShortName>
 					<CachePath>SFX/03 Wood Door #3_ Open And Slam With Metal Latch Knob_FCD11603.wem</CachePath>
 				</File>
-				<File Id="29752148" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Wood_10.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Wood_10_10C4C929.wem</CachePath>
-				</File>
 				<File Id="37149225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_3.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_3_10C4C929.wem</CachePath>
-				</File>
-				<File Id="55990598" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps Gravel.wav</ShortName>
-					<CachePath>SFX/Footsteps Gravel_12321901.wem</CachePath>
 				</File>
 				<File Id="69290928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_04.wav</ShortName>
@@ -85,10 +85,6 @@
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
 					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._709E5B6D.wem</CachePath>
 				</File>
-				<File Id="233508396" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
-					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._BD9776BF.wem</CachePath>
-				</File>
 				<File Id="238130164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</ShortName>
 					<CachePath>SFX/FRIDGE_DOOR_SLAM_HUM_01_CS_B94C1BD7.wem</CachePath>
@@ -112,10 +108,6 @@
 				<File Id="352765158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_53_3.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_53_3_10C4C929.wem</CachePath>
-				</File>
-				<File Id="356872919" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>DoorHandleTurn_BW.63950.wav</ShortName>
-					<CachePath>SFX/DoorHandleTurn_BW.63950_10C4C929.wem</CachePath>
 				</File>
 				<File Id="441456926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
@@ -169,9 +161,9 @@
 					<ShortName>Player_Footstep_Wood_02.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="676147703" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Footstep_Wood_07.wav</ShortName>
-					<CachePath>SFX/Player_Footstep_Wood_07_10C4C929.wem</CachePath>
+				<File Id="698292043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Utility room front(2).wav</ShortName>
+					<CachePath>SFX/Utility room front(2)_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="703608910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
@@ -225,10 +217,6 @@
 					<ShortName>DoorRefrigerator 6048_50_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_50_2_10C4C929.wem</CachePath>
 				</File>
-				<File Id="854949411" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>05 Drips From Faucet Into Water In Sink.wav</ShortName>
-					<CachePath>SFX/05 Drips From Faucet Into Water In Sink_00964262.wem</CachePath>
-				</File>
 				<File Id="855674886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_52_3.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_52_3_10C4C929.wem</CachePath>
@@ -241,10 +229,6 @@
 					<ShortName>25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom..wav</ShortName>
 					<CachePath>SFX/25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom._613318F7.wem</CachePath>
 				</File>
-				<File Id="901250480" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
-					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._3D412F2F.wem</CachePath>
-				</File>
 				<File Id="906693199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TelevisionStatic_BW.50827.wav</ShortName>
 					<CachePath>SFX/TelevisionStatic_BW.50827_18F89CD3.wem</CachePath>
@@ -252,10 +236,6 @@
 				<File Id="914824857" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting. Close Perspective..wav</ShortName>
 					<CachePath>SFX/25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting. Close Perspective._985188A7.wem</CachePath>
-				</File>
-				<File Id="916159817" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps Run Hard Floor 01.wav</ShortName>
-					<CachePath>SFX/Footsteps Run Hard Floor 01_072016E3.wem</CachePath>
 				</File>
 				<File Id="924890128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_05.wav</ShortName>
@@ -298,17 +278,20 @@
 					<Plugin Id="815784796" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 					<Plugin Id="844065003" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 					<Plugin Id="901638558" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
+					<Plugin Id="921414868" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 					<Plugin Id="929454766" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 					<Plugin Id="1020784281" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 					<Plugin Id="1049442557" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="1052820268" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="10" DurationType="Infinite">
+				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="112068193"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2531064299" Name="Play_Cabinet_Large_Close" DurationType="OneShot" DurationMin="1.6533333" DurationMax="2.176">
 					<MediaRefs>
@@ -460,20 +443,27 @@
 						<MediaRef Id="849882323"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="59459483" Name="Play_Player_Echo" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="59459483" Name="Play_Player_Echo" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="921414868"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
 				<Event Id="1323502295" Name="Play_Player_Footsteps_Wood" DurationType="OneShot" DurationMin="0.19069281" DurationMax="0.57767636">
 					<MediaRefs>
-						<MediaRef Id="29752148"/>
 						<MediaRef Id="69290928"/>
 						<MediaRef Id="101304777"/>
 						<MediaRef Id="500430144"/>
 						<MediaRef Id="566364833"/>
 						<MediaRef Id="657053874"/>
-						<MediaRef Id="676147703"/>
 						<MediaRef Id="833179533"/>
 						<MediaRef Id="924890128"/>
 						<MediaRef Id="1044853674"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<PluginRefs>
@@ -583,12 +573,10 @@
 						<MediaRef Id="310800964"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3290767985" Name="Play_Utility_Room_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1052820268"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3290767985" Name="Play_Utility_Room_Loop" MaxAttenuation="4" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="698292043"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="969296927" Name="Play_Wash_Door_Close" DurationType="OneShot" DurationMin="1.1455601" DurationMax="1.1455601">
 					<MediaRefs>
@@ -619,13 +607,9 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
-				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<MediaRefs>
-						<MediaRef Id="112068193"/>
-					</MediaRefs>
-				</Event>
+				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{07BA9E12-3CF6-9B34-FBC8-778650DB24FA}</FileHash>
+	<FileHash>{3B2A82F7-CEA0-2FEA-DC40-CAAA1C9677BD}</FileHash>
 </SoundBanksInfo>
