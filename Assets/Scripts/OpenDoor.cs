@@ -8,14 +8,16 @@ public class OpenDoor : MonoBehaviour, Interactable
 {
     private Quaternion closedRotation;
     [SerializeField]
-    private Vector3 openRotation;
+    private Vector3 openRotation; // Relative
 
     private Vector3 closedPosition;
     [SerializeField]
-    private Vector3 openPosition;
+    private Vector3 openPosition; // Relative
 
     public bool rotate = true;
     public bool move = false;
+
+    public bool playCloseInstantly = false;
 
     [SerializeField]
     private float moveSpeed = 2f; // How many seconds it takes to open/close
@@ -52,10 +54,10 @@ public class OpenDoor : MonoBehaviour, Interactable
             if (p < 0) {
                 p = 0;
                 moving = false;
-                closeSound.Post(gameObject);
+                if (!playCloseInstantly) closeSound.Post(gameObject);
             }
-            if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, Quaternion.Euler(openRotation), p);
-            if (move)   transform.position = Vector3.Lerp(closedPosition, openPosition, p);
+            if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, closedRotation * Quaternion.Euler(openRotation), p); // * is + in quaternion rotations kinda
+            if (move)   transform.position = Vector3.Lerp(closedPosition, closedPosition + openPosition, p);
         }
     }
 
@@ -64,6 +66,9 @@ public class OpenDoor : MonoBehaviour, Interactable
     {
         if (close && !moving) {
             openSound.Post(gameObject);
+        }
+        if (!close && !moving && playCloseInstantly) {
+            closeSound.Post(gameObject);
         }
         close = !close;
         moving = true;
