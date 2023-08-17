@@ -5083,6 +5083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294635147}
+  - component: {fileID: 294635148}
   m_Layer: 0
   m_Name: Entities
   m_TagString: Untagged
@@ -5110,6 +5111,39 @@ Transform:
   - {fileID: 1839319374}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &294635148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294635146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6073c328c0315224f9ce2f421fcfd90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aWindowIsOpen: 0
+  utilityWindowOpen: 0
+  livingOneWindowOpen: 0
+  livingTwoWindowOpen: 0
+  livingThreeWindowOpen: 0
+  livingFourWindowOpen: 0
+  bedroomWindowOpen: 0
+  bathroomWindowOpen: 0
+  aLightIsOff: 0
+  utilityLightIsOn: 0
+  bedroomLightIsOn: 0
+  bathroomLightIsOn: 0
+  kitchenLightIsOn: 0
+  diningLightIsOn: 0
+  livingLightIsOn: 0
+  hallwayLightIsOn: 0
+  childAtPlay: 0
+  drunkAtPlay: 0
+  stalkerAtPlay: 0
+  madameAtPlay: 0
+  grannyAtPlay: 0
 --- !u!4 &298007041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4628584980299650355, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
@@ -10051,6 +10085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 0
   lights:
   - {fileID: 363052273}
   interactionHighLighted:
@@ -19922,6 +19958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 2
   lights:
   - {fileID: 397098409}
   interactionHighLighted:
@@ -19982,6 +20020,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 3
   lights:
   - {fileID: 631146557}
   - {fileID: 2013447669}
@@ -22117,6 +22157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1167139741}
+  - component: {fileID: 1167139742}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -22147,6 +22188,36 @@ Transform:
   - {fileID: 1176151332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1167139742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167139740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 0
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  animate: 0
+  playCloseInstantly: 0
+  animator: {fileID: 0}
+  moveSpeed: 2
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1170349317 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9354097d4c6d3246b69fa5683bece4c, type: 3}
@@ -25539,6 +25610,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 6
   lights:
   - {fileID: 599243801}
   - {fileID: 917732748}
@@ -30009,6 +30082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 4
   lights:
   - {fileID: 876267509}
   - {fileID: 249962075}
@@ -31660,6 +31735,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 5
   lights:
   - {fileID: 763612952}
   - {fileID: 1214280145}
@@ -35565,6 +35642,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b976ef0b4368114d81fec2dd2442426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  lightIdentity: 1
   lights:
   - {fileID: 1800052363}
   interactionHighLighted:
@@ -35891,7 +35970,7 @@ GameObject:
   - component: {fileID: 2670185011321867575}
   - component: {fileID: 1906749546228990627}
   - component: {fileID: 2670185011321867577}
-  - component: {fileID: 2670185011321867576}
+  - component: {fileID: 2670185011321867578}
   m_Layer: 0
   m_Name: Bedroom_Window_Openable
   m_TagString: Untagged
@@ -35967,8 +36046,8 @@ GameObject:
   - component: {fileID: 340282825617092327}
   - component: {fileID: 89825398306934427}
   - component: {fileID: 6213688520523146879}
-  - component: {fileID: 6213688520523146881}
   - component: {fileID: 6213688520523146880}
+  - component: {fileID: 6213688520523146881}
   m_Layer: 0
   m_Name: LivingRoom_Window_Wide_Left_Openable
   m_TagString: Untagged
@@ -36007,7 +36086,6 @@ Transform:
   - {fileID: 7359353744729480661}
   - {fileID: 1075959311186044533}
   - {fileID: 6241186932561859246}
-  - {fileID: 2565476958960867731}
   m_Father: {fileID: 507823074}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &761562778563086230
@@ -36152,8 +36230,8 @@ GameObject:
   - component: {fileID: 6555048290783872631}
   - component: {fileID: 1493519006653395703}
   - component: {fileID: 8542160113744530080}
-  - component: {fileID: 8542160113744530082}
   - component: {fileID: 8542160113744530081}
+  - component: {fileID: 8542160113744530082}
   m_Layer: 0
   m_Name: LivingRoom_Window_Wide_Right_Openable
   m_TagString: Untagged
@@ -36222,8 +36300,8 @@ GameObject:
   - component: {fileID: 2565476958960867731}
   - component: {fileID: 6880548345023898145}
   - component: {fileID: 833429907372673901}
-  - component: {fileID: 6880548345023898147}
   - component: {fileID: 6880548345023898146}
+  - component: {fileID: 6880548345023898147}
   m_Layer: 0
   m_Name: Utility_Window_Openable
   m_TagString: Untagged
@@ -36242,8 +36320,8 @@ GameObject:
   - component: {fileID: 4178666858741947775}
   - component: {fileID: 8030589717842110848}
   - component: {fileID: 7490345441020561476}
-  - component: {fileID: 8030589717842110850}
   - component: {fileID: 8030589717842110849}
+  - component: {fileID: 8030589717842110850}
   m_Layer: 0
   m_Name: Bathroom_Window_Openable
   m_TagString: Untagged
@@ -36351,7 +36429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5492898656950244331, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5495181367966657500, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -36404,8 +36482,8 @@ GameObject:
   - component: {fileID: 2041505516039650111}
   - component: {fileID: 8536454891245521371}
   - component: {fileID: 5762218019545522380}
-  - component: {fileID: 8536454891245521373}
   - component: {fileID: 8536454891245521372}
+  - component: {fileID: 8536454891245521373}
   m_Layer: 0
   m_Name: LivingRoom_Window_Small_Left_Openable
   m_TagString: Untagged
@@ -36605,12 +36683,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291737849131802945}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000754979, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.174375, y: 0.14999998, z: -7.0687504}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.12250042, y: 0.1499999, z: -0.100000404}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 543450653692599257}
+  m_Father: {fileID: 6241186932561859246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2670185011321867575
 MeshFilter:
@@ -36620,34 +36698,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329461392040761729}
   m_Mesh: {fileID: -3320979339216494279, guid: 827b0d2d2db0ff549b2ebe46c1bd7178, type: 3}
---- !u!114 &2670185011321867576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 329461392040761729}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
-  rotate: 0
-  move: 1
-  animate: 0
-  playCloseInstantly: 0
-  animator: {fileID: 0}
-  moveSpeed: 2
-  openSound:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  closeSound:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
 --- !u!65 &2670185011321867577
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36669,6 +36719,36 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.8, y: 0.6500004, z: 0.06250009}
   m_Center: {x: -0.89999974, y: 0.32499996, z: 0.031249903}
+--- !u!114 &2670185011321867578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329461392040761729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 5
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
+  rotate: 0
+  move: 1
+  animate: 0
+  playCloseInstantly: 0
+  animator: {fileID: 0}
+  moveSpeed: 2
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &2697338963432926701
 GameObject:
   m_ObjectHideFlags: 0
@@ -37174,7 +37254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6387135334338732149, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37368,11 +37448,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 521208852777130075}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 1
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0
@@ -37399,7 +37481,8 @@ Transform:
   m_LocalPosition: {x: -4.296875, y: 0.000000059604645, z: -6.96875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2565476958960867731}
   m_Father: {fileID: 543450653692599257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6477381331032444937
@@ -37413,8 +37496,8 @@ GameObject:
   - component: {fileID: 1622531397142765528}
   - component: {fileID: 1886976032018271600}
   - component: {fileID: 8863265350035070634}
-  - component: {fileID: 8863265350035070636}
   - component: {fileID: 8863265350035070635}
+  - component: {fileID: 8863265350035070636}
   m_Layer: 0
   m_Name: LivingRoom_Window_Small_Right_Openable
   m_TagString: Untagged
@@ -37544,11 +37627,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1291737849131802945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 0
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0
@@ -37867,11 +37952,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1292517173282181156}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 7
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0
@@ -37932,11 +38019,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1849726403047053461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 3
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0
@@ -38023,11 +38112,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 873431912281632870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 2
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0
@@ -38122,11 +38213,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6477381331032444937}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Script: {fileID: 11500000, guid: 82e3e7370bb59254d828a2b73045c024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMasterMind: {fileID: 294635148}
+  windowIdentity: 4
   openRotation: {x: 0, y: 0, z: 0}
-  openPosition: {x: 0, y: 0.6, z: 0}
+  openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
   move: 1
   animate: 0

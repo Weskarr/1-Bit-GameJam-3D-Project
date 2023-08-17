@@ -5,6 +5,12 @@ using UnityEngine;
 public class LightSwitch2 : MonoBehaviour, Interactable
 {
     [SerializeField]
+    private MasterMind myMasterMind;
+    [SerializeField]
+    private int lightIdentity;
+
+
+    [SerializeField]
     private GameObject[] lights;
     [SerializeField]
     private MeshRenderer[] interactionHighLighted;
@@ -58,6 +64,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 ren.material = interactionHighLightMaterial;
             }
             isLightOn = true;
+            myMasterMind.lightIsOn(lightIdentity);
         }
     }
     public void powerIsGone()
@@ -74,6 +81,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             ren.material = normalMaterial;
         }
 
+        myMasterMind.lightIsOff(lightIdentity);
     }
 
     private void turnOff()
@@ -89,6 +97,8 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 ren.material = normalMaterial;
             }
+
+            myMasterMind.lightIsOff(lightIdentity);
         }
 
         isLightOn = false;
@@ -108,6 +118,8 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 ren.material = interactionHighLightMaterial;
             }
+
+            myMasterMind.lightIsOn(lightIdentity);
         }
 
         isLightOn = true;
