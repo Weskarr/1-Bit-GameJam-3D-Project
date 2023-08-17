@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{97AA291E-4B93-11C5-873D-C53DCC6CB56B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15987F68-8619-7AFB-4532-C2D66339E055}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -168,7 +168,7 @@
 				</File>
 				<File Id="365044523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>City Noise Inside Apartment.wav</ShortName>
-					<CachePath>SFX/City Noise Inside Apartment_10C4C929.wem</CachePath>
+					<CachePath>SFX/City Noise Inside Apartment_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="441456926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
@@ -450,7 +450,7 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1579360687" Name="Play_Apartment_Ambience" DurationType="OneShot" DurationMin="28.220198" DurationMax="28.220198">
+				<Event Id="1579360687" Name="Play_Apartment_Ambience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="365044523"/>
 					</MediaRefs>
@@ -835,5 +835,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1A3BA553-8A3D-B8CD-5226-B0DA185D29A6}</FileHash>
+	<FileHash>{4153889D-1C31-3177-4C08-EBAE7EAF6C43}</FileHash>
 </SoundBanksInfo>

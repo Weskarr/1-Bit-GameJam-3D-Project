@@ -603,6 +603,11 @@
 												<Sound Name="Utility room front(2)" ID="{5DCBF3F6-9834-4512-8AD9-6CE0C765B98A}" ShortID="579403109">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-29</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -630,6 +635,13 @@
 									</ChildrenList>
 								</Folder>
 								<RandomSequenceContainer Name="Apartment Ambience" ID="{51E67228-E49B-4854-ABAA-D6BE1FFD8305}" ShortID="978298539">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -640,6 +652,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="City Noise Inside Apartment" ID="{744E3896-708B-4872-B55F-478ED732AE39}" ShortID="1040611643">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
