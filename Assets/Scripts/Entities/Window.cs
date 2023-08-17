@@ -30,7 +30,7 @@ public class Window : MonoBehaviour, Interactable
     [SerializeField]
     private float moveSpeed = 2f; // How many seconds it takes to open/close
 
-    bool close = true;
+    public bool close = true;
     bool moving = false;
 
     [Header("Wwise Events")]
@@ -99,11 +99,11 @@ public class Window : MonoBehaviour, Interactable
 
     public void WindowClosed()
     {
-        myMasterMind.windowIsOpen(windowIdentity);
+        myMasterMind.WindowIsOpen(windowIdentity);
     }
 
     public void WindowOpen()
     {
-        myMasterMind.windowIsClosed(windowIdentity);
+        myMasterMind.WindowIsClosed(windowIdentity);
     }
 }

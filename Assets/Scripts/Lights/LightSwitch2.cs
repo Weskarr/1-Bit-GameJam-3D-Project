@@ -64,7 +64,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 ren.material = interactionHighLightMaterial;
             }
             isLightOn = true;
-            myMasterMind.lightIsOn(lightIdentity);
+            myMasterMind.LightIsOn(lightIdentity);
         }
     }
     public void powerIsGone()
@@ -81,7 +81,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             ren.material = normalMaterial;
         }
 
-        myMasterMind.lightIsOff(lightIdentity);
+        myMasterMind.LightIsOff(lightIdentity);
     }
 
     private void turnOff()
@@ -98,7 +98,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 ren.material = normalMaterial;
             }
 
-            myMasterMind.lightIsOff(lightIdentity);
+            myMasterMind.LightIsOff(lightIdentity);
         }
 
         isLightOn = false;
@@ -119,7 +119,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 ren.material = interactionHighLightMaterial;
             }
 
-            myMasterMind.lightIsOn(lightIdentity);
+            myMasterMind.LightIsOn(lightIdentity);
         }
 
         isLightOn = true;
