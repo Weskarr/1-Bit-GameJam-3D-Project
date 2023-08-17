@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{15987F68-8619-7AFB-4532-C2D66339E055}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{39FCEB7A-B824-877E-B8DE-3F2D6E31C671}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -118,6 +118,10 @@
 					<ShortName>Button 03(2).wav</ShortName>
 					<CachePath>SFX/Button 03(2)_2ED97540.wem</CachePath>
 				</File>
+				<File Id="228538503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pull switch.wav</ShortName>
+					<CachePath>SFX/Pull switch_83EFCB6F.wem</CachePath>
+				</File>
 				<File Id="233508396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
 					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._BD9776BF.wem</CachePath>
@@ -144,7 +148,7 @@
 				</File>
 				<File Id="304264542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WINDOW OPENING.wav</ShortName>
-					<CachePath>SFX/WINDOW OPENING_10C4C929.wem</CachePath>
+					<CachePath>SFX/WINDOW OPENING_BE70839C.wem</CachePath>
 				</File>
 				<File Id="310800964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TV Old On Off 01.wav</ShortName>
@@ -170,9 +174,17 @@
 					<ShortName>City Noise Inside Apartment.wav</ShortName>
 					<CachePath>SFX/City Noise Inside Apartment_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="412113492" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pull switch(4).wav</ShortName>
+					<CachePath>SFX/Pull switch(4)_6D59DA1D.wem</CachePath>
+				</File>
 				<File Id="441456926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
 					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._9EF1E86E.wem</CachePath>
+				</File>
+				<File Id="445383689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pull switch(3).wav</ShortName>
+					<CachePath>SFX/Pull switch(3)_A50E0592.wem</CachePath>
 				</File>
 				<File Id="454006259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_1.wav</ShortName>
@@ -213,6 +225,10 @@
 				<File Id="531886203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_6.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="560262334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pull switch(2).wav</ShortName>
+					<CachePath>SFX/Pull switch(2)_941B9F2F.wem</CachePath>
 				</File>
 				<File Id="566364833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_09.wav</ShortName>
@@ -266,6 +282,10 @@
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_49_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="706244841" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fluorescent lamps in hospital 03.wav</ShortName>
+					<CachePath>SFX/Fluorescent lamps in hospital 03_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="723430980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tap Water, Rapid.wav</ShortName>
 					<CachePath>SFX/Tap Water, Rapid_D79FB2B7.wem</CachePath>
@@ -296,7 +316,7 @@
 				</File>
 				<File Id="761752087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WINDOW OPENING(3).wav</ShortName>
-					<CachePath>SFX/WINDOW OPENING(3)_10C4C929.wem</CachePath>
+					<CachePath>SFX/WINDOW OPENING(3)_0E1BFFAE.wem</CachePath>
 				</File>
 				<File Id="763023878" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Toilet Lid Close.wav</ShortName>
@@ -491,7 +511,11 @@
 						<MediaRef Id="37149225"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="115528144" Name="Play_Celing_Light_Loop" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="115528144" Name="Play_Celing_Light_Loop" MaxAttenuation="8" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="706244841"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2292458263" Name="Play_Door_Close" DurationType="OneShot" DurationMin="3.340249" DurationMax="3.4478562">
 					<MediaRefs>
 						<MediaRef Id="29066256"/>
@@ -611,6 +635,18 @@
 						<MediaRef Id="148628804"/>
 						<MediaRef Id="620573470"/>
 						<MediaRef Id="768921192"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="314077991" Name="Play_Light_Switch_Off" DurationType="OneShot" DurationMin="0.20983161" DurationMax="0.23070131">
+					<MediaRefs>
+						<MediaRef Id="412113492"/>
+						<MediaRef Id="560262334"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="82250835" Name="Play_Light_Switch_On" DurationType="OneShot" DurationMin="0.1974745" DurationMax="0.20967114">
+					<MediaRefs>
+						<MediaRef Id="228538503"/>
+						<MediaRef Id="445383689"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4252663551" Name="Play_Oven_Beep" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
@@ -804,7 +840,7 @@
 						<MediaRef Id="914824857"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4244658871" Name="Play_Window_Close" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.6745" DurationMax="0.6745">
+				<Event Id="4244658871" Name="Play_Window_Close" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.5964519" DurationMax="0.5964519">
 					<MediaRefs>
 						<MediaRef Id="761752087"/>
 					</MediaRefs>
@@ -814,7 +850,7 @@
 						<MediaRef Id="515508150"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4135004417" Name="Play_Window_Open" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.68916667" DurationMax="0.68916667">
+				<Event Id="4135004417" Name="Play_Window_Open" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.6690205" DurationMax="0.6690205">
 					<MediaRefs>
 						<MediaRef Id="304264542"/>
 					</MediaRefs>
@@ -827,13 +863,15 @@
 				<Event Id="2188479622" Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3014771066" Name="Stop_Celing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3138979112" Name="Stop_Shepard_Tone_Mass_X2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="887930354" Name="Stop_Shepard_Tone_Mass_X_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3279282928" Name="Stop_Shepard_Tone_Sine_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1944978762" Name="Stop_Window_Close_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3500678004" Name="Stop_Window_Open_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{14AE08CD-0E4A-4EA6-C734-EA4C98088DE0}</FileHash>
+	<FileHash>{BD87F2B3-1C8E-DB54-D53E-E81A37164067}</FileHash>
 </SoundBanksInfo>

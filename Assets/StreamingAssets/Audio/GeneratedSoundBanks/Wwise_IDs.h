@@ -45,6 +45,8 @@ namespace AK
         static const AkUniqueID PLAY_FUSEBOX_DOOR_CLOSE = 2531764854U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_OPEN = 612620834U;
         static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
+        static const AkUniqueID PLAY_LIGHT_SWITCH_OFF = 314077991U;
+        static const AkUniqueID PLAY_LIGHT_SWITCH_ON = 82250835U;
         static const AkUniqueID PLAY_OVEN_BEEP = 4252663551U;
         static const AkUniqueID PLAY_OVEN_DOOR_CLOSE = 4217132026U;
         static const AkUniqueID PLAY_OVEN_DOOR_OPEN = 2826556030U;
@@ -86,9 +88,11 @@ namespace AK
         static const AkUniqueID STOP_1_BIT_JAM_MENU_MX_V2_LOOP = 2188479622U;
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMBIENCE_CLOCK_LOOP = 2887940980U;
+        static const AkUniqueID STOP_CELING_LIGHT_LOOP = 3014771066U;
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X2 = 3138979112U;
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X_WAVE = 887930354U;
         static const AkUniqueID STOP_SHEPARD_TONE_SINE_WAVE = 3279282928U;
+        static const AkUniqueID STOP_STANDING_LIGHT_LOOP = 798871922U;
         static const AkUniqueID STOP_WINDOW_CLOSE_LOOP = 1944978762U;
         static const AkUniqueID STOP_WINDOW_OPEN_LOOP = 3500678004U;
     } // namespace EVENTS

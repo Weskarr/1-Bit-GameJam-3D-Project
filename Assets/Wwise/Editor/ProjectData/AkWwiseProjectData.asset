@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585093063231028212
+    m_lastTime: -8585092996446802926
     List:
     - name: Main
       guid: 54d4f9dc25ce224191c47a456574d436
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585093063231297806
+    m_lastTime: -8585092996446864856
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -277,9 +277,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Door
-      guid: a9a6e71f0e722a4895ad2e0e27311a99
-      id: 1877847629
+    - name: Ceiling Light
+      guid: 04790642de241443b4e783ec2d58ec66
+      id: 3903194310
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -290,13 +290,13 @@ MonoBehaviour:
       - ElementName: World
         ObjectType: 4
         guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
+      - ElementName: Ambience
         ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Door
+        guid: a3d1ba4d042e7448bf13d9b8e834a40e
+      - ElementName: Ceiling Light
         ObjectType: 4
-        guid: a9a6e71f0e722a4895ad2e0e27311a99
-      Path: Events/Default Work Unit/World/Intractibles/Door
+        guid: 04790642de241443b4e783ec2d58ec66
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -349,6 +349,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
       Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: a9a6e71f0e722a4895ad2e0e27311a99
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Door
+        ObjectType: 4
+        guid: a9a6e71f0e722a4895ad2e0e27311a99
+      Path: Events/Default Work Unit/World/Intractibles/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -689,6 +712,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Light Switch
+      guid: 8826157ba0d9894086343a3c01feda6a
+      id: 24390473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Light Switch
+        ObjectType: 4
+        guid: 8826157ba0d9894086343a3c01feda6a
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Main Menu
       guid: 946421c3e87e5d47b3aa382e45abd174
       id: 1026774399
@@ -839,8 +885,8 @@ MonoBehaviour:
         guid: 3ecf037c53ffad46a7b35b1c1fc63d9e
       Path: Events/Default Work Unit/World/Ambience/Play_Apartment_Ambience
       maxAttenuation: 0
-      maxDuration: 28.220198
-      minDuration: 28.220198
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Bottle_Pickup
       guid: 482fca1f90443b4181aeaff9a0d51ee6
       id: 4101144041
@@ -1057,10 +1103,13 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: a3d1ba4d042e7448bf13d9b8e834a40e
+      - ElementName: Ceiling Light
+        ObjectType: 4
+        guid: 04790642de241443b4e783ec2d58ec66
       - ElementName: Play_Celing_Light_Loop
         ObjectType: 3
         guid: f54456ae8c850945ab56a20a001abd93
-      Path: Events/Default Work Unit/World/Ambience/Play_Celing_Light_Loop
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light/Play_Celing_Light_Loop
       maxAttenuation: 8
       maxDuration: 0
       minDuration: 0
@@ -1646,6 +1695,58 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.45827663
       minDuration: 0.37272108
+    - name: Play_Light_Switch_Off
+      guid: ff467a5436c0e147947808c0d13f569e
+      id: 314077991
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Light Switch
+        ObjectType: 4
+        guid: 8826157ba0d9894086343a3c01feda6a
+      - ElementName: Play_Light_Switch_Off
+        ObjectType: 3
+        guid: ff467a5436c0e147947808c0d13f569e
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch/Play_Light_Switch_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Light_Switch_On
+      guid: 91d9b14f3c8dfa43b23c3c7e6535f351
+      id: 82250835
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Light Switch
+        ObjectType: 4
+        guid: 8826157ba0d9894086343a3c01feda6a
+      - ElementName: Play_Light_Switch_On
+        ObjectType: 3
+        guid: 91d9b14f3c8dfa43b23c3c7e6535f351
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch/Play_Light_Switch_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Oven_Beep
       guid: 93a1f0a307778641a6fdf451ce2815e5
       id: 4252663551
@@ -2893,6 +2994,32 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Celing_Light_Loop
+      guid: d025aa2d11efad4b8220630a8e1cb969
+      id: 3014771066
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: a3d1ba4d042e7448bf13d9b8e834a40e
+      - ElementName: Ceiling Light
+        ObjectType: 4
+        guid: 04790642de241443b4e783ec2d58ec66
+      - ElementName: Stop_Celing_Light_Loop
+        ObjectType: 3
+        guid: d025aa2d11efad4b8220630a8e1cb969
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light/Stop_Celing_Light_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Shepard_Tone_Mass_X_Wave
       guid: 407fcb126805b144be0ee9f922436ec7
       id: 887930354
@@ -2959,6 +3086,32 @@ MonoBehaviour:
         ObjectType: 3
         guid: fa8fb5adc8043942a685881a0813f938
       Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Sine_Wave
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Standing_Light_Loop
+      guid: e7dabd302b90654aa9148e09de45797b
+      id: 798871922
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Standing Light
+        ObjectType: 4
+        guid: 2f98789ad760524992b119ba69e2a08b
+      - ElementName: Stop_Standing_Light_Loop
+        ObjectType: 3
+        guid: e7dabd302b90654aa9148e09de45797b
+      Path: Events/Default Work Unit/World/Intractibles/Standing Light/Stop_Standing_Light_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3260,7 +3413,7 @@ MonoBehaviour:
     m_lastTime: -8585096132518480631
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000a0000001c0000001e0000002300000039000000510000005200000061000000680000009a000000ae050000
+  ExpandedWaapiItemIds: 06000000070000000a0000001c0000001e00000023000000510000005200000061000000680000009a000000ae050000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -486,6 +486,33 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fluorescent lamps in hospital 03" ID="{E8328EE8-949E-4A44-AC4D-9FE1CECE9B92}" ShortID="602617060">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fluorescent lamps in hospital 03" ID="{4D2853D9-D250-428E-A1E6-5511EC7DA659}">
+													<Language>SFX</Language>
+													<AudioFile>Fluorescent lamps in hospital 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="706244841"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fluorescent lamps in hospital 03" ID="{4D2853D9-D250-428E-A1E6-5511EC7DA659}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
 								</RandomSequenceContainer>
 								<Folder Name="Window" ID="{0F5E0274-F25A-43EC-A3C4-387FB5862582}" ShortID="963950234">
 									<ChildrenList>
@@ -3805,6 +3832,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="WINDOW OPENING" ID="{00F109A1-11E0-441C-B1A3-D443580A115D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00755481120584653"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.258542427933415"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0201461632155907"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>WINDOW OPENING.wav</AudioFile>
 															<MediaIDList>
@@ -3845,6 +3878,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="WINDOW OPENING(3)" ID="{F4C3C9AB-9F12-43EE-A785-BB1460876E92}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00575091352009744"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.235787454323995"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0780481120584653"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>WINDOW OPENING(3).wav</AudioFile>
 															<MediaIDList>
@@ -3854,6 +3893,141 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="WINDOW OPENING(3)" ID="{F4C3C9AB-9F12-43EE-A785-BB1460876E92}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Light Switch" ID="{A1510F44-41B6-4B96-B256-00319461E6DB}" ShortID="172011545">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Light_Switch_On" ID="{D6B9200F-5DEC-452D-A8D3-7C2CA145FB55}" ShortID="281534452">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pull switch" ID="{99A3E9B4-9527-4E08-B7B6-5099F49F741A}" ShortID="46823871">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pull switch" ID="{B68C0136-B7B8-42DB-A130-DA76A6AF9E3A}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0168288672350792"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0168288672350792"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pull switch.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="228538503"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pull switch" ID="{B68C0136-B7B8-42DB-A130-DA76A6AF9E3A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pull switch(3)" ID="{DA7FB933-9EE1-4C60-9100-5BB3AD735937}" ShortID="317057838">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pull switch(3)" ID="{1663482C-AD10-4561-BC91-6F9E39FE7C70}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0249213357693869"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0249213357693869"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pull switch(3).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="445383689"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pull switch(3)" ID="{1663482C-AD10-4561-BC91-6F9E39FE7C70}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Light_Switch_Off" ID="{738C1C45-2305-42E4-B04E-FB4A3C8106BB}" ShortID="1009744047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pull switch(2)" ID="{78934816-BDCF-4803-B040-EF48C1331190}" ShortID="1018002031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pull switch(2)" ID="{2FF40899-8DFA-4A16-A744-D9BB0DCACDA2}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.0412933922046285"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0412933922046285"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pull switch(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560262334"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pull switch(2)" ID="{2FF40899-8DFA-4A16-A744-D9BB0DCACDA2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pull switch(4)" ID="{6E44BDC1-5CB5-4194-9BB0-28495F402625}" ShortID="353470599">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pull switch(4)" ID="{8D02C178-0A24-4398-9349-E136769E3028}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0105799330085262"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pull switch(4).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="412113492"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pull switch(4)" ID="{8D02C178-0A24-4398-9349-E136769E3028}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
