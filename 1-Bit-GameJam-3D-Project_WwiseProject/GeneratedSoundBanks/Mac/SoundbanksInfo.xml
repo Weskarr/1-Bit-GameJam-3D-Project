@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{95A4C8F1-3BE8-2CDB-9593-0E52145A2FFD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{97AA291E-4B93-11C5-873D-C53DCC6CB56B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -141,6 +141,10 @@
 				<File Id="256327826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>school locker.wav</ShortName>
 					<CachePath>SFX/school locker_81FA1FE8.wem</CachePath>
+				</File>
+				<File Id="304264542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WINDOW OPENING.wav</ShortName>
+					<CachePath>SFX/WINDOW OPENING_10C4C929.wem</CachePath>
 				</File>
 				<File Id="310800964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TV Old On Off 01.wav</ShortName>
@@ -289,6 +293,10 @@
 				<File Id="759443125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_52_2.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_52_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="761752087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WINDOW OPENING(3).wav</ShortName>
+					<CachePath>SFX/WINDOW OPENING(3)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="763023878" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Toilet Lid Close.wav</ShortName>
@@ -452,38 +460,38 @@
 						<MediaRef Id="685505574"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2531064299" Name="Play_Cabinet_Large_Close" DurationType="OneShot" DurationMin="1.6533333" DurationMax="2.176">
+				<Event Id="2531064299" Name="Play_Cabinet_Large_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.6533333" DurationMax="2.176">
 					<MediaRefs>
 						<MediaRef Id="315886849"/>
 						<MediaRef Id="531886203"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3287628333" Name="Play_Cabinet_Large_Open" DurationType="OneShot" DurationMin="2.1866667" DurationMax="2.1866667">
+				<Event Id="3287628333" Name="Play_Cabinet_Large_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.1866667" DurationMax="2.1866667">
 					<MediaRefs>
 						<MediaRef Id="444089"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2141857383" Name="Play_Cabinet_Small_Close" DurationType="OneShot" DurationMin="0.61866665" DurationMax="0.61866665">
+				<Event Id="2141857383" Name="Play_Cabinet_Small_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.61866665" DurationMax="0.61866665">
 					<MediaRefs>
 						<MediaRef Id="465081962"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3954534161" Name="Play_Cabinet_Small_Open" DurationType="OneShot" DurationMin="1.12" DurationMax="1.12">
+				<Event Id="3954534161" Name="Play_Cabinet_Small_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.12" DurationMax="1.12">
 					<MediaRefs>
 						<MediaRef Id="819368908"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3866338882" Name="Play_Cabinet_Utility_Close" DurationType="OneShot" DurationMin="1.4506667" DurationMax="1.4506667">
+				<Event Id="3866338882" Name="Play_Cabinet_Utility_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.4506667" DurationMax="1.4506667">
 					<MediaRefs>
 						<MediaRef Id="79665570"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3292911894" Name="Play_Cabinet_Utility_Open" DurationType="OneShot" DurationMin="2.3573334" DurationMax="2.3573334">
+				<Event Id="3292911894" Name="Play_Cabinet_Utility_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.3573334" DurationMax="2.3573334">
 					<MediaRefs>
 						<MediaRef Id="37149225"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="115528144" Name="Play_Celing_Light_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="115528144" Name="Play_Celing_Light_Loop" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2292458263" Name="Play_Door_Close" DurationType="OneShot" DurationMin="3.340249" DurationMax="3.4478562">
 					<MediaRefs>
 						<MediaRef Id="29066256"/>
@@ -502,23 +510,23 @@
 						<MediaRef Id="958533742"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2315829540" Name="Play_Drawer_Close" DurationType="OneShot" DurationMin="1.2906667" DurationMax="1.2906667">
+				<Event Id="2315829540" Name="Play_Drawer_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.2906667" DurationMax="1.2906667">
 					<MediaRefs>
 						<MediaRef Id="129015237"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="70222198" Name="Play_Drawer_Close_Empty" DurationType="OneShot" DurationMin="2.88" DurationMax="2.9546666">
+				<Event Id="70222198" Name="Play_Drawer_Close_Empty" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.88" DurationMax="2.9546666">
 					<MediaRefs>
 						<MediaRef Id="842564892"/>
 						<MediaRef Id="855674886"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1958703520" Name="Play_Drawer_Open" DurationType="OneShot" DurationMin="1.088" DurationMax="1.088">
+				<Event Id="1958703520" Name="Play_Drawer_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.088" DurationMax="1.088">
 					<MediaRefs>
 						<MediaRef Id="768322248"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1237346242" Name="Play_Drawer_Open_Empty" DurationType="OneShot" DurationMin="1.248" DurationMax="2.912">
+				<Event Id="1237346242" Name="Play_Drawer_Open_Empty" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.248" DurationMax="2.912">
 					<MediaRefs>
 						<MediaRef Id="352765158"/>
 						<MediaRef Id="573562435"/>
@@ -541,41 +549,41 @@
 						<MediaRef Id="1044731422"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2332875111" Name="Play_Freezer_Door_Close" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.5226667">
+				<Event Id="2332875111" Name="Play_Freezer_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.5226667">
 					<MediaRefs>
 						<MediaRef Id="703608910"/>
 						<MediaRef Id="723691887"/>
 						<MediaRef Id="853215338"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="470009873" Name="Play_Freezer_Door_Open" DurationType="OneShot" DurationMin="0.21333334" DurationMax="2.030816">
+				<Event Id="470009873" Name="Play_Freezer_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.21333334" DurationMax="2.030816">
 					<MediaRefs>
 						<MediaRef Id="311327703"/>
 						<MediaRef Id="583694688"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2637930989" Name="Play_Fridge_Door_Close" DurationType="OneShot" DurationMin="0.85333335" DurationMax="0.98969847">
+				<Event Id="2637930989" Name="Play_Fridge_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.85333335" DurationMax="0.98969847">
 					<MediaRefs>
 						<MediaRef Id="238130164"/>
 						<MediaRef Id="252798503"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="105949735" Name="Play_Fridge_Door_Open" DurationType="OneShot" DurationMin="0.65066665" DurationMax="0.65066665">
+				<Event Id="105949735" Name="Play_Fridge_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.65066665" DurationMax="0.65066665">
 					<MediaRefs>
 						<MediaRef Id="454006259"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2776939461" Name="Play_Fridge_Open_Loop" DurationType="Infinite">
+				<Event Id="2776939461" Name="Play_Fridge_Open_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="876215196"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3308998819" Name="Play_Fusebox_Breaker_Off" DurationType="OneShot" DurationMin="0.95435685" DurationMax="0.95435685">
+				<Event Id="3308998819" Name="Play_Fusebox_Breaker_Off" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.95435685" DurationMax="0.95435685">
 					<MediaRefs>
 						<MediaRef Id="952922977"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="761936719" Name="Play_Fusebox_Breaker_On" DurationType="OneShot" DurationMin="0.95435685" DurationMax="0.95435685">
+				<Event Id="761936719" Name="Play_Fusebox_Breaker_On" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.95435685" DurationMax="0.95435685">
 					<MediaRefs>
 						<MediaRef Id="456848155"/>
 					</MediaRefs>
@@ -587,12 +595,12 @@
 						<MediaRef Id="590605312"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2531764854" Name="Play_Fusebox_Door_Close" DurationType="OneShot" DurationMin="0.40165895" DurationMax="0.40165895">
+				<Event Id="2531764854" Name="Play_Fusebox_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.40165895" DurationMax="0.40165895">
 					<MediaRefs>
 						<MediaRef Id="785178161"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="612620834" Name="Play_Fusebox_Door_Open" DurationType="OneShot" DurationMin="1.9835273" DurationMax="1.9835273">
+				<Event Id="612620834" Name="Play_Fusebox_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.9835273" DurationMax="1.9835273">
 					<MediaRefs>
 						<MediaRef Id="256327826"/>
 					</MediaRefs>
@@ -605,17 +613,17 @@
 						<MediaRef Id="768921192"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4252663551" Name="Play_Oven_Beep" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+				<Event Id="4252663551" Name="Play_Oven_Beep" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
 						<MediaRef Id="233508396"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4217132026" Name="Play_Oven_Door_Close" DurationType="OneShot" DurationMin="1.4673582" DurationMax="1.4673582">
+				<Event Id="4217132026" Name="Play_Oven_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.4673582" DurationMax="1.4673582">
 					<MediaRefs>
 						<MediaRef Id="901250480"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2826556030" Name="Play_Oven_Door_Open" DurationType="OneShot" DurationMin="2.235906" DurationMax="2.235906">
+				<Event Id="2826556030" Name="Play_Oven_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.235906" DurationMax="2.235906">
 					<MediaRefs>
 						<MediaRef Id="6944452"/>
 					</MediaRefs>
@@ -691,32 +699,32 @@
 						<MediaRef Id="773720196"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="2.3100014" DurationMax="2.3100014">
+				<Event Id="4281644042" Name="Play_Shower_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.3100014" DurationMax="2.3100014">
 					<MediaRefs>
 						<MediaRef Id="732695407"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2225339950" Name="Play_Shower_Door_Open" DurationType="OneShot" DurationMin="2.4659147" DurationMax="2.4659147">
+				<Event Id="2225339950" Name="Play_Shower_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.4659147" DurationMax="2.4659147">
 					<MediaRefs>
 						<MediaRef Id="332868805"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3807435137" Name="Play_Shower_Handle" DurationType="OneShot" DurationMin="1.0461458" DurationMax="1.0461458">
+				<Event Id="3807435137" Name="Play_Shower_Handle" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.0461458" DurationMax="1.0461458">
 					<MediaRefs>
 						<MediaRef Id="476508581"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2746477793" Name="Play_Shower_On_Loop" DurationType="Infinite">
+				<Event Id="2746477793" Name="Play_Shower_On_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="610617018"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717324499" Name="Play_Sink_Handles" DurationType="OneShot" DurationMin="0.4751875" DurationMax="0.4751875">
+				<Event Id="717324499" Name="Play_Sink_Handles" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.4751875" DurationMax="0.4751875">
 					<MediaRefs>
 						<MediaRef Id="893809297"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3721638250" Name="Play_Sink_On_Loop" DurationType="Infinite">
+				<Event Id="3721638250" Name="Play_Sink_On_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="723430980"/>
 					</MediaRefs>
@@ -726,22 +734,22 @@
 						<MediaRef Id="22674253"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3111854812" Name="Play_Standing_Light_Loop" DurationType="Infinite">
+				<Event Id="3111854812" Name="Play_Standing_Light_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="989522928"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3094035634" Name="Play_Toilet_Flush" DurationType="OneShot" DurationMin="5.8024583" DurationMax="5.8024583">
+				<Event Id="3094035634" Name="Play_Toilet_Flush" MaxAttenuation="8" DurationType="OneShot" DurationMin="5.8024583" DurationMax="5.8024583">
 					<MediaRefs>
 						<MediaRef Id="757925668"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4125304698" Name="Play_Toilet_Lid_Close" DurationType="OneShot" DurationMin="0.470375" DurationMax="0.470375">
+				<Event Id="4125304698" Name="Play_Toilet_Lid_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.470375" DurationMax="0.470375">
 					<MediaRefs>
 						<MediaRef Id="763023878"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2320097534" Name="Play_Toilet_Lid_Open" DurationType="OneShot" DurationMin="0.94945836" DurationMax="0.94945836">
+				<Event Id="2320097534" Name="Play_Toilet_Lid_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.94945836" DurationMax="0.94945836">
 					<MediaRefs>
 						<MediaRef Id="870598308"/>
 					</MediaRefs>
@@ -751,27 +759,27 @@
 						<MediaRef Id="889354461"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="304768047" Name="Play_Trash_Lid_Close" DurationType="OneShot" DurationMin="0.5368958" DurationMax="0.5368958">
+				<Event Id="304768047" Name="Play_Trash_Lid_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.5368958" DurationMax="0.5368958">
 					<MediaRefs>
 						<MediaRef Id="661571054"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2352193513" Name="Play_Trash_Lid_Open" DurationType="OneShot" DurationMin="1.8953959" DurationMax="1.8953959">
+				<Event Id="2352193513" Name="Play_Trash_Lid_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.8953959" DurationMax="1.8953959">
 					<MediaRefs>
 						<MediaRef Id="926442810"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2754573889" Name="Play_TV_Loop" DurationType="Infinite">
+				<Event Id="2754573889" Name="Play_TV_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="906693199"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717201584" Name="Play_TV_Power_Off" DurationType="OneShot" DurationMin="1.2937266" DurationMax="1.2937266">
+				<Event Id="717201584" Name="Play_TV_Power_Off" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.2937266" DurationMax="1.2937266">
 					<MediaRefs>
 						<MediaRef Id="965341472"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="422001050" Name="Play_TV_Power_On" DurationType="OneShot" DurationMin="2.0079665" DurationMax="2.0079665">
+				<Event Id="422001050" Name="Play_TV_Power_On" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.0079665" DurationMax="2.0079665">
 					<MediaRefs>
 						<MediaRef Id="310800964"/>
 					</MediaRefs>
@@ -781,27 +789,37 @@
 						<MediaRef Id="698292043"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="969296927" Name="Play_Wash_Door_Close" DurationType="OneShot" DurationMin="1.1455601" DurationMax="1.1455601">
+				<Event Id="969296927" Name="Play_Wash_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="1.1455601" DurationMax="1.1455601">
 					<MediaRefs>
 						<MediaRef Id="441456926"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="465373113" Name="Play_Wash_Door_Open" DurationType="OneShot" DurationMin="0.8690456" DurationMax="0.8690456">
+				<Event Id="465373113" Name="Play_Wash_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.8690456" DurationMax="0.8690456">
 					<MediaRefs>
 						<MediaRef Id="148774718"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="140088172" Name="Play_Wash_Machine_Knob" DurationType="OneShot" DurationMin="0.83435684" DurationMax="0.83435684">
+				<Event Id="140088172" Name="Play_Wash_Machine_Knob" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.83435684" DurationMax="0.83435684">
 					<MediaRefs>
 						<MediaRef Id="914824857"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3797716684" Name="Play_Window_Close_Loop" DurationType="Infinite">
+				<Event Id="4244658871" Name="Play_Window_Close" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.6745" DurationMax="0.6745">
+					<MediaRefs>
+						<MediaRef Id="761752087"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3797716684" Name="Play_Window_Close_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="515508150"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4291075070" Name="Play_Window_Open_Loop" DurationType="Infinite">
+				<Event Id="4135004417" Name="Play_Window_Open" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.68916667" DurationMax="0.68916667">
+					<MediaRefs>
+						<MediaRef Id="304264542"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4291075070" Name="Play_Window_Open_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="485154323"/>
 					</MediaRefs>
@@ -817,5 +835,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7E9A2052-DA03-36B9-79B8-F63B6D8B0D4A}</FileHash>
+	<FileHash>{1A3BA553-8A3D-B8CD-5226-B0DA185D29A6}</FileHash>
 </SoundBanksInfo>

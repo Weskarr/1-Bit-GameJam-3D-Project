@@ -10,6 +10,7 @@
 						<ObjectRef Name="Play_Sink_On_Loop" ID="{6FB6064F-722F-4096-80E4-7EC94844AB79}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_On_Loop" ID="{2A7BAA25-D7D2-40AC-97C2-249577C64961}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Handle" ID="{EA075894-F8DC-40EF-BC78-D288A41B0727}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Window_Close" ID="{81675F03-E879-4148-8FEC-13ADF12AF599}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shower" ID="{F0BB8002-61BB-414F-AFCD-31FC483F1968}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Oven_Beep" ID="{A3F0A193-7707-4186-A6FD-F451CE2815E5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{8DF23741-B92C-41A1-AFFE-3AD4609EE37E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -42,6 +43,7 @@
 						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shepard_Tone_Mass_X2" ID="{E477E01A-8943-4A21-A3F4-A35A191D691A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickups" ID="{34789DE9-6A1B-4B56-9919-BCAA9122B00C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Window_Open" ID="{464B9C48-8861-4B8A-A8CE-7DAE0833AE51}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Drunk" ID="{EBB180D3-A5FF-4BDB-82A5-169C60B39929}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>

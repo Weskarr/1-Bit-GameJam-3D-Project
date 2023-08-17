@@ -79,7 +79,9 @@ namespace AK
         static const AkUniqueID PLAY_WASH_DOOR_CLOSE = 969296927U;
         static const AkUniqueID PLAY_WASH_DOOR_OPEN = 465373113U;
         static const AkUniqueID PLAY_WASH_MACHINE_KNOB = 140088172U;
+        static const AkUniqueID PLAY_WINDOW_CLOSE = 4244658871U;
         static const AkUniqueID PLAY_WINDOW_CLOSE_LOOP = 3797716684U;
+        static const AkUniqueID PLAY_WINDOW_OPEN = 4135004417U;
         static const AkUniqueID PLAY_WINDOW_OPEN_LOOP = 4291075070U;
         static const AkUniqueID STOP_1_BIT_JAM_MENU_MX_V2_LOOP = 2188479622U;
         static const AkUniqueID STOP_ALL = 452547817U;

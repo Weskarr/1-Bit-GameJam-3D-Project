@@ -1370,11 +1370,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &73429274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1575,11 +1575,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &89416259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5131,6 +5131,7 @@ MonoBehaviour:
   livingFourWindowOpen: 0
   bedroomWindowOpen: 0
   bathroomWindowOpen: 0
+  windowsToOpen: []
   aLightIsOff: 0
   utilityLightIsOn: 0
   bedroomLightIsOn: 0
@@ -5140,6 +5141,8 @@ MonoBehaviour:
   livingLightIsOn: 0
   hallwayLightIsOn: 0
   enteringWindow: 0
+  openingWindows: 0
+  AnyoneOnPlayField: 0
   childAtPlay: 0
   drunkAtPlay: 0
   stalkerAtPlay: 0
@@ -8465,11 +8468,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &512159644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9967,11 +9970,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &570548736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10022,11 +10025,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &586406178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18121,11 +18124,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &954543088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22211,6 +22214,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -33219,11 +33223,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 0ed065249b813dc4783c203ddb94ec91, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 106dc630db1174f778fb1949cf875723, type: 2}
 --- !u!65 &1989755931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36742,14 +36746,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!1 &2697338963432926701
 GameObject:
   m_ObjectHideFlags: 0
@@ -37462,14 +37467,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!4 &6241186932561859246
 Transform:
   m_ObjectHideFlags: 0
@@ -37641,14 +37647,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!23 &7065800529054344989
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37957,7 +37964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myMasterMind: {fileID: 294635148}
-  windowIdentity: 7
+  windowIdentity: 6
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: 0.5, z: 0}
   rotate: 0
@@ -37966,14 +37973,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!33 &8447825818512784174
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -38033,14 +38041,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!23 &8542160113744530080
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38126,14 +38135,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!33 &8800647192804887386
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -38227,14 +38237,15 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  close: 1
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 8dad49b8a2ebf4b8e9466ace790a6811, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

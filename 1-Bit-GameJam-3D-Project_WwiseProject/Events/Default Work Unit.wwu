@@ -883,6 +883,32 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Window" ID="{B43F4498-E4DD-4212-8D1B-6C8487F3645D}" ShortID="887056645">
+									<ChildrenList>
+										<Event Name="Play_Window_Close" ID="{81675F03-E879-4148-8FEC-13ADF12AF599}">
+											<ChildrenList>
+												<Action Name="" ID="{42F420EC-7B87-4D01-9D9A-4FEA870F600B}" ShortID="695913426">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Window_Close" ID="{18A19419-D157-4310-AB75-A3A30FAE3EF8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Window_Open" ID="{464B9C48-8861-4B8A-A8CE-7DAE0833AE51}">
+											<ChildrenList>
+												<Action Name="" ID="{75984BB4-F8D9-450A-9AFB-12CA7D11088E}" ShortID="517730917">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Window_Open" ID="{CFFB8B47-26A4-458C-8C5D-6D24B1D44841}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" ShortID="861757817">

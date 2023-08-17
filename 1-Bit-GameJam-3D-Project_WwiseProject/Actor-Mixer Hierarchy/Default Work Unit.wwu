@@ -472,7 +472,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Celing_Light_Loop" ID="{B74CEBC0-80E5-4429-A5BA-F4750449DEEB}" ShortID="1036763041">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 										</Reference>
@@ -484,7 +490,13 @@
 								<Folder Name="Window" ID="{0F5E0274-F25A-43EC-A3C4-387FB5862582}" ShortID="963950234">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Window_Open_Loop" ID="{65A3CB05-5703-459D-8589-531812560C24}" ShortID="71865187">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -521,7 +533,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Window_Close_Loop" ID="{996B8439-6D6A-4FFB-A28B-BDDF7E0FD647}" ShortID="832053005">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -744,7 +762,13 @@
 										<Folder Name="Cabinet_Utility" ID="{C1746C88-40FB-4F46-AEA5-BC16E347D64F}" ShortID="356178134">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Cabinet_Utility_Open" ID="{60A67081-2105-4EFF-8C46-DC43445E91A1}" ShortID="889381554">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -778,7 +802,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Utility_Close" ID="{576BBA0F-7029-4337-A558-7F65305C0EAC}" ShortID="636113733">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -816,7 +846,13 @@
 										<Folder Name="Cabinet_Large" ID="{F6E22304-46B2-463B-AAC8-B5CAC71890F1}" ShortID="35233286">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Cabinet_Large_Open" ID="{3F090305-0C28-4BFF-B515-C5DDD2C90FFA}" ShortID="989531053">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -850,7 +886,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Large_Close" ID="{C2191B8A-4EB4-4B47-997D-17965824AEBE}" ShortID="522626385">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -910,7 +952,13 @@
 										<Folder Name="Cabinet_Small" ID="{E32542AF-2387-4C79-BAE8-854E2FF7A174}" ShortID="900285059">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Cabinet_Small_Open" ID="{7F375591-0F9D-4747-831C-2CCB5129A64F}" ShortID="818928365">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -944,7 +992,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Cabinet_Small_Close" ID="{9C56EF11-784F-4170-BB1D-EB63636EAD0F}" ShortID="253366176">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -986,7 +1040,13 @@
 										<Folder Name="Empty" ID="{C98AB14A-87F0-495E-BA66-07AE424141EB}" ShortID="423806137">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Drawer_Open_Empty" ID="{637B5110-B11F-478D-9736-DD524CC97AB4}" ShortID="979444676">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1064,7 +1124,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Drawer_Close_Empty" ID="{FAA6A588-7F7E-4F57-A94A-D1A1F1EF9F3E}" ShortID="98722821">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1124,7 +1190,13 @@
 										<Folder Name="Item" ID="{BA7430CD-6BDE-4D8B-BDAF-F4FA45A2F0BF}" ShortID="449157924">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Drawer_Open" ID="{27C1C8FA-3CCC-4502-8917-01DFF3F58748}" ShortID="504432556">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1158,7 +1230,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Drawer_Close" ID="{AA99E538-848D-4255-B07E-8ECD22B5F889}" ShortID="1016321825">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1198,7 +1276,13 @@
 								<Folder Name="Standing Light" ID="{BFE6A397-33BE-41EB-889C-3B0716815336}" ShortID="442739303">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Standing_Light_Loop" ID="{5C12F324-27C0-4FCD-B55E-CFC1C7F97EB5}" ShortID="629245722">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1638,7 +1722,13 @@
 								<Folder Name="Sink" ID="{006DE1FF-7C67-48B6-AA61-37B9CFD0EA1C}" ShortID="37605564">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Sink_On_Loop" ID="{700E62DC-602A-41C0-AC65-EBFD814928B7}" ShortID="576123120">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1682,7 +1772,13 @@
 										<Folder Name="Handles" ID="{67DD3313-A49D-4F59-87C8-10083F493488}" ShortID="1026354380">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Sink_Handles" ID="{BA1C09BA-7D44-4B16-8684-4A4F52237A8B}" ShortID="923110956">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1718,7 +1814,13 @@
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="Sink_Drip_Loop" ID="{CCBA8FEA-9E15-4492-812B-66EAE74AE90C}" ShortID="104024390">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1761,7 +1863,13 @@
 										<Folder Name="Fridge Door" ID="{7BFA5704-D9BE-4A54-AF16-1D8A369F64AC}" ShortID="504741392">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Fridge_Door_Open" ID="{32548D11-1EF3-42B9-8117-F08E27603117}" ShortID="855984490">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1795,7 +1903,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fridge_Door_Close" ID="{AAAEF5C1-6B13-426D-A3DB-AAED61A287B8}" ShortID="233446533">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1860,7 +1974,13 @@
 										<Folder Name="Freezer Door" ID="{F7948780-6E45-4439-A3F3-F375BB09B6AC}" ShortID="35276304">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Freezer_Door_Open" ID="{6839D568-A3A2-4434-9972-0B8D23439153}" ShortID="32455102">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -1920,7 +2040,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Freezer_Door_Close" ID="{05F22250-52FF-49B4-90F0-B32358DB08A6}" ShortID="580636160">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2000,7 +2126,13 @@
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="Fridge_Open_Loop" ID="{F811D1DC-0E57-4E3F-999F-5CDC6932001C}" ShortID="1004733668">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -2048,7 +2180,13 @@
 										<Folder Name="Oven Buttons" ID="{66CD9009-851E-400D-9BF2-1B4BC7E0F12D}" ShortID="103447922">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Oven_Beep" ID="{7A82F4F6-2A64-4BFC-B2F9-C0F722A2B531}" ShortID="25738000">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2091,7 +2229,13 @@
 										<Folder Name="Oven Door" ID="{1407AD3F-0FD7-463F-8447-B0EAF8E59F70}" ShortID="113353979">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Oven_Door_Open" ID="{66514F34-87E3-43BF-9939-D73727ECCFB7}" ShortID="180669554">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2130,7 +2274,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Oven_Door_Close" ID="{95AE4B1B-2E81-465D-A44B-0470E637B43A}" ShortID="377429585">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2177,7 +2327,13 @@
 										<Folder Name="Lid" ID="{601B03C9-F5C6-4A98-A8A0-7F32DA8025C9}" ShortID="951856274">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Trash_Lid_Close" ID="{4BA04100-A069-4932-8BEE-FBFBAF739D85}" ShortID="516153769">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2211,7 +2367,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Trash_Lid_Open" ID="{33E59164-2E29-43D7-AF4C-D3A80F6FA71B}" ShortID="617474452">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2287,7 +2449,13 @@
 										<Folder Name="Door" ID="{7078753B-7261-4C18-AF1C-885E01464359}" ShortID="676757007">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Shower_Door_Close" ID="{6939C568-3257-4CBD-BB85-CB133CBDAB79}" ShortID="558926728">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2326,7 +2494,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Shower_Door_Open" ID="{5BC3D36D-5138-497B-B30A-B643A98CFD24}" ShortID="391272460">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2367,7 +2541,13 @@
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="Shower_On_Loop" ID="{9A9AF18D-9CD5-48C3-A5AB-FDD8B708B6A9}" ShortID="126582611">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -2406,7 +2586,13 @@
 										<Folder Name="Handles" ID="{093DF143-9F0C-4F86-9430-4A65C55763E9}" ShortID="724727426">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Shower_Handle" ID="{C88B57FE-248E-4DAF-A8EB-5A23A8EAC1CD}" ShortID="906978930">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2448,7 +2634,13 @@
 										<Folder Name="Lid" ID="{B6BEF27F-ED45-4D47-BFB9-7FBCCA7F9AC8}" ShortID="947334252">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Toilet_Lid_Open" ID="{97BCD67E-33D0-49FB-86BE-54A49511889C}" ShortID="659109193">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2483,6 +2675,7 @@
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Toilet_Lid_Close" ID="{AC08E356-909E-4167-BC40-AC4815108D84}" ShortID="622069817">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-11</Value>
@@ -2490,6 +2683,9 @@
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2525,7 +2721,13 @@
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="Toilet_Flush" ID="{C790318D-750E-42D8-A84B-35BB075A07BA}" ShortID="430745232">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -2645,7 +2847,13 @@
 								<Folder Name="Wash Machine" ID="{7F23C4DF-B443-4C02-8679-37C13A9A6F51}" ShortID="962359215">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Wash_Machine_Knob" ID="{167EEB07-B84B-4568-B5F5-FE1DE36B08AF}" ShortID="458325003">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -2686,7 +2894,13 @@
 										<Folder Name="Wash Door" ID="{7819FFF5-80AF-430B-B4B7-9BCF4292A787}" ShortID="632228135">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Wash_Door_Open" ID="{AFBA8B6E-839B-4440-A49C-1DCEBD7690FA}" ShortID="290238761">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2725,7 +2939,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Wash_Door_Close" ID="{836990BE-B3D8-4F6A-9F81-08F5B0566251}" ShortID="767458787">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2772,7 +2992,13 @@
 										<Folder Name="Breaker" ID="{5EA0FE78-86B7-4E17-A4CB-520DEE86B77B}" ShortID="233527938">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Fusebox_Breaker_On" ID="{4340231B-1026-4CF4-93FA-8AE5DB93F88F}" ShortID="767982269">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2811,7 +3037,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fusebox_Breaker_Off" ID="{4A1DF9A0-F50D-4B41-BDD0-4286CE4252B7}" ShortID="968692544">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2950,7 +3182,13 @@
 										<Folder Name="Door" ID="{2F81566B-E9ED-40E5-B927-C6775F673F28}" ShortID="320659715">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Fusebox_Door_Open" ID="{9E48CC45-0543-4BA3-9D62-CF633A12B2D0}" ShortID="496310449">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -2990,7 +3228,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fusebox_Door_Close" ID="{8EED78E2-3AB8-42D1-9296-38F2D8F7AA97}" ShortID="458956863">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -3035,7 +3279,13 @@
 										<Folder Name="Fuse" ID="{E32C6106-2B60-4E44-84CA-DA5525DC15B4}" ShortID="171428593">
 											<ChildrenList>
 												<RandomSequenceContainer Name="Fuse_On" ID="{D11138AA-FD30-41FE-ACE6-9BB1DE50020F}" ShortID="399957786">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -3075,7 +3325,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Fuse_Off" ID="{A815E82C-2E6E-46EB-81D7-884DC7FE4FF1}" ShortID="619749544">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -3123,7 +3379,13 @@
 										<Folder Name="Power" ID="{C087B5E2-F2E6-489D-84EE-1C51D5F45AC8}" ShortID="46129017">
 											<ChildrenList>
 												<RandomSequenceContainer Name="TV_Power_On" ID="{4C7C0170-4A8F-4BD3-8BEB-08C3557FB47E}" ShortID="361226950">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -3162,7 +3424,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="TV_Power_Off" ID="{8662FD96-5A82-421E-994D-9032264E5694}" ShortID="914698115">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
@@ -3204,7 +3472,13 @@
 											</ChildrenList>
 										</Folder>
 										<RandomSequenceContainer Name="TV_Loop" ID="{11A08FB4-25AA-4042-9191-5821C46D213C}" ShortID="911362869">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -3485,6 +3759,90 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Window" ID="{0473AB09-7DF2-4243-9D84-F5AADEC680C5}" ShortID="602558693">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Window_Open" ID="{CFFB8B47-26A4-458C-8C5D-6D24B1D44841}" ShortID="576316092">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Window" ID="{239A8DC0-9B29-407C-9CD0-0CF424BF4C3A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WINDOW OPENING" ID="{350B73E4-B146-4C3D-BDC9-B3E7ADD04D76}" ShortID="631877831">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WINDOW OPENING" ID="{00F109A1-11E0-441C-B1A3-D443580A115D}">
+															<Language>SFX</Language>
+															<AudioFile>WINDOW OPENING.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304264542"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="WINDOW OPENING" ID="{00F109A1-11E0-441C-B1A3-D443580A115D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Window_Close" ID="{18A19419-D157-4310-AB75-A3A30FAE3EF8}" ShortID="925740566">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Window" ID="{239A8DC0-9B29-407C-9CD0-0CF424BF4C3A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="WINDOW OPENING(3)" ID="{1A463C58-4E3F-4585-8BB4-1ACD7AAF5026}" ShortID="327231814">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="WINDOW OPENING(3)" ID="{F4C3C9AB-9F12-43EE-A785-BB1460876E92}">
+															<Language>SFX</Language>
+															<AudioFile>WINDOW OPENING(3).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="761752087"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="WINDOW OPENING(3)" ID="{F4C3C9AB-9F12-43EE-A785-BB1460876E92}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
