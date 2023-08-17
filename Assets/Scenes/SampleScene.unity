@@ -30693,13 +30693,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fuses: 
   breakers:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 73429273}
+  - {fileID: 954543087}
+  - {fileID: 512159643}
+  - {fileID: 570548735}
+  - {fileID: 1989755930}
+  - {fileID: 89416258}
+  - {fileID: 586406177}
 --- !u!1 &1794046403
 GameObject:
   m_ObjectHideFlags: 0
@@ -36034,6 +36034,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 294635147}
     m_Modifications:
+    - target: {fileID: 310410013572944525, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     - target: {fileID: 1599599829142071439, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
       propertyPath: m_Name
       value: Charachter_Granny_V1_(MaximoRig)
@@ -36086,6 +36090,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4522753152196432010, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36343,8 +36351,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5492898656950244331, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5495181367966657500, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36864,6 +36876,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 6590276292650574442, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     - target: {fileID: 7322598995966085536, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
       propertyPath: m_Name
       value: Charachter_Stalker_V1
@@ -37104,6 +37120,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 294635147}
     m_Modifications:
+    - target: {fileID: 1240449696994198967, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       propertyPath: target
       value: 
@@ -37154,7 +37174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6387135334338732149, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37462,6 +37482,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 9085837503705952634, guid: 857746246dec1a1439daa25f227f7121, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d330b72faf7f7394da6ac661f96dc4c7, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

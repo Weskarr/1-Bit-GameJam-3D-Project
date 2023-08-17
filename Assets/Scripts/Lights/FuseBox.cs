@@ -24,14 +24,14 @@ public class FuseBox : MonoBehaviour
     {
         foreach (var breaker in breakers)
         {
-            breaker.closePower();
+            breaker.BreakerIsOut();
         }
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
+        turnAllPowerOff();
     }
 
     // Update is called once per frame

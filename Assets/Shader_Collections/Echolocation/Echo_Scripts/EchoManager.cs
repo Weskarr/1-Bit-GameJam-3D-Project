@@ -103,11 +103,11 @@ public class EchoManager : MonoBehaviour
         {
             if (_lightsOff == true)
             {
-                LightsOn();
+                //LightsOn();
             }
             else
             {
-                LightsOff();
+                //LightsOff();
             }
         }
 
@@ -123,7 +123,7 @@ public class EchoManager : MonoBehaviour
 
     public void StartEcho() {
         ResetEcho();
-        //StartCoroutine(EchoExpansion());
+        StartCoroutine(EchoExpansion());
     }
 
     private void ResetEcho()

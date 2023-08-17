@@ -80,6 +80,16 @@ public class Breaker : MonoBehaviour, Interactable
         }
     }
 
+    public void BreakerIsOut()
+    {
+        if (close && !moving)
+        {
+            openSound.Post(gameObject);
+        }
+        close = !close;
+        moving = true;
+    }
+
     public void Interact()
     {
         if (close && !moving)
