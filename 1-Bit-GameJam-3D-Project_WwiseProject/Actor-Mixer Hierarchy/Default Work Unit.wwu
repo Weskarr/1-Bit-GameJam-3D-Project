@@ -32,7 +32,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-20</Value>
+														<Value>-28</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>

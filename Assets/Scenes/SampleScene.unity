@@ -6151,7 +6151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8441710237708190193, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       propertyPath: footstepDuration
-      value: 800
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 8441710237708190193, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       propertyPath: myFootstep.WwiseObjectReference
