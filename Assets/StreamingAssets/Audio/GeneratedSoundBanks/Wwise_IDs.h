@@ -45,6 +45,9 @@ namespace AK
         static const AkUniqueID PLAY_FUSEBOX_DOOR_CLOSE = 2531764854U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_OPEN = 612620834U;
         static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
+        static const AkUniqueID PLAY_OVEN_BEEP = 4252663551U;
+        static const AkUniqueID PLAY_OVEN_DOOR_CLOSE = 4217132026U;
+        static const AkUniqueID PLAY_OVEN_DOOR_OPEN = 2826556030U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_PILLS_PICKUP = 1625998593U;
         static const AkUniqueID PLAY_PLAYER_ECHO = 59459483U;

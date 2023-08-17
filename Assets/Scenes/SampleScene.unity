@@ -5812,11 +5812,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c2b7f92177a36254eacdd2c1a330bc4c, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 60f88668f8d35c24392529f3d02f95ec, type: 2}
 --- !u!65 &333751697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21651,11 +21651,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c2b7f92177a36254eacdd2c1a330bc4c, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 60f88668f8d35c24392529f3d02f95ec, type: 2}
 --- !u!1001 &1141990582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32930,11 +32930,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c2b7f92177a36254eacdd2c1a330bc4c, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 60f88668f8d35c24392529f3d02f95ec, type: 2}
 --- !u!65 &1952029468
 BoxCollider:
   m_ObjectHideFlags: 0
