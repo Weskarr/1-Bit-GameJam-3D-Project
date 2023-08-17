@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AFD2D11A-7F32-175F-F9DF-6D91E459DA27}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{57916A44-5630-38F4-81D8-C8489AE7BB0F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -23,6 +23,7 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="1572913279" Name="RoomVerb">
@@ -41,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6CEB0C13-8D42-5BB5-CC7A-C62A94C1F88A}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5EAAC4C7-A51F-723B-6A32-90B23AC3BFF6}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -60,6 +61,10 @@
 				<File Id="37149225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_3.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="60449373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Mass X Wave.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Mass X Wave_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="69290928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_04.wav</ShortName>
@@ -165,6 +170,10 @@
 					<ShortName>Utility room front(2).wav</ShortName>
 					<CachePath>SFX/Utility room front(2)_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="702605518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1_Bit_Jam_Menu_MX_v2_LOOP.wav</ShortName>
+					<CachePath>SFX/1_Bit_Jam_Menu_MX_v2_LOOP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="703608910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_49_2_10C4C929.wem</CachePath>
@@ -188,6 +197,10 @@
 				<File Id="768322248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_53_1.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_53_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773720196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Sine Wave.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Sine Wave_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="819368908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_4.wav</ShortName>
@@ -261,6 +274,10 @@
 					<ShortName>75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up.wav</ShortName>
 					<CachePath>SFX/75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up_C486E955.wem</CachePath>
 				</File>
+				<File Id="1070144266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Mass X2.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Mass X2_D79FB2B7.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<Custom>
@@ -285,6 +302,11 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="2894561040" Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="702605518"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="112068193"/>
@@ -465,6 +487,21 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="859694722" Name="Play_Shepard_Tone_Mass_X2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1070144266"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="147896324" Name="Play_Shepard_Tone_Mass_X_Wave" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="60449373"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3835412270" Name="Play_Shepard_Tone_Sine_Wave" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="773720196"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<PluginRefs>
 						<Custom>
@@ -607,9 +644,14 @@
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="2188479622" Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3138979112" Name="Stop_Shepard_Tone_Mass_X2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="887930354" Name="Stop_Shepard_Tone_Mass_X_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3279282928" Name="Stop_Shepard_Tone_Sine_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{58A681D8-0A4F-3287-CD44-C0014AE814C5}</FileHash>
+	<FileHash>{4CD534B5-0C13-FBEE-064E-B4DC32AD327B}</FileHash>
 </SoundBanksInfo>

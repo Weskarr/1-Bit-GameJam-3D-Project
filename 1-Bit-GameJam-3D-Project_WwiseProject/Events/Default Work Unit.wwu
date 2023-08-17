@@ -733,6 +733,139 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{2AF88182-DF7C-4D00-AD79-8AE25294ACF1}" ShortID="612397547">
+					<ChildrenList>
+						<Folder Name="Main Menu" ID="{C3216494-7EE8-475D-B3AA-382E45ABD174}" ShortID="894240998">
+							<ChildrenList>
+								<Event Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{4C4A41DD-3701-4E82-9089-4759DAE34CCB}">
+									<ChildrenList>
+										<Action Name="" ID="{0B371D5D-5548-4405-8DA3-F1BEC724455F}" ShortID="362004105">
+											<PropertyList>
+												<Property Name="FadeInCurve" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="1_Bit_Jam_Menu_MX_v2_LOOP" ID="{04C40E8A-39B0-412D-85B6-1603EC3B4A65}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{8DF23741-B92C-41A1-AFFE-3AD4609EE37E}">
+									<ChildrenList>
+										<Action Name="" ID="{CEE673F7-CF9F-4BB6-B786-BE8189BAD6FB}" ShortID="143586352">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="1_Bit_Jam_Menu_MX_v2_LOOP" ID="{163A10B2-828D-4082-83BE-9795FB6E7AF1}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Shepard Tone" ID="{C3230713-E0A4-4436-A300-11AB43DBE077}" ShortID="579983755">
+							<ChildrenList>
+								<Event Name="Play_Shepard_Tone_Sine_Wave" ID="{89A68333-4C18-4830-99FC-9519C60FAB58}">
+									<ChildrenList>
+										<Action Name="" ID="{A9A947FB-BA8B-4D7F-93EA-59B25A7165A5}" ShortID="1034308496">
+											<PropertyList>
+												<Property Name="FadeTime" Type="Real64" Value="5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Sine Wave" ID="{541B4F56-BE59-4914-B493-4206EFFF9B14}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Shepard_Tone_Mass_X2" ID="{E477E01A-8943-4A21-A3F4-A35A191D691A}">
+									<ChildrenList>
+										<Action Name="" ID="{8D85BCD8-830E-4438-A128-6CBFC6571353}" ShortID="452986298">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Mass X2" ID="{92C08705-DD28-490E-823A-CE0870C90335}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Shepard_Tone_Mass_X_Wave" ID="{5F6A1F0D-18A6-4E90-8DDE-12E7C87E2610}">
+									<ChildrenList>
+										<Action Name="" ID="{6FFAB751-0650-4111-86C0-3A3981135516}" ShortID="993374679">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Mass X Wave" ID="{F5A02FC1-42E9-4AD4-86E9-C5258D4FD152}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Shepard_Tone_Mass_X2" ID="{E7A0E06F-BA56-42A5-936A-9492DE691053}">
+									<ChildrenList>
+										<Action Name="" ID="{8FAFA958-EDC3-49BC-9CA8-95FD532A894B}" ShortID="343187880">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Mass X2" ID="{92C08705-DD28-490E-823A-CE0870C90335}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Shepard_Tone_Mass_X_Wave" ID="{12CB7F40-0568-44B1-BE0E-E9F922436EC7}">
+									<ChildrenList>
+										<Action Name="" ID="{F2AE5CD7-1686-45AD-8988-F172A3A56D27}" ShortID="402709278">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Mass X Wave" ID="{F5A02FC1-42E9-4AD4-86E9-C5258D4FD152}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Shepard_Tone_Sine_Wave" ID="{ADB58FFA-04C8-4239-A685-881A0813F938}">
+									<ChildrenList>
+										<Action Name="" ID="{47027347-AFBF-4E4B-BF7F-904C05AA0399}" ShortID="1019012159">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shepard Tone_Sine Wave" ID="{541B4F56-BE59-4914-B493-4206EFFF9B14}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_All" ID="{EF750A0F-B360-4ED3-9EFA-710BE332851A}">
+					<ChildrenList>
+						<Action Name="" ID="{421A1912-E3DD-4E9B-B9A0-9B552B187E2C}" ShortID="951368547">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

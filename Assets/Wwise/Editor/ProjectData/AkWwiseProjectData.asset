@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585093783404137076
+    m_lastTime: -8585093531316643074
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Music
+      guid: de80f3da755c0b4db6306c80924bef98
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cf62697036e8b149a875548d00e4c73f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: de80f3da755c0b4db6306c80924bef98
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
     - name: RoomVerb
       guid: e80c11045a13e9469746020250676988
       id: 1572913279
@@ -83,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585093757201049216
+    m_lastTime: -8585093510897519317
     List:
     - name: Main
       guid: 54d4f9dc25ce224191c47a456574d436
@@ -111,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585094433458699160
+    m_lastTime: -8585093512878709822
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -672,6 +689,66 @@ MonoBehaviour:
         ObjectType: 4
         guid: b915921985834642be1f43356755e89a
       Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Main Menu
+      guid: 946421c3e87e5d47b3aa382e45abd174
+      id: 1026774399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: 946421c3e87e5d47b3aa382e45abd174
+      Path: Events/Default Work Unit/Music/Main Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 8281f82a7cdf004dad798ae25294acf1
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      Path: Events/Default Work Unit/Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_1_Bit_Jam_Menu_MX_v2_LOOP
+      guid: dd414a4c0137824e90894759dae34ccb
+      id: 2894561040
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: 946421c3e87e5d47b3aa382e45abd174
+      - ElementName: Play_1_Bit_Jam_Menu_MX_v2_LOOP
+        ObjectType: 3
+        guid: dd414a4c0137824e90894759dae34ccb
+      Path: Events/Default Work Unit/Music/Main Menu/Play_1_Bit_Jam_Menu_MX_v2_LOOP
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1468,6 +1545,75 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.57767636
       minDuration: 0.19069281
+    - name: Play_Shepard_Tone_Mass_X_Wave
+      guid: 0d1f6a5fa618904e8dde12e7c87e2610
+      id: 147896324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Play_Shepard_Tone_Mass_X_Wave
+        ObjectType: 3
+        guid: 0d1f6a5fa618904e8dde12e7c87e2610
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X_Wave
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Shepard_Tone_Mass_X2
+      guid: 1ae077e44389214aa3f4a35a191d691a
+      id: 859694722
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Play_Shepard_Tone_Mass_X2
+        ObjectType: 3
+        guid: 1ae077e44389214aa3f4a35a191d691a
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Shepard_Tone_Sine_Wave
+      guid: 3383a689184c304899fc9519c60fab58
+      id: 3835412270
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Play_Shepard_Tone_Sine_Wave
+        ObjectType: 3
+        guid: 3383a689184c304899fc9519c60fab58
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Sine_Wave
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Shower_Door_Close
       guid: 3c48220e2631ea4d8b528492e190bd64
       id: 4281644042
@@ -1964,8 +2110,8 @@ MonoBehaviour:
         guid: e8d8db6d7b604b4db977d9895bc9fa0f
       Path: Events/Default Work Unit/World/Ambience/Rooms/Play_Utility_Room_Loop
       maxAttenuation: 4
-      maxDuration: 1
-      minDuration: 1
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Wash_Door_Close
       guid: 979e645d9089fb4e8bc03912739be87a
       id: 969296927
@@ -2171,6 +2317,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Shepard Tone
+      guid: 130723c3a4e03644a30011ab43dbe077
+      id: 2534065030
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      Path: Events/Default Work Unit/Music/Shepard Tone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Shower
       guid: 0280bbf0bb614f41afcd31fc483f1968
       id: 1653220935
@@ -2263,6 +2429,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_1_Bit_Jam_Menu_MX_v2_LOOP
+      guid: 4137f28d2cb9a141affe3ad4609ee37e
+      id: 2188479622
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Main Menu
+        ObjectType: 4
+        guid: 946421c3e87e5d47b3aa382e45abd174
+      - ElementName: Stop_1_Bit_Jam_Menu_MX_v2_LOOP
+        ObjectType: 3
+        guid: 4137f28d2cb9a141affe3ad4609ee37e
+      Path: Events/Default Work Unit/Music/Main Menu/Stop_1_Bit_Jam_Menu_MX_v2_LOOP
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_All
+      guid: 0f0a75ef60b3d34e9efa710be332851a
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 0f0a75ef60b3d34e9efa710be332851a
+      Path: Events/Default Work Unit/Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Ambience_Clock_Loop
       guid: 7dc57bb35901f04db5966803f4783378
       id: 2887940980
@@ -2283,6 +2489,75 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7dc57bb35901f04db5966803f4783378
       Path: Events/Default Work Unit/World/Ambience/Stop_Ambience_Clock_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Shepard_Tone_Mass_X_Wave
+      guid: 407fcb126805b144be0ee9f922436ec7
+      id: 887930354
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Stop_Shepard_Tone_Mass_X_Wave
+        ObjectType: 3
+        guid: 407fcb126805b144be0ee9f922436ec7
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Mass_X_Wave
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Shepard_Tone_Mass_X2
+      guid: 6fe0a0e756baa542936a9492de691053
+      id: 3138979112
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Stop_Shepard_Tone_Mass_X2
+        ObjectType: 3
+        guid: 6fe0a0e756baa542936a9492de691053
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Mass_X2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Shepard_Tone_Sine_Wave
+      guid: fa8fb5adc8043942a685881a0813f938
+      id: 3279282928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: Music
+        ObjectType: 4
+        guid: 8281f82a7cdf004dad798ae25294acf1
+      - ElementName: Shepard Tone
+        ObjectType: 4
+        guid: 130723c3a4e03644a30011ab43dbe077
+      - ElementName: Stop_Shepard_Tone_Sine_Wave
+        ObjectType: 3
+        guid: fa8fb5adc8043942a685881a0813f938
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Sine_Wave
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -2508,7 +2783,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585096132518480631
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000040000000500000054000000
+  ExpandedFileSystemItemIds: 0200000003000000210000002200000042000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

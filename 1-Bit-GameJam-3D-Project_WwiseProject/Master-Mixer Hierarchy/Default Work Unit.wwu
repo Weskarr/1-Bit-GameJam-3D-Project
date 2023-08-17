@@ -17,6 +17,7 @@
 								</Reference>
 							</ReferenceList>
 						</AuxBus>
+						<Bus Name="Music" ID="{DAF380DE-5C75-4D0B-B630-6C80924BEF98}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
