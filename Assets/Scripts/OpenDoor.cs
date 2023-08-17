@@ -14,10 +14,14 @@ public class OpenDoor : MonoBehaviour, Interactable
     [SerializeField]
     private Vector3 openPosition; // Relative
 
-    public bool rotate = true;
-    public bool move = false;
+    public bool rotate = true; // For rotating based
+    public bool move = false; // For sliding based
+    public bool animate = false; // For animations based
 
     public bool playCloseInstantly = false;
+
+    [SerializeField]
+    private Animator animator; // Assign by hand!
 
     [SerializeField]
     private float moveSpeed = 2f; // How many seconds it takes to open/close
@@ -39,6 +43,13 @@ public class OpenDoor : MonoBehaviour, Interactable
 
         if (close)  p = 0;
         else        p = 1;
+
+        if (animate)
+        {
+            //animator = this.GetComponent<Animator>();
+            if (animator == null)
+                Debug.LogError("No Animator to Animate with!");
+        }
     }
 
 
@@ -58,6 +69,7 @@ public class OpenDoor : MonoBehaviour, Interactable
             }
             if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, closedRotation * Quaternion.Euler(openRotation), p); // * is + in quaternion rotations kinda
             if (move)   transform.position = Vector3.Lerp(closedPosition, closedPosition + openPosition, p);
+            if (animate) animator.SetFloat("blend", p); // Animator uses a float value in a blend tree = (0 == closed) && (1 == open)
         }
     }
 

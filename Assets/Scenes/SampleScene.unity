@@ -648,7 +648,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -770,7 +772,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -843,7 +847,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -1403,7 +1409,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -1487,7 +1495,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -2068,7 +2078,9 @@ MonoBehaviour:
   openPosition: {x: 0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -2366,7 +2378,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -2665,7 +2679,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -4367,6 +4383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerName: 
 --- !u!4 &267461351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4628584980299650355, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
@@ -5387,7 +5404,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 0
   openSound:
     idInternal: 0
@@ -5826,7 +5845,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0.5}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -7580,7 +7601,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -7813,7 +7836,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -8375,6 +8400,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1994524992}
   m_SourcePrefab: {fileID: 100100000, guid: 39d9d094eaa8c4b4fbd19671742f1afe, type: 3}
+--- !u!95 &539677690 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3162175353865189396, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+  m_PrefabInstance: {fileID: 2332631277976488196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &540085937 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6236210484942575249, guid: 830fbd5089e625a48a8d5b5d2d0f6f0a, type: 3}
@@ -8396,7 +8426,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -9046,6 +9078,60 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1942127470}
   m_SourcePrefab: {fileID: 100100000, guid: e5707458d36f95649a8705f838061bdf, type: 3}
+--- !u!1 &559446478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 932165280111602495, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+  m_PrefabInstance: {fileID: 2332631277976488196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &559446482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559446478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 0
+  move: 0
+  animate: 1
+  playCloseInstantly: 0
+  animator: {fileID: 2043805253}
+  moveSpeed: 2
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!65 &559446483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559446478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10499921, y: 0.6000001, z: 1}
+  m_Center: {x: -0.05250008, y: 0.3000001, z: -0.49999976}
 --- !u!4 &561018594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a9d9cb89b8d6eb4f85f14ef653d0e8e, type: 3}
@@ -9158,7 +9244,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -10832,6 +10920,60 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1263899860}
   m_SourcePrefab: {fileID: 100100000, guid: 830fbd5089e625a48a8d5b5d2d0f6f0a, type: 3}
+--- !u!1 &639281924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7685243753645645213, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+  m_PrefabInstance: {fileID: 2332631277976488196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &639281928
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639281924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.12891713, y: 1.35, z: 1.0000001}
+  m_Center: {x: -0.040541127, y: 0.62500006, z: -0.49999994}
+--- !u!114 &639281929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639281924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 0
+  move: 0
+  animate: 1
+  playCloseInstantly: 0
+  animator: {fileID: 539677690}
+  moveSpeed: 2
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &646320165
 GameObject:
   m_ObjectHideFlags: 0
@@ -10936,7 +11078,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -11124,7 +11268,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -11376,7 +11522,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -12286,7 +12434,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -12333,7 +12483,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -12369,7 +12521,9 @@ MonoBehaviour:
   openPosition: {x: 0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -13095,6 +13249,65 @@ PrefabInstance:
       addedObject: {fileID: 70385899}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76d333a74b43da94b8d5c8aa24fd921f, type: 3}
+--- !u!1 &773220811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8576184741332899341, guid: 1619d14d678195241996c1cd26900857, type: 3}
+  m_PrefabInstance: {fileID: 7766784888878671339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &773220813 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7721865495181782780, guid: 1619d14d678195241996c1cd26900857, type: 3}
+  m_PrefabInstance: {fileID: 7766784888878671339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &773220816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773220811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 0
+  move: 0
+  animate: 1
+  playCloseInstantly: 0
+  animator: {fileID: 773220813}
+  moveSpeed: 2
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!65 &773220817
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773220811}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.110799104, y: 0.6750004, z: 1}
+  m_Center: {x: -0.0053994805, y: 0.33750015, z: 0.49999997}
 --- !u!1001 &776203575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13834,7 +14047,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -14872,7 +15087,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -16179,7 +16396,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -17363,7 +17582,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0.5}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -18613,7 +18834,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -18715,6 +18938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerName: 
 --- !u!1001 &1059923682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19064,7 +19288,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -19829,7 +20055,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -20188,7 +20416,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 0
   openSound:
     idInternal: 0
@@ -20914,7 +21144,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0.5}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -21155,7 +21387,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -21516,7 +21750,9 @@ MonoBehaviour:
   openPosition: {x: 0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -22109,7 +22345,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -22228,7 +22466,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -22420,7 +22660,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -24144,7 +24386,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -24655,7 +24899,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -24845,7 +25091,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -25331,7 +25579,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -25378,7 +25628,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -25786,7 +26038,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -27053,7 +27307,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -27343,7 +27599,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -27724,7 +27982,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -28094,7 +28354,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -28435,7 +28697,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -29639,7 +29903,9 @@ MonoBehaviour:
   openPosition: {x: 0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -30662,7 +30928,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -31079,7 +31347,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -31319,7 +31589,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 0
   openSound:
     idInternal: 0
@@ -31604,7 +31876,9 @@ MonoBehaviour:
   openPosition: {x: -0.3, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -32813,6 +33087,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1fbd75f728791914fabdea2642e9f250, type: 3}
   m_PrefabInstance: {fileID: 2040755939}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2043805253 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4073766175729239273, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+  m_PrefabInstance: {fileID: 2332631277976488196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2046140426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32998,7 +33277,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -33512,7 +33793,9 @@ MonoBehaviour:
   openPosition: {x: 0, y: 0, z: 0}
   rotate: 1
   move: 0
+  animate: 0
   playCloseInstantly: 0
+  animator: {fileID: 0}
   moveSpeed: 2
   openSound:
     idInternal: 0
@@ -33543,7 +33826,9 @@ MonoBehaviour:
   openPosition: {x: -0.4, y: 0, z: 0}
   rotate: 0
   move: 1
+  animate: 0
   playCloseInstantly: 1
+  animator: {fileID: 0}
   moveSpeed: 1
   openSound:
     idInternal: 0
@@ -34190,7 +34475,19 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 932165280111602495, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 559446483}
+    - targetCorrespondingSourceObject: {fileID: 932165280111602495, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 559446482}
+    - targetCorrespondingSourceObject: {fileID: 7685243753645645213, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 639281929}
+    - targetCorrespondingSourceObject: {fileID: 7685243753645645213, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 639281928}
   m_SourcePrefab: {fileID: 100100000, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
 --- !u!1001 &5190584123067429659
 PrefabInstance:
@@ -34391,6 +34688,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8576184741332899341, guid: 1619d14d678195241996c1cd26900857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773220817}
+    - targetCorrespondingSourceObject: {fileID: 8576184741332899341, guid: 1619d14d678195241996c1cd26900857, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 773220816}
     - targetCorrespondingSourceObject: {fileID: 6312369958135198096, guid: 1619d14d678195241996c1cd26900857, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1814862523}
