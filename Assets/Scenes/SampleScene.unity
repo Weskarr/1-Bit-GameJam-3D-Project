@@ -641,13 +641,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7f5ed8edd7c9ab64090dd73c5da33b83, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66c8f54ac79ff6b469841a54ddd5eb8e, type: 2}
 --- !u!65 &27466053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -756,13 +762,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7f5ed8edd7c9ab64090dd73c5da33b83, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66c8f54ac79ff6b469841a54ddd5eb8e, type: 2}
 --- !u!65 &37408083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -822,13 +834,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1 &40733233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,13 +2137,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1 &154059731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,13 +2432,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!65 &169310989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4072,7 +4102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerName: Bedroom Exit
 --- !u!4 &267461351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4628584980299650355, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
@@ -5059,10 +5088,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -105
-  timeInterval: 0.01
-  moveAmount: 2
-  fuseOpen:
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 0
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -7311,13 +7346,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!1 &506823340
 GameObject:
   m_ObjectHideFlags: 0
@@ -7884,13 +7925,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!65 &540085942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8052,6 +8099,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
+    - target: {fileID: -6626821128569285692, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626821128569285692, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626821128569285692, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626821128569285692, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6626821128569285692, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6212169400247505258, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -8074,6 +8141,26 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -3432203140402562987, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2878995331428110394, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2878995331428110394, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2878995331428110394, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2878995331428110394, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2878995331428110394, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2566454835134207085, guid: e6f35dd2893989b4ca9b4b88f4eeeab6, type: 3}
@@ -8569,13 +8656,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!1001 &567711767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10470,13 +10563,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 100
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e568504a20856ba49b1a168caa85e362, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 68bc6cd2c423fcd4e9e91a9391a38871, type: 2}
 --- !u!65 &657711255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10715,13 +10814,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!65 &670226157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13021,13 +13126,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1001 &833802007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14052,13 +14163,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!65 &845265644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15325,13 +15442,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1001 &898176041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17661,7 +17784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerName: Bedroom Enter
 --- !u!1001 &1059923682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18720,13 +18842,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1001 &1133331366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19072,10 +19200,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 110
-  timeInterval: 0.01
-  moveAmount: 2
-  fuseOpen:
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 0
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -20707,13 +20841,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!65 &1263899861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20819,13 +20959,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!65 &1274580367
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21004,13 +21150,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7f5ed8edd7c9ab64090dd73c5da33b83, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66c8f54ac79ff6b469841a54ddd5eb8e, type: 2}
 --- !u!65 &1279473102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22664,13 +22816,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 7f5ed8edd7c9ab64090dd73c5da33b83, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 66c8f54ac79ff6b469841a54ddd5eb8e, type: 2}
 --- !u!65 &1456086614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23252,13 +23410,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!4 &1503759553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 68ba0d7f509a3f64db3fc825af3064e3, type: 3}
@@ -25195,13 +25359,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1 &1632884589
 GameObject:
   m_ObjectHideFlags: 0
@@ -25478,13 +25648,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!65 &1653346529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26429,13 +26605,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1 &1770254910
 GameObject:
   m_ObjectHideFlags: 0
@@ -28540,13 +28722,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1 &1899381917
 GameObject:
   m_ObjectHideFlags: 0
@@ -28893,6 +29081,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
     - target: {fileID: 919132149155446097, guid: 9e21077400022c94fa59a3b48c65f9af, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e21077400022c94fa59a3b48c65f9af, type: 3}
       propertyPath: m_Name
       value: Small_Table
       objectReference: {fileID: 0}
@@ -28943,13 +29135,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!1001 &1943025654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29176,10 +29374,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 110
-  timeInterval: 0.01
-  moveAmount: 2
-  fuseOpen:
+  openRotation: {x: 0, y: 0, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 0
+  openSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  closeSound:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -30739,13 +30943,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: -90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: -90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c368703914d33ba4690a8072b3aa29e3, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
 --- !u!1 &2057310989
 GameObject:
   m_ObjectHideFlags: 0
@@ -31219,13 +31429,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d96452f0bc07b4184eb23b94655051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endDoorRotation: 90
-  timeInterval: 0.01
-  moveAmount: 5
-  fuseOpen:
+  openRotation: {x: 0, y: 90, z: 0}
+  openPosition: {x: 0, y: 0, z: 0}
+  rotate: 1
+  move: 0
+  moveSpeed: 2
+  openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d96fa26c3c04d7049b3b5dbc87770a7b, type: 2}
+  closeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: df37ae54eedd8f241bf7cf0b37ef20ab, type: 2}
 --- !u!1001 &2103667207
 PrefabInstance:
   m_ObjectHideFlags: 0

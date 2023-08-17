@@ -1,137 +1,72 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 public class OpenDoor : MonoBehaviour, Interactable
 {
-    private float startDoorRotation;
+    private Quaternion closedRotation;
     [SerializeField]
-    private float endDoorRotation;
+    private Vector3 openRotation;
 
-    private float beginFromRotation;
-    private float goToRotation;
+    private Vector3 closedPosition;
+    [SerializeField]
+    private Vector3 openPosition;
+
+    public bool rotate = true;
+    public bool move = false;
 
     [SerializeField]
-    private float timeInterval = 0.01f;
-    [SerializeField]
-    private float moveAmount = 5f;
-    private float currentRotation;
+    private float moveSpeed = 2f; // How many seconds it takes to open/close
 
-    private bool endIsNegative = false;
-    private bool isOpenOrClosing = false;
-    private bool isOpen = false;
-    private bool inMotion = false;
+    bool close = true;
+    bool moving = false;
 
     [Header("Wwise Events")]
-    public AK.Wwise.Event fuseOpen;
+    public AK.Wwise.Event openSound;
 
-    private void Start()
+    [Header("Wwise Events")]
+    public AK.Wwise.Event closeSound;
+
+    float p;
+    private void Start() // Assumes the object starts in the closed position
     {
-        startDoorRotation = transform.eulerAngles.y;
+        closedRotation = transform.rotation;
+        closedPosition = transform.position;
 
-        if (endDoorRotation < 0)
-            endIsNegative = true;
-        else
-            endIsNegative = false;
+        if (close)  p = 0;
+        else        p = 1;
     }
+
+
+    private void Update() {
+        if (moving) {
+            if (close)  p -= (1 / moveSpeed) * Time.deltaTime;
+            else        p += (1 / moveSpeed) * Time.deltaTime;
+
+            if (p > 1) {
+                p = 1;
+                moving = false;
+            }
+            if (p < 0) {
+                p = 0;
+                moving = false;
+                closeSound.Post(gameObject);
+            }
+            if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, Quaternion.Euler(openRotation), p);
+            if (move)   transform.position = Vector3.Lerp(closedPosition, openPosition, p);
+        }
+    }
+
 
     public void Interact()
     {
-
-        if (!isOpenOrClosing && !isOpen) // Open
-        {
-            beginFromRotation = startDoorRotation;
-            goToRotation = endDoorRotation;
-            fuseOpen.Post(gameObject);
-            isOpenOrClosing = true;
-            inMotion = true;
+        if (close && !moving) {
+            openSound.Post(gameObject);
         }
-        else if (!isOpenOrClosing && isOpen) // Close
-        {
-            beginFromRotation = endDoorRotation;
-            goToRotation = startDoorRotation;
-            isOpenOrClosing = true;
-            inMotion = true;
-        }
-        else if (isOpenOrClosing && !isOpen) // Interupt Opening
-        {
-            goToRotation = startDoorRotation;
-            inMotion = true;
-        }
-        else if (isOpenOrClosing && isOpen) // Interupt Closing
-        {
-            goToRotation = endDoorRotation;
-            inMotion = true;
-        }
-
-        StopAllCoroutines();
-        StartCoroutine(RotateCoroutine());
+        close = !close;
+        moving = true;
     }
 
-     IEnumerator RotateCoroutine()
-    {
-        float direction;
-        float amount;
-
-        if (goToRotation == 0)
-        {
-            if (endIsNegative == true)
-            {
-                direction = moveAmount;
-                amount = 0;
-            }
-            else
-            {
-                direction = -moveAmount;
-                amount = -0;
-            }
-        }
-        else if (goToRotation > 0)
-        {
-            direction = moveAmount;
-            amount = 90f;
-        }
-        else 
-        {
-            direction = -moveAmount;
-            amount = -90f;
-        }
-
-        while (inMotion)
-        {
-            yield return new WaitForSeconds(timeInterval);
-            currentRotation += direction;
-
-            if (direction > 0 && currentRotation >= amount)
-            {
-                this.transform.rotation = Quaternion.Euler(0, goToRotation, 0);
-                inMotion = false;
-
-                if (goToRotation == endDoorRotation)
-                    isOpen = true;
-                else
-                    isOpen = false;
-
-                isOpenOrClosing = false;
-
-            }
-            else if (direction < 0 && currentRotation <= amount)
-            {
-                this.transform.rotation = Quaternion.Euler(0, goToRotation, 0);
-                inMotion = false;
-
-                if (goToRotation == endDoorRotation)
-                    isOpen = true;
-                else
-                    isOpen = false;
-
-                isOpenOrClosing = false;
-            }
-
-            this.transform.rotation = Quaternion.Euler(0, currentRotation, 0);
-        }
-
-        Debug.Log("cycle");
-    }
 }
