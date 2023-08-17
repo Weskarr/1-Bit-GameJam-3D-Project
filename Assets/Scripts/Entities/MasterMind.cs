@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class MasterMind : MonoBehaviour
@@ -21,6 +22,9 @@ public class MasterMind : MonoBehaviour
     private bool bedroomWindowOpen = false; // ID 5
     [SerializeField]
     private bool bathroomWindowOpen = false; // ID 6
+    [SerializeField]
+    private Window[] windowsToOpen;
+
 
     [Header("Lights")]
     [SerializeField]
@@ -40,7 +44,15 @@ public class MasterMind : MonoBehaviour
     [SerializeField]
     private bool hallwayLightIsOn; // ID 6
 
+    [Header("Behaviour")]
+    [SerializeField]
+    private bool enteringWindow = false;
+    [SerializeField]
+    private bool openingWindows = false;
+
     [Header("Entities")]
+    [SerializeField]
+    private bool AnyoneOnPlayField;
     [SerializeField]
     private bool childAtPlay;
     [SerializeField]
@@ -57,22 +69,47 @@ public class MasterMind : MonoBehaviour
     private GameObject madame;
     private GameObject granny;
 
-
-
     private void Start()
     {
         AssignEntitiesFromChildren();
     }
     private void Update()
     {
-        checkIfWindowIsOpen();
-        checkIfLightIsOff();
+        if (!AnyoneOnPlayField)
+        {
+            CheckIfWindowIsOpen();
+
+            if (aWindowIsOpen == true && enteringWindow == false)
+            {
+                StartCoroutine(EnteringWindowCoroutine());
+            }
+            else if (aWindowIsOpen == false && enteringWindow == true)
+            {
+                StopCoroutine(EnteringWindowCoroutine());
+                enteringWindow = false;
+            }
+            
+            
+            if (aWindowIsOpen == false && openingWindows == false)
+            {
+                StartCoroutine(OpeningWindowsCoroutine());
+            }
+            else if (aWindowIsOpen && openingWindows == true)
+            {
+                StopCoroutine(OpeningWindowsCoroutine());
+                openingWindows = false;
+            }
+        }
+        else
+        {
+            CheckIfLightIsOff();
+        }
     }
 
 
 
     // Windows
-    public void windowIsOpen(int ID)
+    public void WindowIsOpen(int ID)
     {
         switch (ID)
         {
@@ -99,7 +136,7 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
-    public void windowIsClosed(int ID)
+    public void WindowIsClosed(int ID)
     {
         switch (ID)
         {
@@ -126,7 +163,7 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
-    private void checkIfWindowIsOpen()
+    private void CheckIfWindowIsOpen()
     {
         if (utilityWindowOpen == true ||
             livingOneWindowOpen == true ||
@@ -143,10 +180,17 @@ public class MasterMind : MonoBehaviour
             aWindowIsOpen = false;
         }
     }
+    private void OpenRandomWindow()
+    {
+        int random = Random.Range(0, windowsToOpen.Count());
+
+        if (windowsToOpen[random].close)
+            windowsToOpen[random].Interact();
+    }
     //
 
     // Lights
-    public void lightIsOn(int ID)
+    public void LightIsOn(int ID)
     {
         switch (ID)
         {
@@ -173,7 +217,7 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
-    public void lightIsOff(int ID)
+    public void LightIsOff(int ID)
     {
         switch (ID)
         {
@@ -200,7 +244,7 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
-    private void checkIfLightIsOff()
+    private void CheckIfLightIsOff()
     {
         if (utilityLightIsOn == false ||
             bedroomLightIsOn == false ||
@@ -228,6 +272,66 @@ public class MasterMind : MonoBehaviour
         madame = this.transform.GetChild(3).gameObject;
         granny = this.transform.GetChild(4).gameObject;
     }
+    private void AnyEntitiesOnThePlayField()
+    {
+        if (childAtPlay == true ||
+            drunkAtPlay == true ||
+            stalkerAtPlay == true ||
+            madameAtPlay == true ||
+            grannyAtPlay == true)
+        {
+            AnyoneOnPlayField = true;
+        }
+        else
+        {
+            AnyoneOnPlayField = false;
+        }
+    }
+    private void EntityEntersPlayField()
+    {
+        int random = Random.Range(0, 5);
+
+        switch (random)
+        {
+            case 0:
+                childAtPlay = true;
+                child.SetActive(true);
+                break;
+            case 1:
+                drunkAtPlay = true;
+                drunk.SetActive(true);
+                break;
+            case 2:
+                stalkerAtPlay = true;
+                stalker.SetActive(true);
+                break;
+            case 3:
+                madameAtPlay = true;
+                madame.SetActive(true);
+                break;
+            case 4:
+                grannyAtPlay = true;
+                granny.SetActive(true);
+                break;
+        }
+
+        AnyEntitiesOnThePlayField();
+    }
     //
 
+    IEnumerator OpeningWindowsCoroutine()
+    {
+        openingWindows = true;
+        yield return new WaitForSeconds(30f);
+        OpenRandomWindow();
+        openingWindows = false;
+    }
+
+    IEnumerator EnteringWindowCoroutine()
+    {
+        enteringWindow = true;
+        yield return new WaitForSeconds(30f);
+        EntityEntersPlayField();
+        enteringWindow = false;
+    }
 }

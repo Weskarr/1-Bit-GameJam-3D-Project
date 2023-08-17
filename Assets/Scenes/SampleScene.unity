@@ -5139,6 +5139,7 @@ MonoBehaviour:
   diningLightIsOn: 0
   livingLightIsOn: 0
   hallwayLightIsOn: 0
+  enteringWindow: 0
   childAtPlay: 0
   drunkAtPlay: 0
   stalkerAtPlay: 0
