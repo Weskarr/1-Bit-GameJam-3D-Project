@@ -6,6 +6,9 @@ public class LightSwitch2 : MonoBehaviour, Interactable
 {
     public GameObject[] lights;
 
+    [SerializeField]
+    private GameObject lightSwitchButton;
+
     private bool isLightOn = true;
 
     private void Start()
@@ -31,6 +34,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 light.SetActive(false);
             }
             isLightOn = false;
+            lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
         }
         else
         {
@@ -40,6 +44,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 light.SetActive(true);
             }
             isLightOn = true;
+            lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
         }
 
     }
