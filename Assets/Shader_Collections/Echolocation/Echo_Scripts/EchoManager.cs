@@ -123,7 +123,7 @@ public class EchoManager : MonoBehaviour
 
     public void StartEcho() {
         ResetEcho();
-        StartCoroutine(EchoExpansion());
+        //StartCoroutine(EchoExpansion());
     }
 
     private void ResetEcho()

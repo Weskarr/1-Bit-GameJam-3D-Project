@@ -18,37 +18,35 @@ public class LightSwitch2 : MonoBehaviour, Interactable
 
 
     private bool isLightOn = true;
+    private bool hasPower = true;
 
     private void Start()
     {
-        if (isLightOn)
-        {
-            turnOnOrOff();
-        }
+        turnOn();
     }
 
     public void Interact()
     {
-        turnOnOrOff();
+        switchLight();
     }
 
-    private void turnOnOrOff ()
+    private void switchLight()
     {
+
         if (isLightOn == true)
         {
-            //turn off
-            foreach (GameObject light in lights)
-            {
-                light.SetActive(false);
-            }
-            foreach (MeshRenderer ren in interactionHighLighted)
-            {
-                ren.material = normalMaterial;
-            }
-            isLightOn = false;
-            lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+            turnOff();
         }
         else
+        {
+            turnOn();
+        }
+    }
+
+    public void powerIsBack()
+    {
+        hasPower = true;
+        if (isLightOn == true)
         {
             //turn on
             foreach (GameObject light in lights)
@@ -60,8 +58,59 @@ public class LightSwitch2 : MonoBehaviour, Interactable
                 ren.material = interactionHighLightMaterial;
             }
             isLightOn = true;
-            lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
+        }
+    }
+    public void powerIsGone()
+    {
+        hasPower = false;
+        
+        //turn off
+        foreach (GameObject light in lights)
+        {
+            light.SetActive(false);
+        }
+        foreach (MeshRenderer ren in interactionHighLighted)
+        {
+            ren.material = normalMaterial;
         }
 
+    }
+
+    private void turnOff()
+    {
+        if (hasPower)
+        {
+            //turn off
+            foreach (GameObject light in lights)
+            {
+                light.SetActive(false);
+            }
+            foreach (MeshRenderer ren in interactionHighLighted)
+            {
+                ren.material = normalMaterial;
+            }
+            isLightOn = false;
+        }
+
+        lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
+    }
+
+    private void turnOn ()
+    {
+        if (hasPower)
+        {
+            //turn on
+            foreach (GameObject light in lights)
+            {
+                light.SetActive(true);
+            }
+            foreach (MeshRenderer ren in interactionHighLighted)
+            {
+                ren.material = interactionHighLightMaterial;
+            }
+            isLightOn = true;
+        }
+
+        lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
     }
 }
