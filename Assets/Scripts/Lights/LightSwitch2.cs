@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class LightSwitch2 : MonoBehaviour, Interactable
 {
-    public GameObject[] lights;
+    [SerializeField]
+    private GameObject[] lights;
+    [SerializeField]
+    private MeshRenderer[] interactionHighLighted;
 
     [SerializeField]
     private GameObject lightSwitchButton;
+    [SerializeField]
+    private Material interactionHighLightMaterial;
+    [SerializeField]
+    private Material normalMaterial;
+
 
     private bool isLightOn = true;
 
@@ -33,6 +41,10 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 light.SetActive(false);
             }
+            foreach (MeshRenderer ren in interactionHighLighted)
+            {
+                ren.material = normalMaterial;
+            }
             isLightOn = false;
             lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
         }
@@ -42,6 +54,10 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             foreach (GameObject light in lights)
             {
                 light.SetActive(true);
+            }
+            foreach (MeshRenderer ren in interactionHighLighted)
+            {
+                ren.material = interactionHighLightMaterial;
             }
             isLightOn = true;
             lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
