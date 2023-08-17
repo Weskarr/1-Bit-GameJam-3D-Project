@@ -9,6 +9,8 @@ public class FuseBox : MonoBehaviour
     private bool[] fuses;
     // From Left To Right
 
+    [Header("Wwise Events")]
+    public AK.Wwise.Event powerOutage;
 
     [SerializeField]
     private Breaker[] breakers;
@@ -25,6 +27,7 @@ public class FuseBox : MonoBehaviour
         foreach (var breaker in breakers)
         {
             breaker.BreakerIsOut();
+            powerOutage.Post(gameObject);
         }
     }
 
