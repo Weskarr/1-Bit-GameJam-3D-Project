@@ -89,9 +89,9 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 ren.material = normalMaterial;
             }
-            isLightOn = false;
         }
 
+        isLightOn = false;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
@@ -108,9 +108,9 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 ren.material = interactionHighLightMaterial;
             }
-            isLightOn = true;
         }
 
+        isLightOn = true;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
     }
 }
