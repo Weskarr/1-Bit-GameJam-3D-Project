@@ -72,11 +72,11 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = !_lightsOff;
         _lightsOff = true;
-        foreach (GameObject go in _lightsOnObjects) {
-            go.SetActive(false);
+        foreach (GameObject ob in _lightsOnObjects) {
+            ob.SetActive(false);
         }
-        foreach (GameObject go in _lightsOffObjects) {
-            go.SetActive(true);
+        foreach (GameObject ob in _lightsOffObjects) {
+            ob.SetActive(true);
         }
         ResetEcho();
         return ret;
@@ -87,11 +87,11 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = _lightsOff;
         _lightsOff = false;
-        foreach (GameObject go in _lightsOnObjects) {
-            go.SetActive(true);
+        foreach (GameObject ob in _lightsOnObjects) {
+            ob.SetActive(true);
         }
-        foreach (GameObject go in _lightsOffObjects) {
-            go.SetActive(false);
+        foreach (GameObject ob in _lightsOffObjects) {
+            ob.SetActive(false);
         }
         ResetEcho();
         return ret;
