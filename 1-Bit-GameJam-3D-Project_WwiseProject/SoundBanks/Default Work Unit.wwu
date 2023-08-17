@@ -11,6 +11,7 @@
 						<ObjectRef Name="Play_Shower_On_Loop" ID="{2A7BAA25-D7D2-40AC-97C2-249577C64961}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Handle" ID="{EA075894-F8DC-40EF-BC78-D288A41B0727}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shower" ID="{F0BB8002-61BB-414F-AFCD-31FC483F1968}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Oven_Beep" ID="{A3F0A193-7707-4186-A6FD-F451CE2815E5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{8DF23741-B92C-41A1-AFFE-3AD4609EE37E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pickup" ID="{874C69DE-2566-421B-A85E-F6D6CEB782E8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -31,6 +32,7 @@
 						<ObjectRef Name="Wash" ID="{E654FD0E-372B-47D4-8FDB-F6AE7CB9DF57}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{1FE7A6A9-720E-482A-95AD-2E0E27311A99}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shepard_Tone_Sine_Wave" ID="{89A68333-4C18-4830-99FC-9519C60FAB58}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Oven_Door_Close" ID="{450C8527-BC03-4850-8A92-46E4BC76405A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TV" ID="{887D235E-04FC-48D3-9138-17A977682F8B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{35FC8715-9946-494B-8CAD-FBF349DF81DA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -56,6 +58,7 @@
 						<ObjectRef Name="Stop_All" ID="{EF750A0F-B360-4ED3-9EFA-710BE332851A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet" ID="{F2F3A165-4C1E-4F6F-8B1C-A46F112666D8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Trash" ID="{D451E17C-C680-4FD7-BFE7-DB5CF3A5C7A0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Oven_Door_Open" ID="{805E8AF3-DD63-4FDB-8CC7-342C68667AB5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

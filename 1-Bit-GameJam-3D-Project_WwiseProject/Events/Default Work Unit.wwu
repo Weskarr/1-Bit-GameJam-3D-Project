@@ -846,6 +846,43 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Oven" ID="{95FB42DB-E343-4896-B966-222934913D5A}" ShortID="167158332">
+									<ChildrenList>
+										<Event Name="Play_Oven_Door_Open" ID="{805E8AF3-DD63-4FDB-8CC7-342C68667AB5}">
+											<ChildrenList>
+												<Action Name="" ID="{F6609321-3AA0-4FCE-9DC1-76B354D65767}" ShortID="1019747363">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Oven_Door_Open" ID="{66514F34-87E3-43BF-9939-D73727ECCFB7}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Oven_Beep" ID="{A3F0A193-7707-4186-A6FD-F451CE2815E5}">
+											<ChildrenList>
+												<Action Name="" ID="{24F095D6-A32F-417A-B775-00B4E8ED1915}" ShortID="521043266">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Oven_Beep" ID="{7A82F4F6-2A64-4BFC-B2F9-C0F722A2B531}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Oven_Door_Close" ID="{450C8527-BC03-4850-8A92-46E4BC76405A}">
+											<ChildrenList>
+												<Action Name="" ID="{143678E0-1614-4FAB-8495-ED82B661A97C}" ShortID="322071442">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Oven_Door_Close" ID="{95AE4B1B-2E81-465D-A44B-0470E637B43A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" ShortID="861757817">

@@ -9677,11 +9677,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 45fa783269ec949c8a3428a026123a41, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2fbb7bb58ff0c433f9413e1192f5fc91, type: 2}
 --- !u!65 &559446483
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11781,11 +11781,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1e76c2fa26a5af4439486cf26dadacc3, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 5ca930289f66945cb8c2b7c7c5e4bafe, type: 2}
 --- !u!23 &639281931 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1465629121148956905, guid: a6f9b4014c88b934ead31ebe6bb41b7c, type: 3}
@@ -14201,11 +14201,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: fdd6c0e7738b04f04850346af205351a, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 5fc3f916532fb450da3ed9ea99b2b578, type: 2}
 --- !u!65 &773220817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29235,11 +29235,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: d79aafcc88f08ba40af6e2ed128f81c4, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 25ad4c4554d2e8045926abdbad9f6206, type: 2}
 --- !u!23 &1686901346 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 7490332853279639109, guid: a8210dfc32beee447a934e0f59679276, type: 3}
