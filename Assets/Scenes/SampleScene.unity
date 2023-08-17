@@ -5131,7 +5131,14 @@ MonoBehaviour:
   livingFourWindowOpen: 0
   bedroomWindowOpen: 0
   bathroomWindowOpen: 0
-  windowsToOpen: []
+  windowsToOpen:
+  - {fileID: 8030589717842110850}
+  - {fileID: 2670185011321867578}
+  - {fileID: 8536454891245521373}
+  - {fileID: 8863265350035070636}
+  - {fileID: 6213688520523146881}
+  - {fileID: 8542160113744530082}
+  - {fileID: 6880548345023898147}
   aLightIsOff: 0
   utilityLightIsOn: 0
   bedroomLightIsOn: 0
