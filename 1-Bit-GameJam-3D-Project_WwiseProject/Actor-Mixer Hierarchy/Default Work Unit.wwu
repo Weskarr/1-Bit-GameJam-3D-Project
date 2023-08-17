@@ -248,9 +248,11 @@
 													<ChildrenList>
 														<AudioFileSource Name="Footsteps Gravel" ID="{6591B464-B470-4D09-9DCE-6B4FFF55B807}">
 															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0541590489288168"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.135397622322044"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="6"/>
-																<Property Name="TrimEnd" Type="Real64" Value="8"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.13539762232204"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.75107647099992"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Footsteps Gravel.wav</AudioFile>
@@ -288,8 +290,8 @@
 														<AudioFileSource Name="Footsteps Run Hard Floor 01" ID="{54AE8C2C-E3FD-43C7-B7B4-F6673A28B999}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="24.8896732247532"/>
-																<Property Name="TrimEnd" Type="Real64" Value="25.5"/>
+																<Property Name="TrimBegin" Type="Real64" Value="25.1948500213894"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.4854677715888"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Footsteps Run Hard Floor 01.wav</AudioFile>
@@ -315,6 +317,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Footsteps Run Hard Floor 01" ID="{0A332EDC-92B7-428E-96CE-365C7A936D11}" ShortID="386259317">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -327,13 +336,13 @@
 														<AudioFileSource Name="Footsteps Run Hard Floor 01" ID="{B6600E42-846C-4DF6-92B5-FB13D01DA780}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="24.8896732247532"/>
-																<Property Name="TrimEnd" Type="Real64" Value="25.5"/>
+																<Property Name="TrimBegin" Type="Real64" Value="25.2030828117727"/>
+																<Property Name="TrimEnd" Type="Real64" Value="25.6008504565995"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Footsteps Run Hard Floor 01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="916159817"/>
+																<MediaID ID="243025860"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -346,12 +355,25 @@
 									</ChildrenList>
 								</Folder>
 								<RandomSequenceContainer Name="Player_Echo" ID="{AFC824E0-81E1-4F9A-9E13-6DA0020C575B}" ShortID="448733027">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 										</Reference>
+										<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+											<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -372,9 +394,23 @@
 													</PropertyList>
 													<Language>SFX</Language>
 												</SourcePlugin>
+												<AudioFileSource Name="finger snap 01_aiff" ID="{AE05156B-15ED-49A3-8055-991B35683FDA}">
+													<Language>SFX</Language>
+													<AudioFile>finger snap 01.aiff.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="459392575"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="finger snap 02_aiff(2)" ID="{0FCA1067-D5F4-4B5D-A475-5D1E582C88F4}">
+													<Language>SFX</Language>
+													<AudioFile>finger snap 02.aiff(2).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="235713561"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Sine" ID="{077C7E27-D969-4D0E-B4D2-4C8E041DB332}" Platform="Linked"/>
+												<ActiveSource Name="finger snap 02_aiff(2)" ID="{0FCA1067-D5F4-4B5D-A475-5D1E582C88F4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -444,26 +480,6 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Test_Tone" ID="{BE066B30-4247-429B-9668-A15451809F92}" ShortID="741721537">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<SourcePlugin Name="Sine" ID="{CE2893D4-7288-492E-B73A-9C8E07FE16AE}" ShortID="844065003" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-													<Language>SFX</Language>
-												</SourcePlugin>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sine" ID="{CE2893D4-7288-492E-B73A-9C8E07FE16AE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
 								</RandomSequenceContainer>
 								<Folder Name="Window" ID="{0F5E0274-F25A-43EC-A3C4-387FB5862582}" ShortID="963950234">
 									<ChildrenList>
@@ -477,7 +493,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{0CE95233-2F8B-4C3F-8A3A-6583BF354064}" ShortID="246644019">
+												<Sound Name="Open Windows, Rain 05(2)" ID="{12FAB607-3B7B-4A4E-AD19-624A54973AD7}" ShortID="577849697">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -487,12 +506,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{70A25C7C-E20F-403E-B255-D8608C62A1E5}" ShortID="64019436" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="Open Windows, Rain 05(2)" ID="{0ABD6A2F-352C-4BA6-BA77-B762327808CD}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>Open Windows, Rain 05(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="485154323"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{70A25C7C-E20F-403E-B255-D8608C62A1E5}" Platform="Linked"/>
+														<ActiveSource Name="Open Windows, Rain 05(2)" ID="{0ABD6A2F-352C-4BA6-BA77-B762327808CD}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -507,7 +530,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{755FBC88-EBCC-40F4-8249-ED712196C51B}" ShortID="83710481">
+												<Sound Name="rain on closed window roomy wet" ID="{BCB5572E-C8B6-462E-839D-2C39DE80E25D}" ShortID="494554051">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -517,12 +543,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{ED214212-1E58-43D8-B1F2-E2FF43869763}" ShortID="580798756" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="rain on closed window roomy wet_flac" ID="{9F21E9E6-227F-4EF2-A58B-140A170C7EB2}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>rain on closed window roomy wet.flac.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="515508150"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{ED214212-1E58-43D8-B1F2-E2FF43869763}" Platform="Linked"/>
+														<ActiveSource Name="rain on closed window roomy wet_flac" ID="{9F21E9E6-227F-4EF2-A58B-140A170C7EB2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -581,6 +611,40 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
+								<RandomSequenceContainer Name="Apartment Ambience" ID="{51E67228-E49B-4854-ABAA-D6BE1FFD8305}" ShortID="978298539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="City Noise Inside Apartment" ID="{744E3896-708B-4872-B55F-478ED732AE39}" ShortID="1040611643">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="City Noise Inside Apartment" ID="{B5F93D7F-08AE-48B4-B616-E56D197ED3A2}">
+													<Language>SFX</Language>
+													<AudioFile>City Noise Inside Apartment.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="365044523"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="City Noise Inside Apartment" ID="{B5F93D7F-08AE-48B4-B616-E56D197ED3A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Entities" ID="{B355F47C-EBFA-43AC-BF3B-1FCA032CCD96}" ShortID="386323063">
@@ -610,7 +674,8 @@
 														<AudioFileSource Name="1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop" ID="{418191B7-8A88-4DA0-9775-99A4401D5176}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.8"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.140667738805936"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.452931151547401"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop.wav</AudioFile>
@@ -652,8 +717,8 @@
 														<AudioFileSource Name="Bare_Feet_HW4_MED_WALK_L" ID="{EB57C76C-224A-4FBA-8ECF-376FAAEDCA65}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="2.84813278008299"/>
-																<Property Name="TrimEnd" Type="Real64" Value="3.4"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.08106688082579"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.37088323740715"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Bare_Feet_HW4_MED_WALK.L.wav</AudioFile>
@@ -1142,7 +1207,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{E979FB14-3206-4395-9B2F-3C596147A350}" ShortID="725685514">
+												<Sound Name="Fluorescent Lightbulb Hum_aif" ID="{C6B094ED-51D9-400F-AE6E-15B6FADD4560}" ShortID="185700942">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1152,12 +1220,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{03EF48DB-07C0-4986-A9FD-09602793FCBC}" ShortID="511942729" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="Fluorescent Lightbulb Hum_aif" ID="{6B2CACE7-F4FD-48BB-B473-0B71757906F0}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>Fluorescent Lightbulb Hum.aif.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="989522928"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{03EF48DB-07C0-4986-A9FD-09602793FCBC}" Platform="Linked"/>
+														<ActiveSource Name="Fluorescent Lightbulb Hum_aif" ID="{6B2CACE7-F4FD-48BB-B473-0B71757906F0}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1167,14 +1239,338 @@
 								<Folder Name="Pickups" ID="{4DEFDB2E-0AA4-4E16-95FC-F2CE9CC86D8D}" ShortID="758739739">
 									<ChildrenList>
 										<Folder Name="Battery" ID="{F691E6F2-7B68-427B-A091-238090046687}" ShortID="1066091140"/>
-										<Folder Name="Bottle" ID="{330117E4-F7B6-464F-9C4D-B5474670F7D0}" ShortID="509164699"/>
-										<Folder Name="Ductape" ID="{5EDE313E-41CC-4CED-8B61-0CB63D961675}" ShortID="460562324"/>
-										<Folder Name="Flashlight" ID="{2352E263-4433-4BD3-88D5-BC90C4356918}" ShortID="435998364"/>
-										<Folder Name="Hammer" ID="{36A26B48-200E-4374-8930-21B6EF253F67}" ShortID="1036369814"/>
-										<Folder Name="Pills" ID="{09F1B9AC-EF7F-41D8-B6EF-AD9BFCF00EA4}" ShortID="469785528"/>
+										<Folder Name="Bottle" ID="{330117E4-F7B6-464F-9C4D-B5474670F7D0}" ShortID="509164699">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Bottle_Pickup" ID="{48BAEBDB-06BF-4C48-8A10-2A6BA4408AA6}" ShortID="718210192">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Empty Beer Bottles Clinking, Clanking" ID="{D5FE0D06-1F9C-4495-BF37-3ECC4D6BCF77}" ShortID="610427646">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Empty Beer Bottles Clinking, Clanking" ID="{BF9C4D84-5BA0-4427-B486-8C65E85A50DB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Empty Beer Bottles Clinking, Clanking.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="685505574"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Empty Beer Bottles Clinking, Clanking" ID="{BF9C4D84-5BA0-4427-B486-8C65E85A50DB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Ductape" ID="{5EDE313E-41CC-4CED-8B61-0CB63D961675}" ShortID="460562324">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Ductape_Pickup" ID="{49E65D4D-D10F-4576-ABF0-570FA507373C}" ShortID="584222900">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Duct Tape 1" ID="{3FC66714-2A9B-4292-A706-FF26BA2A221B}" ShortID="859105559">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Duct Tape 1" ID="{CF161059-0AC5-4905-B491-81CA1A2810B1}">
+																	<Language>SFX</Language>
+																	<AudioFile>Duct Tape 1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="994100445"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Duct Tape 1" ID="{CF161059-0AC5-4905-B491-81CA1A2810B1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Flashlight" ID="{2352E263-4433-4BD3-88D5-BC90C4356918}" ShortID="435998364">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Flashlight_On" ID="{B636A7F9-A731-4402-9009-1DACEE84F518}" ShortID="300266819">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="FlashLight ON" ID="{36E98CA8-A20E-44E0-8790-85397A0EAE8C}" ShortID="893433308">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FlashLight ON" ID="{1CB568B6-72EA-4458-89EE-118FE2723883}">
+																	<Language>SFX</Language>
+																	<AudioFile>FlashLight ON.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="493831071"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FlashLight ON" ID="{1CB568B6-72EA-4458-89EE-118FE2723883}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="FlashLight OFF(2)" ID="{937497D2-735C-4BA3-8299-7849A429A6A3}" ShortID="523690420">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="FlashLight OFF(2)" ID="{1E8A8158-0BED-4F28-9AB4-071072F88E96}">
+																	<Language>SFX</Language>
+																	<AudioFile>FlashLight OFF(2).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1044731422"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="FlashLight OFF(2)" ID="{1E8A8158-0BED-4F28-9AB4-071072F88E96}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Hammer" ID="{36A26B48-200E-4374-8930-21B6EF253F67}" ShortID="1036369814">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Hammer_Hit" ID="{F1DF6F50-0146-422F-B215-11006DC163E6}" ShortID="35896732">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="hammer v1" ID="{D7DBDFD5-18C6-4918-9B7F-04CD70F0E3B9}" ShortID="306634642">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="hammer v1" ID="{BFE30DDA-B129-41E8-B992-82B59723E577}">
+																	<Language>SFX</Language>
+																	<AudioFile>hammer v1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="148628804"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="hammer v1" ID="{BFE30DDA-B129-41E8-B992-82B59723E577}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="hammer v1(3)" ID="{C9D06ABC-230F-4342-9142-6FFB648F2D0B}" ShortID="563407174">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="hammer v1(3)" ID="{A751D392-84D2-494E-91BD-0AD27EFE131C}">
+																	<Language>SFX</Language>
+																	<AudioFile>hammer v1(3).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="47976970"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="hammer v1(3)" ID="{A751D392-84D2-494E-91BD-0AD27EFE131C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="hammer v1(4)" ID="{CB041F01-D5AB-4362-A0C1-DAD9A5277AC9}" ShortID="687796750">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="hammer v1(4)" ID="{CBA7AAAC-9573-4149-96A2-6366F345E27E}">
+																	<Language>SFX</Language>
+																	<AudioFile>hammer v1(4).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="768921192"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="hammer v1(4)" ID="{CBA7AAAC-9573-4149-96A2-6366F345E27E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="hammer v1(5)" ID="{A9371DD9-B8A5-4B08-870F-86B147B98F69}" ShortID="111499274">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="hammer v1(5)" ID="{23EA52A2-76D6-47A3-BB4D-B5F614B69A6C}">
+																	<Language>SFX</Language>
+																	<AudioFile>hammer v1(5).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="620573470"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="hammer v1(5)" ID="{23EA52A2-76D6-47A3-BB4D-B5F614B69A6C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Pills" ID="{09F1B9AC-EF7F-41D8-B6EF-AD9BFCF00EA4}" ShortID="469785528">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Pills_Pickup" ID="{147C6F24-6566-4A26-AF25-DABC7482010C}" ShortID="534701871">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Pills" ID="{3734F13E-7067-4D97-9AAB-D2A1DDA38339}" ShortID="336055901">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Pills" ID="{1F46C013-FE68-4E65-8221-776F7E6148FC}">
+																	<Language>SFX</Language>
+																	<AudioFile>Pills.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="927809522"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Pills" ID="{1F46C013-FE68-4E65-8221-776F7E6148FC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Pills(3)" ID="{EEFECBD7-309E-4804-8DF0-C1BE4900344A}" ShortID="239281349">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Pills(3)" ID="{1CD455A3-DC1E-4E61-A9C7-18FA679459AF}">
+																	<Language>SFX</Language>
+																	<AudioFile>Pills(3).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1051452924"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Pills(3)" ID="{1CD455A3-DC1E-4E61-A9C7-18FA679459AF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Pills(4)" ID="{2FBBDBE2-2D0B-493A-95AD-DF0A7F6CA86C}" ShortID="1009019607">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Pills(4)" ID="{813A79C7-F016-46CE-8E7F-FE00E063339D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Pills(4).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="148368752"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Pills(4)" ID="{813A79C7-F016-46CE-8E7F-FE00E063339D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 										<Folder Name="Screwdriver" ID="{477D27AB-E8C2-48B3-8DE8-3494774EC512}" ShortID="316355790"/>
 										<Folder Name="Wrench" ID="{2FA6F3C4-1FE8-44F9-84CA-DCCC19E2DE8A}" ShortID="491967972"/>
 										<RandomSequenceContainer Name="Pickup" ID="{B09EBFDC-242A-4A5E-AF6C-56CDA0E2F56C}" ShortID="714110597">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1185,6 +1581,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="foley_object_grab_pickup_04" ID="{2550C337-D402-4A3C-B5E1-538802A2D6DC}" ShortID="978843107">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-5</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1244,9 +1647,14 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{FDBD9947-C0D1-48B4-A1B0-BBC37F9C11DE}" ShortID="42385000">
+												<Sound Name="Tap Water, Rapid" ID="{747C5E5C-5EFC-4089-B36A-8664ECD24299}" ShortID="531083008">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1257,28 +1665,23 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{7FD32F26-4C51-48BD-BB69-7F0DE178FC5A}">
-															<PropertyList>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="4.51751037344398"/>
-																<Property Name="TrimEnd" Type="Real64" Value="8.81643153526971"/>
-															</PropertyList>
+														<AudioFileSource Name="Tap Water, Rapid" ID="{6155795D-87C0-403F-A6E4-7ACDF333B785}">
 															<Language>SFX</Language>
-															<AudioFile>25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom..wav</AudioFile>
+															<AudioFile>Tap Water, Rapid.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="890681058"/>
+																<MediaID ID="723430980"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe_ Close Perspective_ Bathroom_" ID="{7FD32F26-4C51-48BD-BB69-7F0DE178FC5A}" Platform="Linked"/>
+														<ActiveSource Name="Tap Water, Rapid" ID="{6155795D-87C0-403F-A6E4-7ACDF333B785}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Folder Name="Handles" ID="{67DD3313-A49D-4F59-87C8-10083F493488}" ShortID="1026354380">
 											<ChildrenList>
-												<RandomSequenceContainer Name="Sink_Handles_On" ID="{BA1C09BA-7D44-4B16-8684-4A4F52237A8B}" ShortID="923110956">
+												<RandomSequenceContainer Name="Sink_Handles" ID="{BA1C09BA-7D44-4B16-8684-4A4F52237A8B}" ShortID="923110956">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1288,7 +1691,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{38350D96-33E9-4EA6-ADE7-FCE9D37DA190}" ShortID="191257398">
+														<Sound Name="BATHROOM FAUCET" ID="{2E1986AA-5002-4AAA-98ED-2D8BA2CBB2CC}" ShortID="519189714">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1298,42 +1701,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{6385DD2C-22B3-46C6-9102-D5BF5C68B273}" ShortID="1049442557" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="BATHROOM FAUCET" ID="{38561011-923F-4011-A759-98620EFE6F16}">
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>BATHROOM FAUCET.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="893809297"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{6385DD2C-22B3-46C6-9102-D5BF5C68B273}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Sink_Handles_Off" ID="{40181C9D-CEB4-4034-B64E-05A5E4B46467}" ShortID="7219064">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{A79D93F9-5114-46DB-A557-67575EAE0C8A}" ShortID="629099543">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{FD570607-D411-43F7-AFEB-6D0C1542EBA8}" ShortID="929454766" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
-																	<Language>SFX</Language>
-																</SourcePlugin>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{FD570607-D411-43F7-AFEB-6D0C1542EBA8}" Platform="Linked"/>
+																<ActiveSource Name="BATHROOM FAUCET" ID="{38561011-923F-4011-A759-98620EFE6F16}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1350,7 +1727,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="05 Drips From Faucet Into Water In Sink" ID="{52A10015-50C3-4005-A07A-B0DF745C0FB6}" ShortID="723395555">
+												<Sound Name="faucet_drip 01" ID="{149B60BD-B05C-4772-9954-4ED43CDADFA0}" ShortID="1053354741">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1363,21 +1740,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="05 Drips From Faucet Into Water In Sink" ID="{E7E3DA22-0DC1-400C-9B80-6678FBA4C6CD}">
-															<PropertyList>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="20.1417427385892"/>
-																<Property Name="TrimEnd" Type="Real64" Value="25.9271369294606"/>
-															</PropertyList>
+														<AudioFileSource Name="faucet_drip 01" ID="{E3EC1133-1EA6-4038-A993-B53396ABC7D5}">
 															<Language>SFX</Language>
-															<AudioFile>05 Drips From Faucet Into Water In Sink.wav</AudioFile>
+															<AudioFile>faucet_drip 01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="854949411"/>
+																<MediaID ID="577420503"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="05 Drips From Faucet Into Water In Sink" ID="{E7E3DA22-0DC1-400C-9B80-6678FBA4C6CD}" Platform="Linked"/>
+														<ActiveSource Name="faucet_drip 01" ID="{E3EC1133-1EA6-4038-A993-B53396ABC7D5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1814,7 +2186,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{4797D2C2-8F2E-43F8-96A3-756EFFC7956C}" ShortID="913397480">
+														<Sound Name="Trash can lid; openclose(3)" ID="{E0BF8A41-FC19-411E-81A7-9B5698772EFB}" ShortID="748789955">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1824,12 +2196,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{3BECC103-4FFF-4075-B103-F42847F2D147}" ShortID="350148234" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="Trash can lid; openclose(3)" ID="{7BC6B631-4548-43C3-98D9-7DD5F5DFEA30}">
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>Trash can lid; openclose(3).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="661571054"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{3BECC103-4FFF-4075-B103-F42847F2D147}" Platform="Linked"/>
+																<ActiveSource Name="Trash can lid; openclose(3)" ID="{7BC6B631-4548-43C3-98D9-7DD5F5DFEA30}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1844,7 +2220,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{EBD4AD15-E4AA-49D2-89CE-60F922C17333}" ShortID="232849941">
+														<Sound Name="Trash can lid; openclose" ID="{8D9E22B3-4C36-420C-90E2-DA27E4679273}" ShortID="866638897">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1854,12 +2230,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{B381F3DF-ED5F-4E44-83F9-7BA956EB6369}" ShortID="729185475" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="Trash can lid; openclose" ID="{45679BE6-55E5-4E74-9651-AF4B38E6B668}">
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>Trash can lid; openclose.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="926442810"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{B381F3DF-ED5F-4E44-83F9-7BA956EB6369}" Platform="Linked"/>
+																<ActiveSource Name="Trash can lid; openclose" ID="{45679BE6-55E5-4E74-9651-AF4B38E6B668}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1876,7 +2256,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{0BC9CBF2-97E3-4016-9B57-EE868B1E652D}" ShortID="385739174">
+												<Sound Name="brown paper bag crumple and toss in trash +body toss in trash end" ID="{4A0AD628-F711-40D2-8291-820EBD78ED47}" ShortID="706676354">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1886,12 +2266,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{1E0B3847-CC08-4089-B2BE-CF7FF5721621}" ShortID="266347165" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="brown paper bag crumple and toss in trash +body toss in trash end" ID="{2BBAEB9A-5847-4D7D-8A50-E5FDA8A52289}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>brown paper bag crumple and toss in trash +body toss in trash end.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="889354461"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{1E0B3847-CC08-4089-B2BE-CF7FF5721621}" Platform="Linked"/>
+														<ActiveSource Name="brown paper bag crumple and toss in trash +body toss in trash end" ID="{2BBAEB9A-5847-4D7D-8A50-E5FDA8A52289}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1912,7 +2296,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{6363B6C1-B20C-44D2-962F-EABA1A2B7704}" ShortID="327449050">
+														<Sound Name="shower-door-open-close01_flac(2)" ID="{DC1063DE-B0CC-40CB-98FF-FAEE6AEE6013}" ShortID="76997943">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1922,12 +2306,21 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{89D2C4C6-FD20-459A-BD87-EB1A7DB8EC6A}" ShortID="1020784281" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="shower-door-open-close01_flac(2)" ID="{A947E27F-34D1-4F07-BB4C-9E8D0309E4B6}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.656439223438767"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.10514451540957"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>shower-door-open-close01.flac(2).wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="732695407"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{89D2C4C6-FD20-459A-BD87-EB1A7DB8EC6A}" Platform="Linked"/>
+																<ActiveSource Name="shower-door-open-close01_flac(2)" ID="{A947E27F-34D1-4F07-BB4C-9E8D0309E4B6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1942,7 +2335,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{A9118ECC-9D15-4AB0-852D-FAAF00A8FC71}" ShortID="820207229">
+														<Sound Name="shower-door-open-close01_flac" ID="{62594313-A49B-4A9E-B92E-40FEAEAB58E7}" ShortID="816128821">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1952,12 +2345,21 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{81476CAE-2CD4-4B0A-8C6F-27AA5ECBA43B}" ShortID="815784796" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="shower-door-open-close01_flac" ID="{38C38088-842A-40A7-BA47-F868FCC6394F}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.696586070559611"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.35137697688564"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>shower-door-open-close01.flac.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="332868805"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{81476CAE-2CD4-4B0A-8C6F-27AA5ECBA43B}" Platform="Linked"/>
+																<ActiveSource Name="shower-door-open-close01_flac" ID="{38C38088-842A-40A7-BA47-F868FCC6394F}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1974,7 +2376,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{64A6E779-C206-4916-884D-B294EEBA66FE}" ShortID="880422328">
+												<Sound Name="Shower inside" ID="{17A87F9D-186A-403B-86A3-B2E804487B59}" ShortID="427325704">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1984,17 +2389,58 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{AD7C1793-5049-4A76-9A0D-901B29D20E6E}" ShortID="104068118" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="Shower inside" ID="{BE461EBC-BA33-4893-9C41-6F7113A213E6}">
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>Shower inside.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="610617018"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{AD7C1793-5049-4A76-9A0D-901B29D20E6E}" Platform="Linked"/>
+														<ActiveSource Name="Shower inside" ID="{BE461EBC-BA33-4893-9C41-6F7113A213E6}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<Folder Name="Handles" ID="{093DF143-9F0C-4F86-9430-4A65C55763E9}" ShortID="724727426"/>
+										<Folder Name="Handles" ID="{093DF143-9F0C-4F86-9430-4A65C55763E9}" ShortID="724727426">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Shower_Handle" ID="{C88B57FE-248E-4DAF-A8EB-5A23A8EAC1CD}" ShortID="906978930">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Shower handle turn on and off quickly, water shutoff with drips" ID="{9212D250-8E8F-416E-BD55-364F9722D8AB}" ShortID="1022688071">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Shower handle turn on and off quickly, water shutoff with drips" ID="{1FE6F2AA-C869-412B-A256-B09CA2546407}">
+																	<Language>SFX</Language>
+																	<AudioFile>Shower handle turn on and off quickly, water shutoff with drips.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="476508581"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Shower handle turn on and off quickly, water shutoff with drips" ID="{1FE6F2AA-C869-412B-A256-B09CA2546407}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Toilet" ID="{F9DEC7E4-8477-4E14-8F96-65D7A54C6FA2}" ShortID="813373338">
@@ -2011,7 +2457,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{943E43EE-B7E9-4254-B861-3F10524ADD15}" ShortID="280971520">
+														<Sound Name="Metal lid closed and opened" ID="{29D778DC-FCC5-425A-8282-C4D2B00F3CB2}" ShortID="75072148">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2021,17 +2467,28 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{E7D2139C-5771-4ADB-8493-FEF5964F0682}" ShortID="49149454" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="Metal lid closed and opened" ID="{1603A5D9-0071-4947-9BFC-B56AF93B5DB5}">
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>Metal lid closed and opened.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="870598308"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{E7D2139C-5771-4ADB-8493-FEF5964F0682}" Platform="Linked"/>
+																<ActiveSource Name="Metal lid closed and opened" ID="{1603A5D9-0071-4947-9BFC-B56AF93B5DB5}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Toilet_Lid_Close" ID="{AC08E356-909E-4167-BC40-AC4815108D84}" ShortID="622069817">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-11</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2041,7 +2498,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{BA3A52AE-1C0B-416C-892C-1CF4F9CF5A14}" ShortID="169997753">
+														<Sound Name="Toilet Lid Close" ID="{841078A7-BC0A-436E-8AD5-A6497FA567F0}" ShortID="1060865837">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2051,12 +2508,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{FD9F83E6-FF05-4B5A-9790-4602FD00C868}" ShortID="667808462" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="Toilet Lid Close" ID="{B53E0FA2-8474-46D2-B51E-A33754A16A83}">
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>Toilet Lid Close.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="763023878"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{FD9F83E6-FF05-4B5A-9790-4602FD00C868}" Platform="Linked"/>
+																<ActiveSource Name="Toilet Lid Close" ID="{B53E0FA2-8474-46D2-B51E-A33754A16A83}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -2073,7 +2534,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="74 Toilet Flush 2 Old Type" ID="{2DE03D23-257A-4485-8974-F6F94B8DB8B4}" ShortID="77272053">
+												<Sound Name="Toilet Flush with Lid Drop" ID="{E6A69D55-02C3-400B-B6D4-E7E5FA97EADD}" ShortID="282609269">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2083,55 +2544,104 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="74 Toilet Flush 2 Old Type" ID="{DACC11FD-CB69-43B3-A831-0C41865867C9}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="4.38063623789765"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="5.09100968188105"/>
-															</PropertyList>
+														<AudioFileSource Name="Toilet Flush with Lid Drop" ID="{58BA7C44-EAE1-49B6-A906-986CC240A3DF}">
 															<Language>SFX</Language>
-															<AudioFile>74 Toilet Flush 2 Old Type.wav</AudioFile>
+															<AudioFile>Toilet Flush with Lid Drop.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="482672395"/>
+																<MediaID ID="757925668"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="74 Toilet Flush 2 Old Type" ID="{DACC11FD-CB69-43B3-A831-0C41865867C9}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{9AB84D10-BFEB-4F49-B84F-4D63D445295D}" ShortID="951286301">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{8931F368-93B5-4FBE-8D04-B2D06FD25D1C}">
-															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="9.55435684647303"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="11.8605809128631"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1061037271"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up" ID="{8931F368-93B5-4FBE-8D04-B2D06FD25D1C}" Platform="Linked"/>
+														<ActiveSource Name="Toilet Flush with Lid Drop" ID="{58BA7C44-EAE1-49B6-A906-986CC240A3DF}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Bed" ID="{FB662DC3-687E-43E6-84A3-ECC7648DBB1B}" ShortID="509952701"/>
+								<Folder Name="Bed" ID="{FB662DC3-687E-43E6-84A3-ECC7648DBB1B}" ShortID="509952701">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Bed_Exit" ID="{43C4D2F2-6020-45CC-8DE6-731743CF6DEA}" ShortID="774116973">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bedsheets Ruffle zip (16-44_1)" ID="{E5EE0142-CC16-4608-AA4A-BD1C5BF47891}" ShortID="316318568">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{0D673C2D-503C-408B-9492-A1D8943DBF9F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.9530528013092"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.11622478393873"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bedsheets Ruffle zip (16-44.1).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="959443216"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{0D673C2D-503C-408B-9492-A1D8943DBF9F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bed_Enter" ID="{80E5773C-FD12-4ABE-8515-7D0E654CE474}" ShortID="122659603">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Bedsheets Ruffle zip (16-44_1)" ID="{667CA1A1-F75C-412F-B577-BBD2274397F4}" ShortID="580332794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{36C978C0-4D82-48FC-887A-37AA63F44C53}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.08778400825739"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Bedsheets Ruffle zip (16-44.1).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="341294441"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{36C978C0-4D82-48FC-887A-37AA63F44C53}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 								<Folder Name="Wash Machine" ID="{7F23C4DF-B443-4C02-8679-37C13A9A6F51}" ShortID="962359215">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Wash_Machine_Knob" ID="{167EEB07-B84B-4568-B5F5-FE1DE36B08AF}" ShortID="458325003">
@@ -2351,7 +2861,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Test_Tone" ID="{5922EBAC-C521-41F5-8978-970E4B9394A4}" ShortID="828841954">
+												<Sound Name="Button 01" ID="{B385B82A-33E7-4163-8541-BBB92BE1DD59}" ShortID="1044315438">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2361,12 +2871,78 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<SourcePlugin Name="Sine" ID="{EF1F7410-80D9-4554-845E-ABAF2C27E9F2}" ShortID="901638558" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+														<AudioFileSource Name="Button 01" ID="{211A4DE7-B0A2-4C73-8037-7450EAD11615}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.034911597729116"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.179467432076237"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.276565313260341"/>
+															</PropertyList>
 															<Language>SFX</Language>
-														</SourcePlugin>
+															<AudioFile>Button 01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="590605312"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Sine" ID="{EF1F7410-80D9-4554-845E-ABAF2C27E9F2}" Platform="Linked"/>
+														<ActiveSource Name="Button 01" ID="{211A4DE7-B0A2-4C73-8037-7450EAD11615}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Button 02" ID="{306075EE-9755-4143-B4C8-BA435C5929ED}" ShortID="998532258">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Button 02" ID="{7E3D5F64-11A8-45C6-9CBC-37889F6B159A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0450920519059205"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.261824817518248"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.415283252230332"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Button 02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="168958372"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Button 02" ID="{7E3D5F64-11A8-45C6-9CBC-37889F6B159A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Button 03(2)" ID="{89578455-48D0-470E-A103-631204E62F7D}" ShortID="811423044">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Button 03(2)" ID="{C079519C-B3C4-4537-B18E-4FC0769BB203}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0248487682481752"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.184850593065693"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.31212477189781"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Button 03(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="216700862"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Button 03(2)" ID="{C079519C-B3C4-4537-B18E-4FC0769BB203}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2383,7 +2959,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{107C2470-900A-4A3B-9E78-40457BFFBDF0}" ShortID="204873263">
+														<Sound Name="school locker" ID="{21B954E9-0AC9-41A0-BE9F-7E58444C07C6}" ShortID="280637655">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2393,12 +2969,22 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{EB698125-2FBA-40D2-B52E-41AE3265C395}" ShortID="77184484" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="school locker" ID="{324260A3-DBC6-42DF-B552-84760B48937D}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0195662368759345"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.352192263766821"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0269035757044099"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>school locker.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="256327826"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{EB698125-2FBA-40D2-B52E-41AE3265C395}" Platform="Linked"/>
+																<ActiveSource Name="school locker" ID="{324260A3-DBC6-42DF-B552-84760B48937D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -2413,7 +2999,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Test_Tone" ID="{EC27A637-791B-4906-B611-6BFE36B309DD}" ShortID="604249960">
+														<Sound Name="Metal Lid Close" ID="{0FB8BB75-0466-4D01-82D7-1F92C060E721}" ShortID="348579004">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -2423,19 +3009,113 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<SourcePlugin Name="Sine" ID="{C973EEF6-4F80-439F-9E72-D0BEE9F20C0A}" ShortID="621078901" PluginName="Wwise Sine" CompanyID="0" PluginID="100">
+																<AudioFileSource Name="Metal Lid Close" ID="{D421313A-6283-4572-A4DD-D3018D0E4910}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00934090617379024"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0597817995122577"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.711777050442819"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.1134360159158"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
-																</SourcePlugin>
+																	<AudioFile>Metal Lid Close.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="785178161"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Sine" ID="{C973EEF6-4F80-439F-9E72-D0BEE9F20C0A}" Platform="Linked"/>
+																<ActiveSource Name="Metal Lid Close" ID="{D421313A-6283-4572-A4DD-D3018D0E4910}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
-										<Folder Name="Fuse" ID="{E32C6106-2B60-4E44-84CA-DA5525DC15B4}" ShortID="171428593"/>
+										<Folder Name="Fuse" ID="{E32C6106-2B60-4E44-84CA-DA5525DC15B4}" ShortID="171428593">
+											<ChildrenList>
+												<RandomSequenceContainer Name="Fuse_On" ID="{D11138AA-FD30-41FE-ACE6-9BB1DE50020F}" ShortID="399957786">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Kitchen Fuse Switch" ID="{E691425B-2C79-4921-85C3-617FB01B0964}" ShortID="862484819">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Kitchen Fuse Switch" ID="{3482EBB4-3A82-4292-A7CE-B406034A3FDD}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0975031861893176"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.039001274475727"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.253508284092226"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Kitchen Fuse Switch.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="143657316"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Kitchen Fuse Switch" ID="{3482EBB4-3A82-4292-A7CE-B406034A3FDD}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Fuse_Off" ID="{A815E82C-2E6E-46EB-81D7-884DC7FE4FF1}" ShortID="619749544">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Kitchen Fuse Switch" ID="{82C4BD39-6C3B-4472-8D13-A3C3D8E3B8E8}" ShortID="731609545">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Kitchen Fuse Switch" ID="{55056CDC-CED8-4479-AEDB-E90593F637FE}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.0975031861893176"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.75505735140772"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.93706329896111"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Kitchen Fuse Switch.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="970762632"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Kitchen Fuse Switch" ID="{55056CDC-CED8-4479-AEDB-E90593F637FE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="TV" ID="{90B46935-5770-4B0C-9FF7-434905CD79E6}" ShortID="969338301">
@@ -2464,7 +3144,7 @@
 															<ChildrenList>
 																<AudioFileSource Name="TV Old On Off 01" ID="{5D02CE33-91AA-4463-B734-5B444FBD97A3}">
 																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.27384739946262"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="2.00796642861847"/>
 																	</PropertyList>
@@ -2503,8 +3183,10 @@
 															<ChildrenList>
 																<AudioFileSource Name="TV Old On Off 01" ID="{5849DB4C-467E-4459-B4BA-1A9C03D78C50}">
 																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0253754462044347"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.71558758296506"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.70036864538346"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.8779967688145"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>TV Old On Off 01.wav</AudioFile>

@@ -15,6 +15,8 @@ namespace AK
     {
         static const AkUniqueID PLAY_1_BIT_JAM_MENU_MX_V2_LOOP = 2894561040U;
         static const AkUniqueID PLAY_AMBIENCE_CLOCK_LOOP = 1829767974U;
+        static const AkUniqueID PLAY_APARTMENT_AMBIENCE = 1579360687U;
+        static const AkUniqueID PLAY_BOTTLE_PICKUP = 4101144041U;
         static const AkUniqueID PLAY_CABINET_LARGE_CLOSE = 2531064299U;
         static const AkUniqueID PLAY_CABINET_LARGE_OPEN = 3287628333U;
         static const AkUniqueID PLAY_CABINET_SMALL_CLOSE = 2141857383U;
@@ -30,6 +32,8 @@ namespace AK
         static const AkUniqueID PLAY_DRAWER_OPEN = 1958703520U;
         static const AkUniqueID PLAY_DRAWER_OPEN_EMPTY = 1237346242U;
         static const AkUniqueID PLAY_DRUNK_FOOTSTEPS = 3993278548U;
+        static const AkUniqueID PLAY_DUCTAPE_PICKUP = 2210075393U;
+        static const AkUniqueID PLAY_FLASHLIGHT_ON = 3471928368U;
         static const AkUniqueID PLAY_FREEZER_DOOR_CLOSE = 2332875111U;
         static const AkUniqueID PLAY_FREEZER_DOOR_OPEN = 470009873U;
         static const AkUniqueID PLAY_FRIDGE_DOOR_CLOSE = 2637930989U;
@@ -40,17 +44,22 @@ namespace AK
         static const AkUniqueID PLAY_FUSEBOX_BUTTON = 3621687239U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_CLOSE = 2531764854U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_OPEN = 612620834U;
+        static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
+        static const AkUniqueID PLAY_PILLS_PICKUP = 1625998593U;
         static const AkUniqueID PLAY_PLAYER_ECHO = 59459483U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_CARPET = 2225525625U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_STONE = 268867591U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_TILE = 164811484U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_WOOD = 1323502295U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X2 = 859694722U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X_WAVE = 147896324U;
         static const AkUniqueID PLAY_SHEPARD_TONE_SINE_WAVE = 3835412270U;
         static const AkUniqueID PLAY_SHOWER_DOOR_CLOSE = 4281644042U;
         static const AkUniqueID PLAY_SHOWER_DOOR_OPEN = 2225339950U;
+        static const AkUniqueID PLAY_SHOWER_HANDLE = 3807435137U;
         static const AkUniqueID PLAY_SHOWER_ON_LOOP = 2746477793U;
-        static const AkUniqueID PLAY_SINK_HANDLES_OFF = 822157893U;
-        static const AkUniqueID PLAY_SINK_HANDLES_ON = 85260089U;
+        static const AkUniqueID PLAY_SINK_HANDLES = 717324499U;
         static const AkUniqueID PLAY_SINK_ON_LOOP = 3721638250U;
         static const AkUniqueID PLAY_STALKER_FOOTSTEPS = 1717998074U;
         static const AkUniqueID PLAY_STANDING_LIGHT_LOOP = 3111854812U;
@@ -75,6 +84,8 @@ namespace AK
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X2 = 3138979112U;
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X_WAVE = 887930354U;
         static const AkUniqueID STOP_SHEPARD_TONE_SINE_WAVE = 3279282928U;
+        static const AkUniqueID STOP_WINDOW_CLOSE_LOOP = 1944978762U;
+        static const AkUniqueID STOP_WINDOW_OPEN_LOOP = 3500678004U;
     } // namespace EVENTS
 
     namespace SWITCHES

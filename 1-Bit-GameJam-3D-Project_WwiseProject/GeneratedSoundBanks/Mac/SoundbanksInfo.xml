@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4E31773C-D7F9-12FC-269D-C29C2F9759FA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6AAD675A-77C3-E8F6-810B-3ABCF6F51E50}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{5EAAC4C7-A51F-723B-6A32-90B23AC3BFF6}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{32419592-C239-1855-3BA2-75374786615D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="22674253" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bare_Feet_HW4_MED_WALK.L.wav</ShortName>
-					<CachePath>SFX/Bare_Feet_HW4_MED_WALK.L_F87FD3E8.wem</CachePath>
+					<CachePath>SFX/Bare_Feet_HW4_MED_WALK.L_B6A7B43F.wem</CachePath>
 				</File>
 				<File Id="29066256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</ShortName>
@@ -61,6 +61,14 @@
 				<File Id="37149225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_3.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="47976970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer v1(3).wav</ShortName>
+					<CachePath>SFX/hammer v1(3)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="55990598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps Gravel.wav</ShortName>
+					<CachePath>SFX/Footsteps Gravel_34B9B36A.wem</CachePath>
 				</File>
 				<File Id="60449373" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shepard Tone_Mass X Wave.wav</ShortName>
@@ -86,21 +94,49 @@
 					<ShortName>Drawer 6018_33_3.wav</ShortName>
 					<CachePath>SFX/Drawer 6018_33_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="148368752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pills(4).wav</ShortName>
+					<CachePath>SFX/Pills(4)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148628804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer v1.wav</ShortName>
+					<CachePath>SFX/hammer v1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="148774718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
 					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._709E5B6D.wem</CachePath>
+				</File>
+				<File Id="168958372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button 02.wav</ShortName>
+					<CachePath>SFX/Button 02_12B372AA.wem</CachePath>
+				</File>
+				<File Id="216700862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button 03(2).wav</ShortName>
+					<CachePath>SFX/Button 03(2)_EB8DAEF3.wem</CachePath>
+				</File>
+				<File Id="235713561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>finger snap 02.aiff(2).wav</ShortName>
+					<CachePath>SFX/finger snap 02.aiff(2)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="238130164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</ShortName>
 					<CachePath>SFX/FRIDGE_DOOR_SLAM_HUM_01_CS_B94C1BD7.wem</CachePath>
 				</File>
+				<File Id="243025860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps Run Hard Floor 01.wav</ShortName>
+					<CachePath>SFX/Footsteps Run Hard Floor 01_89924BBF.wem</CachePath>
+				</File>
 				<File Id="252798503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_51_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_51_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="256327826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>school locker.wav</ShortName>
+					<CachePath>SFX/school locker_F8E6E94B.wem</CachePath>
+				</File>
 				<File Id="310800964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TV Old On Off 01.wav</ShortName>
-					<CachePath>SFX/TV Old On Off 01_7E1D70CF.wem</CachePath>
+					<CachePath>SFX/TV Old On Off 01_4157D532.wem</CachePath>
 				</File>
 				<File Id="311327703" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>61 Refrigerator Door Opens And Closes With Latch Click.wav</ShortName>
@@ -110,9 +146,17 @@
 					<ShortName>DoorCabinet 6018_09_7.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_7_10C4C929.wem</CachePath>
 				</File>
+				<File Id="332868805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shower-door-open-close01.flac.wav</ShortName>
+					<CachePath>SFX/shower-door-open-close01.flac_A5B6A01D.wem</CachePath>
+				</File>
 				<File Id="352765158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_53_3.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_53_3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365044523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>City Noise Inside Apartment.wav</ShortName>
+					<CachePath>SFX/City Noise Inside Apartment_10C4C929.wem</CachePath>
 				</File>
 				<File Id="441456926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
@@ -130,9 +174,17 @@
 					<ShortName>DoorCabinet 6018_09_2.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_2_10C4C929.wem</CachePath>
 				</File>
-				<File Id="482672395" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>74 Toilet Flush 2 Old Type.wav</ShortName>
-					<CachePath>SFX/74 Toilet Flush 2 Old Type_5A7B28FD.wem</CachePath>
+				<File Id="476508581" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shower handle turn on and off quickly, water shutoff with drips.wav</ShortName>
+					<CachePath>SFX/Shower handle turn on and off quickly, water shutoff with drips_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485154323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Open Windows, Rain 05(2).wav</ShortName>
+					<CachePath>SFX/Open Windows, Rain 05(2)_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="493831071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FlashLight ON.wav</ShortName>
+					<CachePath>SFX/FlashLight ON_10C4C929.wem</CachePath>
 				</File>
 				<File Id="500430144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_08.wav</ShortName>
@@ -141,6 +193,10 @@
 				<File Id="509857907" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foley_object_grab_pickup_04.wav</ShortName>
 					<CachePath>SFX/foley_object_grab_pickup_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="515508150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>rain on closed window roomy wet.flac.wav</ShortName>
+					<CachePath>SFX/rain on closed window roomy wet.flac_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="531886203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_6.wav</ShortName>
@@ -162,9 +218,29 @@
 					<ShortName>01 Wood Door #1_ Open And Close With Metal Latch Knob.wav</ShortName>
 					<CachePath>SFX/01 Wood Door #1_ Open And Close With Metal Latch Knob_9FA89D84.wem</CachePath>
 				</File>
+				<File Id="590605312" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Button 01.wav</ShortName>
+					<CachePath>SFX/Button 01_701EBDB0.wem</CachePath>
+				</File>
+				<File Id="610617018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shower inside.wav</ShortName>
+					<CachePath>SFX/Shower inside_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="620573470" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer v1(5).wav</ShortName>
+					<CachePath>SFX/hammer v1(5)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="657053874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_02.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="661571054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Trash can lid; openclose(3).wav</ShortName>
+					<CachePath>SFX/Trash can lid; openclose(3)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="685505574" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Empty Beer Bottles Clinking, Clanking.wav</ShortName>
+					<CachePath>SFX/Empty Beer Bottles Clinking, Clanking_10C4C929.wem</CachePath>
 				</File>
 				<File Id="698292043" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Utility room front(2).wav</ShortName>
@@ -178,9 +254,17 @@
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_49_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="723430980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tap Water, Rapid.wav</ShortName>
+					<CachePath>SFX/Tap Water, Rapid_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="723691887" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_50_1.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_50_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="732695407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>shower-door-open-close01.flac(2).wav</ShortName>
+					<CachePath>SFX/shower-door-open-close01.flac(2)_FDDA3B52.wem</CachePath>
 				</File>
 				<File Id="741383288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>05 Wood Door #5_ Open With Squeak And Close With Bounce.wav</ShortName>
@@ -188,19 +272,35 @@
 				</File>
 				<File Id="753808601" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop.wav</ShortName>
-					<CachePath>SFX/1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop_6AB344E0.wem</CachePath>
+					<CachePath>SFX/1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop_64B2BECD.wem</CachePath>
+				</File>
+				<File Id="757925668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Toilet Flush with Lid Drop.wav</ShortName>
+					<CachePath>SFX/Toilet Flush with Lid Drop_10C4C929.wem</CachePath>
 				</File>
 				<File Id="759443125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_52_2.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_52_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="763023878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Toilet Lid Close.wav</ShortName>
+					<CachePath>SFX/Toilet Lid Close_10C4C929.wem</CachePath>
+				</File>
 				<File Id="768322248" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_53_1.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_53_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="768921192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hammer v1(4).wav</ShortName>
+					<CachePath>SFX/hammer v1(4)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="773720196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shepard Tone_Sine Wave.wav</ShortName>
 					<CachePath>SFX/Shepard Tone_Sine Wave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="785178161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal Lid Close.wav</ShortName>
+					<CachePath>SFX/Metal Lid Close_A3813BD7.wem</CachePath>
 				</File>
 				<File Id="819368908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_4.wav</ShortName>
@@ -234,13 +334,21 @@
 					<ShortName>DeskDrawer 6028_52_3.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_52_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="870598308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Metal lid closed and opened.wav</ShortName>
+					<CachePath>SFX/Metal lid closed and opened_10C4C929.wem</CachePath>
+				</File>
 				<File Id="876215196" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>62 Refrigerator Compressor Motor Turn On Steady And Off.wav</ShortName>
 					<CachePath>SFX/62 Refrigerator Compressor Motor Turn On Steady And Off_F775C0C9.wem</CachePath>
 				</File>
-				<File Id="890681058" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom..wav</ShortName>
-					<CachePath>SFX/25-88 Sink_ Faucet On _ Off ; Sink Filling With Water; Occasional Light High-pitched Tone From Pipe. Close Perspective. Bathroom._613318F7.wem</CachePath>
+				<File Id="889354461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>brown paper bag crumple and toss in trash +body toss in trash end.wav</ShortName>
+					<CachePath>SFX/brown paper bag crumple and toss in trash +body toss in trash end_10C4C929.wem</CachePath>
+				</File>
+				<File Id="893809297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BATHROOM FAUCET.wav</ShortName>
+					<CachePath>SFX/BATHROOM FAUCET_10C4C929.wem</CachePath>
 				</File>
 				<File Id="906693199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TelevisionStatic_BW.50827.wav</ShortName>
@@ -250,9 +358,21 @@
 					<ShortName>25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting. Close Perspective..wav</ShortName>
 					<CachePath>SFX/25-66 Washing Machine Knobs; Knobs Being Dialed To A Specific Setting. Close Perspective._985188A7.wem</CachePath>
 				</File>
+				<File Id="916159817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps Run Hard Floor 01.wav</ShortName>
+					<CachePath>SFX/Footsteps Run Hard Floor 01_4E22547B.wem</CachePath>
+				</File>
 				<File Id="924890128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_05.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="926442810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Trash can lid; openclose.wav</ShortName>
+					<CachePath>SFX/Trash can lid; openclose_10C4C929.wem</CachePath>
+				</File>
+				<File Id="927809522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pills.wav</ShortName>
+					<CachePath>SFX/Pills_10C4C929.wem</CachePath>
 				</File>
 				<File Id="952922977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</ShortName>
@@ -264,15 +384,27 @@
 				</File>
 				<File Id="965341472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TV Old On Off 01.wav</ShortName>
-					<CachePath>SFX/TV Old On Off 01_1564B5F9.wem</CachePath>
+					<CachePath>SFX/TV Old On Off 01_080DEEC9.wem</CachePath>
+				</File>
+				<File Id="989522928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fluorescent Lightbulb Hum.aif.wav</ShortName>
+					<CachePath>SFX/Fluorescent Lightbulb Hum.aif_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="994100445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Duct Tape 1.wav</ShortName>
+					<CachePath>SFX/Duct Tape 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1044731422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FlashLight OFF(2).wav</ShortName>
+					<CachePath>SFX/FlashLight OFF(2)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1044853674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_06.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1061037271" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up.wav</ShortName>
-					<CachePath>SFX/75 Toilet Flush 3 Old Type With Long Flush And Tank Fill Up_C486E955.wem</CachePath>
+				<File Id="1051452924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pills(3).wav</ShortName>
+					<CachePath>SFX/Pills(3)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1070144266" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shepard Tone_Mass X2.wav</ShortName>
@@ -280,26 +412,9 @@
 				</File>
 			</Media>
 			<Plugins>
-				<Custom>
-					<Plugin Id="49149454" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="64019436" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="77184484" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="104068118" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="266347165" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="350148234" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="511942729" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="580798756" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="621078901" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="667808462" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="729185475" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="815784796" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="844065003" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="901638558" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="921414868" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="929454766" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="1020784281" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-					<Plugin Id="1049442557" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
-				</Custom>
+				<ShareSets>
+					<Plugin Id="3487820010" Name="One_Tap_Half_Second" LibName="Wwise Delay" LibId="6946819"/>
+				</ShareSets>
 			</Plugins>
 			<Events>
 				<Event Id="2894561040" Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" DurationType="Infinite">
@@ -314,6 +429,16 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="1579360687" Name="Play_Apartment_Ambience" DurationType="OneShot" DurationMin="28.220198" DurationMax="28.220198">
+					<MediaRefs>
+						<MediaRef Id="365044523"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4101144041" Name="Play_Bottle_Pickup" DurationType="OneShot" DurationMin="0.1993125" DurationMax="0.1993125">
+					<MediaRefs>
+						<MediaRef Id="685505574"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2531064299" Name="Play_Cabinet_Large_Close" DurationType="OneShot" DurationMin="1.6533333" DurationMax="2.176">
 					<MediaRefs>
@@ -346,13 +471,7 @@
 						<MediaRef Id="37149225"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="115528144" Name="Play_Celing_Light_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="844065003"/>
-						</Custom>
-					</PluginRefs>
-				</Event>
+				<Event Id="115528144" Name="Play_Celing_Light_Loop" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2292458263" Name="Play_Door_Close" DurationType="OneShot" DurationMin="3.340249" DurationMax="3.4478562">
 					<MediaRefs>
 						<MediaRef Id="29066256"/>
@@ -394,9 +513,20 @@
 						<MediaRef Id="759443125"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3993278548" Name="Play_Drunk_Footsteps" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
+				<Event Id="3993278548" Name="Play_Drunk_Footsteps" DurationType="OneShot" DurationMin="0.3122634" DurationMax="0.3122634">
 					<MediaRefs>
 						<MediaRef Id="753808601"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2210075393" Name="Play_Ductape_Pickup" DurationType="OneShot" DurationMin="0.4542857" DurationMax="0.4542857">
+					<MediaRefs>
+						<MediaRef Id="994100445"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3471928368" Name="Play_Flashlight_On" DurationType="OneShot" DurationMin="0.021678004" DurationMax="0.026621316">
+					<MediaRefs>
+						<MediaRef Id="493831071"/>
+						<MediaRef Id="1044731422"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2332875111" Name="Play_Freezer_Door_Close" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.5226667">
@@ -438,26 +568,30 @@
 						<MediaRef Id="456848155"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3621687239" Name="Play_Fusebox_Button" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="901638558"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3621687239" Name="Play_Fusebox_Button" DurationType="OneShot" DurationMin="0.09709788" DurationMax="0.15345843">
+					<MediaRefs>
+						<MediaRef Id="168958372"/>
+						<MediaRef Id="216700862"/>
+						<MediaRef Id="590605312"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="2531764854" Name="Play_Fusebox_Door_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="621078901"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2531764854" Name="Play_Fusebox_Door_Close" DurationType="OneShot" DurationMin="0.40165895" DurationMax="0.40165895">
+					<MediaRefs>
+						<MediaRef Id="785178161"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="612620834" Name="Play_Fusebox_Door_Open" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="77184484"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="612620834" Name="Play_Fusebox_Door_Open" DurationType="OneShot" DurationMin="1.9835273" DurationMax="1.9835273">
+					<MediaRefs>
+						<MediaRef Id="256327826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4031726782" Name="Play_Hammer_Hit" DurationType="OneShot" DurationMin="0.37272108" DurationMax="0.45827663">
+					<MediaRefs>
+						<MediaRef Id="47976970"/>
+						<MediaRef Id="148628804"/>
+						<MediaRef Id="620573470"/>
+						<MediaRef Id="768921192"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3860455926" Name="Play_Pickup" DurationType="OneShot" DurationMin="0.3166875" DurationMax="0.5430521">
 					<MediaRefs>
@@ -465,12 +599,40 @@
 						<MediaRef Id="849882323"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="59459483" Name="Play_Player_Echo" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+				<Event Id="1625998593" Name="Play_Pills_Pickup" DurationType="OneShot" DurationMin="0.7287755" DurationMax="0.9810431">
+					<MediaRefs>
+						<MediaRef Id="148368752"/>
+						<MediaRef Id="927809522"/>
+						<MediaRef Id="1051452924"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="59459483" Name="Play_Player_Echo" DurationType="OneShot" DurationMin="0.7021875" DurationMax="0.7021875">
+					<MediaRefs>
+						<MediaRef Id="235713561"/>
+					</MediaRefs>
 					<PluginRefs>
-						<Custom>
-							<PluginRef Id="921414868"/>
-						</Custom>
+						<ShareSets>
+							<PluginRef Id="3487820010"/>
+						</ShareSets>
 					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2225525625" Name="Play_Player_Footsteps_Carpet" DurationType="OneShot" DurationMin="0.61567885" DurationMax="0.61567885">
+					<MediaRefs>
+						<MediaRef Id="55990598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="268867591" Name="Play_Player_Footsteps_Stone" DurationType="OneShot" DurationMin="0.39776763" DurationMax="0.39776763">
+					<MediaRefs>
+						<MediaRef Id="243025860"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="164811484" Name="Play_Player_Footsteps_Tile" DurationType="OneShot" DurationMin="0.29061776" DurationMax="0.29061776">
+					<MediaRefs>
+						<MediaRef Id="916159817"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="1323502295" Name="Play_Player_Footsteps_Wood" DurationType="OneShot" DurationMin="0.19069281" DurationMax="0.57767636">
 					<MediaRefs>
@@ -502,105 +664,82 @@
 						<MediaRef Id="773720196"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1020784281"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="4281644042" Name="Play_Shower_Door_Close" DurationType="OneShot" DurationMin="2.3100014" DurationMax="2.3100014">
+					<MediaRefs>
+						<MediaRef Id="732695407"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="2225339950" Name="Play_Shower_Door_Open" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="815784796"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2225339950" Name="Play_Shower_Door_Open" DurationType="OneShot" DurationMin="2.4659147" DurationMax="2.4659147">
+					<MediaRefs>
+						<MediaRef Id="332868805"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="2746477793" Name="Play_Shower_On_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="104068118"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3807435137" Name="Play_Shower_Handle" DurationType="OneShot" DurationMin="1.0461458" DurationMax="1.0461458">
+					<MediaRefs>
+						<MediaRef Id="476508581"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="822157893" Name="Play_Sink_Handles_Off" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="929454766"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2746477793" Name="Play_Shower_On_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="610617018"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="85260089" Name="Play_Sink_Handles_On" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1049442557"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="717324499" Name="Play_Sink_Handles" DurationType="OneShot" DurationMin="0.4751875" DurationMax="0.4751875">
+					<MediaRefs>
+						<MediaRef Id="893809297"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3721638250" Name="Play_Sink_On_Loop" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="890681058"/>
+						<MediaRef Id="723430980"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1717998074" Name="Play_Stalker_Footsteps" DurationType="OneShot" DurationMin="0.55186725" DurationMax="0.55186725">
+				<Event Id="1717998074" Name="Play_Stalker_Footsteps" DurationType="OneShot" DurationMin="0.28981635" DurationMax="0.28981635">
 					<MediaRefs>
 						<MediaRef Id="22674253"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3111854812" Name="Play_Standing_Light_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="511942729"/>
-						</Custom>
-					</PluginRefs>
-				</Event>
-				<Event Id="3094035634" Name="Play_Toilet_Flush" DurationType="OneShot" DurationMin="5.0910096" DurationMax="11.86058">
+				<Event Id="3111854812" Name="Play_Standing_Light_Loop" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="482672395"/>
-						<MediaRef Id="1061037271"/>
+						<MediaRef Id="989522928"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4125304698" Name="Play_Toilet_Lid_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="667808462"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3094035634" Name="Play_Toilet_Flush" DurationType="OneShot" DurationMin="5.8024583" DurationMax="5.8024583">
+					<MediaRefs>
+						<MediaRef Id="757925668"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="2320097534" Name="Play_Toilet_Lid_Open" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="49149454"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="4125304698" Name="Play_Toilet_Lid_Close" DurationType="OneShot" DurationMin="0.470375" DurationMax="0.470375">
+					<MediaRefs>
+						<MediaRef Id="763023878"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="1841648030" Name="Play_Trash_Bag_Pickup" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="266347165"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="2320097534" Name="Play_Toilet_Lid_Open" DurationType="OneShot" DurationMin="0.94945836" DurationMax="0.94945836">
+					<MediaRefs>
+						<MediaRef Id="870598308"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="304768047" Name="Play_Trash_Lid_Close" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="350148234"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="1841648030" Name="Play_Trash_Bag_Pickup" DurationType="OneShot" DurationMin="0.45783332" DurationMax="0.45783332">
+					<MediaRefs>
+						<MediaRef Id="889354461"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="2352193513" Name="Play_Trash_Lid_Open" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="729185475"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="304768047" Name="Play_Trash_Lid_Close" DurationType="OneShot" DurationMin="0.5368958" DurationMax="0.5368958">
+					<MediaRefs>
+						<MediaRef Id="661571054"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2352193513" Name="Play_Trash_Lid_Open" DurationType="OneShot" DurationMin="1.8953959" DurationMax="1.8953959">
+					<MediaRefs>
+						<MediaRef Id="926442810"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2754573889" Name="Play_TV_Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="906693199"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="717201584" Name="Play_TV_Power_Off" DurationType="OneShot" DurationMin="1.4713547" DurationMax="1.4713547">
+				<Event Id="717201584" Name="Play_TV_Power_Off" DurationType="OneShot" DurationMin="1.2937266" DurationMax="1.2937266">
 					<MediaRefs>
 						<MediaRef Id="965341472"/>
 					</MediaRefs>
@@ -630,19 +769,15 @@
 						<MediaRef Id="914824857"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3797716684" Name="Play_Window_Close_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="580798756"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="3797716684" Name="Play_Window_Close_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="515508150"/>
+					</MediaRefs>
 				</Event>
-				<Event Id="4291075070" Name="Play_Window_Open_Loop" DurationType="OneShot" DurationMin="1" DurationMax="1">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="64019436"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="4291075070" Name="Play_Window_Open_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="485154323"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="2188479622" Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -650,8 +785,10 @@
 				<Event Id="3138979112" Name="Stop_Shepard_Tone_Mass_X2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="887930354" Name="Stop_Shepard_Tone_Mass_X_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3279282928" Name="Stop_Shepard_Tone_Sine_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1944978762" Name="Stop_Window_Close_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3500678004" Name="Stop_Window_Open_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9D7E339E-5C01-DAE3-CE0A-C788336C5785}</FileHash>
+	<FileHash>{85594ED0-ADD5-005B-AC4D-F41A9D71AF9F}</FileHash>
 </SoundBanksInfo>
