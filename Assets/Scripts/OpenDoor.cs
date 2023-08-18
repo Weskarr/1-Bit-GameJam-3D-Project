@@ -30,7 +30,7 @@ public class OpenDoor : MonoBehaviour, Interactable
     private Collider colliderDisable;
 
     bool close = true;
-    bool moving = false;
+    public bool moving = false;
 
     [Header("Wwise Events")]
     public AK.Wwise.Event openSound;

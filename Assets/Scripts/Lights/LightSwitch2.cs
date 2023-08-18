@@ -29,12 +29,16 @@ public class LightSwitch2 : MonoBehaviour, Interactable
     [Header("Wwise Events")]
     public AK.Wwise.Event offSound;
 
-    private bool isLightOn = true;
+    public bool isLightOn = true;
     private bool hasPower = true;
 
     private void Start()
     {
-        turnOn();
+        if (!isLightOn) {
+            turnOff(false);
+        } else {
+            turnOn(false);
+        }
     }
 
     public void Interact()
@@ -47,11 +51,11 @@ public class LightSwitch2 : MonoBehaviour, Interactable
 
         if (isLightOn == true)
         {
-            turnOff();
+            turnOff(true);
         }
         else
         {
-            turnOn();
+            turnOn(true);
         }
     }
 
@@ -90,7 +94,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
         myMasterMind.LightIsOff(lightIdentity);
     }
 
-    private void turnOff()
+    private void turnOff(bool playSound)
     {
         if (hasPower)
         {
@@ -107,12 +111,12 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             myMasterMind.LightIsOff(lightIdentity);
         }
 
-        offSound.Post(gameObject);
+        if (playSound) offSound.Post(gameObject);
         isLightOn = false;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
 
-    private void turnOn ()
+    private void turnOn (bool playSound)
     {
         if (hasPower)
         {
@@ -129,7 +133,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             myMasterMind.LightIsOn(lightIdentity);
         }
 
-        onSound.Post(gameObject);
+        if (playSound) onSound.Post(gameObject);
         isLightOn = true;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
     }

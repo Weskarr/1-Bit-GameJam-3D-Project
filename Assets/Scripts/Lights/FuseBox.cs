@@ -34,7 +34,7 @@ public class FuseBox : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        turnAllPowerOff();
+        // turnAllPowerOff();
     }
 
     // Update is called once per frame

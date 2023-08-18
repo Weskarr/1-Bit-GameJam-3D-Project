@@ -25,10 +25,14 @@ public class Director : MonoBehaviour
 
     public Transform asleepPoint;
     public Transform awakePoint;
+    public Transform firstAwakePoint;
 
     public float startPauseTime;
     public float wakeupTime;
     public float lightsOffWait;
+
+    [Header("Wwise Events")]
+    public AK.Wwise.Event wakeupSound;
 
 
     public GameObject[] switches;
@@ -40,28 +44,37 @@ public class Director : MonoBehaviour
     int switchInd;
     void Start()
     {
+        wakePoint = firstAwakePoint;
         echoManager = EchoManager.instance;
         StartCoroutine(startProcess());
         Events.onTriggerEnter += listenTrigger;
     }
 
+    bool firstTIme = true;
+    Transform wakePoint;
     void Update() {
         if(wakeupStartTime > 0) {
             float p = (Time.time - wakeupStartTime) / wakeupTime;
             if (p >= 1) {
                 wakeupStartTime = 0;
-                player.transform.position = awakePoint.position;
-                player.transform.rotation = awakePoint.rotation;
-                player.movementEnabled = true;
+                player.transform.position = wakePoint.position;
+                player.transform.rotation = wakePoint.rotation;
+                if (!firstTIme) player.movementEnabled = true;
+                else wakePoint = awakePoint;
                 player.mouseLookEnabled = true;
                 canSleep = false;
             } else {
-                Vector3 pos = Vector3.Lerp(asleepPoint.position, awakePoint.position, p);
-                Quaternion rot = Quaternion.Lerp(asleepPoint.rotation, awakePoint.rotation, p);
+                Vector3 pos = Vector3.Lerp(asleepPoint.position, wakePoint.position, p);
+                Quaternion rot = Quaternion.Lerp(asleepPoint.rotation, wakePoint.rotation, p);
                 player.transform.position = pos;
                 player.transform.rotation = rot;
             }
         }
+    }
+
+    public void GetFlashlight() {
+        player.movementEnabled = true;
+        echoManager.LightsOn();
     }
 
     IEnumerator startProcess() {
@@ -72,7 +85,7 @@ public class Director : MonoBehaviour
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
-        echoManager.LightsOn();
+        wakeupSound.Post(player.gameObject);
         yield return new WaitForSeconds(startPauseTime);
         wakeupStartTime = Time.time;
         GetComponent<ToolSpawn>().SpawnTools(3);

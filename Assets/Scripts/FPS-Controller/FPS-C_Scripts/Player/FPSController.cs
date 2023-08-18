@@ -329,6 +329,12 @@ namespace TheFirstPerson
                 UpdateInput();
             }
 
+            if (mouseLookEnabled) {
+                bool standard = customInputSystem == null;
+                xMouse = standard ? Input.GetAxis(xMouseName) : customInputSystem.XMouse();
+                yMouse = standard ? Input.GetAxis(yMouseName) : customInputSystem.YMouse();
+            }
+
             UpdateMouseLock();
             ExecuteExtension(ExtFunc.PostInput);
             if (thirdPersonMode && movementEnabled)
@@ -779,8 +785,6 @@ namespace TheFirstPerson
                 xIn = normalised.x;
                 yIn = normalised.y;
             }
-            xMouse = standard ? Input.GetAxis(xMouseName) : customInputSystem.XMouse();
-            yMouse = standard ? Input.GetAxis(yMouseName) : customInputSystem.YMouse();
             moving = Mathf.Abs(xIn) > 0.1 || Mathf.Abs(yIn) > 0.1;
             if (crouchToggleStyle)
             {
