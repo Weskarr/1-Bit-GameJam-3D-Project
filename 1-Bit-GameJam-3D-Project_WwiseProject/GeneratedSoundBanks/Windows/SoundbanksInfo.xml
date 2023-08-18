@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0EB0DDDB-7F88-DAF3-0B64-2180AABE4843}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A828B741-1D6F-95BA-1AD3-6D3A32DF1BE1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -624,8 +624,8 @@
 						<MediaRef Id="418179945"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="701872540" Name="Play_Child_Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="468398047" Name="Play_Chlld_Laugh" DurationType="OneShot" DurationMin="2.6359584" DurationMax="4.5045">
+				<Event Id="701872540" Name="Play_Child_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="468398047" Name="Play_Chlld_Laugh" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.6359584" DurationMax="4.5045">
 					<MediaRefs>
 						<MediaRef Id="389549070"/>
 						<MediaRef Id="536502901"/>
@@ -677,12 +677,12 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1871298099" Name="Play_Drunk_Enter" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3993278548" Name="Play_Drunk_Footsteps" DurationType="OneShot" DurationMin="0.3122634" DurationMax="0.3122634">
+				<Event Id="3993278548" Name="Play_Drunk_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.3122634" DurationMax="0.3122634">
 					<MediaRefs>
 						<MediaRef Id="753808601"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4040622810" Name="Play_Drunk_Growl" DurationType="OneShot" DurationMin="22.793922" DurationMax="22.793922">
+				<Event Id="4040622810" Name="Play_Drunk_Growl" MaxAttenuation="8" DurationType="OneShot" DurationMin="22.793922" DurationMax="22.793922">
 					<MediaRefs>
 						<MediaRef Id="972804018"/>
 					</MediaRefs>
@@ -692,7 +692,7 @@
 						<MediaRef Id="994100445"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3451783798" Name="Play_Entity_Glow_Loop" DurationType="Infinite">
+				<Event Id="3451783798" Name="Play_Entity_Glow_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="884348088"/>
 					</MediaRefs>
@@ -762,7 +762,7 @@
 						<MediaRef Id="256327826"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1365956325" Name="Play_Granny_Cane" DurationType="OneShot" DurationMin="0.17338184" DurationMax="0.27685356">
+				<Event Id="1365956325" Name="Play_Granny_Cane" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.17338184" DurationMax="0.27685356">
 					<MediaRefs>
 						<MediaRef Id="73344324"/>
 						<MediaRef Id="94853678"/>
@@ -790,7 +790,7 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1233146987" Name="Play_Granny_Footsteps" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1233146987" Name="Play_Granny_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4031726782" Name="Play_Hammer_Hit" DurationType="OneShot" DurationMin="0.37272108" DurationMax="0.45827663">
 					<MediaRefs>
 						<MediaRef Id="47976970"/>
@@ -819,8 +819,8 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1878395256" Name="Play_Madame_Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3540329969" Name="Play_Madame_Singing" DurationType="OneShot" DurationMin="11.513197" DurationMax="21.455193">
+				<Event Id="1878395256" Name="Play_Madame_Footstep" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3540329969" Name="Play_Madame_Singing" MaxAttenuation="8" DurationType="OneShot" DurationMin="11.513197" DurationMax="21.455193">
 					<MediaRefs>
 						<MediaRef Id="56219495"/>
 						<MediaRef Id="699668522"/>
@@ -951,12 +951,12 @@
 						<MediaRef Id="723430980"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1717998074" Name="Play_Stalker_Footsteps" DurationType="OneShot" DurationMin="0.28981635" DurationMax="0.28981635">
+				<Event Id="1717998074" Name="Play_Stalker_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.28981635" DurationMax="0.28981635">
 					<MediaRefs>
 						<MediaRef Id="22674253"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="404130524" Name="Play_Stalker_Noises" DurationType="OneShot" DurationMin="9.72059" DurationMax="9.72059">
+				<Event Id="404130524" Name="Play_Stalker_Noises" MaxAttenuation="8" DurationType="OneShot" DurationMin="9.72059" DurationMax="9.72059">
 					<MediaRefs>
 						<MediaRef Id="785754166"/>
 					</MediaRefs>
@@ -1014,7 +1014,7 @@
 						<MediaRef Id="310800964"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3290767985" Name="Play_Utility_Room_Loop" MaxAttenuation="4" DurationType="Infinite">
+				<Event Id="3290767985" Name="Play_Utility_Room_Loop" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="698292043"/>
 					</MediaRefs>
@@ -1039,7 +1039,7 @@
 						<MediaRef Id="761752087"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3797716684" Name="Play_Window_Close_Loop" MaxAttenuation="8" DurationType="Infinite">
+				<Event Id="3797716684" Name="Play_Window_Close_Loop" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="515508150"/>
 					</MediaRefs>
@@ -1049,7 +1049,7 @@
 						<MediaRef Id="304264542"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4291075070" Name="Play_Window_Open_Loop" MaxAttenuation="8" DurationType="Infinite">
+				<Event Id="4291075070" Name="Play_Window_Open_Loop" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="485154323"/>
 					</MediaRefs>
@@ -1068,5 +1068,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F7F69A45-1419-E2E7-95D3-5550BC8C9BA8}</FileHash>
+	<FileHash>{7825B5FC-7E95-9570-E7C9-5994E56484B7}</FileHash>
 </SoundBanksInfo>

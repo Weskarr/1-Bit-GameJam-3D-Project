@@ -526,7 +526,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+													<ObjectRef Name="Ambience_Loop" ID="{41FEB5A4-D1FC-4DA6-B976-87D1833A205A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -569,7 +569,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Clock" ID="{1FA61D69-AE54-438D-A0B8-6AC30DA22976}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+													<ObjectRef Name="Ambience_Loop" ID="{41FEB5A4-D1FC-4DA6-B976-87D1833A205A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -612,7 +612,7 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Utility_Room_Loop" ID="{FB335E44-09C2-4058-9325-75CD492595FD}" ShortID="656210854">
 											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>11</Value>
@@ -621,7 +621,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Utility Room" ID="{B820D3EB-BD36-4853-942F-033848D7B282}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+													<ObjectRef Name="Ambience_Loop" ID="{41FEB5A4-D1FC-4DA6-B976-87D1833A205A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -716,7 +716,13 @@
 								<Folder Name="Drunk" ID="{10A94FFE-540B-46B7-B171-37371C068681}" ShortID="661896629">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Drunk_Footsteps" ID="{FBDD5A77-D206-4FDC-84C5-1A03BE3B3916}" ShortID="330731156">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -755,7 +761,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Drunk_Growl" ID="{6CAB5FFB-47D6-4A17-8BB1-F69CE1FA8EB6}" ShortID="976364684">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -789,6 +801,9 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Drunk_Enter" ID="{97536BC9-7E7B-4547-BD51-B6F6DBAD63ED}" ShortID="774851268">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -803,7 +818,13 @@
 								<Folder Name="Stalker" ID="{8C15E521-A2E7-4CC2-A8E3-21DA04AF64CE}" ShortID="237615409">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Stalker_Footsteps" ID="{7C9540BF-4F54-4449-9E2D-100BB5C2B4AE}" ShortID="989022297">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -843,6 +864,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Stalker_Noises" ID="{049FD00E-7EA0-4678-B04F-8136AC936EC1}" ShortID="217473097">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>10</Value>
@@ -855,6 +877,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -895,7 +920,13 @@
 								<Folder Name="Child" ID="{31B5941C-7A4D-4DBA-98DC-2A6821E20CF8}" ShortID="590433306">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Child_Footsteps" ID="{4F702AAC-1AB3-4C3A-B09E-88F92CAC72C5}" ShortID="262852271">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -906,6 +937,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Chlld_Laugh" ID="{18921D37-2C0B-46ED-98A9-7A6824EAD73C}" ShortID="455734686">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -918,6 +950,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -998,6 +1033,9 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Child_Enters" ID="{FCF2FFBF-E8EC-4006-A594-524FEB316237}" ShortID="207244572">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1036,7 +1074,13 @@
 								<Folder Name="Madame" ID="{01C5DC91-27CE-4507-B75E-4896BD7BA1C4}" ShortID="374807887">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Madame Footstep" ID="{5FA00234-1087-46C1-B46D-75DEFF7BD02A}" ShortID="216349152">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1046,7 +1090,13 @@
 											</ReferenceList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Madame_Singing" ID="{18007211-8427-41E9-9F68-C218BF22218A}" ShortID="364556285">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1124,6 +1174,9 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Madame_Enter" ID="{BE695865-741E-42DC-9DD8-919A80C34AB8}" ShortID="841151888">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -1165,7 +1218,13 @@
 								<Folder Name="Granny" ID="{7BA11E89-AC98-4E12-9D85-C593137D5383}" ShortID="877860236">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Granny_Footsteps" ID="{1938D1E4-7EBC-4B46-B8AE-8D83465BAAA9}" ShortID="74717670">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1176,6 +1235,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Granny_Cane" ID="{E9014E52-EADC-40D2-8C1B-A08BB66FFB61}" ShortID="978552993">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>8</Value>
@@ -1183,6 +1243,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -1414,6 +1477,7 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Granny_Enter" ID="{2D55EB2B-CA1D-4AA4-9FDC-4922F7107667}" ShortID="580632853">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>12</Value>
@@ -1468,6 +1532,7 @@
 								</Folder>
 								<RandomSequenceContainer Name="Entity_Glow_Loop" ID="{5F925D70-0E2F-40C3-BBEC-4ED9A292C5B6}" ShortID="300123258">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-11</Value>
@@ -1475,6 +1540,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 										</Reference>
