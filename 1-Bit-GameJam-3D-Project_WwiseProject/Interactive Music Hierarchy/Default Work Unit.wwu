@@ -143,7 +143,13 @@
 								<Folder Name="Seamless" ID="{4EC7EF8D-5FDB-46A1-83B4-07927026083C}" ShortID="943624726">
 									<ChildrenList>
 										<MusicPlaylistContainer Name="Shepard Tone_Sine Wave" ID="{541B4F56-BE59-4914-B493-4206EFFF9B14}" ShortID="63815929">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -285,7 +291,13 @@
 											</Playlist>
 										</MusicPlaylistContainer>
 										<MusicPlaylistContainer Name="Shepard Tone_Mass X2" ID="{92C08705-DD28-490E-823A-CE0870C90335}" ShortID="327711771">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -415,7 +427,13 @@
 											</Playlist>
 										</MusicPlaylistContainer>
 										<MusicPlaylistContainer Name="Shepard Tone_Mass X Wave" ID="{F5A02FC1-42E9-4AD4-86E9-C5258D4FD152}" ShortID="982450881">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>

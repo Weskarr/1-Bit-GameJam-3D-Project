@@ -3,18 +3,65 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{813E7980-13E9-48D5-925A-ACCDDDF7AAD3}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{DCF9D454-CE25-4122-91C4-7A456574D436}">
+				<SoundBank Name="Music" ID="{DFE5A77B-3577-4D18-856A-BBB3F10D613F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{8DF23741-B92C-41A1-AFFE-3AD4609EE37E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Shepard_Tone_Sine_Wave" ID="{ADB58FFA-04C8-4239-A685-881A0813F938}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Shepard_Tone_Mass_X2" ID="{E7A0E06F-BA56-42A5-936A-9492DE691053}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shepard Tone" ID="{C3230713-E0A4-4436-A300-11AB43DBE077}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Shepard_Tone_Mass_X_Wave" ID="{12CB7F40-0568-44B1-BE0E-E9F922436EC7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Main Menu" ID="{C3216494-7EE8-475D-B3AA-382E45ABD174}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shepard_Tone_Sine_Wave" ID="{89A68333-4C18-4830-99FC-9519C60FAB58}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shepard_Tone_Mass_X2" ID="{E477E01A-8943-4A21-A3F4-A35A191D691A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{2AF88182-DF7C-4D00-AD79-8AE25294ACF1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{4C4A41DD-3701-4E82-9089-4759DAE34CCB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Shepard_Tone_Mass_X_Wave" ID="{5F6A1F0D-18A6-4E90-8DDE-12E7C87E2610}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience_Events" ID="{AC534AE5-695E-48EC-8DA4-F5512BE400AE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ceiling Light" ID="{42067904-24DE-4314-B4E7-83EC2D58EC66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{9DC0A299-C22B-4360-8607-E0CC95D05C6E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Window" ID="{469C7A39-0C0F-440A-94AE-51E398FE081B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Celing_Light_Loop" ID="{AE5644F5-858C-4509-AB56-A20A001ABD93}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Utility_Power_Outage_Loop" ID="{1104BA27-DFAF-45EC-9D0C-DCBCC2FB77FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rooms" ID="{06BD4548-C338-4629-B23A-71E5E46172B0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Window_Close_Loop" ID="{09D99838-7A1C-4695-93B0-362AEC4EF416}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Apartment_Ambience" ID="{7C03CF3E-FF53-46AD-A7B3-5B1C1FC63D9E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Celing_Light_Loop" ID="{2DAA25D0-EF11-4BAD-8220-630A8E1CB969}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Window_Open_Loop" ID="{B1073664-FBFC-4CED-9900-8B62CE5E91CB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Window_Close_Loop" ID="{B9016D57-E370-4D1B-A30E-FDB6232A6A51}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Ambience_Clock_Loop" ID="{72833C2F-9E3E-4D20-B9CE-B971F503B5FA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Utility_Room_Loop" ID="{6DDBD8E8-607B-4D4B-B977-D9895BC9FA0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Ambience_Clock_Loop" ID="{B37BC57D-0159-4DF0-B596-6803F4783378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Utility_Power_Outage_Loop" ID="{25656491-7229-4ECC-8FF2-E8065BEF52FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{EF750A0F-B360-4ED3-9EFA-710BE332851A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{86FACC36-CE56-43D1-A1FF-2C4EBDB16D8F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{53DCA052-60C8-462D-8081-AD7054DBAE67}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Interactibles" ID="{18667A70-3964-4F78-A371-42F7C5BF6781}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Door_Open" ID="{88C0D04F-430B-4002-A24B-8F773A316325}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Intractibles" ID="{C010928D-E6BE-4008-9291-3B7271FB775B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Granny_Footsteps" ID="{B0A04C85-8A8C-400E-B5C1-57878E32C89C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Large_Close" ID="{8A6709E9-B9F6-4056-8D41-DC51B5DF10B6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Stalker_Noises" ID="{9FE42E91-D482-4061-A481-186B83B654E1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Breaker_Off" ID="{1AC0C108-3AED-4079-AF62-82CE3D84CD0C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Toilet" ID="{80DC3447-D14E-407A-A1B6-4742AFF03FD5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Large" ID="{75DFCF23-6A49-407E-B588-6EA5DEF19750}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Light Switch" ID="{7B152688-D9A0-4089-8634-3A3C01FEDA6A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Child_Footsteps" ID="{E2230578-CE65-408A-82C8-0B22CE45B4D7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sink_On_Loop" ID="{6FB6064F-722F-4096-80E4-7EC94844AB79}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_On_Loop" ID="{2A7BAA25-D7D2-40AC-97C2-249577C64961}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Door_Close" ID="{7C521DA4-F012-40B7-9E62-6B9C4118764B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -24,57 +71,31 @@
 						<ObjectRef Name="Play_Window_Close" ID="{81675F03-E879-4148-8FEC-13ADF12AF599}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shower" ID="{F0BB8002-61BB-414F-AFCD-31FC483F1968}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Oven_Beep" ID="{A3F0A193-7707-4186-A6FD-F451CE2815E5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{8DF23741-B92C-41A1-AFFE-3AD4609EE37E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Child_Enters" ID="{6D5D823A-68E0-41E6-B5BA-36E31F927742}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pills_Pickup" ID="{39CCDA28-A603-420E-BF1B-04FC8C220406}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ductape_Pickup" ID="{338897D3-11F7-420F-B071-BF5D29BEADA5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Window" ID="{B43F4498-E4DD-4212-8D1B-6C8487F3645D}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pickup" ID="{874C69DE-2566-421B-A85E-F6D6CEB782E8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Drunk_Growl" ID="{AFB410D3-A3B4-422C-B7FD-D5FD121A6B66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Shepard_Tone_Sine_Wave" ID="{ADB58FFA-04C8-4239-A685-881A0813F938}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lid" ID="{199215B9-8385-4246-BE1F-43356755E89A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_Echo" ID="{E8BD0401-AA0B-4247-A95F-F330F8D22B83}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Madame_Enter" ID="{8291072A-2A35-4280-BC89-B02E5FAA8736}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Door_Open" ID="{F547A621-E065-428A-826B-E7DA379B8D08}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_Footsteps_Carpet" ID="{3516D013-399B-428E-A8C8-F60FAAA465ED}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Button" ID="{7F3ABECB-365F-429F-85A3-EC2E30320BC6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Shepard_Tone_Mass_X2" ID="{E7A0E06F-BA56-42A5-936A-9492DE691053}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Freezer_Door_Close" ID="{3C690E89-A4A6-42B8-859F-19FBECEB318C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Phone_Message" ID="{169D7028-45C6-42BF-8A84-663867960C77}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Close_Empty" ID="{D6D10904-B068-42D0-9900-F50A9206F148}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Ceiling Light" ID="{42067904-24DE-4314-B4E7-83EC2D58EC66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Item" ID="{23E75DFB-0965-4329-B51B-D1556CC88DC7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Lid_Close" ID="{B9E23DB9-16FA-4349-9A27-8B2A668DD93A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Events" ID="{9DC0A299-C22B-4360-8607-E0CC95D05C6E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Standing_Light_Loop" ID="{23D9ED48-BEA6-4367-81EF-101795CBE533}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Open_Loop" ID="{A433CF81-C56D-439C-8D13-229184689369}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Light_Switch_On" ID="{4FB1D991-8D3C-43FA-B23C-3C7E6535F351}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Window" ID="{469C7A39-0C0F-440A-94AE-51E398FE081B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Drunk_Enter" ID="{20327630-F776-442B-9D49-736B4C331CC3}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Door_Open" ID="{DB2B766A-200A-4432-9586-D6FBFB562D75}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Shepard Tone" ID="{C3230713-E0A4-4436-A300-11AB43DBE077}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Madame_Footstep" ID="{0135E172-EB8E-4489-BEE4-7DFD4650F587}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Small_Close" ID="{E106E828-B0B3-448E-8947-1B272B7301BE}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Shepard_Tone_Mass_X_Wave" ID="{12CB7F40-0568-44B1-BE0E-E9F922436EC7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Celing_Light_Loop" ID="{AE5644F5-858C-4509-AB56-A20A001ABD93}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fridge" ID="{85061A5C-AE4F-4518-9D91-41EB187E367E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Utility_Power_Outage_Loop" ID="{1104BA27-DFAF-45EC-9D0C-DCBCC2FB77FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_Footsteps_Stone" ID="{CF313AC1-59EA-45F4-A075-0F1BBAAA6715}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Rooms" ID="{06BD4548-C338-4629-B23A-71E5E46172B0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{53DCA052-60C8-462D-8081-AD7054DBAE67}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Power" ID="{0CCB2B46-2BB4-4686-846A-5805F9E03DBC}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Window_Close_Loop" ID="{09D99838-7A1C-4695-93B0-362AEC4EF416}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_On" ID="{75ACD35D-A5B4-46B4-8E92-EBE39A709D0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bed_Exit" ID="{F60A67FE-2119-46E4-85AF-8025DEC0299F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Hammer_Hit" ID="{7E68187A-5C8A-4739-978C-B3DE265F1208}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fridge Door" ID="{F6AD4143-993F-4756-BB92-E715092C46D6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Main Menu" ID="{C3216494-7EE8-475D-B3AA-382E45ABD174}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SInk" ID="{E34349F5-9CD8-476B-947B-E9A71F877264}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{9CBE60BF-887C-4795-AE6F-2ECBE514481F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Close" ID="{42A2DBCA-BA9F-479F-98FF-83FB2674B882}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -87,74 +108,76 @@
 						<ObjectRef Name="Play_Wash_Machine_Knob" ID="{715F783C-56EE-47FA-A0C9-A2EC03D771A8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Bag_Pickup" ID="{305F85D7-3ADC-480D-AD6C-A742BBB2C4B2}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{1FE7A6A9-720E-482A-95AD-2E0E27311A99}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Shepard_Tone_Sine_Wave" ID="{89A68333-4C18-4830-99FC-9519C60FAB58}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Freezer Door" ID="{5B9E2F04-F528-4845-86B0-2D9A32A39B0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Oven_Door_Close" ID="{450C8527-BC03-4850-8A92-46E4BC76405A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Oven" ID="{95FB42DB-E343-4896-B966-222934913D5A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Lid_Open" ID="{92AA38BE-3BCB-489D-86BA-B7118B8582EB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="TV" ID="{887D235E-04FC-48D3-9138-17A977682F8B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Player_Footsteps_Tile" ID="{C99A77BC-F183-48E2-96B7-648302D6C5D6}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bed" ID="{C18FF628-D75E-48EC-B0D6-C769EC3F7F01}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Door_Open" ID="{B7E9348C-AE01-4925-97E1-5D401205B2F3}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{35FC8715-9946-494B-8CAD-FBF349DF81DA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Granny_Enter" ID="{53F6145D-A84D-494F-9CD7-4F749A9A2C66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Standing Light" ID="{9A78982F-60D7-4952-92B1-19BA69E2A08B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Sink_Handles" ID="{0A225A0B-145F-4981-B14E-316E75FC7DE9}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Small" ID="{8AF2CDD6-1F83-4994-9024-E62DC8D5A5DA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="World" ID="{844037BC-6300-4995-908B-67F897D5462E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Utility_Open" ID="{446C0962-B442-4A05-AD99-46C995C0E137}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Shepard_Tone_Mass_X2" ID="{E477E01A-8943-4A21-A3F4-A35A191D691A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Utility_Close" ID="{D1B827B9-3DC3-4A2C-8935-A1D3F8EAB2A5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Standing_Light_Loop" ID="{30BDDAE7-902B-4A65-A914-8E09DE45797B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Lid_Open" ID="{B760361F-0E39-4A72-BF71-EDBB6022BABA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Door_Open" ID="{55714A91-E016-4A88-AC58-29B7CC5F5383}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Loop" ID="{A8E753FF-3086-4B00-94F4-85A966B57D1B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Entity_Glow_Loop" ID="{CC86951B-4E1B-4B4E-9231-DA1D1A8B990E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickups" ID="{34789DE9-6A1B-4B56-9919-BCAA9122B00C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Breaker" ID="{A4C9EC86-C045-4B70-9C18-EDB4DF50D058}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Window_Open" ID="{464B9C48-8861-4B8A-A8CE-7DAE0833AE51}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Open_Empty" ID="{9E238B82-264A-4B8D-8627-8F463895175E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Door_Handle" ID="{3CE9C9E2-341B-4B9A-B745-643E4884F154}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Celing_Light_Loop" ID="{2DAA25D0-EF11-4BAD-8220-630A8E1CB969}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Drunk" ID="{EBB180D3-A5FF-4BDB-82A5-169C60B39929}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Flush" ID="{DE553974-0961-4BE4-852E-866234AF9F46}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Small_Open" ID="{7B438BB2-CF0F-4BFB-B082-9A8D88C0F7D9}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet Utility" ID="{A121771C-9774-4C0A-8177-5A50EDFAF57B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Toilet_Lid_Close" ID="{02E174DC-8DEF-4CCB-A6F5-D7513D9ADDDF}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Cabinet_Large_Open" ID="{9B9670F7-3867-4CCE-83C9-7B06A4293D77}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Window_Open_Loop" ID="{B1073664-FBFC-4CED-9900-8B62CE5E91CB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Stalker_Footsteps" ID="{FDC3AB31-06BF-4CFB-A0D1-6C90A83AF97A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music" ID="{2AF88182-DF7C-4D00-AD79-8AE25294ACF1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Phone" ID="{F9F1E09E-70DF-4D16-A322-D033585F6356}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Window_Close_Loop" ID="{B9016D57-E370-4D1B-A30E-FDB6232A6A51}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Ambience_Clock_Loop" ID="{72833C2F-9E3E-4D20-B9CE-B971F503B5FA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Utility_Room_Loop" ID="{6DDBD8E8-607B-4D4B-B977-D9895BC9FA0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fusebox" ID="{730CEF69-D310-4DB7-A903-9745F906E7A1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lid" ID="{28C1D9B8-73B3-4DC4-A6B0-0A07D5CE070A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shower_Door_Close" ID="{0E22483C-3126-4DEA-8B52-8492E190BD64}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Ambience_Clock_Loop" ID="{B37BC57D-0159-4DF0-B596-6803F4783378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flashlight_On" ID="{270991EC-CEE8-4DF7-89CE-13E47032FE00}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Chlld_Laugh" ID="{D822D59C-5DC4-4E23-86BA-0856A401B7AA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fusebox_Breaker_On" ID="{06338CF0-A94D-4E65-9FDE-F019B06497D9}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" ID="{4C4A41DD-3701-4E82-9089-4759DAE34CCB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Door_Close" ID="{B727C9EE-C11C-4E83-BD41-B64FBB6E5022}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Shepard_Tone_Mass_X_Wave" ID="{5F6A1F0D-18A6-4E90-8DDE-12E7C87E2610}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_Utility_Power_Outage_Loop" ID="{25656491-7229-4ECC-8FF2-E8065BEF52FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_All" ID="{EF750A0F-B360-4ED3-9EFA-710BE332851A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Door_Close" ID="{5D649E97-8990-4EFB-8BC0-3912739BE87A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_Off" ID="{758ED34B-35DE-4F37-80ED-C658FC4C0D57}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Madame_Singing" ID="{BC9ABC80-0D31-4F3C-8929-4AD704A7613A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drawer_Open" ID="{554EBE9B-564A-4F5B-B03A-048A573BDE2C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Cabinet" ID="{F2F3A165-4C1E-4F6F-8B1C-A46F112666D8}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door" ID="{811FCF6D-5DDD-4FD0-8F48-F10B68CDD726}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Trash" ID="{D451E17C-C680-4FD7-BFE7-DB5CF3A5C7A0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Oven_Door_Open" ID="{805E8AF3-DD63-4FDB-8CC7-342C68667AB5}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Entities" ID="{FF632ADF-CD2C-47A9-8141-B0DC93651470}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Granny_Footsteps" ID="{B0A04C85-8A8C-400E-B5C1-57878E32C89C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stalker_Noises" ID="{9FE42E91-D482-4061-A481-186B83B654E1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Child_Footsteps" ID="{E2230578-CE65-408A-82C8-0B22CE45B4D7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Child_Enters" ID="{6D5D823A-68E0-41E6-B5BA-36E31F927742}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drunk_Growl" ID="{AFB410D3-A3B4-422C-B7FD-D5FD121A6B66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Madame_Enter" ID="{8291072A-2A35-4280-BC89-B02E5FAA8736}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drunk_Enter" ID="{20327630-F776-442B-9D49-736B4C331CC3}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Madame_Footstep" ID="{0135E172-EB8E-4489-BEE4-7DFD4650F587}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Granny_Enter" ID="{53F6145D-A84D-494F-9CD7-4F749A9A2C66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Entity_Glow_Loop" ID="{CC86951B-4E1B-4B4E-9231-DA1D1A8B990E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drunk" ID="{EBB180D3-A5FF-4BDB-82A5-169C60B39929}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stalker_Footsteps" ID="{FDC3AB31-06BF-4CFB-A0D1-6C90A83AF97A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chlld_Laugh" ID="{D822D59C-5DC4-4E23-86BA-0856A401B7AA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Madame_Singing" ID="{BC9ABC80-0D31-4F3C-8929-4AD704A7613A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

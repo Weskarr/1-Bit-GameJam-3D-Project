@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	63654547	Play_Utility_Power_Outage_Loop			\Default Work Unit\World\Events\Play_Utility_Power_Outage_Loop	
+	115528144	Play_Celing_Light_Loop			\Default Work Unit\World\Ambience\Ceiling Light\Play_Celing_Light_Loop	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	1579360687	Play_Apartment_Ambience			\Default Work Unit\World\Ambience\Play_Apartment_Ambience	
+	1829767974	Play_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Play_Ambience_Clock_Loop	
+	1944978762	Stop_Window_Close_Loop			\Default Work Unit\World\Ambience\Window\Stop_Window_Close_Loop	
+	2887940980	Stop_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Stop_Ambience_Clock_Loop	
+	3014771066	Stop_Celing_Light_Loop			\Default Work Unit\World\Ambience\Ceiling Light\Stop_Celing_Light_Loop	
+	3290767985	Play_Utility_Room_Loop			\Default Work Unit\World\Ambience\Rooms\Play_Utility_Room_Loop	
+	3500678004	Stop_Window_Open_Loop			\Default Work Unit\World\Ambience\Window\Stop_Window_Open_Loop	
+	3797716684	Play_Window_Close_Loop			\Default Work Unit\World\Ambience\Window\Play_Window_Close_Loop	
+	4040337917	Stop_Utility_Power_Outage_Loop			\Default Work Unit\World\Events\Stop_Utility_Power_Outage_Loop	
+	4291075070	Play_Window_Open_Loop			\Default Work Unit\World\Ambience\Window\Play_Window_Open_Loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51488684	etincelle-spark	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\etincelle-spark_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Power Outage\Utility_Power_Outage\etincelle-spark		513420
+	112068193	Ambience_Clock_Loop	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Ambience_Clock_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Clock_Loop\Ambience_Clock_Loop		2116960
+	365044523	City Noise Inside Apartment	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\City Noise Inside Apartment_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Apartment Ambience\City Noise Inside Apartment		5418372
+	485154323	Open Windows, Rain 05(2)	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Open Windows, Rain 05(2)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Window\Window_Open_Loop\Open Windows, Rain 05(2)		1588068
+	515508150	rain on closed window roomy wet	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\rain on closed window roomy wet.flac_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Window\Window_Close_Loop\rain on closed window roomy wet		2953440
+	698292043	Utility room front(2)	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Utility room front(2)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Rooms\Utility_Room_Loop\Utility room front(2)		5703240
+	706244841	Fluorescent lamps in hospital 03	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Fluorescent lamps in hospital 03_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Celing_Light_Loop\Fluorescent lamps in hospital 03		1284004
+	814838590	sparks	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\sparks_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Power Outage\Utility_Power_Outage_Loop\sparks		15899748
+

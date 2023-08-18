@@ -7,52 +7,8 @@
 					<ChildrenList>
 						<Folder Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" ShortID="759337724">
 							<ChildrenList>
-								<Event Name="Play_Player_Echo" ID="{E8BD0401-AA0B-4247-A95F-F330F8D22B83}">
-									<ChildrenList>
-										<Action Name="" ID="{DDF69F27-4C3E-484F-9869-E690D4AAD8BB}" ShortID="1045264469">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Player_Echo" ID="{AFC824E0-81E1-4F9A-9E13-6DA0020C575B}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Folder Name="Footsteps" ID="{53DCA052-60C8-462D-8081-AD7054DBAE67}" ShortID="882558974">
 									<ChildrenList>
-										<Event Name="Play_Player_Footsteps_Carpet" ID="{3516D013-399B-428E-A8C8-F60FAAA465ED}">
-											<ChildrenList>
-												<Action Name="" ID="{CA49B99E-B1CF-45FD-8707-5200F72E807F}" ShortID="117659626">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Player_Footsteps_Carpet" ID="{88FA80E9-AFD5-4F74-B62D-69527F7EEFA4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Player_Footsteps_Stone" ID="{CF313AC1-59EA-45F4-A075-0F1BBAAA6715}">
-											<ChildrenList>
-												<Action Name="" ID="{9C795DDC-C59F-474C-A33D-4FF43BFAE613}" ShortID="904186592">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Player_Footsteps_Stone" ID="{FB1D6E09-804B-45E5-AFDE-F8696C80FFCF}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Play_Player_Footsteps_Tile" ID="{C99A77BC-F183-48E2-96B7-648302D6C5D6}">
-											<ChildrenList>
-												<Action Name="" ID="{29618936-AE3E-44C0-ABEF-AB9BB5028F74}" ShortID="1022893016">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Player_Footsteps_Tile" ID="{996FBCA5-EC0A-4101-B068-330CEAB94C2F}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
 										<Event Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}">
 											<ChildrenList>
 												<Action Name="" ID="{07BE0080-FEBC-449F-BA02-9DE24E354A14}" ShortID="314508766">
