@@ -29,7 +29,6 @@ public class ToolSpawn : MonoBehaviour
         }
         int[] spawnInds = RandomRangeUnique(0, 15, count);
         for(int i = 0; i < count; i++){
-            Debug.Log(spawnInds[i] + 1);
             GameObject go = Instantiate(tools[i]);
             GameObject spawnPoint = _spawnPoints[spawnInds[i]];
             go.transform.position = spawnPoint.transform.position;

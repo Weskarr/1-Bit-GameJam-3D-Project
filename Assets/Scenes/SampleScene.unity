@@ -52594,9 +52594,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1722702731799880774, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713651144}
+    - target: {fileID: 1722702731799880774, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 1722702731799880774, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: moveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722702731799880774, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: attackRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1722702731799880774, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
+      propertyPath: randomRadius
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2123793833878204981, guid: 34834375f4980694f8b4e11b328b85f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.448146
@@ -53076,9 +53092,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1754172050206822932, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713651144}
+    - target: {fileID: 1754172050206822932, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 1754172050206822932, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
+      propertyPath: moveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754172050206822932, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
+      propertyPath: attackRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754172050206822932, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
+      propertyPath: randomRadius
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1770651871021491453, guid: d0d126f3eaaff69469e70bc33c4dda79, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -54498,9 +54530,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6454316440213986939, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713651144}
+    - target: {fileID: 6454316440213986939, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 6454316440213986939, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
+      propertyPath: moveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6454316440213986939, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
+      propertyPath: attackRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6454316440213986939, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
+      propertyPath: randomRadius
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6590276292650574442, guid: 9821a4275bba2b04a8a0870731a419b8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -54869,9 +54917,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713651144}
+    - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+      propertyPath: moveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+      propertyPath: attackRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920714468341905680, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+      propertyPath: randomRadius
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6046215619658611407, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.75
@@ -55260,9 +55324,25 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6237398597481047631, guid: 857746246dec1a1439daa25f227f7121, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1713651144}
+    - target: {fileID: 6237398597481047631, guid: 857746246dec1a1439daa25f227f7121, type: 3}
       propertyPath: target
       value: 
       objectReference: {fileID: 1713651144}
+    - target: {fileID: 6237398597481047631, guid: 857746246dec1a1439daa25f227f7121, type: 3}
+      propertyPath: moveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6237398597481047631, guid: 857746246dec1a1439daa25f227f7121, type: 3}
+      propertyPath: attackRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6237398597481047631, guid: 857746246dec1a1439daa25f227f7121, type: 3}
+      propertyPath: randomRadius
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7793416175677533672, guid: 857746246dec1a1439daa25f227f7121, type: 3}
       propertyPath: m_Speed
       value: 0.375
