@@ -22,11 +22,13 @@ public class Director : MonoBehaviour
 
     public int toolSpawnCount;
 
+    public MasterMind thing;
 
     EchoManager echoManager;
     public FPSController player;
 
     public TMPro.TextMeshProUGUI toolText;
+    public TMPro.TextMeshProUGUI hourText;
 
     public Transform asleepPoint;
     public Transform awakePoint;
@@ -98,6 +100,7 @@ public class Director : MonoBehaviour
             toolText.enabled = false;
             if (firstTime) bedPath.SetActive(true);
             // Despawn entity
+            thing.EntityLeavesPlayField();
         }
 
     }
@@ -145,6 +148,10 @@ public class Director : MonoBehaviour
 
         toolText.enabled = true;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
+
+        if(hour > 0) {
+            thing.SpawnEntity();
+        }
     }
 
     void RandomizeSwitches() {
@@ -163,6 +170,7 @@ public class Director : MonoBehaviour
             bedPath.SetActive(false);
             firstTime = false;
             hour++;
+            hourText.text = string.Format("Hour: {0}", hour);
             sleepSound.Post(player.gameObject);
             StartCoroutine(startProcess());
         }

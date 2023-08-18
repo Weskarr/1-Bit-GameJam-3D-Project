@@ -413,7 +413,7 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
-    private void EntityLeavesPlayField()
+    public void EntityLeavesPlayField()
     {
         if (childAtPlay == true)
         {
