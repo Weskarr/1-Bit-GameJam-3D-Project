@@ -18,6 +18,7 @@ public class EchoManager : MonoBehaviour
 
     void OnDisable() { echo = null; }
 
+    public GameObject player;
 
     // For echo expansion
     [SerializeField]
@@ -40,12 +41,13 @@ public class EchoManager : MonoBehaviour
     private GameObject _location;
 
     // Lights are on or off?
+    public bool lightsOff = false;
     [SerializeField]
-    private bool _lightsOff = false;
+    private Transform _objects;
     [SerializeField]
-    private GameObject[] _lightsOnObjects;
+    private Material _lightsOnMaterial;
     [SerializeField]
-    private GameObject[] _lightsOffObjects;
+    private Material _lightsOffMaterial;
 
     // Extra
     [SerializeField]
@@ -69,49 +71,45 @@ public class EchoManager : MonoBehaviour
 
     public bool LightsOff()
     {
+        player.GetComponent<Player>().DisableHands();
+
         // Return whether this actually changed something
-        bool ret = !_lightsOff;
-        _lightsOff = true;
-        foreach (GameObject ob in _lightsOnObjects) {
-            ob.SetActive(false);
-        }
-        foreach (GameObject ob in _lightsOffObjects) {
-            ob.SetActive(true);
-        }
+        bool ret = !lightsOff;
+        lightsOff = true;
+        RecTrav(_objects, _lightsOffMaterial);
         ResetEcho();
         return ret;
     }
 
     public bool LightsOn()
     {
+        player.GetComponent<Player>().EnableHands();
+
         // Return whether this actually changed something
-        bool ret = _lightsOff;
-        _lightsOff = false;
-        foreach (GameObject ob in _lightsOnObjects) {
-            ob.SetActive(true);
-        }
-        foreach (GameObject ob in _lightsOffObjects) {
-            ob.SetActive(false);
-        }
+        bool ret = lightsOff;
+        lightsOff = false;
+        RecTrav(_objects, _lightsOnMaterial);
         ResetEcho();
         return ret;
     }
+
+    
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) // E = to turn the lights off
         {
-            if (_lightsOff == true)
+            if (lightsOff == true)
             {
-                //LightsOn();
+                LightsOn();
             }
             else
             {
-                //LightsOff();
+                LightsOff();
             }
         }
 
-        if (_lightsOff == true && Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Q)) // Spacebar or Q = to echo
+        if (lightsOff == true && Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Q)) // Spacebar or Q = to echo
         {
             
             if (!_isEchoing){
@@ -160,5 +158,17 @@ public class EchoManager : MonoBehaviour
         }
 
         _isEchoing = false;
+    }
+
+    void RecTrav(Transform parent, Material material_to_apply) {
+        foreach (Transform child in parent) {
+            if (child.TryGetComponent<Renderer>(out Renderer renderer)) {
+                Material[] mats = renderer.sharedMaterials;
+                for (int i = 0; i < mats.Length; i++)
+                    mats[i] = material_to_apply;
+                renderer.sharedMaterials = mats;
+            }
+            RecTrav(child, material_to_apply);
+        }
     }
 }
