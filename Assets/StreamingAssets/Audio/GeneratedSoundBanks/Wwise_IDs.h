@@ -68,9 +68,6 @@ namespace AK
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_PILLS_PICKUP = 1625998593U;
         static const AkUniqueID PLAY_PLAYER_ECHO = 59459483U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_CARPET = 2225525625U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_STONE = 268867591U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_TILE = 164811484U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_WOOD = 1323502295U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X2 = 859694722U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X_WAVE = 147896324U;
@@ -132,6 +129,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES

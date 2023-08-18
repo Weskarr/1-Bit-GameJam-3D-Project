@@ -42,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A828B741-1D6F-95BA-1AD3-6D3A32DF1BE1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{54C7FD01-1E55-E1FD-7D09-E4A19A10175C}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -50,13 +50,13 @@
 					<ShortName>DoorCabinet 6018_09_5.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="6044413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile(2).wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile(2)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="6944452" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
 					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._004C062F.wem</CachePath>
-				</File>
-				<File Id="22674253" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Bare_Feet_HW4_MED_WALK.L.wav</ShortName>
-					<CachePath>SFX/Bare_Feet_HW4_MED_WALK.L_54393C70.wem</CachePath>
 				</File>
 				<File Id="29066256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</ShortName>
@@ -70,25 +70,21 @@
 					<ShortName>hammer v1(3).wav</ShortName>
 					<CachePath>SFX/hammer v1(3)_10C4C929.wem</CachePath>
 				</File>
-				<File Id="55990598" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps Gravel.wav</ShortName>
-					<CachePath>SFX/Footsteps Gravel_D08672F0.wem</CachePath>
-				</File>
 				<File Id="56219495" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Female Ghost Singing.wav</ShortName>
 					<CachePath>SFX/Female Ghost Singing_10C4C929.wem</CachePath>
-				</File>
-				<File Id="60449373" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Shepard Tone_Mass X Wave.wav</ShortName>
-					<CachePath>SFX/Shepard Tone_Mass X Wave_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="69290928" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_04.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="71102110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(5).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(5)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="73344324" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac.wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac_48959DA4.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac_E9EB52B2.wem</CachePath>
 				</File>
 				<File Id="79665570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_1.wav</ShortName>
@@ -96,11 +92,15 @@
 				</File>
 				<File Id="94853678" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(7).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(7)_83CC9810.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(7)_C2B8501A.wem</CachePath>
+				</File>
+				<File Id="95187173" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile(5).wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile(5)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="100529993" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(8).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(8)_E11AF94E.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(8)_1EAE2368.wem</CachePath>
 				</File>
 				<File Id="101304777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_03.wav</ShortName>
@@ -109,6 +109,10 @@
 				<File Id="112068193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambience_Clock_Loop.wav</ShortName>
 					<CachePath>SFX/Ambience_Clock_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="119784298" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(3).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(3)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="129015237" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drawer 6018_33_3.wav</ShortName>
@@ -129,6 +133,14 @@
 				<File Id="168958372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button 02.wav</ShortName>
 					<CachePath>SFX/Button 02_02328A7B.wem</CachePath>
+				</File>
+				<File Id="182512626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile.wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile_10C4C929.wem</CachePath>
+				</File>
+				<File Id="183492982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(2).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(2)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="216700862" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button 03(2).wav</ShortName>
@@ -154,10 +166,6 @@
 					<ShortName>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</ShortName>
 					<CachePath>SFX/FRIDGE_DOOR_SLAM_HUM_01_CS_B94C1BD7.wem</CachePath>
 				</File>
-				<File Id="243025860" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps Run Hard Floor 01.wav</ShortName>
-					<CachePath>SFX/Footsteps Run Hard Floor 01_1312F4B8.wem</CachePath>
-				</File>
 				<File Id="252798503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_51_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_51_2_10C4C929.wem</CachePath>
@@ -165,6 +173,14 @@
 				<File Id="256327826" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>school locker.wav</ShortName>
 					<CachePath>SFX/school locker_81FA1FE8.wem</CachePath>
+				</File>
+				<File Id="256464278" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace.wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace_10C4C929.wem</CachePath>
+				</File>
+				<File Id="262863114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SLIPPERS_FOOTSTEPS(5).wav</ShortName>
+					<CachePath>SFX/SLIPPERS_FOOTSTEPS(5)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="304264542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>WINDOW OPENING.wav</ShortName>
@@ -182,6 +198,10 @@
 					<ShortName>DoorCabinet 6018_09_7.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_7_10C4C929.wem</CachePath>
 				</File>
+				<File Id="326872836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor.wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor_10C4C929.wem</CachePath>
+				</File>
 				<File Id="332868805" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shower-door-open-close01.flac.wav</ShortName>
 					<CachePath>SFX/shower-door-open-close01.flac_A6932981.wem</CachePath>
@@ -194,13 +214,21 @@
 					<ShortName>DeskDrawer 6028_53_3.wav</ShortName>
 					<CachePath>SFX/DeskDrawer 6028_53_3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="354608895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile(3).wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile(3)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="363963715" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(7).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(7)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="365044523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>City Noise Inside Apartment.wav</ShortName>
 					<CachePath>SFX/City Noise Inside Apartment_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="379684805" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(5).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(5)_9D1471DD.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(5)_F9D4E0DA.wem</CachePath>
 				</File>
 				<File Id="389549070" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Child's laugh 2 - medyk3D.wav</ShortName>
@@ -226,6 +254,10 @@
 					<ShortName>DoorRefrigerator 6048_49_1.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_49_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="454502099" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(4).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(4)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="456848155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</ShortName>
 					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._3527AC70.wem</CachePath>
@@ -233,6 +265,10 @@
 				<File Id="465081962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_2.wav</ShortName>
 					<CachePath>SFX/DoorCabinet 6018_09_2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="475655421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SLIPPERS_FOOTSTEPS.wav</ShortName>
+					<CachePath>SFX/SLIPPERS_FOOTSTEPS_10C4C929.wem</CachePath>
 				</File>
 				<File Id="476508581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shower handle turn on and off quickly, water shutoff with drips.wav</ShortName>
@@ -242,13 +278,17 @@
 					<ShortName>Open Windows, Rain 05(2).wav</ShortName>
 					<CachePath>SFX/Open Windows, Rain 05(2)_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="485550795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(5).wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(5)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="493831071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FlashLight ON.wav</ShortName>
 					<CachePath>SFX/FlashLight ON_10C4C929.wem</CachePath>
 				</File>
 				<File Id="495751853" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(9).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(9)_D6DCB189.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(9)_649A7D23.wem</CachePath>
 				</File>
 				<File Id="500430144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_08.wav</ShortName>
@@ -274,9 +314,17 @@
 					<ShortName>Pull switch(2).wav</ShortName>
 					<CachePath>SFX/Pull switch(2)_941B9F2F.wem</CachePath>
 				</File>
+				<File Id="560305372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile(4).wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile(4)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="566364833" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_09.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="571744443" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Burp Monster Zombie groan moan.wav</ShortName>
+					<CachePath>SFX/Burp Monster Zombie groan moan_10C4C929.wem</CachePath>
 				</File>
 				<File Id="573562435" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_52_1.wav</ShortName>
@@ -300,11 +348,15 @@
 				</File>
 				<File Id="617579014" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(2).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(2)_C733EEC3.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(2)_72121006.wem</CachePath>
 				</File>
 				<File Id="620573470" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hammer v1(5).wav</ShortName>
 					<CachePath>SFX/hammer v1(5)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="656540436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SLIPPERS_FOOTSTEPS(3).wav</ShortName>
+					<CachePath>SFX/SLIPPERS_FOOTSTEPS(3)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="657053874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_02.wav</ShortName>
@@ -318,6 +370,10 @@
 					<ShortName>Empty Beer Bottles Clinking, Clanking.wav</ShortName>
 					<CachePath>SFX/Empty Beer Bottles Clinking, Clanking_10C4C929.wem</CachePath>
 				</File>
+				<File Id="686637433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SLIPPERS_FOOTSTEPS(2).wav</ShortName>
+					<CachePath>SFX/SLIPPERS_FOOTSTEPS(2)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="698292043" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Utility room front(2).wav</ShortName>
 					<CachePath>SFX/Utility room front(2)_D79FB2B7.wem</CachePath>
@@ -326,10 +382,6 @@
 					<ShortName>Female Ghost Singing(2).wav</ShortName>
 					<CachePath>SFX/Female Ghost Singing(2)_10C4C929.wem</CachePath>
 				</File>
-				<File Id="702605518" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>1_Bit_Jam_Menu_MX_v2_LOOP.wav</ShortName>
-					<CachePath>SFX/1_Bit_Jam_Menu_MX_v2_LOOP_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="703608910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
 					<CachePath>SFX/DoorRefrigerator 6048_49_2_10C4C929.wem</CachePath>
@@ -337,6 +389,14 @@
 				<File Id="706244841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fluorescent lamps in hospital 03.wav</ShortName>
 					<CachePath>SFX/Fluorescent lamps in hospital 03_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="708578468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps, barefoot on wet tile(6).wav</ShortName>
+					<CachePath>SFX/Footsteps, barefoot on wet tile(6)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="716199339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SLIPPERS_FOOTSTEPS(4).wav</ShortName>
+					<CachePath>SFX/SLIPPERS_FOOTSTEPS(4)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="723430980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tap Water, Rapid.wav</ShortName>
@@ -357,10 +417,6 @@
 				<File Id="741383288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>05 Wood Door #5_ Open With Squeak And Close With Bounce.wav</ShortName>
 					<CachePath>SFX/05 Wood Door #5_ Open With Squeak And Close With Bounce_5732C372.wem</CachePath>
-				</File>
-				<File Id="753808601" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop.wav</ShortName>
-					<CachePath>SFX/1806 - Footsteps - Sneakers on Carpet - 90 fpm - Loop_0825F22B.wem</CachePath>
 				</File>
 				<File Id="757925668" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Toilet Flush with Lid Drop.wav</ShortName>
@@ -389,10 +445,6 @@
 				<File Id="768921192" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hammer v1(4).wav</ShortName>
 					<CachePath>SFX/hammer v1(4)_10C4C929.wem</CachePath>
-				</File>
-				<File Id="773720196" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Shepard Tone_Sine Wave.wav</ShortName>
-					<CachePath>SFX/Shepard Tone_Sine Wave_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="785178161" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal Lid Close.wav</ShortName>
@@ -446,6 +498,10 @@
 					<ShortName>62 Refrigerator Compressor Motor Turn On Steady And Off.wav</ShortName>
 					<CachePath>SFX/62 Refrigerator Compressor Motor Turn On Steady And Off_F775C0C9.wem</CachePath>
 				</File>
+				<File Id="877204264" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(2).wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(2)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="884348088" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ominous Background.wav</ShortName>
 					<CachePath>SFX/Ominous Background_D79FB2B7.wem</CachePath>
@@ -453,6 +509,10 @@
 				<File Id="889354461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>brown paper bag crumple and toss in trash +body toss in trash end.wav</ShortName>
 					<CachePath>SFX/brown paper bag crumple and toss in trash +body toss in trash end_10C4C929.wem</CachePath>
+				</File>
+				<File Id="890300338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heavy Footsteps on a Squeaky Floor(6).wav</ShortName>
+					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(6)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="893809297" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BATHROOM FAUCET.wav</ShortName>
@@ -474,10 +534,6 @@
 					<ShortName>Ghost Female Singing.wav</ShortName>
 					<CachePath>SFX/Ghost Female Singing_10C4C929.wem</CachePath>
 				</File>
-				<File Id="916159817" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Footsteps Run Hard Floor 01.wav</ShortName>
-					<CachePath>SFX/Footsteps Run Hard Floor 01_FE2F6BD0.wem</CachePath>
-				</File>
 				<File Id="924890128" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_05.wav</ShortName>
 					<CachePath>SFX/Player_Footstep_Wood_05_10C4C929.wem</CachePath>
@@ -492,11 +548,19 @@
 				</File>
 				<File Id="933815895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(3).wav</ShortName>
-					<CachePath>SFX/Walking Outside 4 .flac(3)_E2BB79F4.wem</CachePath>
+					<CachePath>SFX/Walking Outside 4 .flac(3)_C056519A.wem</CachePath>
 				</File>
 				<File Id="952922977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</ShortName>
 					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._F82BC722.wem</CachePath>
+				</File>
+				<File Id="953262513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(4).wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(4)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="955517830" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(3).wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(3)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="958533742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>04 Wood Door #4_ Open And Close With Squeak.wav</ShortName>
@@ -522,6 +586,10 @@
 					<ShortName>Duct Tape 1.wav</ShortName>
 					<CachePath>SFX/Duct Tape 1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1025826652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(6).wav</ShortName>
+					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(6)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1044731422" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FlashLight OFF(2).wav</ShortName>
 					<CachePath>SFX/FlashLight OFF(2)_10C4C929.wem</CachePath>
@@ -538,9 +606,9 @@
 					<ShortName>witchy laugh 7.wav</ShortName>
 					<CachePath>SFX/witchy laugh 7_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1070144266" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Shepard Tone_Mass X2.wav</ShortName>
-					<CachePath>SFX/Shepard Tone_Mass X2_D79FB2B7.wem</CachePath>
+				<File Id="1069161338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Monster Moan Groan Growl.wav</ShortName>
+					<CachePath>SFX/Monster Moan Groan Growl_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -550,11 +618,6 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="2894561040" Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="702605518"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="112068193"/>
@@ -676,16 +739,36 @@
 						<MediaRef Id="759443125"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1871298099" Name="Play_Drunk_Enter" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3993278548" Name="Play_Drunk_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.3122634" DurationMax="0.3122634">
+				<Event Id="1871298099" Name="Play_Drunk_Enter" DurationType="OneShot" DurationMin="5.3170977" DurationMax="5.3170977">
 					<MediaRefs>
-						<MediaRef Id="753808601"/>
+						<MediaRef Id="1069161338"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4040622810" Name="Play_Drunk_Growl" MaxAttenuation="8" DurationType="OneShot" DurationMin="22.793922" DurationMax="22.793922">
+				<Event Id="3993278548" Name="Play_Drunk_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.33095834" DurationMax="0.43958333">
 					<MediaRefs>
+						<MediaRef Id="71102110"/>
+						<MediaRef Id="119784298"/>
+						<MediaRef Id="183492982"/>
+						<MediaRef Id="326872836"/>
+						<MediaRef Id="363963715"/>
+						<MediaRef Id="454502099"/>
+						<MediaRef Id="890300338"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4040622810" Name="Play_Drunk_Growl" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.7869387" DurationMax="22.793922">
+					<MediaRefs>
+						<MediaRef Id="571744443"/>
 						<MediaRef Id="972804018"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2210075393" Name="Play_Ductape_Pickup" DurationType="OneShot" DurationMin="0.4542857" DurationMax="0.4542857">
 					<MediaRefs>
@@ -790,7 +873,18 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1233146987" Name="Play_Granny_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1233146987" Name="Play_Granny_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.28454167" DurationMax="0.32045832">
+					<MediaRefs>
+						<MediaRef Id="262863114"/>
+						<MediaRef Id="475655421"/>
+						<MediaRef Id="656540436"/>
+						<MediaRef Id="686637433"/>
+						<MediaRef Id="716199339"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="4031726782" Name="Play_Hammer_Hit" DurationType="OneShot" DurationMin="0.37272108" DurationMax="0.45827663">
 					<MediaRefs>
 						<MediaRef Id="47976970"/>
@@ -819,7 +913,19 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1878395256" Name="Play_Madame_Footstep" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1878395256" Name="Play_Madame_Footstep" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.19897917" DurationMax="0.30191666">
+					<MediaRefs>
+						<MediaRef Id="256464278"/>
+						<MediaRef Id="485550795"/>
+						<MediaRef Id="877204264"/>
+						<MediaRef Id="953262513"/>
+						<MediaRef Id="955517830"/>
+						<MediaRef Id="1025826652"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3540329969" Name="Play_Madame_Singing" MaxAttenuation="8" DurationType="OneShot" DurationMin="11.513197" DurationMax="21.455193">
 					<MediaRefs>
 						<MediaRef Id="56219495"/>
@@ -876,21 +982,6 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2225525625" Name="Play_Player_Footsteps_Carpet" DurationType="OneShot" DurationMin="0.61567885" DurationMax="0.61567885">
-					<MediaRefs>
-						<MediaRef Id="55990598"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="268867591" Name="Play_Player_Footsteps_Stone" DurationType="OneShot" DurationMin="0.39776763" DurationMax="0.39776763">
-					<MediaRefs>
-						<MediaRef Id="243025860"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="164811484" Name="Play_Player_Footsteps_Tile" DurationType="OneShot" DurationMin="0.29061776" DurationMax="0.29061776">
-					<MediaRefs>
-						<MediaRef Id="916159817"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="1323502295" Name="Play_Player_Footsteps_Wood" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.19069281" DurationMax="0.57767636">
 					<MediaRefs>
 						<MediaRef Id="69290928"/>
@@ -905,21 +996,6 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
-				</Event>
-				<Event Id="859694722" Name="Play_Shepard_Tone_Mass_X2" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="1070144266"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="147896324" Name="Play_Shepard_Tone_Mass_X_Wave" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="60449373"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3835412270" Name="Play_Shepard_Tone_Sine_Wave" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="773720196"/>
-					</MediaRefs>
 				</Event>
 				<Event Id="4281644042" Name="Play_Shower_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.3100014" DurationMax="2.3100014">
 					<MediaRefs>
@@ -951,10 +1027,18 @@
 						<MediaRef Id="723430980"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1717998074" Name="Play_Stalker_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.28981635" DurationMax="0.28981635">
+				<Event Id="1717998074" Name="Play_Stalker_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.16285416" DurationMax="0.3355625">
 					<MediaRefs>
-						<MediaRef Id="22674253"/>
+						<MediaRef Id="6044413"/>
+						<MediaRef Id="95187173"/>
+						<MediaRef Id="182512626"/>
+						<MediaRef Id="354608895"/>
+						<MediaRef Id="560305372"/>
+						<MediaRef Id="708578468"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="404130524" Name="Play_Stalker_Noises" MaxAttenuation="8" DurationType="OneShot" DurationMin="9.72059" DurationMax="9.72059">
 					<MediaRefs>
@@ -1054,19 +1138,63 @@
 						<MediaRef Id="485154323"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2188479622" Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="452547817" Name="Stop_All" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2887940980" Name="Stop_Ambience_Clock_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3014771066" Name="Stop_Celing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3138979112" Name="Stop_Shepard_Tone_Mass_X2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="887930354" Name="Stop_Shepard_Tone_Mass_X_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3279282928" Name="Stop_Shepard_Tone_Sine_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1944978762" Name="Stop_Window_Close_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3500678004" Name="Stop_Window_Open_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{8208A4CA-A666-9F81-81ED-338B8274BE3F}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="60449373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Mass X Wave.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Mass X Wave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="702605518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1_Bit_Jam_Menu_MX_v2_LOOP.wav</ShortName>
+					<CachePath>SFX/1_Bit_Jam_Menu_MX_v2_LOOP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="773720196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Sine Wave.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Sine Wave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="1070144266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shepard Tone_Mass X2.wav</ShortName>
+					<CachePath>SFX/Shepard Tone_Mass X2_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2894561040" Name="Play_1_Bit_Jam_Menu_MX_v2_LOOP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="702605518"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="859694722" Name="Play_Shepard_Tone_Mass_X2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1070144266"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="147896324" Name="Play_Shepard_Tone_Mass_X_Wave" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="60449373"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3835412270" Name="Play_Shepard_Tone_Sine_Wave" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="773720196"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2188479622" Name="Stop_1_Bit_Jam_Menu_MX_v2_LOOP" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3138979112" Name="Stop_Shepard_Tone_Mass_X2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="887930354" Name="Stop_Shepard_Tone_Mass_X_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3279282928" Name="Stop_Shepard_Tone_Sine_Wave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{79B1EBBB-190B-7DB3-A6CC-041560F03D8F}</FileHash>
+	<FileHash>{8D54CE34-6FD9-7842-65F9-BD19EEA19339}</FileHash>
 </SoundBanksInfo>
