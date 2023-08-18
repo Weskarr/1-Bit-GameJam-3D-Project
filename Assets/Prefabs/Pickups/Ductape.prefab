@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6929849656817011455}
   - component: {fileID: 8342260140279020404}
   - component: {fileID: 4828570159879195479}
+  - component: {fileID: 3350338713877168212}
+  - component: {fileID: -6266752845796337463}
   m_Layer: 0
   m_Name: Ductape
   m_TagString: Untagged
@@ -83,3 +85,40 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3350338713877168212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657104617134674965}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.32, y: 0.10000001, z: 0.31}
+  m_Center: {x: 0, y: -0.0000000018626451, z: 0.010000002}
+--- !u!114 &-6266752845796337463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7657104617134674965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8320ef4be49c048b4e7c93d850b1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  takeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 72fd1f07b6b6e824fbabdcc59afda7a8, type: 2}

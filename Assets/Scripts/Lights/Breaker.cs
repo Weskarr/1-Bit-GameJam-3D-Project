@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Breaker : MonoBehaviour, Interactable
 {
+    public FuseBox fuseBox;
+
     [SerializeField]
     private LightSwitch2 mylightSwitch;
 
-    public bool powered;
+    public bool powered = true;
 
     private Quaternion closedRotation;
     [SerializeField]
@@ -84,11 +86,8 @@ public class Breaker : MonoBehaviour, Interactable
 
     public void BreakerIsOut()
     {
-        if (close && !moving)
-        {
-            openSound.Post(gameObject);
-        }
-        close = !close;
+        p = 0;
+        close = false;
         moving = true;
     }
 
@@ -108,12 +107,12 @@ public class Breaker : MonoBehaviour, Interactable
 
     public void closePower()
     {
-        powered = false;
         mylightSwitch.powerIsGone();
     }
 
     public void openPower()
     {
+        fuseBox.powered = true;
         powered = true;
         mylightSwitch.powerIsBack();
     }

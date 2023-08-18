@@ -9,6 +9,8 @@ public class FuseBox : MonoBehaviour
     private bool[] fuses;
     // From Left To Right
 
+    public bool powered = true;
+
     [Header("Wwise Events")]
     public AK.Wwise.Event powerOutage;
 
@@ -24,29 +26,11 @@ public class FuseBox : MonoBehaviour
 
     public void turnAllPowerOff()
     {
+        powered = false;
         foreach (var breaker in breakers)
         {
             breaker.BreakerIsOut();
             powerOutage.Post(gameObject);
         }
-    }
-
-    public bool PowerOn() {
-        foreach (var breaker in breakers) {
-            if (breaker.powered) return true;
-        }
-        return false;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        // turnAllPowerOff();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

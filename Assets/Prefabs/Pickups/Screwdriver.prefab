@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1140790993482879029}
   - component: {fileID: 3838761334014486384}
   - component: {fileID: 1420535265765980599}
+  - component: {fileID: 6675419310711178277}
+  - component: {fileID: 828742779989008061}
   m_Layer: 0
   m_Name: Screwdriver
   m_TagString: Untagged
@@ -83,3 +85,40 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6675419310711178277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867839696480955468}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.49, y: 0.055999998, z: 0.15}
+  m_Center: {x: -0.09848483, y: -0.0000000018626451, z: -0.000000016763806}
+--- !u!114 &828742779989008061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867839696480955468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8320ef4be49c048b4e7c93d850b1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  takeSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: de97d16e640479d4b812e21d58805dcb, type: 2}

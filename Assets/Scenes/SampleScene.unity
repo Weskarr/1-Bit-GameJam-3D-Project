@@ -997,8 +997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 586448572}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -1220,8 +1221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 1834578024}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -5110,18 +5112,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toolSpawnCount: 3
   player: {fileID: 1713651145}
+  toolText: {fileID: 1794046405}
   asleepPoint: {fileID: 1373902531}
   awakePoint: {fileID: 590794793}
   firstAwakePoint: {fileID: 920618191}
   fuseBoxPath: {fileID: 913006329}
+  fuseBoxDoor: {fileID: 657711250}
   fuseBox: {fileID: 1793339218}
-  startPauseTime: 1.5
+  startPauseTime: 3
   wakeupTime: 3
   lightsOffWait: 10
   wakeupSound:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5c76ed2f08a8441a798952df7e3f7b8e, type: 2}
+  sleepSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 69746591c7c885d4ca6791b9dc7422b7, type: 2}
   switches: []
   canSleep: 0
 --- !u!4 &462002881
@@ -5848,8 +5856,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 1047442529}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -7023,8 +7032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 1055203937}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -7124,8 +7134,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 1428683555}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -8419,7 +8430,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657711250}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -13.4, y: 1.05, z: 3.575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12363,8 +12374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 2109491875}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -21076,6 +21088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuses: 
+  powered: 1
   powerOutage:
     idInternal: 0
     valueGuidInternal: 
@@ -21122,7 +21135,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 260, y: 150}
+  m_AnchoredPosition: {x: 267, y: 950}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794046405
@@ -21145,9 +21158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 'Tools: 0/3'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -21210,7 +21221,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -54.670715, w: -115.60704}
+  m_margin: {x: 0, y: 0, z: 0.34437567, w: -0.33740425}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -21812,7 +21823,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1854857530}
   - component: {fileID: 1854857531}
-  - component: {fileID: 1854857532}
   m_Layer: 0
   m_Name: Laundry Exit
   m_TagString: Untagged
@@ -22712,8 +22722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1badff39c82ff4ca23d5fb37065735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuseBox: {fileID: 1793339218}
   mylightSwitch: {fileID: 1767094701}
-  powered: 0
+  powered: 1
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -23315,7 +23326,7 @@ PrefabInstance:
     - target: {fileID: -7357555324438369040, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -6933268156964042730, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -23323,7 +23334,7 @@ PrefabInstance:
     - target: {fileID: -6307304305570015685, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -5869890784520409622, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -23335,7 +23346,7 @@ PrefabInstance:
     - target: {fileID: -4184330666610129163, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -3363748401533981885, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -23383,11 +23394,11 @@ PrefabInstance:
     - target: {fileID: -1737060835491528745, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -655919446217720789, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: -639618503863281590, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -23395,7 +23406,7 @@ PrefabInstance:
     - target: {fileID: 234143128516696769, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: 544046877009963159, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
@@ -23467,7 +23478,7 @@ PrefabInstance:
     - target: {fileID: 8897234767793601385, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2c352edd378abf34188f5a51bf9debee, type: 2}
+      objectReference: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
     - target: {fileID: 9021776177385789996, guid: 4f98c0af62648204eb2abc609b99be67, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
@@ -24163,6 +24174,14 @@ MonoBehaviour:
   _lightsOnMaterial: {fileID: 2100000, guid: 1c86ed0a3f729db40be952ec98530204, type: 2}
   _lightsOffMaterial: {fileID: 2100000, guid: fe9199e26d45998438714474edb9dd0c, type: 2}
   _alwaysLitMaterial: {fileID: 2100000, guid: 2b7b78875ca1d2743a5de1adfa3dc8ce, type: 2}
+  _alwaysOnObjects:
+  - {fileID: 73429269}
+  - {fileID: 954543083}
+  - {fileID: 512159639}
+  - {fileID: 570548731}
+  - {fileID: 1989755926}
+  - {fileID: 89416254}
+  - {fileID: 586406173}
   _isEchoing: 0
   _echoMat: {fileID: 2100000, guid: fe9199e26d45998438714474edb9dd0c, type: 2}
 --- !u!4 &2088736306

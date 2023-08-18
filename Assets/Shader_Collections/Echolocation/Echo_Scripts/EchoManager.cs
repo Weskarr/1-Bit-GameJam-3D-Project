@@ -52,7 +52,7 @@ public class EchoManager : MonoBehaviour
     private Material _alwaysLitMaterial;
 
 
-    private List<GameObject> _alwaysOnObjects = new List<GameObject>();
+    public List<GameObject> _alwaysOnObjects = new List<GameObject>();
 
     // Extra
     [SerializeField]
@@ -89,7 +89,6 @@ public class EchoManager : MonoBehaviour
     public bool LightsOn()
     {
         player.GetComponent<Player>().EnableHands();
-
         // Return whether this actually changed something
         bool ret = lightsOff;
         lightsOff = false;

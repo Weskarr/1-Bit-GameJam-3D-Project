@@ -69,10 +69,6 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             {
                 light.SetActive(true);
             }
-            foreach (MeshRenderer ren in interactionHighLighted)
-            {
-                ren.material = interactionHighLightMaterial;
-            }
             isLightOn = true;
             myMasterMind.LightIsOn(lightIdentity);
         }
@@ -86,10 +82,6 @@ public class LightSwitch2 : MonoBehaviour, Interactable
         {
             light.SetActive(false);
         }
-        foreach (MeshRenderer ren in interactionHighLighted)
-        {
-            ren.material = normalMaterial;
-        }
 
         myMasterMind.LightIsOff(lightIdentity);
     }
@@ -102,10 +94,6 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             foreach (GameObject light in lights)
             {
                 light.SetActive(false);
-            }
-            foreach (MeshRenderer ren in interactionHighLighted)
-            {
-                ren.material = normalMaterial;
             }
 
             myMasterMind.LightIsOff(lightIdentity);
@@ -124,10 +112,6 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             foreach (GameObject light in lights)
             {
                 light.SetActive(true);
-            }
-            foreach (MeshRenderer ren in interactionHighLighted)
-            {
-                ren.material = interactionHighLightMaterial;
             }
 
             myMasterMind.LightIsOn(lightIdentity);

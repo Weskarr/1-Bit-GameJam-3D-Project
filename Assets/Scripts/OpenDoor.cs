@@ -83,6 +83,24 @@ public class OpenDoor : MonoBehaviour, Interactable
         }
     }
 
+    public void Open() {
+        if (!moving && !close) {
+            return;
+        }
+        close = false;
+        p = 0;
+        moving = true;
+    }
+
+    public void Close() {
+        if (!moving && close) {
+            return;
+        }
+        close = true;
+        p = 1;
+        moving = true;
+    }
+
 
     public void Interact()
     {

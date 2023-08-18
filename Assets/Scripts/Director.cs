@@ -26,11 +26,14 @@ public class Director : MonoBehaviour
     EchoManager echoManager;
     public FPSController player;
 
+    public TMPro.TextMeshProUGUI toolText;
+
     public Transform asleepPoint;
     public Transform awakePoint;
     public Transform firstAwakePoint;
 
     public GameObject fuseBoxPath;
+    public GameObject fuseBoxDoor;
     public FuseBox fuseBox;
 
     public float startPauseTime;
@@ -39,6 +42,8 @@ public class Director : MonoBehaviour
 
     [Header("Wwise Events")]
     public AK.Wwise.Event wakeupSound;
+    [Header("Wwise Events")]
+    public AK.Wwise.Event sleepSound;
 
 
     public GameObject[] switches;
@@ -55,6 +60,7 @@ public class Director : MonoBehaviour
     int switchInd;
     void Start()
     {
+        toolText.enabled = false;
         wakePoint = firstAwakePoint;
         echoManager = EchoManager.instance;
         StartCoroutine(startProcess());
@@ -83,10 +89,12 @@ public class Director : MonoBehaviour
                 player.transform.rotation = rot;
             }
         }
-
-        if (lightsOut && fuseBox.PowerOn()) {
+        if (lightsOut && fuseBox.powered) {
             echoManager.LightsOn();
             lightsOut = false;
+            fuseBoxPath.SetActive(false);
+            canSleep = true;
+            toolText.enabled = false;
             // Despawn entity
         }
 
@@ -94,9 +102,11 @@ public class Director : MonoBehaviour
 
     public void GetTool() {
         toolsLeft--;
+        toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
         if (toolsLeft == 0 && firstTIme) {
             firstTIme = false;
             fuseBoxPath.SetActive(true);
+            fuseBoxDoor.GetComponent<BoxCollider>().enabled = true;
         }
     }
 
@@ -110,10 +120,11 @@ public class Director : MonoBehaviour
         player.transform.rotation = asleepPoint.rotation;
         player.movementEnabled = false;
         player.mouseLookEnabled = false;
+        turningLightsOff = false;
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
-        if (!firstTIme) echoManager.LightsOff();
+        if (!firstTIme) echoManager.LightsOn();
         yield return new WaitForSeconds(startPauseTime);
         wakeupSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
@@ -121,8 +132,15 @@ public class Director : MonoBehaviour
 
     IEnumerator lightsOff() {
         yield return new WaitForSeconds(lightsOffWait);
+        fuseBox.powered = false;
+        fuseBox.turnAllPowerOff();
         lightsOut = true;
         echoManager.LightsOff();
+        fuseBoxDoor.GetComponent<BoxCollider>().enabled = false;
+        fuseBoxDoor.GetComponent<OpenDoor>().Close();
+
+        toolText.enabled = true;
+        toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
     }
 
     void RandomizeSwitches() {
@@ -138,13 +156,15 @@ public class Director : MonoBehaviour
 
     public void sleep() {
         if (canSleep) {
+            sleepSound.Post(player.gameObject);
             StartCoroutine(startProcess());
         }
     }
-
+    bool turningLightsOff = false;
     void listenTrigger(string name) {
-        if (!lightsOut && name == "Bedroom Exit") {
+        if (!turningLightsOff && name == "Bedroom Exit") {
             // Start lights off countdown
+            turningLightsOff = true;
             StartCoroutine(lightsOff());
         }
     }
