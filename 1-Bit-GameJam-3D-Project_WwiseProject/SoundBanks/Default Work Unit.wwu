@@ -47,6 +47,7 @@
 						<ObjectRef Name="Item" ID="{23E75DFB-0965-4329-B51B-D1556CC88DC7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Trash_Lid_Close" ID="{B9E23DB9-16FA-4349-9A27-8B2A668DD93A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{9DC0A299-C22B-4360-8607-E0CC95D05C6E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Standing_Light_Loop" ID="{23D9ED48-BEA6-4367-81EF-101795CBE533}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fridge_Open_Loop" ID="{A433CF81-C56D-439C-8D13-229184689369}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Light_Switch_On" ID="{4FB1D991-8D3C-43FA-B23C-3C7E6535F351}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -61,12 +62,12 @@
 						<ObjectRef Name="Fridge" ID="{85061A5C-AE4F-4518-9D91-41EB187E367E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Utility_Power_Outage_Loop" ID="{1104BA27-DFAF-45EC-9D0C-DCBCC2FB77FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsteps_Stone" ID="{CF313AC1-59EA-45F4-A075-0F1BBAAA6715}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rooms" ID="{06BD4548-C338-4629-B23A-71E5E46172B0}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{53DCA052-60C8-462D-8081-AD7054DBAE67}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Power" ID="{0CCB2B46-2BB4-4686-846A-5805F9E03DBC}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Window_Close_Loop" ID="{09D99838-7A1C-4695-93B0-362AEC4EF416}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Apartment_Ambience" ID="{7C03CF3E-FF53-46AD-A7B3-5B1C1FC63D9E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_On" ID="{75ACD35D-A5B4-46B4-8E92-EBE39A709D0F}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{7F6E0520-7DF7-46D0-AEE3-D92985E5C4DB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -144,6 +145,7 @@
 						<ObjectRef Name="Play_Fridge_Door_Close" ID="{B727C9EE-C11C-4E83-BD41-B64FBB6E5022}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Shepard_Tone_Mass_X_Wave" ID="{5F6A1F0D-18A6-4E90-8DDE-12E7C87E2610}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footsteps_Wood" ID="{30195A78-C9E9-4EB8-912F-E158B3306378}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Utility_Power_Outage_Loop" ID="{25656491-7229-4ECC-8FF2-E8065BEF52FB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_All" ID="{EF750A0F-B360-4ED3-9EFA-710BE332851A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wash_Door_Close" ID="{5D649E97-8990-4EFB-8BC0-3912739BE87A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TV_Power_Off" ID="{758ED34B-35DE-4F37-80ED-C658FC4C0D57}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>

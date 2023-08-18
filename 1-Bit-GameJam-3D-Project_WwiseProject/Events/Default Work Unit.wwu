@@ -1216,6 +1216,42 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Events" ID="{9DC0A299-C22B-4360-8607-E0CC95D05C6E}" ShortID="480718271">
+							<ChildrenList>
+								<Event Name="Play_Utility_Power_Outage_Loop" ID="{1104BA27-DFAF-45EC-9D0C-DCBCC2FB77FB}">
+									<ChildrenList>
+										<Action Name="" ID="{EFE0BE35-CCCB-4632-A44D-67DCDDA510AE}" ShortID="1032775057">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Utility_Power_Outage" ID="{B60A4BC4-B43D-49F8-BC22-89BC2A59D1EC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AF5A432D-3C47-4903-BA40-D60C77B45915}" ShortID="98918797">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Utility_Power_Outage_Loop" ID="{2581C313-434B-4AF5-B23F-57100BE7C815}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Utility_Power_Outage_Loop" ID="{25656491-7229-4ECC-8FF2-E8065BEF52FB}">
+									<ChildrenList>
+										<Action Name="" ID="{A618FB88-2DB1-40F3-840F-363762802E39}" ShortID="847538811">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Utility_Power_Outage_Loop" ID="{2581C313-434B-4AF5-B23F-57100BE7C815}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{2AF88182-DF7C-4D00-AD79-8AE25294ACF1}" ShortID="612397547">
