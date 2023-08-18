@@ -41,6 +41,8 @@ public class Director : MonoBehaviour
 
     float wakeupStartTime = 0;
 
+    int hour = 0;
+
     int switchInd;
     void Start()
     {
@@ -85,8 +87,9 @@ public class Director : MonoBehaviour
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
-        wakeupSound.Post(player.gameObject);
+        if (!firstTIme) echoManager.LightsOff();
         yield return new WaitForSeconds(startPauseTime);
+        wakeupSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
         GetComponent<ToolSpawn>().SpawnTools(3);
     }
