@@ -182,7 +182,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{57842E27-6400-73A0-9E21-84C379D8C357}">
+		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{57D15FAA-4684-EA6B-4650-A51EFABD0400}">
 			<ShortName>Entities</ShortName>
 			<Path>Entities.bnk</Path>
 			<Media>
@@ -234,6 +234,10 @@
 					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace.wav</ShortName>
 					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace_10C4C929.wem</CachePath>
 				</File>
+				<File Id="262737598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Granny Scream.wav</ShortName>
+					<CachePath>SFX/Granny Scream_10C4C929.wem</CachePath>
+				</File>
 				<File Id="262863114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SLIPPERS_FOOTSTEPS(5).wav</ShortName>
 					<CachePath>SFX/SLIPPERS_FOOTSTEPS(5)_10C4C929.wem</CachePath>
@@ -266,6 +270,10 @@
 					<ShortName>Heavy Footsteps on a Squeaky Floor(4).wav</ShortName>
 					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(4)_10C4C929.wem</CachePath>
 				</File>
+				<File Id="468618214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drunk Scream.wav</ShortName>
+					<CachePath>SFX/Drunk Scream_10C4C929.wem</CachePath>
+				</File>
 				<File Id="475655421" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SLIPPERS_FOOTSTEPS.wav</ShortName>
 					<CachePath>SFX/SLIPPERS_FOOTSTEPS_10C4C929.wem</CachePath>
@@ -277,6 +285,10 @@
 				<File Id="495751853" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(9).wav</ShortName>
 					<CachePath>SFX/Walking Outside 4 .flac(9)_649A7D23.wem</CachePath>
+				</File>
+				<File Id="509263307" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Child Scream.wav</ShortName>
+					<CachePath>SFX/Child Scream_10C4C929.wem</CachePath>
 				</File>
 				<File Id="536502901" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Child's laugh 4 - medyk3D.wav</ShortName>
@@ -293,6 +305,10 @@
 				<File Id="617579014" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Walking Outside 4 .flac(2).wav</ShortName>
 					<CachePath>SFX/Walking Outside 4 .flac(2)_72121006.wem</CachePath>
+				</File>
+				<File Id="647770693" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stalker Scream.wav</ShortName>
+					<CachePath>SFX/Stalker Scream_10C4C929.wem</CachePath>
 				</File>
 				<File Id="656540436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SLIPPERS_FOOTSTEPS(3).wav</ShortName>
@@ -382,7 +398,23 @@
 						<MediaRef Id="418179945"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="701872540" Name="Play_Child_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="701872540" Name="Play_Child_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.28454167" DurationMax="0.32045832">
+					<MediaRefs>
+						<MediaRef Id="262863114"/>
+						<MediaRef Id="475655421"/>
+						<MediaRef Id="656540436"/>
+						<MediaRef Id="686637433"/>
+						<MediaRef Id="716199339"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="568573080" Name="Play_Child_Scream" DurationType="OneShot" DurationMin="6.094989" DurationMax="6.094989">
+					<MediaRefs>
+						<MediaRef Id="509263307"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="468398047" Name="Play_Chlld_Laugh" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.6359584" DurationMax="4.5045">
 					<MediaRefs>
 						<MediaRef Id="389549070"/>
@@ -423,6 +455,11 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="159907280" Name="Play_Drunk_Scream" DurationType="OneShot" DurationMin="1.5154195" DurationMax="1.5154195">
+					<MediaRefs>
+						<MediaRef Id="468618214"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3451783798" Name="Play_Entity_Glow_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
@@ -472,9 +509,14 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4133542388" Name="Play_Madame_Enter" DurationType="OneShot" DurationMin="4.9853063" DurationMax="4.9853063">
+				<Event Id="697658893" Name="Play_Granny_Scream" DurationType="OneShot" DurationMin="7.9936056" DurationMax="7.9936056">
 					<MediaRefs>
-						<MediaRef Id="759562658"/>
+						<MediaRef Id="262737598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4133542388" Name="Play_Madame_Enter" DurationType="OneShot" DurationMin="11.513197" DurationMax="11.513197">
+					<MediaRefs>
+						<MediaRef Id="915182392"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
@@ -493,11 +535,15 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3540329969" Name="Play_Madame_Singing" MaxAttenuation="8" DurationType="OneShot" DurationMin="11.513197" DurationMax="21.455193">
+				<Event Id="843012029" Name="Play_Madame_Scream" DurationType="OneShot" DurationMin="4.9853063" DurationMax="4.9853063">
+					<MediaRefs>
+						<MediaRef Id="759562658"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3540329969" Name="Play_Madame_Singing" MaxAttenuation="8" DurationType="OneShot" DurationMin="21.083696" DurationMax="21.455193">
 					<MediaRefs>
 						<MediaRef Id="56219495"/>
 						<MediaRef Id="699668522"/>
-						<MediaRef Id="915182392"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1717998074" Name="Play_Stalker_Footsteps" MaxAttenuation="8" DurationType="OneShot" DurationMin="0.16285416" DurationMax="0.3355625">
@@ -520,6 +566,11 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="170077546" Name="Play_Stalker_Scream" DurationType="OneShot" DurationMin="8.033719" DurationMax="8.033719">
+					<MediaRefs>
+						<MediaRef Id="647770693"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1264,5 +1315,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33275ED2-F159-BBEE-9DD6-9175A0EA6C12}</FileHash>
+	<FileHash>{90709BD3-6B15-71BD-141A-481363215A09}</FileHash>
 </SoundBanksInfo>

@@ -895,6 +895,43 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Drunk_Scream" ID="{25748122-AC05-4636-83B6-0085B89D9B64}" ShortID="115294846">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Drunk Scream" ID="{020F83C1-51BA-4E8C-8751-CA18E7788491}" ShortID="769861632">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Drunk Scream" ID="{11095B62-1527-4879-A938-702931E13BBD}">
+															<Language>SFX</Language>
+															<AudioFile>Drunk Scream.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="468618214"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Drunk Scream" ID="{11095B62-1527-4879-A938-702931E13BBD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Stalker" ID="{8C15E521-A2E7-4CC2-A8E3-21DA04AF64CE}" ShortID="237615409">
@@ -1115,6 +1152,43 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stalker_Scream" ID="{9EB2A1A3-3B84-4898-BD52-64A30B8AE677}" ShortID="977733034">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stalker Scream" ID="{63597D77-1302-4FDE-8627-328C36D15A69}" ShortID="344454676">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stalker Scream" ID="{17FD4E4B-C314-40BE-86DA-25327B45331F}">
+															<Language>SFX</Language>
+															<AudioFile>Stalker Scream.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647770693"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Stalker Scream" ID="{17FD4E4B-C314-40BE-86DA-25327B45331F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Child" ID="{31B5941C-7A4D-4DBA-98DC-2A6821E20CF8}" ShortID="590433306">
@@ -1137,6 +1211,188 @@
 													<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SLIPPERS_FOOTSTEPS(2)" ID="{38A8C8A7-D7AA-42DC-AF53-58BB027B3EA8}" ShortID="911627845">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{050568FF-9D4F-433C-8A9D-D1CE6F3580B2}">
+															<Language>SFX</Language>
+															<AudioFile>SLIPPERS_FOOTSTEPS(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="686637433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{050568FF-9D4F-433C-8A9D-D1CE6F3580B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SLIPPERS_FOOTSTEPS(3)" ID="{392A7023-47D8-48EC-8CC3-6F0112B412B7}" ShortID="678535084">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{E9E51F6E-83F3-485F-896E-3BB2469E7B00}">
+															<Language>SFX</Language>
+															<AudioFile>SLIPPERS_FOOTSTEPS(3).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="656540436"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{E9E51F6E-83F3-485F-896E-3BB2469E7B00}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SLIPPERS_FOOTSTEPS(4)" ID="{A5732CC5-2D92-469D-A329-428C830CC192}" ShortID="543019927">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{6AE60283-D453-4089-A22D-58CAAD5A5867}">
+															<Language>SFX</Language>
+															<AudioFile>SLIPPERS_FOOTSTEPS(4).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="716199339"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{6AE60283-D453-4089-A22D-58CAAD5A5867}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SLIPPERS_FOOTSTEPS(5)" ID="{57046545-231F-4C91-8358-FC123282BA7F}" ShortID="895355061">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{1B30D138-39F6-4AB2-9B6E-AA9B6AD87A4B}">
+															<Language>SFX</Language>
+															<AudioFile>SLIPPERS_FOOTSTEPS(5).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="262863114"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{1B30D138-39F6-4AB2-9B6E-AA9B6AD87A4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SLIPPERS_FOOTSTEPS" ID="{73890E0E-EA57-4134-AC7B-E2CA013DD6C9}" ShortID="742600518">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS" ID="{0F5D0EE0-3284-4308-8515-A7663454E7C7}">
+															<Language>SFX</Language>
+															<AudioFile>SLIPPERS_FOOTSTEPS.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="475655421"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS" ID="{0F5D0EE0-3284-4308-8515-A7663454E7C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Chlld_Laugh" ID="{18921D37-2C0B-46ED-98A9-7A6824EAD73C}" ShortID="455734686">
 											<PropertyList>
@@ -1268,6 +1524,43 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Kid Ghost Sigh" ID="{BF2E8B65-C680-429E-9F46-345D3A9D28B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Child_Scream" ID="{6A6E6993-34DF-447C-8857-65BFE6127A46}" ShortID="418975029">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Child Scream" ID="{5F113A45-56FC-48D1-A6BD-E2CC76075C04}" ShortID="562996154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Child Scream" ID="{997926F4-1162-4AEC-8D10-4A1E6DE3FE5B}">
+															<Language>SFX</Language>
+															<AudioFile>Child Scream.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="509263307"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Child Scream" ID="{997926F4-1162-4AEC-8D10-4A1E6DE3FE5B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1455,28 +1748,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Ghost Female Singing" ID="{63E27B38-8631-41D7-97AD-0A070668DE90}" ShortID="132263499">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Ghost Female Singing" ID="{5F935EED-AB0A-4D35-936F-690A77F7BA2F}">
-															<Language>SFX</Language>
-															<AudioFile>Ghost Female Singing.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="915182392"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Ghost Female Singing" ID="{5F935EED-AB0A-4D35-936F-690A77F7BA2F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="Female Ghost Singing" ID="{37514BBC-F8F4-4F96-9362-BA609F5AA539}" ShortID="1048663801">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -1539,13 +1810,62 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
+												<Sound Name="Ghost Female Singing" ID="{63E27B38-8631-41D7-97AD-0A070668DE90}" ShortID="132263499">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Ghost Female Singing" ID="{5F935EED-AB0A-4D35-936F-690A77F7BA2F}">
+															<Language>SFX</Language>
+															<AudioFile>Ghost Female Singing.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="915182392"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Ghost Female Singing" ID="{5F935EED-AB0A-4D35-936F-690A77F7BA2F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Madame_Scream" ID="{BB510259-4F90-4D95-AFFE-F6BAFA7ECB5C}" ShortID="515531878">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
 												<Sound Name="Female Scream 2" ID="{B1ADFF77-DAF6-4106-81DF-A05B9CC44BDC}" ShortID="337502638">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1596,17 +1916,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="SLIPPERS_FOOTSTEPS(2)" ID="{38A8C8A7-D7AA-42DC-AF53-58BB027B3EA8}" ShortID="911627845">
+												<Sound Name="SLIPPERS_FOOTSTEPS(2)" ID="{BE559053-81D9-48CC-A3FD-4CF70D6C15B1}" ShortID="1068352936">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{050568FF-9D4F-433C-8A9D-D1CE6F3580B2}">
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{B0CA9B41-9021-4FF7-9AA4-7C7A2FDC6BCD}">
 															<Language>SFX</Language>
 															<AudioFile>SLIPPERS_FOOTSTEPS(2).wav</AudioFile>
 															<MediaIDList>
@@ -1615,20 +1944,29 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{050568FF-9D4F-433C-8A9D-D1CE6F3580B2}" Platform="Linked"/>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(2)" ID="{B0CA9B41-9021-4FF7-9AA4-7C7A2FDC6BCD}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SLIPPERS_FOOTSTEPS(3)" ID="{392A7023-47D8-48EC-8CC3-6F0112B412B7}" ShortID="678535084">
+												<Sound Name="SLIPPERS_FOOTSTEPS(3)" ID="{AE868243-AFC5-443A-89F5-17B8F5DBB845}" ShortID="68982145">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{E9E51F6E-83F3-485F-896E-3BB2469E7B00}">
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{1E9A40E7-DE72-4F57-985E-4E8B10322D3A}">
 															<Language>SFX</Language>
 															<AudioFile>SLIPPERS_FOOTSTEPS(3).wav</AudioFile>
 															<MediaIDList>
@@ -1637,20 +1975,29 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{E9E51F6E-83F3-485F-896E-3BB2469E7B00}" Platform="Linked"/>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(3)" ID="{1E9A40E7-DE72-4F57-985E-4E8B10322D3A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SLIPPERS_FOOTSTEPS(4)" ID="{A5732CC5-2D92-469D-A329-428C830CC192}" ShortID="543019927">
+												<Sound Name="SLIPPERS_FOOTSTEPS(4)" ID="{4E25BE60-B861-45DA-8B33-507F4718BADF}" ShortID="126463001">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{6AE60283-D453-4089-A22D-58CAAD5A5867}">
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{23B8A4B9-F594-4946-BF71-EABD8EFB60C5}">
 															<Language>SFX</Language>
 															<AudioFile>SLIPPERS_FOOTSTEPS(4).wav</AudioFile>
 															<MediaIDList>
@@ -1659,20 +2006,29 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{6AE60283-D453-4089-A22D-58CAAD5A5867}" Platform="Linked"/>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(4)" ID="{23B8A4B9-F594-4946-BF71-EABD8EFB60C5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SLIPPERS_FOOTSTEPS(5)" ID="{57046545-231F-4C91-8358-FC123282BA7F}" ShortID="895355061">
+												<Sound Name="SLIPPERS_FOOTSTEPS(5)" ID="{B7B883EA-0198-4935-B3FB-203F8957B088}" ShortID="966799021">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{1B30D138-39F6-4AB2-9B6E-AA9B6AD87A4B}">
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{12EC1658-61A3-41D0-823C-67C0FE9B01A8}">
 															<Language>SFX</Language>
 															<AudioFile>SLIPPERS_FOOTSTEPS(5).wav</AudioFile>
 															<MediaIDList>
@@ -1681,20 +2037,29 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{1B30D138-39F6-4AB2-9B6E-AA9B6AD87A4B}" Platform="Linked"/>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS(5)" ID="{12EC1658-61A3-41D0-823C-67C0FE9B01A8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SLIPPERS_FOOTSTEPS" ID="{73890E0E-EA57-4134-AC7B-E2CA013DD6C9}" ShortID="742600518">
+												<Sound Name="SLIPPERS_FOOTSTEPS" ID="{D565182D-2F47-4FA8-A041-7CA84394A84F}" ShortID="536279361">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Entity" ID="{CE8A8197-D14A-44F5-BE58-D5E0E3A2B3DF}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SLIPPERS_FOOTSTEPS" ID="{0F5D0EE0-3284-4308-8515-A7663454E7C7}">
+														<AudioFileSource Name="SLIPPERS_FOOTSTEPS" ID="{EACC8545-B19B-4928-9BD8-25164B0BA14D}">
 															<Language>SFX</Language>
 															<AudioFile>SLIPPERS_FOOTSTEPS.wav</AudioFile>
 															<MediaIDList>
@@ -1703,7 +2068,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SLIPPERS_FOOTSTEPS" ID="{0F5D0EE0-3284-4308-8515-A7663454E7C7}" Platform="Linked"/>
+														<ActiveSource Name="SLIPPERS_FOOTSTEPS" ID="{EACC8545-B19B-4928-9BD8-25164B0BA14D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1999,6 +2364,43 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="witchy laugh 7" ID="{B5033EC9-A9B6-4B28-B08F-7EE05D3C3CDF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Granny_Scream" ID="{1982CD0E-FB00-466E-883B-F58C70E7159D}" ShortID="37609160">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Granny Scream" ID="{259EB450-3301-410D-9FCF-B99B58E0198B}" ShortID="200478695">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Granny Scream" ID="{9EE7A19A-7581-4FD0-B545-F9C45C42A975}">
+															<Language>SFX</Language>
+															<AudioFile>Granny Scream.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="262737598"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Granny Scream" ID="{9EE7A19A-7581-4FD0-B545-F9C45C42A975}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

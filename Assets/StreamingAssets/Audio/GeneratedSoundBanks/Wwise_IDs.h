@@ -28,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_CELING_LIGHT_LOOP = 115528144U;
         static const AkUniqueID PLAY_CHILD_ENTERS = 3502873090U;
         static const AkUniqueID PLAY_CHILD_FOOTSTEPS = 701872540U;
+        static const AkUniqueID PLAY_CHILD_SCREAM = 568573080U;
         static const AkUniqueID PLAY_CHLLD_LAUGH = 468398047U;
         static const AkUniqueID PLAY_DOOR_CLOSE = 2292458263U;
         static const AkUniqueID PLAY_DOOR_HANDLE = 2575131963U;
@@ -39,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAY_DRUNK_ENTER = 1871298099U;
         static const AkUniqueID PLAY_DRUNK_FOOTSTEPS = 3993278548U;
         static const AkUniqueID PLAY_DRUNK_GROWL = 4040622810U;
+        static const AkUniqueID PLAY_DRUNK_SCREAM = 159907280U;
         static const AkUniqueID PLAY_DUCTAPE_PICKUP = 2210075393U;
         static const AkUniqueID PLAY_ENTITY_GLOW_LOOP = 3451783798U;
         static const AkUniqueID PLAY_FLASHLIGHT_ON = 3471928368U;
@@ -55,11 +57,13 @@ namespace AK
         static const AkUniqueID PLAY_GRANNY_CANE = 1365956325U;
         static const AkUniqueID PLAY_GRANNY_ENTER = 3193908324U;
         static const AkUniqueID PLAY_GRANNY_FOOTSTEPS = 1233146987U;
+        static const AkUniqueID PLAY_GRANNY_SCREAM = 697658893U;
         static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_OFF = 314077991U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_ON = 82250835U;
         static const AkUniqueID PLAY_MADAME_ENTER = 4133542388U;
         static const AkUniqueID PLAY_MADAME_FOOTSTEP = 1878395256U;
+        static const AkUniqueID PLAY_MADAME_SCREAM = 843012029U;
         static const AkUniqueID PLAY_MADAME_SINGING = 3540329969U;
         static const AkUniqueID PLAY_OVEN_BEEP = 4252663551U;
         static const AkUniqueID PLAY_OVEN_DOOR_CLOSE = 4217132026U;
@@ -79,6 +83,7 @@ namespace AK
         static const AkUniqueID PLAY_SINK_ON_LOOP = 3721638250U;
         static const AkUniqueID PLAY_STALKER_FOOTSTEPS = 1717998074U;
         static const AkUniqueID PLAY_STALKER_NOISES = 404130524U;
+        static const AkUniqueID PLAY_STALKER_SCREAM = 170077546U;
         static const AkUniqueID PLAY_STANDING_LIGHT_LOOP = 3111854812U;
         static const AkUniqueID PLAY_TOILET_FLUSH = 3094035634U;
         static const AkUniqueID PLAY_TOILET_LID_CLOSE = 4125304698U;

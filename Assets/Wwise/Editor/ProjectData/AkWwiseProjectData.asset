@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: b7964a7a53882049b6b23d7c893462ce
     GuidInternal: 
-    m_lastTime: -8585092748956983117
+    m_lastTime: -8585092596548187318
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585092749001977403
+    m_lastTime: -8585092596597267250
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585092645288739549
+    m_lastTime: -8585092592835741728
     List:
     - name: Ambience_Events
       guid: e54a53ac5e69ec488da4f5512be400ae
@@ -184,7 +184,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585092649882347284
+    m_lastTime: -8585092592835672967
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -429,32 +429,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Door
-      guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
-      id: 1877847629
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Fusebox
-        ObjectType: 4
-        guid: 69ef0c7310d3b74da9039745f906e7a1
-      - ElementName: Door
-        ObjectType: 4
-        guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
-      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Door
       guid: a9a6e71f0e722a4895ad2e0e27311a99
       id: 1877847629
       PathAndIcons:
@@ -500,6 +474,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: bf60be9c7c889547ae6f2ecbe514481f
       Path: Events/Default Work Unit/World/Intractibles/Wash/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Fusebox
+        ObjectType: 4
+        guid: 69ef0c7310d3b74da9039745f906e7a1
+      - ElementName: Door
+        ObjectType: 4
+        guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -806,32 +806,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Lid
-      guid: b8d9c128b373c44da6b00a07d5ce070a
-      id: 444705604
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Trash
-        ObjectType: 4
-        guid: 7ce151d480c6d74fbfe7db5cf3a5c7a0
-      - ElementName: Lid
-        ObjectType: 4
-        guid: b8d9c128b373c44da6b00a07d5ce070a
-      Path: Events/Default Work Unit/World/Intractibles/Trash/Lid
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Lid
       guid: b915921985834642be1f43356755e89a
       id: 444705604
       PathAndIcons:
@@ -854,6 +828,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: b915921985834642be1f43356755e89a
       Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lid
+      guid: b8d9c128b373c44da6b00a07d5ce070a
+      id: 444705604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Trash
+        ObjectType: 4
+        guid: 7ce151d480c6d74fbfe7db5cf3a5c7a0
+      - ElementName: Lid
+        ObjectType: 4
+        guid: b8d9c128b373c44da6b00a07d5ce070a
+      Path: Events/Default Work Unit/World/Intractibles/Trash/Lid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1406,8 +1406,34 @@ MonoBehaviour:
         guid: 780523e265ce8a4082c80b22ce45b4d7
       Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Footsteps
       maxAttenuation: 8
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.32045832
+      minDuration: 0.28454167
+    - name: Play_Child_Scream
+      guid: d9876e9b98fbbe4c97925a40c6a79906
+      id: 568573080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Child
+        ObjectType: 4
+        guid: 1e5a3509805b4a438a8589691dae0781
+      - ElementName: Play_Child_Scream
+        ObjectType: 3
+        guid: d9876e9b98fbbe4c97925a40c6a79906
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Scream
+      maxAttenuation: 0
+      maxDuration: 6.094989
+      minDuration: 6.094989
     - name: Play_Chlld_Laugh
       guid: 9cd522d8c45d234e86ba0856a401b7aa
       id: 468398047
@@ -1706,6 +1732,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 22.793922
       minDuration: 2.7869387
+    - name: Play_Drunk_Scream
+      guid: e9af0a1ef7edf74194671c7578dc5aca
+      id: 159907280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Drunk
+        ObjectType: 4
+        guid: d380b1ebffa5db4b82a5169c60b39929
+      - ElementName: Play_Drunk_Scream
+        ObjectType: 3
+        guid: e9af0a1ef7edf74194671c7578dc5aca
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Scream
+      maxAttenuation: 0
+      maxDuration: 1.5154195
+      minDuration: 1.5154195
     - name: Play_Ductape_Pickup
       guid: d3978833f7110f42b071bf5d29beada5
       id: 2210075393
@@ -2143,6 +2195,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 0.32045832
       minDuration: 0.28454167
+    - name: Play_Granny_Scream
+      guid: 564704bb7f1d2a4699b73165382efaea
+      id: 697658893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Granny
+        ObjectType: 4
+        guid: 5db7f8e2165f3845be6b925e45ccd498
+      - ElementName: Play_Granny_Scream
+        ObjectType: 3
+        guid: 564704bb7f1d2a4699b73165382efaea
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Scream
+      maxAttenuation: 0
+      maxDuration: 7.9936056
+      minDuration: 7.9936056
     - name: Play_Hammer_Hit
       guid: 7a18687e8a5c3947978cb3de265f1208
       id: 4031726782
@@ -2245,8 +2323,8 @@ MonoBehaviour:
         guid: 2a079182352a8042bc89b02e5faa8736
       Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Enter
       maxAttenuation: 0
-      maxDuration: 4.9853063
-      minDuration: 4.9853063
+      maxDuration: 11.513197
+      minDuration: 11.513197
     - name: Play_Madame_Footstep
       guid: 72e135018eeb8944bee47dfd4650f587
       id: 1878395256
@@ -2273,6 +2351,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 0.30191666
       minDuration: 0.19897917
+    - name: Play_Madame_Scream
+      guid: 9c5dfa8d10a5ce4782c3a3af0987d09b
+      id: 843012029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Madame
+        ObjectType: 4
+        guid: bc35c48aceb38949b494f3c6db253b22
+      - ElementName: Play_Madame_Scream
+        ObjectType: 3
+        guid: 9c5dfa8d10a5ce4782c3a3af0987d09b
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Scream
+      maxAttenuation: 0
+      maxDuration: 4.9853063
+      minDuration: 4.9853063
     - name: Play_Madame_Singing
       guid: 80bc9abc310d3c4f89294ad704a7613a
       id: 3540329969
@@ -2298,7 +2402,7 @@ MonoBehaviour:
       Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Singing
       maxAttenuation: 8
       maxDuration: 21.455193
-      minDuration: 11.513197
+      minDuration: 21.083696
     - name: Play_Oven_Beep
       guid: 93a1f0a307778641a6fdf451ce2815e5
       id: 4252663551
@@ -2761,6 +2865,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 9.72059
       minDuration: 9.72059
+    - name: Play_Stalker_Scream
+      guid: 30132eea34578347a77a1d8799ed4932
+      id: 170077546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Stalker
+        ObjectType: 4
+        guid: ff6d977c2aadca41bd0f7678f914e44c
+      - ElementName: Play_Stalker_Scream
+        ObjectType: 3
+        guid: 30132eea34578347a77a1d8799ed4932
+      Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Scream
+      maxAttenuation: 0
+      maxDuration: 8.033719
+      minDuration: 8.033719
     - name: Play_Standing_Light_Loop
       guid: 48edd923a6be674381ef101795cbe533
       id: 3111854812
@@ -3832,29 +3962,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Window
-      guid: 397a9c460f0c0a4494ae51e398fe081b
-      id: 2330457189
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Ambience
-        ObjectType: 4
-        guid: a3d1ba4d042e7448bf13d9b8e834a40e
-      - ElementName: Window
-        ObjectType: 4
-        guid: 397a9c460f0c0a4494ae51e398fe081b
-      Path: Events/Default Work Unit/World/Ambience/Window
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Window
       guid: 98443fb4dde412428d1b6c8487f3645d
       id: 2330457189
       PathAndIcons:
@@ -3874,6 +3981,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 98443fb4dde412428d1b6c8487f3645d
       Path: Events/Default Work Unit/World/Intractibles/Window
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Window
+      guid: 397a9c460f0c0a4494ae51e398fe081b
+      id: 2330457189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: a3d1ba4d042e7448bf13d9b8e834a40e
+      - ElementName: Window
+        ObjectType: 4
+        guid: 397a9c460f0c0a4494ae51e398fe081b
+      Path: Events/Default Work Unit/World/Ambience/Window
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3906,7 +4036,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: c0f63c476475754ead71100cb51d1bd3
     GuidInternal: 
-    m_lastTime: -8585092749027935802
+    m_lastTime: -8585092596622428616
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -3920,7 +4050,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 3a11c9e2aa43484c925da731bddf6397
     GuidInternal: 
-    m_lastTime: -8585092748956990599
+    m_lastTime: -8585092596548192531
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -3934,7 +4064,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
     GuidInternal: 
-    m_lastTime: -8585092748956987707
+    m_lastTime: -8585092596548190768
     List:
     - name: New_Switch_Group
       guid: 8542da5d90c45746b37d8e65cc679cd4
@@ -3982,10 +4112,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 810460807133634ea4cfabeddb460d1e
     GuidInternal: 
-    m_lastTime: -8585092748956985599
+    m_lastTime: -8585092596548189048
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000040000000500000006000000280000009d0000009e000000
-  ExpandedWaapiItemIds: 020000000300000006000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 1

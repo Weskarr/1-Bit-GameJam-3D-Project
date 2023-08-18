@@ -1006,6 +1006,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Drunk_Scream" ID="{1E0AAFE9-EDF7-41F7-9467-1C7578DC5ACA}">
+											<ChildrenList>
+												<Action Name="" ID="{832D55F0-6D32-431B-9EFF-7E904A753C56}" ShortID="1034416105">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Drunk_Scream" ID="{25748122-AC05-4636-83B6-0085B89D9B64}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" ShortID="77549294">
@@ -1027,6 +1038,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Stalker_Noises" ID="{049FD00E-7EA0-4678-B04F-8136AC936EC1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Stalker_Scream" ID="{EA2E1330-5734-4783-A77A-1D8799ED4932}">
+											<ChildrenList>
+												<Action Name="" ID="{7CED1F73-5B37-4535-8F1F-A9787FB0A0EE}" ShortID="1053410732">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stalker_Scream" ID="{9EB2A1A3-3B84-4898-BD52-64A30B8AE677}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -1094,6 +1116,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Child_Scream" ID="{9B6E87D9-FB98-4CBE-9792-5A40C6A79906}">
+											<ChildrenList>
+												<Action Name="" ID="{D64BF42F-DA64-4E92-8EC8-AACECB498A58}" ShortID="993298500">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Child_Scream" ID="{6A6E6993-34DF-447C-8857-65BFE6127A46}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" ShortID="16769976">
@@ -1131,6 +1164,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Granny_Scream" ID="{BB044756-1D7F-462A-99B7-3165382EFAEA}">
+											<ChildrenList>
+												<Action Name="" ID="{E70E96B4-EA82-414D-8954-CD1E8D26DD64}" ShortID="320941329">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Granny_Scream" ID="{1982CD0E-FB00-466E-883B-F58C70E7159D}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" ShortID="955222697">
@@ -1163,6 +1207,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Madame_Singing" ID="{18007211-8427-41E9-9F68-C218BF22218A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Madame_Scream" ID="{8DFA5D9C-A510-47CE-82C3-A3AF0987D09B}">
+											<ChildrenList>
+												<Action Name="" ID="{F8502DE4-6BDA-4B27-8590-783FC9074A8D}" ShortID="219624093">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Madame_Scream" ID="{BB510259-4F90-4D95-AFFE-F6BAFA7ECB5C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

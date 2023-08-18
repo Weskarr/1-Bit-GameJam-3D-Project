@@ -161,6 +161,7 @@
 						<ObjectRef Name="Play_Child_Footsteps" ID="{E2230578-CE65-408A-82C8-0B22CE45B4D7}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Child_Enters" ID="{6D5D823A-68E0-41E6-B5BA-36E31F927742}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drunk_Scream" ID="{1E0AAFE9-EDF7-41F7-9467-1C7578DC5ACA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drunk_Growl" ID="{AFB410D3-A3B4-422C-B7FD-D5FD121A6B66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Madame_Enter" ID="{8291072A-2A35-4280-BC89-B02E5FAA8736}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
@@ -168,13 +169,17 @@
 						<ObjectRef Name="Play_Madame_Footstep" ID="{0135E172-EB8E-4489-BEE4-7DFD4650F587}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Granny_Scream" ID="{BB044756-1D7F-462A-99B7-3165382EFAEA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stalker_Scream" ID="{EA2E1330-5734-4783-A77A-1D8799ED4932}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Madame_Scream" ID="{8DFA5D9C-A510-47CE-82C3-A3AF0987D09B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Enter" ID="{53F6145D-A84D-494F-9CD7-4F749A9A2C66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Entity_Glow_Loop" ID="{CC86951B-4E1B-4B4E-9231-DA1D1A8B990E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Drunk" ID="{EBB180D3-A5FF-4BDB-82A5-169C60B39929}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Child_Scream" ID="{9B6E87D9-FB98-4CBE-9792-5A40C6A79906}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stalker_Footsteps" ID="{FDC3AB31-06BF-4CFB-A0D1-6C90A83AF97A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Chlld_Laugh" ID="{D822D59C-5DC4-4E23-86BA-0856A401B7AA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Madame_Singing" ID="{BC9ABC80-0D31-4F3C-8929-4AD704A7613A}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
