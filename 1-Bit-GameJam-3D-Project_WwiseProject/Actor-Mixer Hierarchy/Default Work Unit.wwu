@@ -5897,7 +5897,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Window" ID="{239A8DC0-9B29-407C-9CD0-0CF424BF4C3A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+													<ObjectRef Name="Power Outage" ID="{98BDB64F-7B26-4962-8415-BA3D503FC0D3}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>

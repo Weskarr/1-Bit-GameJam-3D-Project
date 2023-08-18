@@ -9216,7 +9216,7 @@ MonoBehaviour:
   rotate: 0
   move: 1
   animate: 0
-  playCloseInstantly: 0
+  playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 2
   colliderDisable: {fileID: 0}
@@ -9224,11 +9224,11 @@ MonoBehaviour:
   openSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 05eb594a4fcae48e09a93e0a00230bbc, type: 2}
   closeSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f5f0c0a60ae8aec45a478265f8143093, type: 2}
 --- !u!23 &684518711 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2162315339403887529, guid: 3569690b398c4c3498d3b1abd5936d52, type: 3}
