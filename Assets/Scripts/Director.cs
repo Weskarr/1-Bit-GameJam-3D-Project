@@ -36,6 +36,8 @@ public class Director : MonoBehaviour
     public GameObject fuseBoxDoor;
     public FuseBox fuseBox;
 
+    public GameObject bedPath;
+
     public float startPauseTime;
     public float wakeupTime;
     public float lightsOffWait;
@@ -67,7 +69,7 @@ public class Director : MonoBehaviour
         Events.onTriggerEnter += listenTrigger;
     }
 
-    bool firstTIme = true;
+    bool firstTime = true;
     Transform wakePoint;
     void Update() {
         if(wakeupStartTime > 0) {
@@ -76,7 +78,7 @@ public class Director : MonoBehaviour
                 wakeupStartTime = 0;
                 player.transform.position = wakePoint.position;
                 player.transform.rotation = wakePoint.rotation;
-                if (!firstTIme) player.movementEnabled = true;
+                if (!firstTime) player.movementEnabled = true;
                 else wakePoint = awakePoint;
                 player.mouseLookEnabled = true;
                 GetComponent<ToolSpawn>().SpawnTools(toolSpawnCount);
@@ -94,6 +96,7 @@ public class Director : MonoBehaviour
             fuseBoxPath.SetActive(false);
             canSleep = true;
             toolText.enabled = false;
+            if (firstTime) bedPath.SetActive(true);
             // Despawn entity
         }
 
@@ -103,8 +106,7 @@ public class Director : MonoBehaviour
         toolsLeft--;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
         if (toolsLeft == 0) {
-            if (firstTIme) {
-                firstTIme = false;
+            if (firstTime) {
                 fuseBoxPath.SetActive(true);
             }
             GetComponent<ToolSpawn>().ClearTools();
@@ -127,8 +129,7 @@ public class Director : MonoBehaviour
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
-        if (!firstTIme) echoManager.LightsOn();
-        yield return new WaitForSeconds(startPauseTime);
+        if (!firstTime) echoManager.LightsOn();
         wakeupSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
     }
@@ -159,6 +160,8 @@ public class Director : MonoBehaviour
 
     public void sleep() {
         if (canSleep) {
+            bedPath.SetActive(false);
+            firstTime = false;
             hour++;
             sleepSound.Post(player.gameObject);
             StartCoroutine(startProcess());
