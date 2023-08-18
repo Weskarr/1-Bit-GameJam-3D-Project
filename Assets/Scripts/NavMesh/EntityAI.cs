@@ -151,14 +151,18 @@ public class ChaseState : IAIState {
     float pauseTime;
     float chaseTime;
     float chaseRadius;
+    float chaseSpeed;
+    float regularSpeed;
     NavMeshAgent agent;
     Transform ai;
     Transform player;
     EntitySound soundPlayer;
-    public ChaseState(float pauseTime, float chaseTime, float chaseRadius, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer) {
+    public ChaseState(float pauseTime, float chaseTime, float chaseRadius, float chaseSpeed, float regularSpeed, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer) {
         this.pauseTime = pauseTime;
         this.chaseTime = chaseTime;
         this.chaseRadius = chaseRadius;
+        this.chaseSpeed = chaseSpeed;
+        this.regularSpeed = regularSpeed;
         this.agent = agent;
         this.ai = ai;
         this.player = player;
@@ -175,12 +179,14 @@ public class ChaseState : IAIState {
     public void ExitState() {
         soundPlayer.StopScream();
         soundPlayer.StopChase();
+        agent.speed = regularSpeed;
         exit?.Invoke();
     }
 
     public void ForceExitState() {
         soundPlayer.StopScream();
         soundPlayer.StopChase();
+        agent.speed = regularSpeed;
     }
 
     float DistToPlayer() {
@@ -194,6 +200,7 @@ public class ChaseState : IAIState {
             if (Time.time > lastTime + pauseTime) {
                 hasPaused = true;
                 soundPlayer.PlayChase();
+                agent.speed = chaseSpeed;
             }
         } else {
             if (Time.time > lastTime + chaseTime && DistToPlayer() > chaseRadius) {
@@ -222,6 +229,7 @@ public class EntityAI : MonoBehaviour
 
     public float chasePauseTime;
     public float chaseTime;
+    public float chaseSpeed;
 
     State state = State.wander;
     IAIState[] states;
@@ -240,7 +248,7 @@ public class EntityAI : MonoBehaviour
         List<IAIState> s = new List<IAIState> {
             new WanderState(randomRadius, moveTime, transform, myNavAgent, footstepFrequency, idleFrequncy, soundPlayer),
             new SeekState(moveTime, myNavAgent, player.transform, footstepFrequency, soundPlayer),
-            new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, myNavAgent, transform, player.transform, soundPlayer)
+            new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, chaseSpeed, myNavAgent.speed, myNavAgent, transform, player.transform, soundPlayer)
         };
         states = s.ToArray();
         SeekState.exit += ExitSeekState;
