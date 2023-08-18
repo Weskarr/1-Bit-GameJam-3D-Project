@@ -22,13 +22,20 @@ public class FuseBox : MonoBehaviour
     // 5 = Living
     // 6 = Hall
 
-    private void turnAllPowerOff()
+    public void turnAllPowerOff()
     {
         foreach (var breaker in breakers)
         {
             breaker.BreakerIsOut();
             powerOutage.Post(gameObject);
         }
+    }
+
+    public bool PowerOn() {
+        foreach (var breaker in breakers) {
+            if (breaker.powered) return true;
+        }
+        return false;
     }
 
     // Start is called before the first frame update

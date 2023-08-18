@@ -9,7 +9,9 @@ public class TriggerEvent : MonoBehaviour
 
 
     void OnTriggerEnter(Collider Other) {
-        Events.CallTriggerEnter(triggerName);
+        if (Other.gameObject.name == "Player") {
+            Events.CallTriggerEnter(triggerName);
+        }
     }
 
 }

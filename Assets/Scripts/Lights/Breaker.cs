@@ -7,6 +7,8 @@ public class Breaker : MonoBehaviour, Interactable
     [SerializeField]
     private LightSwitch2 mylightSwitch;
 
+    public bool powered;
+
     private Quaternion closedRotation;
     [SerializeField]
     private Vector3 openRotation; // Relative
@@ -106,11 +108,13 @@ public class Breaker : MonoBehaviour, Interactable
 
     public void closePower()
     {
+        powered = false;
         mylightSwitch.powerIsGone();
     }
 
     public void openPower()
     {
+        powered = true;
         mylightSwitch.powerIsBack();
     }
 }

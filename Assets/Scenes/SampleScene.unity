@@ -1003,6 +1003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 586448572}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -1225,6 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 1834578024}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -1445,6 +1447,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135892003}
   - component: {fileID: 135892004}
+  - component: {fileID: 135892005}
   m_Layer: 0
   m_Name: Bathroom Enter
   m_TagString: Untagged
@@ -1460,8 +1463,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135892002}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.294, y: -0.373, z: 2.849}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.329, y: -0.472, z: 8.866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1488,6 +1491,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &135892005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135892002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Bathroom Enter
 --- !u!1 &139072994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,8 +2984,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 266151317}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.30500007, y: -0.256, z: 8.661}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3000002, y: -0.472, z: 8.651}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3008,7 +3024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerName: 
+  triggerName: Bedroom Exit
 --- !u!4 &267461351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4628584980299650355, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
@@ -5188,10 +5204,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6739e8b922f3bd49b702df10f75bb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  toolSpawnCount: 3
   player: {fileID: 1713651145}
   asleepPoint: {fileID: 1373902531}
   awakePoint: {fileID: 590794793}
   firstAwakePoint: {fileID: 920618191}
+  fuseBoxPath: {fileID: 913006329}
+  fuseBox: {fileID: 1793339218}
   startPauseTime: 1.5
   wakeupTime: 3
   lightsOffWait: 10
@@ -5926,6 +5945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 1047442529}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -7105,6 +7125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 1055203937}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -7205,6 +7226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 1428683555}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -11954,7 +11976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &913006330
 Transform:
   m_ObjectHideFlags: 0
@@ -12483,6 +12505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 2109491875}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -13896,8 +13919,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056134615}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.305, y: -0.256, z: 8.834}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.3, y: -0.472, z: 8.866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13936,7 +13959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerName: 
+  triggerName: Bedroom Enter
 --- !u!1001 &1059923682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16346,6 +16369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1257721043}
   - component: {fileID: 1257721044}
+  - component: {fileID: 1257721045}
   m_Layer: 0
   m_Name: Laundry Enter
   m_TagString: Untagged
@@ -16362,7 +16386,7 @@ Transform:
   m_GameObject: {fileID: 1257721042}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.303, y: -0.472, z: -0.317}
+  m_LocalPosition: {x: -6.694, y: -0.472, z: 5.577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16389,6 +16413,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1257721045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257721042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Laundry Enter
 --- !u!1 &1263899856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8962411992347400269, guid: 830fbd5089e625a48a8d5b5d2d0f6f0a, type: 3}
@@ -45267,7 +45304,7 @@ MonoBehaviour:
   powerOutage:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 79fd84523345646c5ad227757bf00a72, type: 2}
   breakers:
   - {fileID: 73429273}
   - {fileID: 954543087}
@@ -46041,6 +46078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854857530}
   - component: {fileID: 1854857531}
+  - component: {fileID: 1854857532}
   m_Layer: 0
   m_Name: Laundry Exit
   m_TagString: Untagged
@@ -46056,8 +46094,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1854857529}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.303, y: -0.472, z: -0.174}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.6939993, y: -0.472, z: 5.827}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46084,6 +46122,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1854857532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854857529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Laundry Exit
 --- !u!1 &1861439146
 GameObject:
   m_ObjectHideFlags: 0
@@ -51815,6 +51866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mylightSwitch: {fileID: 1767094701}
+  powered: 0
   openRotation: {x: 0, y: 0, z: 0}
   openPosition: {x: 0, y: -0.075, z: 0}
   rotate: 0
@@ -53171,6 +53223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2088226759}
   - component: {fileID: 2088226760}
+  - component: {fileID: 2088226761}
   m_Layer: 0
   m_Name: Bathroom Exit
   m_TagString: Untagged
@@ -53186,8 +53239,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2088226758}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.294, y: -0.373, z: 2.645}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.329, y: -0.472, z: 8.673}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53214,6 +53267,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2088226761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088226758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df5fc541cac05a8449e6271c49984b61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerName: Bathroom Exit
 --- !u!1 &2088736304
 GameObject:
   m_ObjectHideFlags: 0

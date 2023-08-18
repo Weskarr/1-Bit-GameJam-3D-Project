@@ -20,12 +20,18 @@ public class Director : MonoBehaviour
 
     // Control the gameplay, entitys and events
 
+    public int toolSpawnCount;
+
+
     EchoManager echoManager;
     public FPSController player;
 
     public Transform asleepPoint;
     public Transform awakePoint;
     public Transform firstAwakePoint;
+
+    public GameObject fuseBoxPath;
+    public FuseBox fuseBox;
 
     public float startPauseTime;
     public float wakeupTime;
@@ -39,9 +45,12 @@ public class Director : MonoBehaviour
 
     public bool canSleep = false;
 
+    bool lightsOut = false;
+
     float wakeupStartTime = 0;
 
     int hour = 0;
+    int toolsLeft;
 
     int switchInd;
     void Start()
@@ -65,12 +74,29 @@ public class Director : MonoBehaviour
                 else wakePoint = awakePoint;
                 player.mouseLookEnabled = true;
                 canSleep = false;
+                GetComponent<ToolSpawn>().SpawnTools(toolSpawnCount);
+                toolsLeft = toolSpawnCount;
             } else {
                 Vector3 pos = Vector3.Lerp(asleepPoint.position, wakePoint.position, p);
                 Quaternion rot = Quaternion.Lerp(asleepPoint.rotation, wakePoint.rotation, p);
                 player.transform.position = pos;
                 player.transform.rotation = rot;
             }
+        }
+
+        if (lightsOut && fuseBox.PowerOn()) {
+            echoManager.LightsOn();
+            lightsOut = false;
+            // Despawn entity
+        }
+
+    }
+
+    public void GetTool() {
+        toolsLeft--;
+        if (toolsLeft == 0 && firstTIme) {
+            firstTIme = false;
+            fuseBoxPath.SetActive(true);
         }
     }
 
@@ -91,11 +117,11 @@ public class Director : MonoBehaviour
         yield return new WaitForSeconds(startPauseTime);
         wakeupSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
-        GetComponent<ToolSpawn>().SpawnTools(3);
     }
 
     IEnumerator lightsOff() {
         yield return new WaitForSeconds(lightsOffWait);
+        lightsOut = true;
         echoManager.LightsOff();
     }
 
@@ -117,7 +143,7 @@ public class Director : MonoBehaviour
     }
 
     void listenTrigger(string name) {
-        if (name == "Bedroom Exit") {
+        if (!lightsOut && name == "Bedroom Exit") {
             // Start lights off countdown
             StartCoroutine(lightsOff());
         }
