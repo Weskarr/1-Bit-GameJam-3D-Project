@@ -48,11 +48,6 @@ public class EchoManager : MonoBehaviour
     private Material _lightsOnMaterial;
     [SerializeField]
     private Material _lightsOffMaterial;
-    [SerializeField]
-    private Material _alwaysLitMaterial;
-
-
-    private List<GameObject> _alwaysOnObjects = new List<GameObject>();
 
     // Extra
     [SerializeField]
@@ -98,15 +93,7 @@ public class EchoManager : MonoBehaviour
         return ret;
     }
 
-    public void AddAlwaysLitObject(GameObject go) {
-        _alwaysOnObjects.Add(go);
-    }
-
-    public void RemoveAlwaysLitObject(GameObject go) {
-        _alwaysOnObjects.Remove(go);
-    }
-
-
+    
 
     private void Update()
     {
@@ -176,16 +163,9 @@ public class EchoManager : MonoBehaviour
     void RecTrav(Transform parent, Material material_to_apply) {
         foreach (Transform child in parent) {
             if (child.TryGetComponent<Renderer>(out Renderer renderer)) {
-                Material m;
-                if (_alwaysOnObjects.Contains(child.gameObject)) {
-                    m = _alwaysLitMaterial;
-                } else {
-                    m = material_to_apply;
-                }
-
                 Material[] mats = renderer.sharedMaterials;
                 for (int i = 0; i < mats.Length; i++)
-                    mats[i] = m;
+                    mats[i] = material_to_apply;
                 renderer.sharedMaterials = mats;
             }
             RecTrav(child, material_to_apply);
