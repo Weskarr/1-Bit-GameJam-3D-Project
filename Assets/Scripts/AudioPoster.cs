@@ -31,13 +31,13 @@ public class AudioPoster : MonoBehaviour
         if (movementScript.moving) {
             if (!footstepIsPlaying) {
                 myFootstep.Post(gameObject);
-                StartCoroutine(delayedSound());
+                // StartCoroutine(delayedSound());
                 EchoManager.instance.StartEcho();
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;
             } else {
-                if (movementScript.moveSpeed > 1) {
-                    if (Time.time - lastFootstepTime > footstepDuration / movementScript.moveSpeed * Time.deltaTime) {
+                if (movementScript.moving) {
+                    if (Time.time > lastFootstepTime + footstepDuration) {
                         footstepIsPlaying = false;
                     }
                 }

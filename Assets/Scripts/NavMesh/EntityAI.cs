@@ -232,6 +232,7 @@ public class EntityAI : MonoBehaviour
     public float chaseSpeed;
 
     public float catchRadius;
+    public float quietTime;
 
     State state = State.wander;
     IAIState[] states;
@@ -266,11 +267,19 @@ public class EntityAI : MonoBehaviour
         states[(int)state].EnterState();
     }
 
+    float quietStartTime;
     private void Update() {
         if (Vector3.Distance(transform.position, player.transform.position) < catchRadius) {
             transform.position = startLocation;
             ChangeState(State.wander);
+            soundPlayer.quiet = true;
+            quietStartTime = Time.time;
         }
+
+        if(soundPlayer.quiet && Time.time > quietStartTime + quietTime) {
+            soundPlayer.quiet = false;
+        }
+
         switch (state) {
             case State.wander:
                 if (Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {

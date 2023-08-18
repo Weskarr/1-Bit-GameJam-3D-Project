@@ -113,7 +113,7 @@ public class MasterMind : MonoBehaviour
                 if (!spawningEntity)
                 {
                     CheckIfWindowIsOpen();
-
+                    
                     if (aWindowIsOpen == true && enteringWindow == false)
                     {
                         StartCoroutine(EnteringWindowCoroutine());

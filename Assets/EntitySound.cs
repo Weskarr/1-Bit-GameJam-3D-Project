@@ -17,7 +17,10 @@ public class EntitySound : MonoBehaviour
     [Header("Wwise Events")]
     public AK.Wwise.Event chaseSound;
 
+    public bool quiet = false;
+
     public void PlayFootstep() {
+        if (quiet) return;
         footstepSound.Post(gameObject);
     }
 
@@ -42,6 +45,7 @@ public class EntitySound : MonoBehaviour
     }
 
     public void PlayIdle() {
+        if (quiet) return;
         idleSound.Post(gameObject);
     }
 

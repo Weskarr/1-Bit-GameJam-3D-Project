@@ -168,6 +168,7 @@ public class Director : MonoBehaviour
     public void sleep() {
         if (canSleep) {
             bedPath.SetActive(false);
+            player.GetComponent<FPSController>().moving = false;
             firstTime = false;
             hour++;
             hourText.text = string.Format("Hour: {0}", hour);
