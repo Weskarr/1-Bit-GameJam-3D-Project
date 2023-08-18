@@ -24,7 +24,7 @@ public class OpenDoor : MonoBehaviour, Interactable
     private Animator animator; // Assign by hand!
 
     [SerializeField]
-    private float moveSpeed = 2f; // How many seconds it takes to open/close
+    public float moveSpeed = 2f; // How many seconds it takes to open/close
 
     [SerializeField]
     private Collider colliderDisable;
