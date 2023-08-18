@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_1_BIT_JAM_MENU_MX_V2_LOOP = 2894561040U;
         static const AkUniqueID PLAY_AMBIENCE_CLOCK_LOOP = 1829767974U;
         static const AkUniqueID PLAY_APARTMENT_AMBIENCE = 1579360687U;
+        static const AkUniqueID PLAY_BED_ENTER = 657849088U;
+        static const AkUniqueID PLAY_BED_EXIT = 3741941098U;
         static const AkUniqueID PLAY_BOTTLE_PICKUP = 4101144041U;
         static const AkUniqueID PLAY_CABINET_LARGE_CLOSE = 2531064299U;
         static const AkUniqueID PLAY_CABINET_LARGE_OPEN = 3287628333U;
@@ -24,6 +26,9 @@ namespace AK
         static const AkUniqueID PLAY_CABINET_UTILITY_CLOSE = 3866338882U;
         static const AkUniqueID PLAY_CABINET_UTILITY_OPEN = 3292911894U;
         static const AkUniqueID PLAY_CELING_LIGHT_LOOP = 115528144U;
+        static const AkUniqueID PLAY_CHILD_ENTERS = 3502873090U;
+        static const AkUniqueID PLAY_CHILD_FOOTSTEPS = 701872540U;
+        static const AkUniqueID PLAY_CHLLD_LAUGH = 468398047U;
         static const AkUniqueID PLAY_DOOR_CLOSE = 2292458263U;
         static const AkUniqueID PLAY_DOOR_HANDLE = 2575131963U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
@@ -31,8 +36,11 @@ namespace AK
         static const AkUniqueID PLAY_DRAWER_CLOSE_EMPTY = 70222198U;
         static const AkUniqueID PLAY_DRAWER_OPEN = 1958703520U;
         static const AkUniqueID PLAY_DRAWER_OPEN_EMPTY = 1237346242U;
+        static const AkUniqueID PLAY_DRUNK_ENTER = 1871298099U;
         static const AkUniqueID PLAY_DRUNK_FOOTSTEPS = 3993278548U;
+        static const AkUniqueID PLAY_DRUNK_GROWL = 4040622810U;
         static const AkUniqueID PLAY_DUCTAPE_PICKUP = 2210075393U;
+        static const AkUniqueID PLAY_ENTITY_GLOW_LOOP = 3451783798U;
         static const AkUniqueID PLAY_FLASHLIGHT_ON = 3471928368U;
         static const AkUniqueID PLAY_FREEZER_DOOR_CLOSE = 2332875111U;
         static const AkUniqueID PLAY_FREEZER_DOOR_OPEN = 470009873U;
@@ -44,12 +52,19 @@ namespace AK
         static const AkUniqueID PLAY_FUSEBOX_BUTTON = 3621687239U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_CLOSE = 2531764854U;
         static const AkUniqueID PLAY_FUSEBOX_DOOR_OPEN = 612620834U;
+        static const AkUniqueID PLAY_GRANNY_CANE = 1365956325U;
+        static const AkUniqueID PLAY_GRANNY_ENTER = 3193908324U;
+        static const AkUniqueID PLAY_GRANNY_FOOTSTEPS = 1233146987U;
         static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_OFF = 314077991U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_ON = 82250835U;
+        static const AkUniqueID PLAY_MADAME_ENTER = 4133542388U;
+        static const AkUniqueID PLAY_MADAME_FOOTSTEP = 1878395256U;
+        static const AkUniqueID PLAY_MADAME_SINGING = 3540329969U;
         static const AkUniqueID PLAY_OVEN_BEEP = 4252663551U;
         static const AkUniqueID PLAY_OVEN_DOOR_CLOSE = 4217132026U;
         static const AkUniqueID PLAY_OVEN_DOOR_OPEN = 2826556030U;
+        static const AkUniqueID PLAY_PHONE_MESSAGE = 3078951190U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_PILLS_PICKUP = 1625998593U;
         static const AkUniqueID PLAY_PLAYER_ECHO = 59459483U;
@@ -67,6 +82,7 @@ namespace AK
         static const AkUniqueID PLAY_SINK_HANDLES = 717324499U;
         static const AkUniqueID PLAY_SINK_ON_LOOP = 3721638250U;
         static const AkUniqueID PLAY_STALKER_FOOTSTEPS = 1717998074U;
+        static const AkUniqueID PLAY_STALKER_NOISES = 404130524U;
         static const AkUniqueID PLAY_STANDING_LIGHT_LOOP = 3111854812U;
         static const AkUniqueID PLAY_TOILET_FLUSH = 3094035634U;
         static const AkUniqueID PLAY_TOILET_LID_CLOSE = 4125304698U;
@@ -89,6 +105,7 @@ namespace AK
         static const AkUniqueID STOP_ALL = 452547817U;
         static const AkUniqueID STOP_AMBIENCE_CLOCK_LOOP = 2887940980U;
         static const AkUniqueID STOP_CELING_LIGHT_LOOP = 3014771066U;
+        static const AkUniqueID STOP_ENTITY_GLOW_LOOP = 4143921100U;
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X2 = 3138979112U;
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X_WAVE = 887930354U;
         static const AkUniqueID STOP_SHEPARD_TONE_SINE_WAVE = 3279282928U;
