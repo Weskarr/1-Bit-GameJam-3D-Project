@@ -2453,6 +2453,141 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Folder Name="Spawn" ID="{E856378E-0EDA-4047-A2D7-D2A3C8AE1EA4}" ShortID="164959945">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Entity_Spawn_Particle" ID="{1CD87354-276B-4396-B4D9-F7C707EE6A14}" ShortID="89803002">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Window" ID="{239A8DC0-9B29-407C-9CD0-0CF424BF4C3A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+													<ObjectRef Name="Echoes_Linear" ID="{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="stairwell door-panic bar and slam(5)" ID="{CBF1A264-4266-4E6F-A87A-A0076D4D9531}" ShortID="815844519">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stairwell door-panic bar and slam(5)" ID="{34C94D78-0AC2-4D4F-A3C4-3DDA47BDE8B3}">
+															<Language>SFX</Language>
+															<AudioFile>stairwell door-panic bar and slam(5).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="344245422"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="stairwell door-panic bar and slam(5)" ID="{34C94D78-0AC2-4D4F-A3C4-3DDA47BDE8B3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Door Slam" ID="{9AD53A54-3617-4AD9-9315-7AE296410142}" ShortID="632633501">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Window" ID="{239A8DC0-9B29-407C-9CD0-0CF424BF4C3A}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="stairwell door-panic bar and slam" ID="{F8472B0E-14E0-45C9-9D4B-3ECAB2F9E007}" ShortID="380835684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stairwell door-panic bar and slam" ID="{C85D13C1-A43D-4101-B73F-F4BE7C8B7098}">
+															<Language>SFX</Language>
+															<AudioFile>stairwell door-panic bar and slam.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="167509681"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="stairwell door-panic bar and slam" ID="{C85D13C1-A43D-4101-B73F-F4BE7C8B7098}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="stairwell door-panic bar and slam(2)" ID="{970A7FC5-82CC-4667-83BD-0FB4FF8A547B}" ShortID="897089193">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="stairwell door-panic bar and slam(2)" ID="{03120DCE-CBE1-4AD9-971D-11FEB33CCFE6}">
+															<Language>SFX</Language>
+															<AudioFile>stairwell door-panic bar and slam(2).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="949899090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="stairwell door-panic bar and slam(2)" ID="{03120DCE-CBE1-4AD9-971D-11FEB33CCFE6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Intractables" ID="{1336AAA0-F29C-4F23-A23E-F22B40A79A2E}" ShortID="953205960">

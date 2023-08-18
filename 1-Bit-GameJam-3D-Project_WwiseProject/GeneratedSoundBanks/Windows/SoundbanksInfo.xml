@@ -182,7 +182,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{99B5A5ED-5C69-FE2D-2557-AA3844FB7445}">
+		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{9AEFB4FB-7A05-5DC5-1E78-6137C325D4BB}">
 			<ShortName>Entities</ShortName>
 			<Path>Entities.bnk</Path>
 			<Media>
@@ -218,6 +218,10 @@
 					<ShortName>Heavy Footsteps on a Squeaky Floor(3).wav</ShortName>
 					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor(3)_10C4C929.wem</CachePath>
 				</File>
+				<File Id="167509681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stairwell door-panic bar and slam.wav</ShortName>
+					<CachePath>SFX/stairwell door-panic bar and slam_10C4C929.wem</CachePath>
+				</File>
 				<File Id="182512626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, barefoot on wet tile.wav</ShortName>
 					<CachePath>SFX/Footsteps, barefoot on wet tile_10C4C929.wem</CachePath>
@@ -245,6 +249,10 @@
 				<File Id="326872836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Heavy Footsteps on a Squeaky Floor.wav</ShortName>
 					<CachePath>SFX/Heavy Footsteps on a Squeaky Floor_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344245422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stairwell door-panic bar and slam(5).wav</ShortName>
+					<CachePath>SFX/stairwell door-panic bar and slam(5)_10C4C929.wem</CachePath>
 				</File>
 				<File Id="354608895" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footsteps, barefoot on wet tile(3).wav</ShortName>
@@ -362,6 +370,10 @@
 					<ShortName>Walking Outside 4 .flac(3).wav</ShortName>
 					<CachePath>SFX/Walking Outside 4 .flac(3)_C056519A.wem</CachePath>
 				</File>
+				<File Id="949899090" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>stairwell door-panic bar and slam(2).wav</ShortName>
+					<CachePath>SFX/stairwell door-panic bar and slam(2)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="953262513" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>01-15 Footsteps, Tile, Female Heels, Slow Pace(4).wav</ShortName>
 					<CachePath>SFX/01-15 Footsteps, Tile, Female Heels, Slow Pace(4)_10C4C929.wem</CachePath>
@@ -425,6 +437,15 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="940621990" Name="Play_Door_Slam" MaxAttenuation="12" DurationType="OneShot" DurationMin="2.989093" DurationMax="3.1368935">
+					<MediaRefs>
+						<MediaRef Id="167509681"/>
+						<MediaRef Id="949899090"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1871298099" Name="Play_Drunk_Enter" DurationType="OneShot" DurationMin="5.3170977" DurationMax="5.3170977">
 					<MediaRefs>
 						<MediaRef Id="1069161338"/>
@@ -465,6 +486,19 @@
 					<MediaRefs>
 						<MediaRef Id="884348088"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1578320792" Name="Play_Entity_Spawn_Particle" MaxAttenuation="12" DurationType="OneShot" DurationMin="0.88687074" DurationMax="0.88687074">
+					<MediaRefs>
+						<MediaRef Id="344245422"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
@@ -1315,5 +1349,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{65C15865-6D65-13C0-FA1A-921A3F2E210A}</FileHash>
+	<FileHash>{A1432E8E-CA26-33EB-FC6B-BE7FE9F1081E}</FileHash>
 </SoundBanksInfo>

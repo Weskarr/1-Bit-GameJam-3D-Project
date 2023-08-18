@@ -1222,6 +1222,32 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Entity Spawn" ID="{C52AAE12-02C4-45FD-9F89-A828CB80E713}" ShortID="639158932">
+									<ChildrenList>
+										<Event Name="Play_Door_Slam" ID="{CB6671E2-2FDE-44A5-B31C-915DE1A23F22}">
+											<ChildrenList>
+												<Action Name="" ID="{3F596621-BE3C-445D-97E9-80E76E0AABB8}" ShortID="157612545">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Door Slam" ID="{9AD53A54-3617-4AD9-9315-7AE296410142}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Entity_Spawn_Particle" ID="{77EDBA78-461F-4863-AABE-EB32EE4CAE88}">
+											<ChildrenList>
+												<Action Name="" ID="{BFCE2241-9665-43C9-9E50-3DAF1A63FACF}" ShortID="340477444">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Entity_Spawn_Particle" ID="{1CD87354-276B-4396-B4D9-F7C707EE6A14}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Events" ID="{9DC0A299-C22B-4360-8607-E0CC95D05C6E}" ShortID="480718271">

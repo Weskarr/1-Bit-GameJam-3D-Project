@@ -167,12 +167,15 @@
 						<ObjectRef Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drunk_Enter" ID="{20327630-F776-442B-9D49-736B4C331CC3}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Madame_Footstep" ID="{0135E172-EB8E-4489-BEE4-7DFD4650F587}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Slam" ID="{CB6671E2-2FDE-44A5-B31C-915DE1A23F22}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Entity Spawn" ID="{C52AAE12-02C4-45FD-9F89-A828CB80E713}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Scream" ID="{BB044756-1D7F-462A-99B7-3165382EFAEA}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Stalker_Scream" ID="{EA2E1330-5734-4783-A77A-1D8799ED4932}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Madame_Scream" ID="{8DFA5D9C-A510-47CE-82C3-A3AF0987D09B}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Entity_Spawn_Particle" ID="{77EDBA78-461F-4863-AABE-EB32EE4CAE88}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Granny_Enter" ID="{53F6145D-A84D-494F-9CD7-4F749A9A2C66}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Drunk_Footsteps" ID="{9FCFF489-0ACE-49AA-8E3A-9B8B3BB59B25}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>

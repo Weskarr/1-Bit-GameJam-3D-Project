@@ -33,6 +33,7 @@ namespace AK
         static const AkUniqueID PLAY_DOOR_CLOSE = 2292458263U;
         static const AkUniqueID PLAY_DOOR_HANDLE = 2575131963U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
+        static const AkUniqueID PLAY_DOOR_SLAM = 940621990U;
         static const AkUniqueID PLAY_DRAWER_CLOSE = 2315829540U;
         static const AkUniqueID PLAY_DRAWER_CLOSE_EMPTY = 70222198U;
         static const AkUniqueID PLAY_DRAWER_OPEN = 1958703520U;
@@ -43,6 +44,7 @@ namespace AK
         static const AkUniqueID PLAY_DRUNK_SCREAM = 159907280U;
         static const AkUniqueID PLAY_DUCTAPE_PICKUP = 2210075393U;
         static const AkUniqueID PLAY_ENTITY_GLOW_LOOP = 3451783798U;
+        static const AkUniqueID PLAY_ENTITY_SPAWN_PARTICLE = 1578320792U;
         static const AkUniqueID PLAY_FLASHLIGHT_ON = 3471928368U;
         static const AkUniqueID PLAY_FREEZER_DOOR_CLOSE = 2332875111U;
         static const AkUniqueID PLAY_FREEZER_DOOR_OPEN = 470009873U;
