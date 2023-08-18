@@ -310,6 +310,9 @@
 												<Event Name="Play_Drawer_Open_Empty" ID="{9E238B82-264A-4B8D-8627-8F463895175E}">
 													<ChildrenList>
 														<Action Name="" ID="{41F14374-5A38-4C01-AEF9-DCFD40B2A9C2}" ShortID="449201404">
+															<PropertyList>
+																<Property Name="Delay" Type="Real64" Value="0.5"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="Drawer_Open_Empty" ID="{637B5110-B11F-478D-9736-DD524CC97AB4}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
@@ -321,6 +324,9 @@
 												<Event Name="Play_Drawer_Close_Empty" ID="{D6D10904-B068-42D0-9900-F50A9206F148}">
 													<ChildrenList>
 														<Action Name="" ID="{A22A6366-E4B2-40E8-8CD0-3731AF673610}" ShortID="297453951">
+															<PropertyList>
+																<Property Name="Delay" Type="Real64" Value="0.5"/>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="Drawer_Close_Empty" ID="{FAA6A588-7F7E-4F57-A94A-D1A1F1EF9F3E}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>

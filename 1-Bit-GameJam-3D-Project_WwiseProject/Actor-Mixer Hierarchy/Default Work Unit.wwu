@@ -2623,6 +2623,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_3" ID="{B9F83A66-50BE-4A62-966B-864D5CB52FEB}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0201974704202366"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0144267645858833"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_3.wav</AudioFile>
 																	<MediaIDList>
@@ -2663,6 +2668,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_1" ID="{C7AF498E-DF4F-41D5-81DB-1996ABCB802B}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0124292125662995"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0177560179518564"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_1.wav</AudioFile>
 																	<MediaIDList>
@@ -2707,6 +2717,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_5" ID="{0F9AAC54-0A6C-4A5E-855C-66506A45815A}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0160587515299878"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0214116687066503"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_5.wav</AudioFile>
 																	<MediaIDList>
@@ -2747,6 +2762,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_6" ID="{8B68F558-6E7C-48CE-ABD6-A5A5F2EDD0A5}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.00826881761919658"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.062843013905894"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_6.wav</AudioFile>
 																	<MediaIDList>
@@ -2769,6 +2789,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_7" ID="{B13DF57A-4717-4312-AB29-3C9E146EE58C}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0121419828641371"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.726495308037536"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_7.wav</AudioFile>
 																	<MediaIDList>
@@ -2813,6 +2838,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_4" ID="{D17F9F29-BEB0-4729-9788-20135A271274}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.0123378212974296"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.457870257037944"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_4.wav</AudioFile>
 																	<MediaIDList>
@@ -2853,6 +2883,10 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorCabinet 6018_09_2" ID="{282D06E3-723B-4A2C-9193-3A30F935BB10}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0128731130150959"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorCabinet 6018_09_2.wav</AudioFile>
 																	<MediaIDList>
@@ -2985,6 +3019,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DeskDrawer 6028_52_3" ID="{42D915ED-6C7C-4C87-B8C2-8502CFEB8BD3}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0614802121583028"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0614802121583028"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DeskDrawer 6028_52_3.wav</AudioFile>
 																	<MediaIDList>
@@ -3724,6 +3763,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorRefrigerator 6048_49_1" ID="{809239E5-CC96-460C-BE3D-ED20099BBB9A}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0135389636882905"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0135389636882905"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorRefrigerator 6048_49_1.wav</AudioFile>
 																	<MediaIDList>
@@ -3765,9 +3809,8 @@
 															<ChildrenList>
 																<AudioFileSource Name="FRIDGE_DOOR_SLAM_HUM_01_CS" ID="{FAD523E3-155D-4752-A839-35B0584D493F}">
 																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="3.05296818810512"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="3.05296818810512"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="3.16182824522466"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</AudioFile>
@@ -3859,6 +3902,7 @@
 																<AudioFileSource Name="61 Refrigerator Door Opens And Closes With Latch Click" ID="{0FBB1774-E51E-454C-91DA-9251C2FE82FC}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0759363525091799"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="2.03081604426003"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -3901,6 +3945,11 @@
 															</ReferenceList>
 															<ChildrenList>
 																<AudioFileSource Name="DoorRefrigerator 6048_49_2" ID="{4F92C252-E653-431B-9909-5B1D69D24476}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0779306405548755"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0779306405548755"/>
+																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>DoorRefrigerator 6048_49_2.wav</AudioFile>
 																	<MediaIDList>
@@ -4091,8 +4140,8 @@
 															<ChildrenList>
 																<AudioFileSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{948FF808-C4E8-43BA-96EE-AC24EDEC3FEF}">
 																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.419714402284782"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="2.23590594744121"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -4137,7 +4186,7 @@
 																<AudioFileSource Name="25-39 Microwave 1; Door Open _ Close Three Times_ Close Perspective_ Kitchen, Oven_" ID="{26131B5E-9B29-4C88-9C4C-8370632F2C66}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="2.03264177040111"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="2.30293117833378"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="3.5"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -4313,7 +4362,7 @@
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.656439223438767"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="1.10514451540957"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.75401569044017"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>shower-door-open-close01.flac(2).wav</AudioFile>
@@ -4358,7 +4407,7 @@
 																	<PropertyList>
 																		<Property Name="FadeInDuration" Type="Real64" Value="0.696586070559611"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="1.35137697688564"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.986935422418076"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>shower-door-open-close01.flac.wav</AudioFile>
@@ -4621,8 +4670,10 @@
 													<ChildrenList>
 														<AudioFileSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{0D673C2D-503C-408B-9492-A1D8943DBF9F}">
 															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0743279037984426"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.371639518992211"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="6.9530528013092"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.41760220004947"/>
 																<Property Name="TrimEnd" Type="Real64" Value="9.11622478393873"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -4660,9 +4711,11 @@
 													<ChildrenList>
 														<AudioFileSource Name="Bedsheets Ruffle zip (16-44_1)" ID="{36C978C0-4D82-48FC-887A-37AA63F44C53}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0987573116858043"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.493786558429022"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimEnd" Type="Real64" Value="6.08778400825739"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.274747821770327"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.97289602134888"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Bedsheets Ruffle zip (16-44.1).wav</AudioFile>
@@ -4757,7 +4810,7 @@
 																<AudioFileSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{6766952E-FF57-4EDE-9CD4-39A61BA478B7}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.47402489626556"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.648810697979146"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="1.34307053941909"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -4802,7 +4855,7 @@
 																<AudioFileSource Name="25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice )_ Close Perspective_" ID="{A78AC984-ECF5-4F5D-BF40-E544DE8ACF61}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="1.54058091286307"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.84354296916662"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="2.68614107883818"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -4855,7 +4908,7 @@
 																<AudioFileSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{CFC6E866-35C7-4659-98C3-C7B07C049382}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.763485477178423"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.28898527318005"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="1.71784232365145"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -4899,8 +4952,8 @@
 															<ChildrenList>
 																<AudioFileSource Name="26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective_" ID="{1E8ED0F5-B34E-4755-AECF-480C64A3678D}">
 																	<PropertyList>
-																		<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.430108904297937"/>
 																		<Property Name="TrimEnd" Type="Real64" Value="0.954356846473031"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
@@ -5380,8 +5433,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="04 Wood Door #4_ Open And Close With Squeak" ID="{61486362-EADE-46AD-9CF2-2554718A9BDE}">
 															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0346060888104842"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.484094052558783"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.760401390588871"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.80082987551867"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -5407,8 +5461,9 @@
 													<ChildrenList>
 														<AudioFileSource Name="05 Wood Door #5_ Open With Squeak And Close With Bounce" ID="{ED9B8B17-7153-4DCB-8134-9CB34187FF9B}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0433339105177147"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.201050586635681"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.37477178423236"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -5446,9 +5501,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="01 Wood Door #1_ Open And Close With Metal Latch Knob" ID="{505752CB-BF0A-469F-9426-DB8BD1B6E950}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="2.96957123098202"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="2.96957123098202"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.12408741752083"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>01 Wood Door #1_ Open And Close With Metal Latch Knob.wav</AudioFile>
@@ -5473,9 +5527,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle" ID="{4991375F-346F-49E8-9526-8B5677A4099A}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="1.6597510373444"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="1.6597510373444"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.74956941054757"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle.wav</AudioFile>
@@ -5500,9 +5553,8 @@
 													<ChildrenList>
 														<AudioFileSource Name="03 Wood Door #3_ Open And Slam With Metal Latch Knob" ID="{9E3BD426-00E1-48A2-912F-2B95BA7C6BF2}">
 															<PropertyList>
-																<Property Name="LoopBegin" Type="Real64" Value="2.01881051175657"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="2.01881051175657"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.14054781097409"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</AudioFile>
