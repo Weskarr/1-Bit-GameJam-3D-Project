@@ -5110,7 +5110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6739e8b922f3bd49b702df10f75bb88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toolSpawnCount: 3
+  toolSpawnCount: 5
   player: {fileID: 1713651145}
   toolText: {fileID: 1794046405}
   asleepPoint: {fileID: 1373902531}

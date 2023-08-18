@@ -27,7 +27,7 @@ public class ToolSpawn : MonoBehaviour
             Debug.LogError("Attempting to spawn more tools than available! Aborting");
             return;
         }
-        int[] spawnInds = RandomRangeUnique(0, 15, count);
+        int[] spawnInds = RandomRangeUnique(0, _spawnPoints.Length, count);
         for(int i = 0; i < count; i++){
             GameObject go = Instantiate(tools[i]);
             GameObject spawnPoint = _spawnPoints[spawnInds[i]];
@@ -41,6 +41,12 @@ public class ToolSpawn : MonoBehaviour
             }
 
             AddTool(go);
+        }
+    }
+
+    public void ClearTools() {
+        while(spawned.Count > 0) {
+            RemoveTool(spawned[0]);
         }
     }
 

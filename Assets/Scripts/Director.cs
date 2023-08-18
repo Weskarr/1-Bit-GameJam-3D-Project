@@ -79,7 +79,6 @@ public class Director : MonoBehaviour
                 if (!firstTIme) player.movementEnabled = true;
                 else wakePoint = awakePoint;
                 player.mouseLookEnabled = true;
-                canSleep = false;
                 GetComponent<ToolSpawn>().SpawnTools(toolSpawnCount);
                 toolsLeft = toolSpawnCount;
             } else {
@@ -103,9 +102,12 @@ public class Director : MonoBehaviour
     public void GetTool() {
         toolsLeft--;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
-        if (toolsLeft == 0 && firstTIme) {
-            firstTIme = false;
-            fuseBoxPath.SetActive(true);
+        if (toolsLeft == 0) {
+            if (firstTIme) {
+                firstTIme = false;
+                fuseBoxPath.SetActive(true);
+            }
+            GetComponent<ToolSpawn>().ClearTools();
             fuseBoxDoor.GetComponent<BoxCollider>().enabled = true;
         }
     }
@@ -121,6 +123,7 @@ public class Director : MonoBehaviour
         player.movementEnabled = false;
         player.mouseLookEnabled = false;
         turningLightsOff = false;
+        canSleep = false;
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
@@ -156,6 +159,7 @@ public class Director : MonoBehaviour
 
     public void sleep() {
         if (canSleep) {
+            hour++;
             sleepSound.Post(player.gameObject);
             StartCoroutine(startProcess());
         }
