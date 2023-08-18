@@ -81,7 +81,7 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = !lightsOff;
         lightsOff = true;
-        RecTrav(_objects, _lightsOffMaterial);
+        RecTrav(_objects, _lightsOffMaterial, _alwaysLitMaterial);
         ResetEcho();
         return ret;
     }
@@ -93,7 +93,7 @@ public class EchoManager : MonoBehaviour
         // Return whether this actually changed something
         bool ret = lightsOff;
         lightsOff = false;
-        RecTrav(_objects, _lightsOnMaterial);
+        RecTrav(_objects, _lightsOnMaterial, _lightsOnMaterial);
         ResetEcho();
         return ret;
     }
@@ -173,12 +173,12 @@ public class EchoManager : MonoBehaviour
         _isEchoing = false;
     }
 
-    void RecTrav(Transform parent, Material material_to_apply) {
+    void RecTrav(Transform parent, Material material_to_apply, Material always_lit_material) {
         foreach (Transform child in parent) {
             if (child.TryGetComponent<Renderer>(out Renderer renderer)) {
                 Material m;
                 if (_alwaysOnObjects.Contains(child.gameObject)) {
-                    m = _alwaysLitMaterial;
+                    m = always_lit_material;
                 } else {
                     m = material_to_apply;
                 }
@@ -188,7 +188,7 @@ public class EchoManager : MonoBehaviour
                     mats[i] = m;
                 renderer.sharedMaterials = mats;
             }
-            RecTrav(child, material_to_apply);
+            RecTrav(child, material_to_apply, always_lit_material);
         }
     }
 }
