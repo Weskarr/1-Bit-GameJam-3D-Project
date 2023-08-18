@@ -967,6 +967,50 @@
 										</Event>
 									</ChildrenList>
 								</Folder>
+								<Folder Name="Bed" ID="{C18FF628-D75E-48EC-B0D6-C769EC3F7F01}" ShortID="1041879101">
+									<ChildrenList>
+										<Event Name="Play_Bed_Enter" ID="{25501CCE-D305-40FF-A0C9-E88D9F2B6EA4}">
+											<ChildrenList>
+												<Action Name="" ID="{E9B9CBC7-6619-4ED0-9B7E-8AEDB61B57B7}" ShortID="662430254">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bed_Enter" ID="{80E5773C-FD12-4ABE-8515-7D0E654CE474}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Bed_Exit" ID="{F60A67FE-2119-46E4-85AF-8025DEC0299F}">
+											<ChildrenList>
+												<Action Name="" ID="{DD36C183-417D-47E4-8EDA-85462C0CB62A}" ShortID="783498209">
+													<PropertyList>
+														<Property Name="Delay" Type="Real64" Value="5"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Bed_Exit" ID="{43C4D2F2-6020-45CC-8DE6-731743CF6DEA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Phone" ID="{F9F1E09E-70DF-4D16-A322-D033585F6356}" ShortID="78075759">
+									<ChildrenList>
+										<Event Name="Play_Phone_Message" ID="{169D7028-45C6-42BF-8A84-663867960C77}">
+											<ChildrenList>
+												<Action Name="" ID="{EBE6C27A-D1AA-49CE-B8F1-D71ED55C4B3E}" ShortID="61592946">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Phone_Message" ID="{EBB3FFAA-ACA9-4967-80E5-DAAF3B6CE367}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Entities" ID="{AF47CEFA-0BF9-4BF2-8038-96D625B374B1}" ShortID="861757817">
@@ -984,6 +1028,28 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Drunk_Growl" ID="{AFB410D3-A3B4-422C-B7FD-D5FD121A6B66}">
+											<ChildrenList>
+												<Action Name="" ID="{BF18E2F0-828A-49B1-BEFA-362B505C2A58}" ShortID="139869562">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Drunk_Growl" ID="{6CAB5FFB-47D6-4A17-8BB1-F69CE1FA8EB6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Drunk_Enter" ID="{20327630-F776-442B-9D49-736B4C331CC3}">
+											<ChildrenList>
+												<Action Name="" ID="{070A9774-4F48-4335-AA6A-7AB1F1C61F7B}" ShortID="789368338">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Drunk_Enter" ID="{97536BC9-7E7B-4547-BD51-B6F6DBAD63ED}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Stalker" ID="{7C976DFF-AD2A-41CA-BD0F-7678F914E44C}" ShortID="77549294">
@@ -994,6 +1060,153 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Stalker_Footsteps" ID="{7C9540BF-4F54-4449-9E2D-100BB5C2B4AE}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Stalker_Noises" ID="{9FE42E91-D482-4061-A481-186B83B654E1}">
+											<ChildrenList>
+												<Action Name="" ID="{FA45FAA9-B65D-456B-8EF0-73C1107E287D}" ShortID="1041082352">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stalker_Noises" ID="{049FD00E-7EA0-4678-B04F-8136AC936EC1}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Play_Entity_Glow_Loop" ID="{CC86951B-4E1B-4B4E-9231-DA1D1A8B990E}">
+									<ChildrenList>
+										<Action Name="" ID="{CD442F53-C317-4D59-A8EB-9EDFD1D0F019}" ShortID="778389677">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Entity_Glow_Loop" ID="{5F925D70-0E2F-40C3-BBEC-4ED9A292C5B6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Entity_Glow_Loop" ID="{581D3B75-2E18-46C2-9FEB-79EBB8EA1A84}">
+									<ChildrenList>
+										<Action Name="" ID="{52E28EA7-A4C2-49ED-8575-7DCD6A49AF67}" ShortID="890085541">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Entity_Glow_Loop" ID="{5F925D70-0E2F-40C3-BBEC-4ED9A292C5B6}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Folder Name="Child" ID="{09355A1E-5B80-434A-8A85-89691DAE0781}" ShortID="943858242">
+									<ChildrenList>
+										<Event Name="Play_Child_Footsteps" ID="{E2230578-CE65-408A-82C8-0B22CE45B4D7}">
+											<ChildrenList>
+												<Action Name="" ID="{2C341DF5-5712-44B6-834D-9A0CC4D3153C}" ShortID="880856519">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Child_Footsteps" ID="{4F702AAC-1AB3-4C3A-B09E-88F92CAC72C5}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Child_Enters" ID="{6D5D823A-68E0-41E6-B5BA-36E31F927742}">
+											<ChildrenList>
+												<Action Name="" ID="{2A0469F7-0790-4895-B3D7-7695ADAD98F1}" ShortID="585424835">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Child_Enters" ID="{FCF2FFBF-E8EC-4006-A594-524FEB316237}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Chlld_Laugh" ID="{D822D59C-5DC4-4E23-86BA-0856A401B7AA}">
+											<ChildrenList>
+												<Action Name="" ID="{9E79BB8B-B370-4885-A8B0-83D985431121}" ShortID="146178499">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Chlld_Laugh" ID="{18921D37-2C0B-46ED-98A9-7A6824EAD73C}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Granny" ID="{E2F8B75D-5F16-4538-BE6B-925E45CCD498}" ShortID="16769976">
+									<ChildrenList>
+										<Event Name="Play_Granny_Enter" ID="{53F6145D-A84D-494F-9CD7-4F749A9A2C66}">
+											<ChildrenList>
+												<Action Name="" ID="{98E9EA7B-C901-4ACB-88EB-8CD3D92E09B8}" ShortID="129395262">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Granny_Enter" ID="{2D55EB2B-CA1D-4AA4-9FDC-4922F7107667}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Granny_Cane" ID="{1840AFDD-CDF6-45A9-94D8-B54EAD8928CD}">
+											<ChildrenList>
+												<Action Name="" ID="{7983B41C-079C-474F-B2A9-AD51F8D6B765}" ShortID="291143161">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Granny_Cane" ID="{E9014E52-EADC-40D2-8C1B-A08BB66FFB61}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Granny_Footsteps" ID="{B0A04C85-8A8C-400E-B5C1-57878E32C89C}">
+											<ChildrenList>
+												<Action Name="" ID="{F811BA58-BC28-45E7-BFAA-B92FBB74EEE4}" ShortID="90485247">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Granny_Footsteps" ID="{1938D1E4-7EBC-4B46-B8AE-8D83465BAAA9}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Madame" ID="{8AC435BC-B3CE-4989-B494-F3C6DB253B22}" ShortID="955222697">
+									<ChildrenList>
+										<Event Name="Play_Madame_Footstep" ID="{0135E172-EB8E-4489-BEE4-7DFD4650F587}">
+											<ChildrenList>
+												<Action Name="" ID="{919A9DF9-105A-4673-A936-BCA900D82B25}" ShortID="824317681">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Madame Footstep" ID="{5FA00234-1087-46C1-B46D-75DEFF7BD02A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Madame_Enter" ID="{8291072A-2A35-4280-BC89-B02E5FAA8736}">
+											<ChildrenList>
+												<Action Name="" ID="{DB375ED7-2F05-421D-91E3-013F7196E321}" ShortID="428500756">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Madame_Enter" ID="{BE695865-741E-42DC-9DD8-919A80C34AB8}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Madame_Singing" ID="{BC9ABC80-0D31-4F3C-8929-4AD704A7613A}">
+											<ChildrenList>
+												<Action Name="" ID="{D54E277A-6FFF-4C74-AB98-05DD6E4DEDD3}" ShortID="378824783">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Madame_Singing" ID="{18007211-8427-41E9-9F68-C218BF22218A}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

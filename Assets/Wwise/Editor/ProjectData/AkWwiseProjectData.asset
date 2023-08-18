@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585092992231840442
+    m_lastTime: -8585092888756555453
     List:
     - name: Main
       guid: 54d4f9dc25ce224191c47a456574d436
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585092996446864856
+    m_lastTime: -8585092889511184752
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -147,6 +147,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: a3d1ba4d042e7448bf13d9b8e834a40e
       Path: Events/Default Work Unit/World/Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bed
+      guid: 28f68fc15ed7ec48b0d6c769ec3f7f01
+      id: 446279778
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Bed
+        ObjectType: 4
+        guid: 28f68fc15ed7ec48b0d6c769ec3f7f01
+      Path: Events/Default Work Unit/World/Intractibles/Bed
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -300,9 +323,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Door
-      guid: bf60be9c7c889547ae6f2ecbe514481f
-      id: 1877847629
+    - name: Child
+      guid: 1e5a3509805b4a438a8589691dae0781
+      id: 4294400661
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -313,16 +336,13 @@ MonoBehaviour:
       - ElementName: World
         ObjectType: 4
         guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
+      - ElementName: Entities
         ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Wash
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Child
         ObjectType: 4
-        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
-      - ElementName: Door
-        ObjectType: 4
-        guid: bf60be9c7c889547ae6f2ecbe514481f
-      Path: Events/Default Work Unit/World/Intractibles/Wash/Door
+        guid: 1e5a3509805b4a438a8589691dae0781
+      Path: Events/Default Work Unit/World/Entities/Child
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -398,6 +418,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: 1587fc3546994b498cadfbf349df81da
       Path: Events/Default Work Unit/World/Intractibles/Shower/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: bf60be9c7c889547ae6f2ecbe514481f
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Wash
+        ObjectType: 4
+        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
+      - ElementName: Door
+        ObjectType: 4
+        guid: bf60be9c7c889547ae6f2ecbe514481f
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -614,6 +660,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Granny
+      guid: 5db7f8e2165f3845be6b925e45ccd498
+      id: 1834839516
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Granny
+        ObjectType: 4
+        guid: 5db7f8e2165f3845be6b925e45ccd498
+      Path: Events/Default Work Unit/World/Entities/Granny
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Intractibles
       guid: 8d9210c0bee6084092913b7271fb775b
       id: 1263753677
@@ -735,6 +804,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Madame
+      guid: bc35c48aceb38949b494f3c6db253b22
+      id: 2288993108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Madame
+        ObjectType: 4
+        guid: bc35c48aceb38949b494f3c6db253b22
+      Path: Events/Default Work Unit/World/Entities/Madame
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Main Menu
       guid: 946421c3e87e5d47b3aa382e45abd174
       id: 1026774399
@@ -792,6 +884,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: db42fb9543e39648b966222934913d5a
       Path: Events/Default Work Unit/World/Intractibles/Oven
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Phone
+      guid: 9ee0f1f9df70164da322d033585f6356
+      id: 3104856687
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Phone
+        ObjectType: 4
+        guid: 9ee0f1f9df70164da322d033585f6356
+      Path: Events/Default Work Unit/World/Intractibles/Phone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -887,6 +1002,58 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Bed_Enter
+      guid: ce1c502505d3ff40a0c9e88d9f2b6ea4
+      id: 657849088
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Bed
+        ObjectType: 4
+        guid: 28f68fc15ed7ec48b0d6c769ec3f7f01
+      - ElementName: Play_Bed_Enter
+        ObjectType: 3
+        guid: ce1c502505d3ff40a0c9e88d9f2b6ea4
+      Path: Events/Default Work Unit/World/Intractibles/Bed/Play_Bed_Enter
+      maxAttenuation: 0
+      maxDuration: 6.087784
+      minDuration: 6.087784
+    - name: Play_Bed_Exit
+      guid: fe670af61921e44685af8025dec0299f
+      id: 3741941098
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Bed
+        ObjectType: 4
+        guid: 28f68fc15ed7ec48b0d6c769ec3f7f01
+      - ElementName: Play_Bed_Exit
+        ObjectType: 3
+        guid: fe670af61921e44685af8025dec0299f
+      Path: Events/Default Work Unit/World/Intractibles/Bed/Play_Bed_Exit
+      maxAttenuation: 0
+      maxDuration: 7.163172
+      minDuration: 7.163172
     - name: Play_Bottle_Pickup
       guid: 482fca1f90443b4181aeaff9a0d51ee6
       id: 4101144041
@@ -1113,6 +1280,84 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
+    - name: Play_Child_Enters
+      guid: 3a825d6de068e641b5ba36e31f927742
+      id: 3502873090
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Child
+        ObjectType: 4
+        guid: 1e5a3509805b4a438a8589691dae0781
+      - ElementName: Play_Child_Enters
+        ObjectType: 3
+        guid: 3a825d6de068e641b5ba36e31f927742
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Enters
+      maxAttenuation: 0
+      maxDuration: 4.292812
+      minDuration: 4.292812
+    - name: Play_Child_Footsteps
+      guid: 780523e265ce8a4082c80b22ce45b4d7
+      id: 701872540
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Child
+        ObjectType: 4
+        guid: 1e5a3509805b4a438a8589691dae0781
+      - ElementName: Play_Child_Footsteps
+        ObjectType: 3
+        guid: 780523e265ce8a4082c80b22ce45b4d7
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Chlld_Laugh
+      guid: 9cd522d8c45d234e86ba0856a401b7aa
+      id: 468398047
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Child
+        ObjectType: 4
+        guid: 1e5a3509805b4a438a8589691dae0781
+      - ElementName: Play_Chlld_Laugh
+        ObjectType: 3
+        guid: 9cd522d8c45d234e86ba0856a401b7aa
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Chlld_Laugh
+      maxAttenuation: 0
+      maxDuration: 4.5045
+      minDuration: 2.6359584
     - name: Play_Door_Close
       guid: 16c621d3bd07f9479af01c782208aff8
       id: 2292458263
@@ -1307,6 +1552,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 2.912
       minDuration: 1.248
+    - name: Play_Drunk_Enter
+      guid: 3076322076f72b449d49736b4c331cc3
+      id: 1871298099
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Drunk
+        ObjectType: 4
+        guid: d380b1ebffa5db4b82a5169c60b39929
+      - ElementName: Play_Drunk_Enter
+        ObjectType: 3
+        guid: 3076322076f72b449d49736b4c331cc3
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Enter
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Drunk_Footsteps
       guid: 89f4cf9fce0aaa498e3a9b8b3bb59b25
       id: 3993278548
@@ -1333,6 +1604,32 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.3122634
       minDuration: 0.3122634
+    - name: Play_Drunk_Growl
+      guid: d310b4afb4a32c42b7fdd5fd121a6b66
+      id: 4040622810
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Drunk
+        ObjectType: 4
+        guid: d380b1ebffa5db4b82a5169c60b39929
+      - ElementName: Play_Drunk_Growl
+        ObjectType: 3
+        guid: d310b4afb4a32c42b7fdd5fd121a6b66
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Growl
+      maxAttenuation: 0
+      maxDuration: 22.793922
+      minDuration: 22.793922
     - name: Play_Ductape_Pickup
       guid: d3978833f7110f42b071bf5d29beada5
       id: 2210075393
@@ -1359,6 +1656,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.4542857
       minDuration: 0.4542857
+    - name: Play_Entity_Glow_Loop
+      guid: 1b9586cc1b4e4e4b9231da1d1a8b990e
+      id: 3451783798
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Play_Entity_Glow_Loop
+        ObjectType: 3
+        guid: 1b9586cc1b4e4e4b9231da1d1a8b990e
+      Path: Events/Default Work Unit/World/Entities/Play_Entity_Glow_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Flashlight_On
       guid: ec910927e8cef74d89ce13e47032fe00
       id: 3471928368
@@ -1669,6 +1989,84 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 1.9835273
       minDuration: 1.9835273
+    - name: Play_Granny_Cane
+      guid: ddaf4018f6cda94594d8b54ead8928cd
+      id: 1365956325
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Granny
+        ObjectType: 4
+        guid: 5db7f8e2165f3845be6b925e45ccd498
+      - ElementName: Play_Granny_Cane
+        ObjectType: 3
+        guid: ddaf4018f6cda94594d8b54ead8928cd
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Cane
+      maxAttenuation: 0
+      maxDuration: 0.27685356
+      minDuration: 0.17338184
+    - name: Play_Granny_Enter
+      guid: 5d14f6534da84f499cd74f749a9a2c66
+      id: 3193908324
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Granny
+        ObjectType: 4
+        guid: 5db7f8e2165f3845be6b925e45ccd498
+      - ElementName: Play_Granny_Enter
+        ObjectType: 3
+        guid: 5d14f6534da84f499cd74f749a9a2c66
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Enter
+      maxAttenuation: 0
+      maxDuration: 0.5586042
+      minDuration: 0.5586042
+    - name: Play_Granny_Footsteps
+      guid: 854ca0b08c8a0e40b5c157878e32c89c
+      id: 1233146987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Granny
+        ObjectType: 4
+        guid: 5db7f8e2165f3845be6b925e45ccd498
+      - ElementName: Play_Granny_Footsteps
+        ObjectType: 3
+        guid: 854ca0b08c8a0e40b5c157878e32c89c
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Hammer_Hit
       guid: 7a18687e8a5c3947978cb3de265f1208
       id: 4031726782
@@ -1747,6 +2145,84 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.20967114
       minDuration: 0.1974745
+    - name: Play_Madame_Enter
+      guid: 2a079182352a8042bc89b02e5faa8736
+      id: 4133542388
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Madame
+        ObjectType: 4
+        guid: bc35c48aceb38949b494f3c6db253b22
+      - ElementName: Play_Madame_Enter
+        ObjectType: 3
+        guid: 2a079182352a8042bc89b02e5faa8736
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Enter
+      maxAttenuation: 0
+      maxDuration: 4.9853063
+      minDuration: 4.9853063
+    - name: Play_Madame_Footstep
+      guid: 72e135018eeb8944bee47dfd4650f587
+      id: 1878395256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Madame
+        ObjectType: 4
+        guid: bc35c48aceb38949b494f3c6db253b22
+      - ElementName: Play_Madame_Footstep
+        ObjectType: 3
+        guid: 72e135018eeb8944bee47dfd4650f587
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Footstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Madame_Singing
+      guid: 80bc9abc310d3c4f89294ad704a7613a
+      id: 3540329969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Madame
+        ObjectType: 4
+        guid: bc35c48aceb38949b494f3c6db253b22
+      - ElementName: Play_Madame_Singing
+        ObjectType: 3
+        guid: 80bc9abc310d3c4f89294ad704a7613a
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Singing
+      maxAttenuation: 0
+      maxDuration: 21.455193
+      minDuration: 11.513197
     - name: Play_Oven_Beep
       guid: 93a1f0a307778641a6fdf451ce2815e5
       id: 4252663551
@@ -1825,6 +2301,32 @@ MonoBehaviour:
       maxAttenuation: 8
       maxDuration: 2.235906
       minDuration: 2.235906
+    - name: Play_Phone_Message
+      guid: 28709d16c645bf428a84663867960c77
+      id: 3078951190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Phone
+        ObjectType: 4
+        guid: 9ee0f1f9df70164da322d033585f6356
+      - ElementName: Play_Phone_Message
+        ObjectType: 3
+        guid: 28709d16c645bf428a84663867960c77
+      Path: Events/Default Work Unit/World/Intractibles/Phone/Play_Phone_Message
+      maxAttenuation: 0
+      maxDuration: 23.543991
+      minDuration: 23.543991
     - name: Play_Pickup
       guid: de694c8766251b42a85ef6d6ceb782e8
       id: 3860455926
@@ -1998,7 +2500,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 785a1930e9c9b84e912fe158b3306378
       Path: Events/Default Work Unit/World/Player/Footsteps/Play_Player_Footsteps_Wood
-      maxAttenuation: 0
+      maxAttenuation: 8
       maxDuration: 0.57767636
       minDuration: 0.19069281
     - name: Play_Shepard_Tone_Mass_X_Wave
@@ -2258,6 +2760,32 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.28981635
       minDuration: 0.28981635
+    - name: Play_Stalker_Noises
+      guid: 912ee49f82d46140a481186b83b654e1
+      id: 404130524
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Stalker
+        ObjectType: 4
+        guid: ff6d977c2aadca41bd0f7678f914e44c
+      - ElementName: Play_Stalker_Noises
+        ObjectType: 3
+        guid: 912ee49f82d46140a481186b83b654e1
+      Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Noises
+      maxAttenuation: 0
+      maxDuration: 9.72059
+      minDuration: 9.72059
     - name: Play_Standing_Light_Loop
       guid: 48edd923a6be674381ef101795cbe533
       id: 3111854812
@@ -3020,6 +3548,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Entity_Glow_Loop
+      guid: 753b1d58182ec2469feb79ebb8ea1a84
+      id: 4143921100
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Entities
+        ObjectType: 4
+        guid: face47aff90bf24b803896d625b374b1
+      - ElementName: Stop_Entity_Glow_Loop
+        ObjectType: 3
+        guid: 753b1d58182ec2469feb79ebb8ea1a84
+      Path: Events/Default Work Unit/World/Entities/Stop_Entity_Glow_Loop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Shepard_Tone_Mass_X_Wave
       guid: 407fcb126805b144be0ee9f922436ec7
       id: 887930354
@@ -3260,29 +3811,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Window
-      guid: 397a9c460f0c0a4494ae51e398fe081b
-      id: 2330457189
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Ambience
-        ObjectType: 4
-        guid: a3d1ba4d042e7448bf13d9b8e834a40e
-      - ElementName: Window
-        ObjectType: 4
-        guid: 397a9c460f0c0a4494ae51e398fe081b
-      Path: Events/Default Work Unit/World/Ambience/Window
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Window
       guid: 98443fb4dde412428d1b6c8487f3645d
       id: 2330457189
       PathAndIcons:
@@ -3302,6 +3830,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 98443fb4dde412428d1b6c8487f3645d
       Path: Events/Default Work Unit/World/Intractibles/Window
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Window
+      guid: 397a9c460f0c0a4494ae51e398fe081b
+      id: 2330457189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: a3d1ba4d042e7448bf13d9b8e834a40e
+      - ElementName: Window
+        ObjectType: 4
+        guid: 397a9c460f0c0a4494ae51e398fe081b
+      Path: Events/Default Work Unit/World/Ambience/Window
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3413,7 +3964,7 @@ MonoBehaviour:
     m_lastTime: -8585096132518480631
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000a0000001e0000001f00000036000000
+  ExpandedWaapiItemIds: 06000000070000000a0000001e0000001f000000a5000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
