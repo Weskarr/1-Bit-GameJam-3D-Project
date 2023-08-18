@@ -5,6 +5,18 @@ using UnityEngine;
 
 public class MasterMind : MonoBehaviour
 {
+    [Header("Player related")]
+    [SerializeField]
+    private GameObject bedroom_BuiltIn;
+    [SerializeField]
+    private GameObject utility_Cupboard;
+    [SerializeField]
+    private GameObject bedroom_Closet;
+    [SerializeField]
+    private GameObject bathroom_Shower;
+
+
+
     [Header("Windows")]
     [SerializeField]
     private bool aWindowIsOpen = false;
@@ -49,6 +61,17 @@ public class MasterMind : MonoBehaviour
     private bool enteringWindow = false;
     [SerializeField]
     private bool openingWindows = false;
+    [SerializeField]
+    private bool spawningEntity = false;
+
+    [Header("Behaviour")]
+    [SerializeField]
+    private float enteringWindowTime = 30f;
+    [SerializeField]
+    private float openingWindowTime = 30f;
+    [SerializeField]
+    private float spawnEntityTime = 10f;
+
 
     [Header("Entities")]
     [SerializeField]
@@ -68,6 +91,10 @@ public class MasterMind : MonoBehaviour
     private GameObject stalker;
     private GameObject madame;
     private GameObject granny;
+    [SerializeField]
+    private GameObject currentSpawner;
+    [SerializeField]
+    private GameObject currentEntity;
 
     private void Start()
     {
@@ -295,34 +322,67 @@ public class MasterMind : MonoBehaviour
         {
             case 0:
                 childAtPlay = true;
-                child.SetActive(true);
+                currentEntity = child;
                 break;
             case 1:
                 drunkAtPlay = true;
-                drunk.SetActive(true);
+                currentEntity = drunk;
                 break;
             case 2:
                 stalkerAtPlay = true;
-                stalker.SetActive(true);
+                currentEntity = stalker;
                 break;
             case 3:
                 madameAtPlay = true;
-                madame.SetActive(true);
+                currentEntity = madame;
                 break;
             case 4:
                 grannyAtPlay = true;
-                granny.SetActive(true);
+                currentEntity = granny;
                 break;
         }
 
         AnyEntitiesOnThePlayField();
+        StartCoroutine(SpawningEntityCoroutine());
+    }
+    private void GiveMeARandomSpawn()
+    {
+        int random = Random.Range(0, 4);
+
+        switch (random)
+        {
+            case 0:
+                currentSpawner = bedroom_BuiltIn;
+                break;
+            case 1:
+                currentSpawner = utility_Cupboard;
+                break;
+            case 2:
+                currentSpawner = bedroom_Closet;
+                break;
+            case 3:
+                currentSpawner = bathroom_Shower;
+                break;
+        }
     }
     //
+
+    IEnumerator SpawningEntityCoroutine()
+    {
+        spawningEntity = true;
+        GiveMeARandomSpawn();
+        currentSpawner.transform.GetComponent<Spawner>().ParticlesOn();
+        yield return new WaitForSeconds(spawnEntityTime);
+        currentEntity.transform.position = currentSpawner.transform.position;
+        currentEntity.SetActive(true);
+        currentSpawner.transform.GetComponent<Spawner>().ParticlesOff();
+        spawningEntity = false;
+    }
 
     IEnumerator OpeningWindowsCoroutine()
     {
         openingWindows = true;
-        yield return new WaitForSeconds(30f);
+        yield return new WaitForSeconds(openingWindowTime);
         OpenRandomWindow();
         openingWindows = false;
     }
@@ -330,7 +390,7 @@ public class MasterMind : MonoBehaviour
     IEnumerator EnteringWindowCoroutine()
     {
         enteringWindow = true;
-        yield return new WaitForSeconds(30f);
+        yield return new WaitForSeconds(enteringWindowTime);
         EntityEntersPlayField();
         enteringWindow = false;
     }
