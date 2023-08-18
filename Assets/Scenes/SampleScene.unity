@@ -18855,20 +18855,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1263899860}
     - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: fusebox
+      value: 
+      objectReference: {fileID: 1793339218}
+    - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: spawnEntityTime
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: openingWindowTime
-      value: 30
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: enteringWindowTime
-      value: 30
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: windowsToOpen.Array.size
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: entitiesKillsFuseBoxOnSpawn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2496702077528065676, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: windowsToOpen.Array.data[0]

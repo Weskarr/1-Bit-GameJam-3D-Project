@@ -5,17 +5,19 @@ using UnityEngine;
 
 public class MasterMind : MonoBehaviour
 {
-    [Header("Player related")]
+    [Header("Settings")]
     [SerializeField]
-    private GameObject bedroom_BuiltIn;
+    private float enteringWindowTime = 30f;
     [SerializeField]
-    private GameObject utility_Cupboard;
+    private float openingWindowTime = 30f;
     [SerializeField]
-    private GameObject bedroom_Closet;
+    private float spawnEntityTime = 10f;
     [SerializeField]
-    private GameObject bathroom_Shower;
-
-
+    private bool entitiesAllowed = true;
+    [SerializeField]
+    private bool entitiesVanishOnAllLight = true;
+    [SerializeField]
+    private bool entitiesKillsFuseBoxOnSpawn = true;
 
     [Header("Windows")]
     [SerializeField]
@@ -37,10 +39,11 @@ public class MasterMind : MonoBehaviour
     [SerializeField]
     private Window[] windowsToOpen;
 
-
     [Header("Lights")]
     [SerializeField]
     private bool aLightIsOff = false;
+    [SerializeField]
+    private FuseBox fusebox;
     [SerializeField]
     private bool utilityLightIsOn; // ID 0
     [SerializeField]
@@ -64,15 +67,6 @@ public class MasterMind : MonoBehaviour
     [SerializeField]
     private bool spawningEntity = false;
 
-    [Header("Behaviour")]
-    [SerializeField]
-    private float enteringWindowTime = 30f;
-    [SerializeField]
-    private float openingWindowTime = 30f;
-    [SerializeField]
-    private float spawnEntityTime = 10f;
-
-
     [Header("Entities")]
     [SerializeField]
     private bool AnyoneOnPlayField;
@@ -91,6 +85,16 @@ public class MasterMind : MonoBehaviour
     private GameObject stalker;
     private GameObject madame;
     private GameObject granny;
+
+    [Header("Spawning")]
+    [SerializeField]
+    private GameObject bedroom_BuiltIn;
+    [SerializeField]
+    private GameObject utility_Cupboard;
+    [SerializeField]
+    private GameObject bedroom_Closet;
+    [SerializeField]
+    private GameObject bathroom_Shower;
     [SerializeField]
     private GameObject currentSpawner;
     [SerializeField]
@@ -102,38 +106,75 @@ public class MasterMind : MonoBehaviour
     }
     private void Update()
     {
-        if (!AnyoneOnPlayField)
+        if (entitiesAllowed)
         {
-            CheckIfWindowIsOpen();
+            if (!AnyoneOnPlayField)
+            {
+                if (!spawningEntity)
+                {
+                    CheckIfWindowIsOpen();
 
-            if (aWindowIsOpen == true && enteringWindow == false)
-            {
-                StartCoroutine(EnteringWindowCoroutine());
+                    if (aWindowIsOpen == true && enteringWindow == false)
+                    {
+                        StartCoroutine(EnteringWindowCoroutine());
+                    }
+                    else if (aWindowIsOpen == false && enteringWindow == true)
+                    {
+                        StopCoroutine(EnteringWindowCoroutine());
+                        enteringWindow = false;
+                    }
+
+
+                    if (aWindowIsOpen == false && openingWindows == false)
+                    {
+                        StartCoroutine(OpeningWindowsCoroutine());
+                    }
+                    else if (aWindowIsOpen && openingWindows == true)
+                    {
+                        StopCoroutine(OpeningWindowsCoroutine());
+                        openingWindows = false;
+                    }
+                }
             }
-            else if (aWindowIsOpen == false && enteringWindow == true)
+            else
             {
-                StopCoroutine(EnteringWindowCoroutine());
-                enteringWindow = false;
+                if (enteringWindow)
+                {
+                    StopCoroutine(EnteringWindowCoroutine());
+                    enteringWindow = false;
+                }
+                if (openingWindows)
+                {
+                    StopCoroutine(OpeningWindowsCoroutine());
+                    openingWindows = false;
+                }
+
+                if (entitiesVanishOnAllLight)
+                {
+                    CheckIfLightIsOff();
+                    if (aLightIsOff == false && AnyoneOnPlayField == true)
+                    {
+                        EntityLeavesPlayField();
+                    }
+                }
             }
-            
-            
-            if (aWindowIsOpen == false && openingWindows == false)
-            {
-                StartCoroutine(OpeningWindowsCoroutine());
-            }
-            else if (aWindowIsOpen && openingWindows == true)
-            {
-                StopCoroutine(OpeningWindowsCoroutine());
-                openingWindows = false;
-            }
-        }
-        else
-        {
-            CheckIfLightIsOff();
         }
     }
 
+    // Control
+    public void AllowEntitiesToPlay()
+    {
+        entitiesAllowed = true;
+    }
+    public void NoEntitiesAllowedToPlay()
+    {
+        entitiesAllowed = false;
+        StopAllCoroutines();
 
+        if (currentEntity != null)
+            EntityLeavesPlayField();
+    }
+    //
 
     // Windows
     public void WindowIsOpen(int ID)
@@ -243,6 +284,7 @@ public class MasterMind : MonoBehaviour
                 hallwayLightIsOn = true;
                 break;
         }
+        CheckIfLightIsOff();
     }
     public void LightIsOff(int ID)
     {
@@ -270,6 +312,7 @@ public class MasterMind : MonoBehaviour
                 hallwayLightIsOn = false;
                 break;
         }
+        CheckIfLightIsOff();
     }
     private void CheckIfLightIsOff()
     {
@@ -286,6 +329,14 @@ public class MasterMind : MonoBehaviour
         else
         {
             aLightIsOff = false;
+        }
+    }
+    private void FuseboxOut()
+    {
+        if (entitiesKillsFuseBoxOnSpawn)
+        {
+            fusebox.turnAllPowerOff();
+            CheckIfLightIsOff();
         }
     }
     //
@@ -314,7 +365,7 @@ public class MasterMind : MonoBehaviour
             AnyoneOnPlayField = false;
         }
     }
-    private void EntityEntersPlayField()
+    private void RandomEntity()
     {
         int random = Random.Range(0, 5);
 
@@ -341,9 +392,6 @@ public class MasterMind : MonoBehaviour
                 currentEntity = granny;
                 break;
         }
-
-        AnyEntitiesOnThePlayField();
-        StartCoroutine(SpawningEntityCoroutine());
     }
     private void GiveMeARandomSpawn()
     {
@@ -365,17 +413,63 @@ public class MasterMind : MonoBehaviour
                 break;
         }
     }
+    private void EntityLeavesPlayField()
+    {
+        if (childAtPlay == true)
+        {
+            child.SetActive(false);
+            childAtPlay = false;
+        }
+        else if (drunkAtPlay == true)
+        {
+            drunk.SetActive(false);
+            drunkAtPlay = false;
+        }
+        else if (stalkerAtPlay == true)
+        {
+            stalker.SetActive(false);
+            stalkerAtPlay = false;
+        }
+        else if (madameAtPlay == true)
+        {
+            madame.SetActive(false);
+            madameAtPlay = false;
+        }
+        else if (grannyAtPlay == true)
+        {
+            granny.SetActive(false);
+            grannyAtPlay = false;
+        }
+        currentEntity = null;
+        AnyEntitiesOnThePlayField();
+    }
+    public void SpawnEntity()
+    {
+        StopAllCoroutines();
+        AnyEntitiesOnThePlayField();
+        if (currentEntity == null)
+        {
+            RandomEntity();
+            StartCoroutine(SpawningEntityCoroutine());
+        }
+    }
     //
+
+
 
     IEnumerator SpawningEntityCoroutine()
     {
         spawningEntity = true;
         GiveMeARandomSpawn();
         currentSpawner.transform.GetComponent<Spawner>().ParticlesOn();
+
         yield return new WaitForSeconds(spawnEntityTime);
+        FuseboxOut();
+        yield return new WaitForSeconds(1f);
         currentEntity.transform.position = currentSpawner.transform.position;
         currentEntity.SetActive(true);
         currentSpawner.transform.GetComponent<Spawner>().ParticlesOff();
+        AnyEntitiesOnThePlayField();
         spawningEntity = false;
     }
 
@@ -391,7 +485,7 @@ public class MasterMind : MonoBehaviour
     {
         enteringWindow = true;
         yield return new WaitForSeconds(enteringWindowTime);
-        EntityEntersPlayField();
+        SpawnEntity();
         enteringWindow = false;
     }
 }
