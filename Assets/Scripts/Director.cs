@@ -75,6 +75,7 @@ public class Director : MonoBehaviour
         echoManager.LightsOn();
         yield return new WaitForSeconds(startPauseTime);
         wakeupStartTime = Time.time;
+        GetComponent<ToolSpawn>().SpawnTools(3);
     }
 
     IEnumerator lightsOff() {
