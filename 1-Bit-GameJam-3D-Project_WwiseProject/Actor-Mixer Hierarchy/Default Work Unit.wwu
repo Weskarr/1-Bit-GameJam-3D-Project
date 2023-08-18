@@ -2410,11 +2410,6 @@
 								<RandomSequenceContainer Name="Entity_Glow_Loop" ID="{5F925D70-0E2F-40C3-BBEC-4ED9A292C5B6}" ShortID="300123258">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-11</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
