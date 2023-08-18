@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: b7964a7a53882049b6b23d7c893462ce
     GuidInternal: 
-    m_lastTime: -8585096132518474138
+    m_lastTime: -8585092748956983117
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585093531316643074
+    m_lastTime: -8585092749001977403
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,11 +100,11 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585092773635711282
+    m_lastTime: -8585092645288739549
     List:
-    - name: Main
-      guid: 54d4f9dc25ce224191c47a456574d436
-      id: 3161908922
+    - name: Ambience_Events
+      guid: e54a53ac5e69ec488da4f5512be400ae
+      id: 253349559
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -112,10 +112,66 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 80793e81e913d548925aaccdddf7aad3
-      - ElementName: Main
+      - ElementName: Ambience_Events
         ObjectType: 7
-        guid: 54d4f9dc25ce224191c47a456574d436
-      Path: SoundBanks/Default Work Unit/Main
+        guid: e54a53ac5e69ec488da4f5512be400ae
+      Path: SoundBanks/Default Work Unit/Ambience_Events
+    - name: Entities
+      guid: df2a63ff2ccda9478141b0dc93651470
+      id: 2083370804
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80793e81e913d548925aaccdddf7aad3
+      - ElementName: Entities
+        ObjectType: 7
+        guid: df2a63ff2ccda9478141b0dc93651470
+      Path: SoundBanks/Default Work Unit/Entities
+    - name: Interactibles
+      guid: 707a66186439784fa37142f7c5bf6781
+      id: 2987141838
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80793e81e913d548925aaccdddf7aad3
+      - ElementName: Interactibles
+        ObjectType: 7
+        guid: 707a66186439784fa37142f7c5bf6781
+      Path: SoundBanks/Default Work Unit/Interactibles
+    - name: Music
+      guid: 7ba7e5df7735184d856abbb3f10d613f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80793e81e913d548925aaccdddf7aad3
+      - ElementName: Music
+        ObjectType: 7
+        guid: 7ba7e5df7735184d856abbb3f10d613f
+      Path: SoundBanks/Default Work Unit/Music
+    - name: Player
+      guid: 36ccfa8656ced143a1ff2c4ebdb16d8f
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 80793e81e913d548925aaccdddf7aad3
+      - ElementName: Player
+        ObjectType: 7
+        guid: 36ccfa8656ced143a1ff2c4ebdb16d8f
+      Path: SoundBanks/Default Work Unit/Player
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -128,7 +184,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585092780668568130
+    m_lastTime: -8585092649882347284
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -347,6 +403,32 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Door
+      guid: 1587fc3546994b498cadfbf349df81da
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Shower
+        ObjectType: 4
+        guid: 0280bbf0bb614f41afcd31fc483f1968
+      - ElementName: Door
+        ObjectType: 4
+        guid: 1587fc3546994b498cadfbf349df81da
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
       guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
       id: 1877847629
       PathAndIcons:
@@ -369,32 +451,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
       Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Door
-      guid: bf60be9c7c889547ae6f2ecbe514481f
-      id: 1877847629
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Wash
-        ObjectType: 4
-        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
-      - ElementName: Door
-        ObjectType: 4
-        guid: bf60be9c7c889547ae6f2ecbe514481f
-      Path: Events/Default Work Unit/World/Intractibles/Wash/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -422,7 +478,7 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Door
-      guid: 1587fc3546994b498cadfbf349df81da
+      guid: bf60be9c7c889547ae6f2ecbe514481f
       id: 1877847629
       PathAndIcons:
       - ElementName: Events
@@ -437,13 +493,13 @@ MonoBehaviour:
       - ElementName: Intractibles
         ObjectType: 4
         guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Shower
+      - ElementName: Wash
         ObjectType: 4
-        guid: 0280bbf0bb614f41afcd31fc483f1968
+        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
       - ElementName: Door
         ObjectType: 4
-        guid: 1587fc3546994b498cadfbf349df81da
-      Path: Events/Default Work Unit/World/Intractibles/Shower/Door
+        guid: bf60be9c7c889547ae6f2ecbe514481f
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -750,32 +806,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Lid
-      guid: b915921985834642be1f43356755e89a
-      id: 444705604
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Toilet
-        ObjectType: 4
-        guid: 4734dc804ed17a40a1b64742aff03fd5
-      - ElementName: Lid
-        ObjectType: 4
-        guid: b915921985834642be1f43356755e89a
-      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Lid
       guid: b8d9c128b373c44da6b00a07d5ce070a
       id: 444705604
       PathAndIcons:
@@ -798,6 +828,32 @@ MonoBehaviour:
         ObjectType: 4
         guid: b8d9c128b373c44da6b00a07d5ce070a
       Path: Events/Default Work Unit/World/Intractibles/Trash/Lid
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Lid
+      guid: b915921985834642be1f43356755e89a
+      id: 444705604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Toilet
+        ObjectType: 4
+        guid: 4734dc804ed17a40a1b64742aff03fd5
+      - ElementName: Lid
+        ObjectType: 4
+        guid: b915921985834642be1f43356755e89a
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2396,107 +2452,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.9810431
       minDuration: 0.7287755
-    - name: Play_Player_Echo
-      guid: 0104bde80baa4742a95ff330f8d22b83
-      id: 59459483
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Player
-        ObjectType: 4
-        guid: 20056e7ff77dd046aee3d92985e5c4db
-      - ElementName: Play_Player_Echo
-        ObjectType: 3
-        guid: 0104bde80baa4742a95ff330f8d22b83
-      Path: Events/Default Work Unit/World/Player/Play_Player_Echo
-      maxAttenuation: 0
-      maxDuration: 0.7021875
-      minDuration: 0.7021875
-    - name: Play_Player_Footsteps_Carpet
-      guid: 13d016359b398e42a8c8f60faaa465ed
-      id: 2225525625
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Player
-        ObjectType: 4
-        guid: 20056e7ff77dd046aee3d92985e5c4db
-      - ElementName: Footsteps
-        ObjectType: 4
-        guid: 52a0dc53c8602d468081ad7054dbae67
-      - ElementName: Play_Player_Footsteps_Carpet
-        ObjectType: 3
-        guid: 13d016359b398e42a8c8f60faaa465ed
-      Path: Events/Default Work Unit/World/Player/Footsteps/Play_Player_Footsteps_Carpet
-      maxAttenuation: 0
-      maxDuration: 0.61567885
-      minDuration: 0.61567885
-    - name: Play_Player_Footsteps_Stone
-      guid: c13a31cfea59f445a0750f1bbaaa6715
-      id: 268867591
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Player
-        ObjectType: 4
-        guid: 20056e7ff77dd046aee3d92985e5c4db
-      - ElementName: Footsteps
-        ObjectType: 4
-        guid: 52a0dc53c8602d468081ad7054dbae67
-      - ElementName: Play_Player_Footsteps_Stone
-        ObjectType: 3
-        guid: c13a31cfea59f445a0750f1bbaaa6715
-      Path: Events/Default Work Unit/World/Player/Footsteps/Play_Player_Footsteps_Stone
-      maxAttenuation: 0
-      maxDuration: 0.39776763
-      minDuration: 0.39776763
-    - name: Play_Player_Footsteps_Tile
-      guid: bc779ac983f1e24896b7648302d6c5d6
-      id: 164811484
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Player
-        ObjectType: 4
-        guid: 20056e7ff77dd046aee3d92985e5c4db
-      - ElementName: Footsteps
-        ObjectType: 4
-        guid: 52a0dc53c8602d468081ad7054dbae67
-      - ElementName: Play_Player_Footsteps_Tile
-        ObjectType: 3
-        guid: bc779ac983f1e24896b7648302d6c5d6
-      Path: Events/Default Work Unit/World/Player/Footsteps/Play_Player_Footsteps_Tile
-      maxAttenuation: 0
-      maxDuration: 0.29061776
-      minDuration: 0.29061776
     - name: Play_Player_Footsteps_Wood
       guid: 785a1930e9c9b84e912fe158b3306378
       id: 1323502295
@@ -2543,7 +2498,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0d1f6a5fa618904e8dde12e7c87e2610
       Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X_Wave
-      maxAttenuation: 0
+      maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
     - name: Play_Shepard_Tone_Mass_X2
@@ -2566,7 +2521,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1ae077e44389214aa3f4a35a191d691a
       Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X2
-      maxAttenuation: 0
+      maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
     - name: Play_Shepard_Tone_Sine_Wave
@@ -2589,7 +2544,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3383a689184c304899fc9519c60fab58
       Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Sine_Wave
-      maxAttenuation: 0
+      maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
     - name: Play_Shower_Door_Close
@@ -3877,29 +3832,6 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Window
-      guid: 98443fb4dde412428d1b6c8487f3645d
-      id: 2330457189
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Window
-        ObjectType: 4
-        guid: 98443fb4dde412428d1b6c8487f3645d
-      Path: Events/Default Work Unit/World/Intractibles/Window
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Window
       guid: 397a9c460f0c0a4494ae51e398fe081b
       id: 2330457189
       PathAndIcons:
@@ -3919,6 +3851,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 397a9c460f0c0a4494ae51e398fe081b
       Path: Events/Default Work Unit/World/Ambience/Window
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Window
+      guid: 98443fb4dde412428d1b6c8487f3645d
+      id: 2330457189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Window
+        ObjectType: 4
+        guid: 98443fb4dde412428d1b6c8487f3645d
+      Path: Events/Default Work Unit/World/Intractibles/Window
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3951,7 +3906,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: c0f63c476475754ead71100cb51d1bd3
     GuidInternal: 
-    m_lastTime: -8585096132518529901
+    m_lastTime: -8585092749027935802
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -3965,7 +3920,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 3a11c9e2aa43484c925da731bddf6397
     GuidInternal: 
-    m_lastTime: -8585096132518490231
+    m_lastTime: -8585092748956990599
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -3979,7 +3934,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
     GuidInternal: 
-    m_lastTime: -8585094541940037498
+    m_lastTime: -8585092748956987707
     List:
     - name: New_Switch_Group
       guid: 8542da5d90c45746b37d8e65cc679cd4
@@ -4027,11 +3982,11 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 810460807133634ea4cfabeddb460d1e
     GuidInternal: 
-    m_lastTime: -8585096132518480631
+    m_lastTime: -8585092748956985599
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000001c000000ff0e0000
+  ExpandedFileSystemItemIds: 0200000003000000040000000500000006000000280000009d0000009e000000
+  ExpandedWaapiItemIds: 020000000300000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

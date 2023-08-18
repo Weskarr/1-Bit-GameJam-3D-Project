@@ -67,7 +67,6 @@ namespace AK
         static const AkUniqueID PLAY_PHONE_MESSAGE = 3078951190U;
         static const AkUniqueID PLAY_PICKUP = 3860455926U;
         static const AkUniqueID PLAY_PILLS_PICKUP = 1625998593U;
-        static const AkUniqueID PLAY_PLAYER_ECHO = 59459483U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS_WOOD = 1323502295U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X2 = 859694722U;
         static const AkUniqueID PLAY_SHEPARD_TONE_MASS_X_WAVE = 147896324U;
@@ -90,6 +89,7 @@ namespace AK
         static const AkUniqueID PLAY_TV_LOOP = 2754573889U;
         static const AkUniqueID PLAY_TV_POWER_OFF = 717201584U;
         static const AkUniqueID PLAY_TV_POWER_ON = 422001050U;
+        static const AkUniqueID PLAY_UTILITY_POWER_OUTAGE_LOOP = 63654547U;
         static const AkUniqueID PLAY_UTILITY_ROOM_LOOP = 3290767985U;
         static const AkUniqueID PLAY_WASH_DOOR_CLOSE = 969296927U;
         static const AkUniqueID PLAY_WASH_DOOR_OPEN = 465373113U;
@@ -107,6 +107,7 @@ namespace AK
         static const AkUniqueID STOP_SHEPARD_TONE_MASS_X_WAVE = 887930354U;
         static const AkUniqueID STOP_SHEPARD_TONE_SINE_WAVE = 3279282928U;
         static const AkUniqueID STOP_STANDING_LIGHT_LOOP = 798871922U;
+        static const AkUniqueID STOP_UTILITY_POWER_OUTAGE_LOOP = 4040337917U;
         static const AkUniqueID STOP_WINDOW_CLOSE_LOOP = 1944978762U;
         static const AkUniqueID STOP_WINDOW_OPEN_LOOP = 3500678004U;
     } // namespace EVENTS
@@ -128,8 +129,11 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID AMBIENCE_EVENTS = 253349559U;
+        static const AkUniqueID ENTITIES = 2083370804U;
+        static const AkUniqueID INTERACTIBLES = 2987141838U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID PLAYER = 1069431850U;
     } // namespace BANKS
 
     namespace BUSSES
