@@ -418,6 +418,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -547,6 +548,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -627,6 +629,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -1104,6 +1107,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -1163,6 +1167,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -1389,6 +1394,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -1722,6 +1728,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -1879,6 +1886,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -3482,6 +3490,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -3547,6 +3556,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 368107912}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -3768,6 +3778,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6268786117941654323, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
+      propertyPath: slopeSlideSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6268786117941654323, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       propertyPath: airSprintEnabled
       value: 0
       objectReference: {fileID: 0}
@@ -3836,6 +3850,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6268786117941654324, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1713651150}
+    - targetCorrespondingSourceObject: {fileID: 6268786117941654324, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1713651153}
     - targetCorrespondingSourceObject: {fileID: 6268786116922714614, guid: e90e45ff6cb98a84fb1d909c284ce4f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1584192280}
@@ -3921,6 +3938,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -4087,6 +4105,33 @@ Transform:
   - {fileID: 227348853}
   m_Father: {fileID: 1265320282}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &368107908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+  m_PrefabInstance: {fileID: 615283692}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &368107912
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368107908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7652597761601566591, guid: 630a4bb08a340d54c86524770fc070ce, type: 3}
 --- !u!1 &374604994 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6753078992308604974, guid: b1e5dd3d3988830409d69c6ea93c3684, type: 3}
@@ -4741,6 +4786,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -5191,6 +5237,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -5481,6 +5528,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -5954,6 +6002,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -6611,6 +6660,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 2043805253}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -6696,6 +6746,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -7630,6 +7681,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5803563296375289123, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 333751696}
+    - targetCorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 368107912}
   m_SourcePrefab: {fileID: 100100000, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
 --- !u!4 &615378339 stripped
 Transform:
@@ -8004,6 +8058,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 539677690}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -8130,6 +8185,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -8325,6 +8381,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -8489,6 +8546,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -8695,6 +8753,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -9018,6 +9077,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -9067,6 +9127,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -9105,6 +9166,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -9510,6 +9572,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 773220813}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -9785,6 +9848,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -10765,6 +10829,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -11333,6 +11398,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -12319,6 +12385,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -12642,6 +12709,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5803563296375289123, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1137985341}
+    - targetCorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1478472284}
   m_SourcePrefab: {fileID: 100100000, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
 --- !u!1 &999372199
 GameObject:
@@ -13115,6 +13185,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -13648,6 +13719,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -13993,6 +14065,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -14052,6 +14125,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 1478472284}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -14848,6 +14922,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -15091,6 +15166,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -15369,6 +15445,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -15429,7 +15506,7 @@ Transform:
   m_GameObject: {fileID: 1234721774}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.5867996, y: 0.16079998, z: 0.6901}
+  m_LocalPosition: {x: -4.5867996, y: 0.16079998, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15526,6 +15603,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -15618,6 +15696,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -15730,6 +15809,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -21926,6 +22006,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -21960,6 +22041,33 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4213584266836360864, guid: 60cabfe9122b23e4cb2163acd0820ffd, type: 3}
   m_PrefabInstance: {fileID: 157460244}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1458412189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+  m_PrefabInstance: {fileID: 5190584123067429659}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1458412193
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458412189}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7652597761601566591, guid: 630a4bb08a340d54c86524770fc070ce, type: 3}
 --- !u!1 &1461610579
 GameObject:
   m_ObjectHideFlags: 0
@@ -26890,6 +26998,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -6692290496178104961, guid: 1fbd75f728791914fabdea2642e9f250, type: 3}
+--- !u!1 &1478472280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+  m_PrefabInstance: {fileID: 995498800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1478472284
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478472280}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7652597761601566591, guid: 630a4bb08a340d54c86524770fc070ce, type: 3}
 --- !u!1 &1481257435
 GameObject:
   m_ObjectHideFlags: 0
@@ -26950,6 +27085,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -27148,6 +27284,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -27358,6 +27495,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -27407,6 +27545,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -27484,6 +27623,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -28217,6 +28357,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -28540,6 +28681,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -33512,6 +33654,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -33714,6 +33857,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -33889,6 +34033,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flashlight: {fileID: 1352627311}
   hands: {fileID: 806692214}
+--- !u!114 &1713651153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713651144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9282e3b907a6d419c0ea3ed87853d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stuckSeconds: 5
+  jiggle: 0.05
 --- !u!4 &1713815983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 375b8156b1e2b1549bdeb154d1cb9d73, type: 3}
@@ -43602,6 +43760,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -43709,6 +43868,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -44157,7 +44317,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -54.670715, w: 0}
+  m_margin: {x: 0, y: 0, z: -54.670715, w: -115.60704}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -44484,6 +44644,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -49813,6 +49974,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -50152,6 +50314,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -50190,6 +50353,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 1458412193}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -50373,7 +50537,7 @@ Transform:
   m_GameObject: {fileID: 1974637161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.479, y: 0.16079998, z: 0.6901}
+  m_LocalPosition: {x: -5.479, y: 0.16079998, z: 0.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50582,6 +50746,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -51367,6 +51532,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -51730,6 +51896,7 @@ MonoBehaviour:
   playCloseInstantly: 0
   animator: {fileID: 0}
   moveSpeed: 2
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -51768,6 +51935,7 @@ MonoBehaviour:
   playCloseInstantly: 1
   animator: {fileID: 0}
   moveSpeed: 1
+  colliderDisable: {fileID: 0}
   openSound:
     idInternal: 0
     valueGuidInternal: 
@@ -54658,6 +54826,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5803563296375289123, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1952029467}
+    - targetCorrespondingSourceObject: {fileID: 1555633541827794901, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1458412193}
   m_SourcePrefab: {fileID: 100100000, guid: e45c287c2f78fbe40aa8e7aaf6e65dcf, type: 3}
 --- !u!1 &5282207486646890042
 GameObject:
@@ -54775,6 +54946,8 @@ PrefabInstance:
     - {fileID: 2075496502574393528, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
     - {fileID: 5682175883210104332, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
     - {fileID: 4606827967165489581, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+    - {fileID: 8448541730211728902, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
+    - {fileID: 5111942906935119407, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6046215619658611407, guid: 97b28ddec27a5724f8eaa1da525ed6de, type: 3}
       insertIndex: -1
