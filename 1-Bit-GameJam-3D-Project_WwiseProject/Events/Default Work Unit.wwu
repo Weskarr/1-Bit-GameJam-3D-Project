@@ -939,9 +939,6 @@
 										<Event Name="Play_Bed_Exit" ID="{F60A67FE-2119-46E4-85AF-8025DEC0299F}">
 											<ChildrenList>
 												<Action Name="" ID="{DD36C183-417D-47E4-8EDA-85462C0CB62A}" ShortID="783498209">
-													<PropertyList>
-														<Property Name="Delay" Type="Real64" Value="5"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="Bed_Exit" ID="{43C4D2F2-6020-45CC-8DE6-731743CF6DEA}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>

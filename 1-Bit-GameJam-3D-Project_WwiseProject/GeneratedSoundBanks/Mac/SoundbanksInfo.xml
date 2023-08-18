@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{F23709E0-D6C1-6F50-8BFC-9E460FE6CA9A}">
+		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{63379CD5-8299-9206-2E91-8F1D5F64C7E9}">
 			<ShortName>Ambience_Events</ShortName>
 			<Path>Ambience_Events.bnk</Path>
 			<Media>
@@ -575,7 +575,7 @@
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{967915C7-0AD2-207B-BBE5-64CFD20A4F7F}">
+		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{B1339ECF-59D7-D3FC-7604-093AE8AB3122}">
 			<ShortName>Interactibles</ShortName>
 			<Path>Interactibles.bnk</Path>
 			<Media>
@@ -938,7 +938,7 @@
 						<MediaRef Id="341294441"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3741941098" Name="Play_Bed_Exit" DurationType="OneShot" DurationMin="7.163172" DurationMax="7.163172">
+				<Event Id="3741941098" Name="Play_Bed_Exit" DurationType="OneShot" DurationMin="2.163172" DurationMax="2.163172">
 					<MediaRefs>
 						<MediaRef Id="959443216"/>
 					</MediaRefs>
@@ -1266,7 +1266,7 @@
 				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E2E78EFC-2AB1-A654-E122-7ADD9378936D}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9414C96A-9B09-FC4C-1FA9-BC07600E11D8}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -1293,17 +1293,17 @@
 						<MediaRef Id="702605518"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="859694722" Name="Play_Shepard_Tone_Mass_X2" MaxAttenuation="8" DurationType="Infinite">
+				<Event Id="859694722" Name="Play_Shepard_Tone_Mass_X2" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1070144266"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="147896324" Name="Play_Shepard_Tone_Mass_X_Wave" MaxAttenuation="8" DurationType="Infinite">
+				<Event Id="147896324" Name="Play_Shepard_Tone_Mass_X_Wave" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="60449373"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3835412270" Name="Play_Shepard_Tone_Sine_Wave" MaxAttenuation="8" DurationType="Infinite">
+				<Event Id="3835412270" Name="Play_Shepard_Tone_Sine_Wave" MaxAttenuation="12" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="773720196"/>
 					</MediaRefs>
@@ -1315,5 +1315,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FBE5DB5E-8157-2EA4-D25D-12B19E21DA11}</FileHash>
+	<FileHash>{EA6DF24B-0B9A-7CCF-52D8-AD61E0693FBD}</FileHash>
 </SoundBanksInfo>
