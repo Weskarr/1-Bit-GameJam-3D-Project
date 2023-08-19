@@ -44,7 +44,7 @@ public class WanderState : IAIState {
         this.soundPlayer = soundPlayer;
     }
 
-    public Vector3 RandomNavmeshLocation(float radius) {
+    public static Vector3 RandomNavmeshLocation(float radius, Transform transform) {
         Vector3 randomDirection = Random.insideUnitSphere * radius;
         randomDirection += transform.position;
         NavMeshHit hit;
@@ -80,7 +80,7 @@ public class WanderState : IAIState {
             lastTime = Time.time;
             moving = !moving;
             if (moving) {
-                target = RandomNavmeshLocation(radius);
+                target = RandomNavmeshLocation(radius, transform);
             } else {
                 target = transform.position;
             }
@@ -161,9 +161,10 @@ public class ChaseState : IAIState {
     [Header("Wwise Events")]
     AK.Wwise.Event[] chaseSounds;
     GameObject[] chaseSoundLocations;
+    float chaseWanderTime;
     public ChaseState(float pauseTime, float chaseTime, float chaseRadius, float chaseSpeed, float regularSpeed, 
         float chaseSoundFrequency, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer, 
-        AK.Wwise.Event[] chaseSounds, GameObject[] chaseSoundLocations) {
+        AK.Wwise.Event[] chaseSounds, GameObject[] chaseSoundLocations, float chaseWanderTime) {
         this.pauseTime = pauseTime;
         this.chaseTime = chaseTime;
         this.chaseRadius = chaseRadius;
@@ -176,6 +177,7 @@ public class ChaseState : IAIState {
         this.soundPlayer = soundPlayer;
         this.chaseSounds = chaseSounds;
         this.chaseSoundLocations = chaseSoundLocations;
+        this.chaseWanderTime = chaseWanderTime;
     }
 
     public void EnterState() {
@@ -202,6 +204,8 @@ public class ChaseState : IAIState {
         return Vector3.Distance(player.position, ai.position);
     }
 
+    bool wander = false;
+    float lastWander;
     float lastChaseSound;
     float lastTime;
     bool hasPaused;
@@ -220,10 +224,26 @@ public class ChaseState : IAIState {
                 chaseSounds[i].Post(chaseSoundLocations[j]);
             }
 
+            if(DistToPlayer() < chaseRadius / 2 && !wander) {
+                Debug.Log("Chase wander time");
+                wander = true;
+                agent.SetDestination(WanderState.RandomNavmeshLocation(15, ai));
+                lastWander = Time.time;
+            }
+
+            if (wander && Time.time > lastWander + chaseWanderTime) {
+                wander = false;
+            } else {
+                agent.SetDestination(player.transform.position);
+            }
+
+
+
             if (Time.time > lastTime + chaseTime && DistToPlayer() > chaseRadius) {
                 ExitState();
             }
-            agent.SetDestination(player.transform.position);
+            
+            
         }
     }
 }
@@ -247,6 +267,7 @@ public class EntityAI : MonoBehaviour
     public float chasePauseTime;
     public float chaseTime;
     public float chaseSpeed;
+    public float chaseWanderTime;
 
     public float catchRadius;
     public float quietTime;
@@ -275,7 +296,7 @@ public class EntityAI : MonoBehaviour
             new WanderState(randomRadius, moveTime, transform, myNavAgent, footstepFrequency, idleFrequncy, soundPlayer),
             new SeekState(moveTime, myNavAgent, player.transform, footstepFrequency, soundPlayer),
             new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, chaseSpeed, myNavAgent.speed, chaseSoundFrequency, 
-                myNavAgent, transform, player.transform, soundPlayer, chaseSounds, chaseSoundLocations)
+                myNavAgent, transform, player.transform, soundPlayer, chaseSounds, chaseSoundLocations, chaseWanderTime)
         };
         states = s.ToArray();
         SeekState.exit += ExitSeekState;
@@ -292,12 +313,6 @@ public class EntityAI : MonoBehaviour
 
     float quietStartTime;
     private void Update() {
-        if (Vector3.Distance(transform.position, player.transform.position) < catchRadius) {
-            transform.position = startLocation;
-            ChangeState(State.wander);
-            soundPlayer.quiet = true;
-            quietStartTime = Time.time;
-        }
 
         if(soundPlayer.quiet && Time.time > quietStartTime + quietTime) {
             soundPlayer.quiet = false;

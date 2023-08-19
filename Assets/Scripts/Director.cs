@@ -114,7 +114,7 @@ public class Director : MonoBehaviour
         toolsLeft--;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
         GetComponent<ToolSpawn>().RemoveTool(tool);
-        if (toolsLeft < 0) {
+        if (toolsLeft <= 0) {
             if (firstTime) {
                 fuseBoxPath.SetActive(true);
             }
