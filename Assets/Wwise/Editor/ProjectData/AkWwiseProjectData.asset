@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585093441301240749
+    m_lastTime: -8585091760133439000
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -3310,7 +3310,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 27ba0411afdfec459d0cdcbcc2fb77fb
       Path: Events\Default Work Unit\World\Events\Play_Utility_Power_Outage_Loop
-      maxAttenuation: 15
+      maxAttenuation: 20
       maxDuration: 82.810684
       minDuration: 82.810684
     - name: Play_Utility_Room_Loop
@@ -4157,8 +4157,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: c0f63c476475754ead71100cb51d1bd3
     GuidInternal: 
-    m_lastTime: -8585094727593061475
-    List: []
+    m_lastTime: -8585091760156657020
+    List:
+    - name: Master_Volume
+      guid: 4be618caadce9942904dd95f100e4cc0
+      id: 4179668880
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c0f63c476475754ead71100cb51d1bd3
+      - ElementName: Master_Volume
+        ObjectType: 13
+        guid: 4be618caadce9942904dd95f100e4cc0
+      Path: Game Parameters\Default Work Unit\Master_Volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -4239,5 +4253,5 @@ MonoBehaviour:
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
