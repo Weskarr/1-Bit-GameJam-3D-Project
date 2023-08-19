@@ -27,6 +27,7 @@ public class Director : MonoBehaviour
     EchoManager echoManager;
     public FPSController player;
 
+    public GameObject toolsIcon;
     public TMPro.TextMeshProUGUI toolText;
     public TMPro.TextMeshProUGUI hourText;
 
@@ -68,7 +69,8 @@ public class Director : MonoBehaviour
     int switchInd;
     void Start()
     {
-        toolText.enabled = false;
+        toolsIcon.SetActive(false);
+        //toolText.enabled = false;
         wakePoint = firstAwakePoint;
         echoManager = EchoManager.instance;
         StartCoroutine(startProcess());
@@ -102,7 +104,8 @@ public class Director : MonoBehaviour
             fuseBoxPath.SetActive(false);
             fuseBox.stopOutage();
             canSleep = true;
-            toolText.enabled = false;
+            toolsIcon.SetActive(false);
+            //toolText.enabled = false;
             if (firstTime) bedPath.SetActive(true);
             // Despawn entity
             thing.EntityLeavesPlayField();
@@ -112,7 +115,7 @@ public class Director : MonoBehaviour
 
     public void GetTool(GameObject tool) {
         toolsLeft--;
-        toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
+        toolText.text = string.Format("{0}/{1}", toolSpawnCount - toolsLeft, toolSpawnCount);
         GetComponent<ToolSpawn>().RemoveTool(tool);
         if (toolsLeft < 0) {
             if (firstTime) {
@@ -147,7 +150,7 @@ public class Director : MonoBehaviour
         if (!firstTime) {
             echoManager.LightsOn();
             hour++;
-            hourText.text = string.Format("Hour: {0}", hour);
+            hourText.text = string.Format("{0}", hour);
         }
         bedOutSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
@@ -162,8 +165,9 @@ public class Director : MonoBehaviour
         if (toolsLeft > 0) fuseBoxDoor.GetComponent<BoxCollider>().enabled = false; // In event player gets all tools pre lights out, leave collider on
         fuseBoxDoor.GetComponent<OpenDoor>().Close();
 
-        toolText.enabled = true;
-        toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
+        toolsIcon.SetActive(true);
+        //toolText.enabled = true;
+        toolText.text = string.Format("{0}/{1}", toolSpawnCount - toolsLeft, toolSpawnCount);
 
         if(hour > 0) {
             thing.SpawnEntity();
