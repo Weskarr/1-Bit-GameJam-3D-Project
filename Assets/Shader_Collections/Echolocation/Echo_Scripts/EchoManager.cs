@@ -115,32 +115,6 @@ public class EchoManager : MonoBehaviour
         _alwaysOnObjects.Remove(go);
     }
 
-
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E)) // E = to turn the lights off
-        {
-            if (lightsOff == true)
-            {
-                LightsOn();
-            }
-            else
-            {
-                LightsOff();
-            }
-        }
-
-        if (lightsOff == true && Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Q)) // Spacebar or Q = to echo
-        {
-            
-            if (!_isEchoing){
-                StartEcho();
-            }
-               
-        }
-    }
-
     public void StartEcho() {
         ResetEcho();
         StartCoroutine(EchoExpansion());

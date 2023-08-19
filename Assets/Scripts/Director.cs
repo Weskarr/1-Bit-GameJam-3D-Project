@@ -4,6 +4,7 @@ using TheFirstPerson;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Director : MonoBehaviour
 {
@@ -65,6 +66,8 @@ public class Director : MonoBehaviour
     public GameObject firstChaseText;
     public float firstChaseTextTime;
     public bool firstTimeChased = true;
+
+    public GameObject winUI;
 
     bool lightsOut = false;
 
@@ -190,13 +193,30 @@ public class Director : MonoBehaviour
         }
     }
 
+    IEnumerator win() {
+        player.transform.position = asleepPoint.position;
+        player.transform.rotation = asleepPoint.rotation;
+        player.movementEnabled = false;
+        player.mouseLookEnabled = false;
+        turningLightsOff = false;
+        canSleep = false;
+        echoManager.LightsOff();
+        winUI.SetActive(true);
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void sleep() {
         if (canSleep) {
             bedPath.SetActive(false);
             player.GetComponent<FPSController>().moving = false;
             firstTime = false;
             bedInSound.Post(player.gameObject);
-            StartCoroutine(startProcess());
+            if(hour > 4) {
+                StartCoroutine(win());
+            } else {
+                StartCoroutine(startProcess());
+            }
         }
     }
     bool turningLightsOff = false;
