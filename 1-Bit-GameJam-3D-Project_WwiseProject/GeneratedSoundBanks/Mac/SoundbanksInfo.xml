@@ -218,7 +218,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6AAD675A-77C3-E8F6-810B-3ABCF6F51E50}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3655CC4E-2589-0907-3687-357DB6EEC352}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -243,6 +243,9 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="4179668880" Name="Master_Volume"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="2250165792" Name="New_Switch_Group">
 					<Switches>
@@ -1418,5 +1421,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{15F20ED3-8BE5-8873-D187-650DC818AEF0}</FileHash>
+	<FileHash>{EBC1CB55-023D-507C-54F3-9C33D516C68C}</FileHash>
 </SoundBanksInfo>

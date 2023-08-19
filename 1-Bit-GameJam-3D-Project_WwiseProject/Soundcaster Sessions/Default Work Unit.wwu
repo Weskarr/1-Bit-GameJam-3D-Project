@@ -4,7 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{24960C57-AB0F-44DA-87F3-B4CDD37C1A0E}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="Main" ID="{47DD30E5-9175-43C2-8814-63D0E65195E9}">
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume" ID="{CA18E64B-CEAD-4299-904D-D95F100E4CC0}"/>
+							<Value>75</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
