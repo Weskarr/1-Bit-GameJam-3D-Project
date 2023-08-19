@@ -19,6 +19,15 @@ public class EntitySound : MonoBehaviour
 
     public bool quiet = false;
 
+    public void StopAll() {
+        StopFootstep();
+        StopGlow();
+        StopEnter();
+        StopIdle();
+        StopScream();
+        StopChase();
+    }
+
     public void PlayFootstep() {
         if (quiet) return;
         footstepSound.Post(gameObject);

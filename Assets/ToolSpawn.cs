@@ -37,7 +37,6 @@ public class ToolSpawn : MonoBehaviour
             
             if (spawnPoint.TryGetComponent<SpawnDoor>(out SpawnDoor door)) {
                 EchoManager.instance.AddAlwaysLitObject(door.Door);
-                Debug.Log(go.name);
                 spawnedLitObj[go] = door.Door;
             }
 

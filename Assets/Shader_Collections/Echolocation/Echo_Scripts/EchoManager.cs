@@ -112,7 +112,6 @@ public class EchoManager : MonoBehaviour
     }
 
     public void RemoveAlwaysLitObject(GameObject go) {
-        Debug.Log(go.name);
         _alwaysOnObjects.Remove(go);
     }
 

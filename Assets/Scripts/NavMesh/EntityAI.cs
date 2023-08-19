@@ -250,6 +250,8 @@ public class ChaseState : IAIState {
 
 public class EntityAI : MonoBehaviour
 {
+    void OnDisable() { soundPlayer.StopAll(); }
+
     Animator animator;
     [SerializeField]
     private NavMeshAgent myNavAgent;
@@ -305,7 +307,10 @@ public class EntityAI : MonoBehaviour
     }
 
     void ChangeState(State newState) {
-        Debug.Log("Changing from state " + state + " to " + newState);
+        // Debug.Log("Changing from state " + state + " to " + newState);
+        if(newState == State.chase && Director.instance.firstTimeChased) {
+            Director.instance.FirstChase();
+        }
         states[(int)state].ForceExitState();
         state = newState;
         states[(int)state].EnterState();
