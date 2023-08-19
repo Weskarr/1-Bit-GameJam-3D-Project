@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1579360687	Play_Apartment_Ambience			\Default Work Unit\World\Ambience\Play_Apartment_Ambience	
 	1829767974	Play_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Play_Ambience_Clock_Loop	
 	1944978762	Stop_Window_Close_Loop			\Default Work Unit\World\Ambience\Window\Stop_Window_Close_Loop	
+	2214155498	Play_It_Can_Only_Hear_You			\Default Work Unit\World\Events\Play_It_Can_Only_Hear_You	
 	2887940980	Stop_Ambience_Clock_Loop			\Default Work Unit\World\Ambience\Stop_Ambience_Clock_Loop	
 	3014771066	Stop_Celing_Light_Loop			\Default Work Unit\World\Ambience\Ceiling Light\Stop_Celing_Light_Loop	
 	3290767985	Play_Utility_Room_Loop			\Default Work Unit\World\Ambience\Rooms\Play_Utility_Room_Loop	
@@ -14,7 +15,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	4040337917	Stop_Utility_Power_Outage_Loop			\Default Work Unit\World\Events\Stop_Utility_Power_Outage_Loop	
 	4291075070	Play_Window_Open_Loop			\Default Work Unit\World\Ambience\Window\Play_Window_Open_Loop	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1588715066	Echoes_Linear	Wwise Delay			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	64761594	It_Can_Only_Hear_You	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\It can only hear you_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\It Can Only Hear You\It_Can_Only_Hear_You\It_Can_Only_Hear_You		2620544
 	86762960	G27-10-General Wooden Creak	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\G27-10-General Wooden Creak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Creaks and Knocking\Creaks_and_Knocking\G27-10-General Wooden Creak		1773964
 	86910456	Knocking on Wood Door (1)	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Knocking on Wood Door (1)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Creaks and Knocking\Creaks_and_Knocking\Knocking on Wood Door (1)		124356
 	112068193	Ambience_Clock_Loop	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Ambience_Clock_Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambience\Clock_Loop\Ambience_Clock_Loop		2116960
@@ -29,6 +34,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	814838590	sparks	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\sparks_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Power Outage\Utility_Power_Outage_Loop\sparks		15899748
 	841621240	sorry whisper, male_flac	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\sorry whisper, male.flac_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Creaks and Knocking\Creaks_and_Knocking\sorry whisper, male_flac		97116
 	924757192	knocks	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\knocks_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Creaks and Knocking\Creaks_and_Knocking\knocks		286022
-	1006721998	Switch_Big_Power	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Switch.Big.Power_1DE26B3E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Power Outage\Utility_Power_Outage\Utility_Power_Outage\Switch_Big_Power		141708
+	1006721998	Switch_Big_Power	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Switch.Big.Power_674C652C.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Power Outage\Utility_Power_Outage\Utility_Power_Outage\Switch_Big_Power		141708
 	1062060977	Knocking	Y:\Documents\GitHub\1-Bit-GameJam-3D-Project\1-Bit-GameJam-3D-Project_WwiseProject\.cache\Mac\SFX\Knocking_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Events\Creaks and Knocking\Creaks_and_Knocking\Knocking		1400928
 

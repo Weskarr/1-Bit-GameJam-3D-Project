@@ -62,6 +62,7 @@ namespace AK
         static const AkUniqueID PLAY_GRANNY_FOOTSTEPS = 1233146987U;
         static const AkUniqueID PLAY_GRANNY_SCREAM = 697658893U;
         static const AkUniqueID PLAY_HAMMER_HIT = 4031726782U;
+        static const AkUniqueID PLAY_IT_CAN_ONLY_HEAR_YOU = 2214155498U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_OFF = 314077991U;
         static const AkUniqueID PLAY_LIGHT_SWITCH_ON = 82250835U;
         static const AkUniqueID PLAY_MADAME_ENTER = 4133542388U;

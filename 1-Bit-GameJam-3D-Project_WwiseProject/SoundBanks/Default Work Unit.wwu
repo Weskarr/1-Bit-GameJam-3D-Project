@@ -31,6 +31,7 @@
 						<ObjectRef Name="Stop_Window_Close_Loop" ID="{09D99838-7A1C-4695-93B0-362AEC4EF416}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Apartment_Ambience" ID="{7C03CF3E-FF53-46AD-A7B3-5B1C1FC63D9E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambience" ID="{4DBAD1A3-2E04-4874-BF13-D9B8E834A40E}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_It_Can_Only_Hear_You" ID="{CE75FE05-87F9-49B4-8717-2D3D2CB58068}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Celing_Light_Loop" ID="{2DAA25D0-EF11-4BAD-8220-630A8E1CB969}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Window_Open_Loop" ID="{382E7719-6A0F-4C07-BE92-FEF57463D073}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Window_Open_Loop" ID="{B1073664-FBFC-4CED-9900-8B62CE5E91CB}" WorkUnitID="{B7A960B1-77E0-49D1-9156-BE92B9F82962}" Origin="Manual" Filter="7"/>

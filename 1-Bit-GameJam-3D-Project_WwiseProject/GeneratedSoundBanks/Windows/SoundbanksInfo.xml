@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{E2967E4E-802A-AF8F-0726-1E9170993245}">
+		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{2F38B3C7-9F9C-B456-7C99-BBE87AA3C767}">
 			<ShortName>Ambience_Events</ShortName>
 			<Path>Ambience_Events.bnk</Path>
 			<Media>
+				<File Id="64761594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>It can only hear you.wav</ShortName>
+					<CachePath>SFX/It can only hear you_10C4C929.wem</CachePath>
+				</File>
 				<File Id="86762960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>G27-10-General Wooden Creak.wav</ShortName>
 					<CachePath>SFX/G27-10-General Wooden Creak_10C4C929.wem</CachePath>
@@ -71,13 +75,18 @@
 				</File>
 				<File Id="1006721998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Switch.Big.Power.wav</ShortName>
-					<CachePath>SFX/Switch.Big.Power_1DE26B3E.wem</CachePath>
+					<CachePath>SFX/Switch.Big.Power_674C652C.wem</CachePath>
 				</File>
 				<File Id="1062060977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Knocking.wav</ShortName>
 					<CachePath>SFX/Knocking_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1588715066" Name="Echoes_Linear" LibName="Wwise Delay" LibId="6946819"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="8" DurationType="Infinite">
 					<MediaRefs>
@@ -107,6 +116,19 @@
 						<MediaRef Id="924757192"/>
 						<MediaRef Id="1062060977"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2214155498" Name="Play_It_Can_Only_Hear_You" DurationType="OneShot" DurationMin="14.854785" DurationMax="14.854785">
+					<MediaRefs>
+						<MediaRef Id="64761594"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1588715066"/>
+						</ShareSets>
+					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
@@ -656,7 +678,7 @@
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{5912D3E8-C39C-C13D-10F5-8FEE9ECB90D5}">
+		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{F6DB3D22-E44F-5DFE-E000-0006EC990144}">
 			<ShortName>Interactibles</ShortName>
 			<Path>Interactibles.bnk</Path>
 			<Media>
@@ -1396,5 +1418,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6DB2BF5D-A612-17E0-BB34-37572351F443}</FileHash>
+	<FileHash>{05DD1D3E-329E-4310-F6B5-D19E7CE86034}</FileHash>
 </SoundBanksInfo>

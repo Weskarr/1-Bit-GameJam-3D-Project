@@ -940,6 +940,39 @@
 														</Reference>
 													</ReferenceList>
 												</Action>
+												<Action Name="" ID="{33A87CE4-CDEB-41FA-A9AB-0A231215B800}" ShortID="134424246">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Shepard Tone_Sine Wave" ID="{541B4F56-BE59-4914-B493-4206EFFF9B14}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{C6E50229-E917-4928-B627-17207A4AA728}" ShortID="230229941">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Shepard Tone_Mass X2" ID="{92C08705-DD28-490E-823A-CE0870C90335}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{8CFFC8C4-4A9F-4D88-A497-842CF4B5E921}" ShortID="363272313">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeTime" Type="Real64" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Shepard Tone_Mass X Wave" ID="{F5A02FC1-42E9-4AD4-86E9-C5258D4FD152}" WorkUnitID="{B0717BDF-91D8-4E07-B14F-594AEDED0C83}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_Bed_Exit" ID="{F60A67FE-2119-46E4-85AF-8025DEC0299F}">
@@ -1296,6 +1329,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Creaks_and_Knocking" ID="{605E6658-1034-4041-94E4-5FA2F4ECCC17}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_It_Can_Only_Hear_You" ID="{CE75FE05-87F9-49B4-8717-2D3D2CB58068}">
+									<ChildrenList>
+										<Action Name="" ID="{625C81A1-6E71-4930-BE7E-C1DE190813AB}" ShortID="642599531">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="It_Can_Only_Hear_You" ID="{19FC7E02-8493-47B4-8271-AFC167A245AC}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
