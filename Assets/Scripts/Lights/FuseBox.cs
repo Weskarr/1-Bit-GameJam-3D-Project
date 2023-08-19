@@ -24,6 +24,10 @@ public class FuseBox : MonoBehaviour
     // 5 = Living
     // 6 = Hall
 
+    public void stopOutage() {
+        powerOutage.Stop(gameObject);
+    }
+
     public void turnAllPowerOff()
     {
         powered = false;

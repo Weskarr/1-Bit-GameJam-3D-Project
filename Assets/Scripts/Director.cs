@@ -44,10 +44,14 @@ public class Director : MonoBehaviour
     public float wakeupTime;
     public float lightsOffWait;
 
+    public GameObject wakeupSoundLocation;
     [Header("Wwise Events")]
-    public AK.Wwise.Event wakeupSound;
+    public AK.Wwise.Event[] wakeupSounds;
+
     [Header("Wwise Events")]
-    public AK.Wwise.Event sleepSound;
+    public AK.Wwise.Event bedOutSound;
+    [Header("Wwise Events")]
+    public AK.Wwise.Event bedInSound;
 
 
     public GameObject[] switches;
@@ -96,6 +100,7 @@ public class Director : MonoBehaviour
             echoManager.LightsOn();
             lightsOut = false;
             fuseBoxPath.SetActive(false);
+            fuseBox.stopOutage();
             canSleep = true;
             toolText.enabled = false;
             if (firstTime) bedPath.SetActive(true);
@@ -108,7 +113,7 @@ public class Director : MonoBehaviour
     public void GetTool() {
         toolsLeft--;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
-        if (toolsLeft == 0) {
+        if (toolsLeft < 0) {
             if (firstTime) {
                 fuseBoxPath.SetActive(true);
             }
@@ -122,6 +127,11 @@ public class Director : MonoBehaviour
         echoManager.LightsOn();
     }
 
+    void PlayRandomWakeupSound() {
+        int i = Random.Range(0, wakeupSounds.Length);
+        wakeupSounds[i].Post(wakeupSoundLocation);
+    }
+
     IEnumerator startProcess() {
         player.transform.position = asleepPoint.position;
         player.transform.rotation = asleepPoint.rotation;
@@ -132,8 +142,14 @@ public class Director : MonoBehaviour
         echoManager.LightsOff();
         RandomizeSwitches();
         yield return new WaitForSeconds(startPauseTime);
-        if (!firstTime) echoManager.LightsOn();
-        wakeupSound.Post(player.gameObject);
+        PlayRandomWakeupSound();
+        yield return new WaitForSeconds(startPauseTime);
+        if (!firstTime) {
+            echoManager.LightsOn();
+            hour++;
+            hourText.text = string.Format("Hour: {0}", hour);
+        }
+        bedOutSound.Post(player.gameObject);
         wakeupStartTime = Time.time;
     }
 
@@ -143,7 +159,7 @@ public class Director : MonoBehaviour
         fuseBox.turnAllPowerOff();
         lightsOut = true;
         echoManager.LightsOff();
-        fuseBoxDoor.GetComponent<BoxCollider>().enabled = false;
+        if (toolsLeft > 0) fuseBoxDoor.GetComponent<BoxCollider>().enabled = false; // In event player gets all tools pre lights out, leave collider on
         fuseBoxDoor.GetComponent<OpenDoor>().Close();
 
         toolText.enabled = true;
@@ -170,9 +186,7 @@ public class Director : MonoBehaviour
             bedPath.SetActive(false);
             player.GetComponent<FPSController>().moving = false;
             firstTime = false;
-            hour++;
-            hourText.text = string.Format("Hour: {0}", hour);
-            sleepSound.Post(player.gameObject);
+            bedInSound.Post(player.gameObject);
             StartCoroutine(startProcess());
         }
     }
