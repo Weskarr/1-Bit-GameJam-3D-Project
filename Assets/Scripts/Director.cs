@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TheFirstPerson;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -58,6 +59,12 @@ public class Director : MonoBehaviour
     public GameObject[] switches;
 
     public bool canSleep = false;
+
+    [Header("Wwise Events")]
+    public AK.Wwise.Event firstChaseSound;
+    public GameObject firstChaseText;
+    public float firstChaseTextTime;
+    public bool firstTimeChased = true;
 
     bool lightsOut = false;
 
@@ -201,5 +208,18 @@ public class Director : MonoBehaviour
             turningLightsOff = true;
             StartCoroutine(lightsOff());
         }
+    }
+
+    IEnumerator HideChaseText() {
+        yield return new WaitForSeconds(firstChaseTextTime);
+        firstChaseText.SetActive(false);
+    }
+
+    public void FirstChase() {
+        Debug.Log("Showing chase text");
+        firstTimeChased = false;
+        firstChaseSound.Post(player.gameObject);
+        firstChaseText.SetActive(true);
+        StartCoroutine(HideChaseText());
     }
 }
