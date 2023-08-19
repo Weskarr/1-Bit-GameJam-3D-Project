@@ -113,7 +113,7 @@ public class Director : MonoBehaviour
             canSleep = true;
             toolsIcon.SetActive(false);
             //toolText.enabled = false;
-            if (firstTime) bedPath.SetActive(true);
+            bedPath.SetActive(true);
             // Despawn entity
             thing.EntityLeavesPlayField();
         }
@@ -125,9 +125,7 @@ public class Director : MonoBehaviour
         toolText.text = string.Format("{0}/{1}", toolSpawnCount - toolsLeft, toolSpawnCount);
         GetComponent<ToolSpawn>().RemoveTool(tool);
         if (toolsLeft <= 0) {
-            if (firstTime) {
-                fuseBoxPath.SetActive(true);
-            }
+            fuseBoxPath.SetActive(true);
             fuseBoxDoor.GetComponent<BoxCollider>().enabled = true;
         }
     }

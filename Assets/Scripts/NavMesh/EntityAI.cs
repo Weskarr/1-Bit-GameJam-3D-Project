@@ -271,6 +271,8 @@ public class EntityAI : MonoBehaviour
     public float chaseSpeed;
     public float chaseWanderTime;
 
+    public float chaseCooldownTime;
+
     public float catchRadius;
     public float quietTime;
 
@@ -308,8 +310,12 @@ public class EntityAI : MonoBehaviour
 
     void ChangeState(State newState) {
         // Debug.Log("Changing from state " + state + " to " + newState);
-        if(newState == State.chase && Director.instance.firstTimeChased) {
-            Director.instance.FirstChase();
+        if(newState == State.chase) {
+            if (Director.instance.firstTimeChased) Director.instance.FirstChase();
+        }
+        if(state == State.chase) {
+            lastChase = Time.time;
+            chaseCooldown = true;
         }
         states[(int)state].ForceExitState();
         state = newState;
@@ -317,14 +323,22 @@ public class EntityAI : MonoBehaviour
     }
 
     float quietStartTime;
+    float lastChase;
+    bool chaseCooldown = false;
     private void Update() {
 
         if(soundPlayer.quiet && Time.time > quietStartTime + quietTime) {
             soundPlayer.quiet = false;
         }
 
+        if(chaseCooldown && Time.time > lastChase + chaseCooldownTime) {
+            chaseCooldown = false;
+        }
+
         switch (state) {
             case State.wander:
+                if (chaseCooldown) break;
+
                 if (Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
                     ChangeState(State.chase);
                 }else if (player.GetComponent<FPSController>().moving && Vector3.Distance(transform.position, player.transform.position) < seekRadius) {
@@ -333,6 +347,7 @@ public class EntityAI : MonoBehaviour
                 break;
                 
             case State.seek:
+                if (chaseCooldown) break;
                 if (Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
                     ChangeState(State.chase);
                 }

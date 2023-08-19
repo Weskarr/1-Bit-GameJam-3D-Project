@@ -5687,6 +5687,10 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 69746591c7c885d4ca6791b9dc7422b7, type: 2}
   switches: []
   canSleep: 0
+  firstChaseSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a28c3d29b10a36c4db5b7970ad8adb18, type: 2}
   firstChaseText: {fileID: 725285824}
   firstChaseTextTime: 5
   firstTimeChased: 1
@@ -19715,6 +19719,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 73586610945415269, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseCooldownTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 73586610945415269, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSoundFrequency
       value: 0.25
       objectReference: {fileID: 0}
@@ -19849,6 +19857,10 @@ PrefabInstance:
     - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseWanderTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseCooldownTime
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSoundFrequency
@@ -20099,6 +20111,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4598557056278647068, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseCooldownTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4598557056278647068, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSoundFrequency
       value: 0.25
       objectReference: {fileID: 0}
@@ -20219,6 +20235,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5505771069372024721, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseCooldownTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505771069372024721, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSoundFrequency
       value: 0.25
       objectReference: {fileID: 0}
@@ -20300,7 +20320,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: d79f659896d6947d4b2df963d3ec64fa, type: 2}
     - target: {fileID: 5855157446802927548, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6035481495691586631, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -20377,6 +20397,10 @@ PrefabInstance:
     - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseWanderTime
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseCooldownTime
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSoundFrequency
