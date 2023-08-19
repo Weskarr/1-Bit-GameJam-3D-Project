@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{2F38B3C7-9F9C-B456-7C99-BBE87AA3C767}">
+		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{FFCFDAF3-F49A-7A38-0749-2E371EB8BE4D}">
 			<ShortName>Ambience_Events</ShortName>
 			<Path>Ambience_Events.bnk</Path>
 			<Media>
@@ -133,7 +133,7 @@
 						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="63654547" Name="Play_Utility_Power_Outage_Loop" MaxAttenuation="15" DurationType="OneShot" DurationMin="82.810684" DurationMax="82.810684">
+				<Event Id="63654547" Name="Play_Utility_Power_Outage_Loop" MaxAttenuation="20" DurationType="OneShot" DurationMin="82.810684" DurationMax="82.810684">
 					<MediaRefs>
 						<MediaRef Id="418083787"/>
 						<MediaRef Id="814838590"/>
@@ -163,7 +163,7 @@
 				<Event Id="3500678004" Name="Stop_Window_Open_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{5237D3EF-7DAF-CE72-F42B-8CC011B939D9}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{90BF735D-EBF7-F590-FDA9-8506D0F74D5B}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -254,7 +254,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{9AEFB4FB-7A05-5DC5-1E78-6137C325D4BB}">
+		<SoundBank Id="2083370804" Type="User" Language="SFX" Hash="{A93EA91B-35B8-8364-30F7-9A615709C9B7}">
 			<ShortName>Entities</ShortName>
 			<Path>Entities.bnk</Path>
 			<Media>
@@ -681,7 +681,7 @@
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{F6DB3D22-E44F-5DFE-E000-0006EC990144}">
+		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{C88F20D8-876C-8D28-5A1B-693EC938DD29}">
 			<ShortName>Interactibles</ShortName>
 			<Path>Interactibles.bnk</Path>
 			<Media>
@@ -1372,7 +1372,7 @@
 				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{4A92EFD4-298F-062E-4641-065FBAC8C169}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{B8792841-3714-CCE5-7554-B3A240C521DD}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -1421,5 +1421,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92DAC644-74F0-3060-6D59-413DCD890426}</FileHash>
+	<FileHash>{1B58DADE-0AD8-3570-2C30-D830D6FC22E9}</FileHash>
 </SoundBanksInfo>

@@ -21,13 +21,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.386104</XPos>
-											<YPos>-10.58877</YPos>
+											<XPos>2.47623</XPos>
+											<YPos>-8.33872</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>8</XPos>
-											<YPos>-200</YPos>
+											<YPos>-15.90707</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -145,8 +145,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1.48357</XPos>
-											<YPos>-11.54243</YPos>
+											<XPos>1.47664</XPos>
+											<YPos>-8.59914</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -257,7 +257,7 @@
 										</Point>
 										<Point>
 											<XPos>8</XPos>
-											<YPos>-200</YPos>
+											<YPos>-17.65006</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -357,13 +357,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>6.9108</XPos>
-											<YPos>-9.10748</YPos>
+											<XPos>7.00439</XPos>
+											<YPos>-8.58227</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>12</XPos>
-											<YPos>-12.79697</YPos>
+											<YPos>-8.75202</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -446,7 +446,7 @@
 										</Point>
 										<Point>
 											<XPos>5</XPos>
-											<YPos>-200</YPos>
+											<YPos>-23.04998</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -529,7 +529,7 @@
 										</Point>
 										<Point>
 											<XPos>8</XPos>
-											<YPos>-200</YPos>
+											<YPos>-13.11712</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -613,7 +613,7 @@
 				</Attenuation>
 				<Attenuation Name="Power Outage" ID="{98BDB64F-7B26-4962-8415-BA3D503FC0D3}" ShortID="582064793">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="15"/>
+						<Property Name="RadiusMax" Type="Real64" Value="20"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -625,17 +625,12 @@
 									<PointList>
 										<Point>
 											<XPos>0</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>9.95304</XPos>
-											<YPos>-47.43297</YPos>
-											<Flags>0</Flags>
-										</Point>
-										<Point>
-											<XPos>15</XPos>
-											<YPos>-153.3302</YPos>
+											<XPos>20</XPos>
+											<YPos>-12</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

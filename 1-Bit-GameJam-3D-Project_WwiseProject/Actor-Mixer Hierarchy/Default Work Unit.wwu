@@ -5958,6 +5958,11 @@
 										<RandomSequenceContainer Name="Utility_Power_Outage" ID="{B60A4BC4-B43D-49F8-BC22-89BC2A59D1EC}" ShortID="198992218">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
