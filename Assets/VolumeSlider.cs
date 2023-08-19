@@ -19,7 +19,7 @@ public class VolumeSlider : MonoBehaviour
     {
         slider.maxValue = 100f;
         slider.minValue = 0f;
-        slider.value = 0f;
+        slider.value = 75f;
 
         AkSoundEngine.SetRTPCValue("Master_Volume", slider.value);
     }
