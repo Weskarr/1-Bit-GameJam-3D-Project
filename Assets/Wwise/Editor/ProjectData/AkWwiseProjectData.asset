@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b7964a7a53882049b6b23d7c893462ce
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: b7964a7a53882049b6b23d7c893462ce
     GuidInternal: 
-    m_lastTime: -8585092838146668156
+    m_lastTime: -8585092596548187318
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: cf62697036e8b149a875548d00e4c73f
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: cf62697036e8b149a875548d00e4c73f
     GuidInternal: 
-    m_lastTime: -8585092838197881302
+    m_lastTime: -8585092596597267250
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,7 +53,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
     - name: Music
       guid: de80f3da755c0b4db6306c80924bef98
       id: 3991942870
@@ -70,7 +70,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
         guid: de80f3da755c0b4db6306c80924bef98
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
     - name: RoomVerb
       guid: e80c11045a13e9469746020250676988
       id: 1572913279
@@ -87,9 +87,9 @@ MonoBehaviour:
       - ElementName: RoomVerb
         ObjectType: 1
         guid: e80c11045a13e9469746020250676988
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoomVerb
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/RoomVerb
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -97,10 +97,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 80793e81e913d548925aaccdddf7aad3
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 80793e81e913d548925aaccdddf7aad3
     GuidInternal: 
-    m_lastTime: -8585091910903249190
+    m_lastTime: -8585092302255242346
     List:
     - name: Ambience_Events
       guid: e54a53ac5e69ec488da4f5512be400ae
@@ -115,7 +115,7 @@ MonoBehaviour:
       - ElementName: Ambience_Events
         ObjectType: 7
         guid: e54a53ac5e69ec488da4f5512be400ae
-      Path: SoundBanks\Default Work Unit\Ambience_Events
+      Path: SoundBanks/Default Work Unit/Ambience_Events
     - name: Entities
       guid: df2a63ff2ccda9478141b0dc93651470
       id: 2083370804
@@ -129,7 +129,7 @@ MonoBehaviour:
       - ElementName: Entities
         ObjectType: 7
         guid: df2a63ff2ccda9478141b0dc93651470
-      Path: SoundBanks\Default Work Unit\Entities
+      Path: SoundBanks/Default Work Unit/Entities
     - name: Interactibles
       guid: 707a66186439784fa37142f7c5bf6781
       id: 2987141838
@@ -143,7 +143,7 @@ MonoBehaviour:
       - ElementName: Interactibles
         ObjectType: 7
         guid: 707a66186439784fa37142f7c5bf6781
-      Path: SoundBanks\Default Work Unit\Interactibles
+      Path: SoundBanks/Default Work Unit/Interactibles
     - name: Music
       guid: 7ba7e5df7735184d856abbb3f10d613f
       id: 3991942870
@@ -157,7 +157,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 7
         guid: 7ba7e5df7735184d856abbb3f10d613f
-      Path: SoundBanks\Default Work Unit\Music
+      Path: SoundBanks/Default Work Unit/Music
     - name: Player
       guid: 36ccfa8656ced143a1ff2c4ebdb16d8f
       id: 1069431850
@@ -171,9 +171,9 @@ MonoBehaviour:
       - ElementName: Player
         ObjectType: 7
         guid: 36ccfa8656ced143a1ff2c4ebdb16d8f
-      Path: SoundBanks\Default Work Unit\Player
+      Path: SoundBanks/Default Work Unit/Player
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -181,10 +181,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: b160a9b7e077d1499156be92b9f82962
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: b160a9b7e077d1499156be92b9f82962
     GuidInternal: 
-    m_lastTime: -8585091903641759047
+    m_lastTime: -8585091882307460723
     List:
     - name: Ambience
       guid: a3d1ba4d042e7448bf13d9b8e834a40e
@@ -202,7 +202,7 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: a3d1ba4d042e7448bf13d9b8e834a40e
-      Path: Events\Default Work Unit\World\Ambience
+      Path: Events/Default Work Unit/World/Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -225,7 +225,7 @@ MonoBehaviour:
       - ElementName: Bed
         ObjectType: 4
         guid: 28f68fc15ed7ec48b0d6c769ec3f7f01
-      Path: Events\Default Work Unit\World\Intractibles\Bed
+      Path: Events/Default Work Unit/World/Intractibles/Bed
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -251,7 +251,7 @@ MonoBehaviour:
       - ElementName: Breaker
         ObjectType: 4
         guid: 86ecc9a445c0704b9c18edb4df50d058
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Breaker
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Breaker
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -274,7 +274,7 @@ MonoBehaviour:
       - ElementName: Cabinet
         ObjectType: 4
         guid: 65a1f3f21e4c6f4f8b1ca46f112666d8
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -300,7 +300,7 @@ MonoBehaviour:
       - ElementName: Cabinet Large
         ObjectType: 4
         guid: 23cfdf75496a7e40b5886ea5def19750
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Large
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Large
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -326,7 +326,7 @@ MonoBehaviour:
       - ElementName: Cabinet Small
         ObjectType: 4
         guid: d6cdf28a831f94499024e62dc8d5a5da
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Small
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Small
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -352,7 +352,7 @@ MonoBehaviour:
       - ElementName: Cabinet Utility
         ObjectType: 4
         guid: 1c7721a174970a4c81775a50edfaf57b
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Utility
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Utility
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -375,7 +375,7 @@ MonoBehaviour:
       - ElementName: Ceiling Light
         ObjectType: 4
         guid: 04790642de241443b4e783ec2d58ec66
-      Path: Events\Default Work Unit\World\Ambience\Ceiling Light
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -398,56 +398,7 @@ MonoBehaviour:
       - ElementName: Child
         ObjectType: 4
         guid: 1e5a3509805b4a438a8589691dae0781
-      Path: Events\Default Work Unit\World\Entities\Child
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Door
-      guid: bf60be9c7c889547ae6f2ecbe514481f
-      id: 1877847629
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Wash
-        ObjectType: 4
-        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
-      - ElementName: Door
-        ObjectType: 4
-        guid: bf60be9c7c889547ae6f2ecbe514481f
-      Path: Events\Default Work Unit\World\Intractibles\Wash\Door
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Door
-      guid: a9a6e71f0e722a4895ad2e0e27311a99
-      id: 1877847629
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: b160a9b7e077d1499156be92b9f82962
-      - ElementName: World
-        ObjectType: 4
-        guid: bc37408400639549908b67f897d5462e
-      - ElementName: Intractibles
-        ObjectType: 4
-        guid: 8d9210c0bee6084092913b7271fb775b
-      - ElementName: Door
-        ObjectType: 4
-        guid: a9a6e71f0e722a4895ad2e0e27311a99
-      Path: Events\Default Work Unit\World\Intractibles\Door
+      Path: Events/Default Work Unit/World/Entities/Child
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -473,7 +424,56 @@ MonoBehaviour:
       - ElementName: Door
         ObjectType: 4
         guid: 6dcf1f81dd5dd04f8f48f10b68cdd726
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Door
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: bf60be9c7c889547ae6f2ecbe514481f
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Wash
+        ObjectType: 4
+        guid: 0efd54e62b37d4478fdbf6ae7cb9df57
+      - ElementName: Door
+        ObjectType: 4
+        guid: bf60be9c7c889547ae6f2ecbe514481f
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: a9a6e71f0e722a4895ad2e0e27311a99
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Intractibles
+        ObjectType: 4
+        guid: 8d9210c0bee6084092913b7271fb775b
+      - ElementName: Door
+        ObjectType: 4
+        guid: a9a6e71f0e722a4895ad2e0e27311a99
+      Path: Events/Default Work Unit/World/Intractibles/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -499,7 +499,7 @@ MonoBehaviour:
       - ElementName: Door
         ObjectType: 4
         guid: 1587fc3546994b498cadfbf349df81da
-      Path: Events\Default Work Unit\World\Intractibles\Shower\Door
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -522,7 +522,7 @@ MonoBehaviour:
       - ElementName: Drawer
         ObjectType: 4
         guid: 5ad2e8556da7a047956cbc873a9a0624
-      Path: Events\Default Work Unit\World\Intractibles\Drawer
+      Path: Events/Default Work Unit/World/Intractibles/Drawer
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -545,7 +545,7 @@ MonoBehaviour:
       - ElementName: Drunk
         ObjectType: 4
         guid: d380b1ebffa5db4b82a5169c60b39929
-      Path: Events\Default Work Unit\World\Entities\Drunk
+      Path: Events/Default Work Unit/World/Entities/Drunk
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -571,7 +571,7 @@ MonoBehaviour:
       - ElementName: Empty
         ObjectType: 4
         guid: 2e8fb8e93a33b247a9f6afa8edf3f4e9
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Empty
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -591,7 +591,7 @@ MonoBehaviour:
       - ElementName: Entities
         ObjectType: 4
         guid: face47aff90bf24b803896d625b374b1
-      Path: Events\Default Work Unit\World\Entities
+      Path: Events/Default Work Unit/World/Entities
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -614,7 +614,7 @@ MonoBehaviour:
       - ElementName: Entity Spawn
         ObjectType: 4
         guid: 12ae2ac5c402fd459f89a828cb80e713
-      Path: Events\Default Work Unit\World\Entities\Entity Spawn
+      Path: Events/Default Work Unit/World/Entities/Entity Spawn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -634,7 +634,7 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 4
         guid: 99a2c09d2bc260438607e0cc95d05c6e
-      Path: Events\Default Work Unit\World\Events
+      Path: Events/Default Work Unit/World/Events
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -657,7 +657,7 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 4
         guid: 52a0dc53c8602d468081ad7054dbae67
-      Path: Events\Default Work Unit\World\Player\Footsteps
+      Path: Events/Default Work Unit/World/Player/Footsteps
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -683,7 +683,7 @@ MonoBehaviour:
       - ElementName: Freezer Door
         ObjectType: 4
         guid: 042f9e5b28f5454886b02d9a32a39b0f
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Freezer Door
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Freezer Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -706,7 +706,7 @@ MonoBehaviour:
       - ElementName: Fridge
         ObjectType: 4
         guid: 5c1a06854fae18459d9141eb187e367e
-      Path: Events\Default Work Unit\World\Intractibles\Fridge
+      Path: Events/Default Work Unit/World/Intractibles/Fridge
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -732,7 +732,7 @@ MonoBehaviour:
       - ElementName: Fridge Door
         ObjectType: 4
         guid: 4341adf63f995647bb92e715092c46d6
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Fridge Door
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Fridge Door
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -755,7 +755,7 @@ MonoBehaviour:
       - ElementName: Fusebox
         ObjectType: 4
         guid: 69ef0c7310d3b74da9039745f906e7a1
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -778,7 +778,7 @@ MonoBehaviour:
       - ElementName: Granny
         ObjectType: 4
         guid: 5db7f8e2165f3845be6b925e45ccd498
-      Path: Events\Default Work Unit\World\Entities\Granny
+      Path: Events/Default Work Unit/World/Entities/Granny
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -798,7 +798,7 @@ MonoBehaviour:
       - ElementName: Intractibles
         ObjectType: 4
         guid: 8d9210c0bee6084092913b7271fb775b
-      Path: Events\Default Work Unit\World\Intractibles
+      Path: Events/Default Work Unit/World/Intractibles
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -824,7 +824,7 @@ MonoBehaviour:
       - ElementName: Item
         ObjectType: 4
         guid: fb5de72365092943b51bd1556cc88dc7
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Item
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -850,7 +850,7 @@ MonoBehaviour:
       - ElementName: Lid
         ObjectType: 4
         guid: b915921985834642be1f43356755e89a
-      Path: Events\Default Work Unit\World\Intractibles\Toilet\Lid
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -876,7 +876,7 @@ MonoBehaviour:
       - ElementName: Lid
         ObjectType: 4
         guid: b8d9c128b373c44da6b00a07d5ce070a
-      Path: Events\Default Work Unit\World\Intractibles\Trash\Lid
+      Path: Events/Default Work Unit/World/Intractibles/Trash/Lid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -899,7 +899,7 @@ MonoBehaviour:
       - ElementName: Light Switch
         ObjectType: 4
         guid: 8826157ba0d9894086343a3c01feda6a
-      Path: Events\Default Work Unit\World\Intractibles\Light Switch
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -922,7 +922,7 @@ MonoBehaviour:
       - ElementName: Madame
         ObjectType: 4
         guid: bc35c48aceb38949b494f3c6db253b22
-      Path: Events\Default Work Unit\World\Entities\Madame
+      Path: Events/Default Work Unit/World/Entities/Madame
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -942,7 +942,7 @@ MonoBehaviour:
       - ElementName: Main Menu
         ObjectType: 4
         guid: 946421c3e87e5d47b3aa382e45abd174
-      Path: Events\Default Work Unit\Music\Main Menu
+      Path: Events/Default Work Unit/Music/Main Menu
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -959,7 +959,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 8281f82a7cdf004dad798ae25294acf1
-      Path: Events\Default Work Unit\Music
+      Path: Events/Default Work Unit/Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -982,7 +982,7 @@ MonoBehaviour:
       - ElementName: Oven
         ObjectType: 4
         guid: db42fb9543e39648b966222934913d5a
-      Path: Events\Default Work Unit\World\Intractibles\Oven
+      Path: Events/Default Work Unit/World/Intractibles/Oven
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1005,7 +1005,7 @@ MonoBehaviour:
       - ElementName: Phone
         ObjectType: 4
         guid: 9ee0f1f9df70164da322d033585f6356
-      Path: Events\Default Work Unit\World\Intractibles\Phone
+      Path: Events/Default Work Unit/World/Intractibles/Phone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1028,7 +1028,7 @@ MonoBehaviour:
       - ElementName: Pickups
         ObjectType: 4
         guid: e99d78341b6a564b9919bcaa9122b00c
-      Path: Events\Default Work Unit\World\Intractibles\Pickups
+      Path: Events/Default Work Unit/World/Intractibles/Pickups
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1051,7 +1051,7 @@ MonoBehaviour:
       - ElementName: Play_1_Bit_Jam_Menu_MX_v2_LOOP
         ObjectType: 3
         guid: dd414a4c0137824e90894759dae34ccb
-      Path: Events\Default Work Unit\Music\Main Menu\Play_1_Bit_Jam_Menu_MX_v2_LOOP
+      Path: Events/Default Work Unit/Music/Main Menu/Play_1_Bit_Jam_Menu_MX_v2_LOOP
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1074,7 +1074,7 @@ MonoBehaviour:
       - ElementName: Play_Ambience_Clock_Loop
         ObjectType: 3
         guid: 2f3c83723e9e204db9ceb971f503b5fa
-      Path: Events\Default Work Unit\World\Ambience\Play_Ambience_Clock_Loop
+      Path: Events/Default Work Unit/World/Ambience/Play_Ambience_Clock_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -1097,7 +1097,7 @@ MonoBehaviour:
       - ElementName: Play_Apartment_Ambience
         ObjectType: 3
         guid: 3ecf037c53ffad46a7b35b1c1fc63d9e
-      Path: Events\Default Work Unit\World\Ambience\Play_Apartment_Ambience
+      Path: Events/Default Work Unit/World/Ambience/Play_Apartment_Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1123,7 +1123,7 @@ MonoBehaviour:
       - ElementName: Play_Bed_Enter
         ObjectType: 3
         guid: ce1c502505d3ff40a0c9e88d9f2b6ea4
-      Path: Events\Default Work Unit\World\Intractibles\Bed\Play_Bed_Enter
+      Path: Events/Default Work Unit/World/Intractibles/Bed/Play_Bed_Enter
       maxAttenuation: 0
       maxDuration: 1.6981483
       minDuration: 1.6981483
@@ -1149,7 +1149,7 @@ MonoBehaviour:
       - ElementName: Play_Bed_Exit
         ObjectType: 3
         guid: fe670af61921e44685af8025dec0299f
-      Path: Events\Default Work Unit\World\Intractibles\Bed\Play_Bed_Exit
+      Path: Events/Default Work Unit/World/Intractibles/Bed/Play_Bed_Exit
       maxAttenuation: 0
       maxDuration: 1.6986226
       minDuration: 1.6986226
@@ -1175,7 +1175,7 @@ MonoBehaviour:
       - ElementName: Play_Bottle_Pickup
         ObjectType: 3
         guid: 482fca1f90443b4181aeaff9a0d51ee6
-      Path: Events\Default Work Unit\World\Intractibles\Pickups\Play_Bottle_Pickup
+      Path: Events/Default Work Unit/World/Intractibles/Pickups/Play_Bottle_Pickup
       maxAttenuation: 0
       maxDuration: 0.1993125
       minDuration: 0.1993125
@@ -1204,7 +1204,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Large_Close
         ObjectType: 3
         guid: e909678af6b956408d41dc51b5df10b6
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Large\Play_Cabinet_Large_Close
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Large/Play_Cabinet_Large_Close
       maxAttenuation: 8
       maxDuration: 2.113157
       minDuration: 0.92683804
@@ -1233,7 +1233,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Large_Open
         ObjectType: 3
         guid: f770969b6738ce4c83c97b06a4293d77
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Large\Play_Cabinet_Large_Open
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Large/Play_Cabinet_Large_Open
       maxAttenuation: 8
       maxDuration: 2.165255
       minDuration: 2.165255
@@ -1262,7 +1262,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Small_Close
         ObjectType: 3
         guid: 28e806e1b3b08e4489471b272b7301be
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Small\Play_Cabinet_Small_Close
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Small/Play_Cabinet_Small_Close
       maxAttenuation: 8
       maxDuration: 0.60579354
       minDuration: 0.60579354
@@ -1291,7 +1291,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Small_Open
         ObjectType: 3
         guid: b28b437b0fcffb4bb0829a8d88c0f7d9
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Small\Play_Cabinet_Small_Open
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Small/Play_Cabinet_Small_Open
       maxAttenuation: 8
       maxDuration: 0.66212976
       minDuration: 0.66212976
@@ -1320,7 +1320,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Utility_Close
         ObjectType: 3
         guid: b927b8d1c33d2c4a8935a1d3f8eab2a5
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Utility\Play_Cabinet_Utility_Close
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Utility/Play_Cabinet_Utility_Close
       maxAttenuation: 8
       maxDuration: 1.4329107
       minDuration: 1.4329107
@@ -1349,7 +1349,7 @@ MonoBehaviour:
       - ElementName: Play_Cabinet_Utility_Open
         ObjectType: 3
         guid: 62096c4442b4054aad9946c995c0e137
-      Path: Events\Default Work Unit\World\Intractibles\Cabinet\Cabinet Utility\Play_Cabinet_Utility_Open
+      Path: Events/Default Work Unit/World/Intractibles/Cabinet/Cabinet Utility/Play_Cabinet_Utility_Open
       maxAttenuation: 8
       maxDuration: 2.3429065
       minDuration: 2.3429065
@@ -1375,7 +1375,7 @@ MonoBehaviour:
       - ElementName: Play_Celing_Light_Loop
         ObjectType: 3
         guid: f54456ae8c850945ab56a20a001abd93
-      Path: Events\Default Work Unit\World\Ambience\Ceiling Light\Play_Celing_Light_Loop
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light/Play_Celing_Light_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -1401,7 +1401,7 @@ MonoBehaviour:
       - ElementName: Play_Child_Enters
         ObjectType: 3
         guid: 3a825d6de068e641b5ba36e31f927742
-      Path: Events\Default Work Unit\World\Entities\Child\Play_Child_Enters
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Enters
       maxAttenuation: 0
       maxDuration: 4.292812
       minDuration: 4.292812
@@ -1427,7 +1427,7 @@ MonoBehaviour:
       - ElementName: Play_Child_Footsteps
         ObjectType: 3
         guid: 780523e265ce8a4082c80b22ce45b4d7
-      Path: Events\Default Work Unit\World\Entities\Child\Play_Child_Footsteps
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Footsteps
       maxAttenuation: 8
       maxDuration: 0.32045832
       minDuration: 0.28454167
@@ -1453,7 +1453,7 @@ MonoBehaviour:
       - ElementName: Play_Child_Scream
         ObjectType: 3
         guid: d9876e9b98fbbe4c97925a40c6a79906
-      Path: Events\Default Work Unit\World\Entities\Child\Play_Child_Scream
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Child_Scream
       maxAttenuation: 0
       maxDuration: 6.094989
       minDuration: 6.094989
@@ -1479,10 +1479,33 @@ MonoBehaviour:
       - ElementName: Play_Chlld_Laugh
         ObjectType: 3
         guid: 9cd522d8c45d234e86ba0856a401b7aa
-      Path: Events\Default Work Unit\World\Entities\Child\Play_Chlld_Laugh
+      Path: Events/Default Work Unit/World/Entities/Child/Play_Chlld_Laugh
       maxAttenuation: 8
       maxDuration: 4.5045
       minDuration: 2.6359584
+    - name: Play_Creaks_and_Knocking
+      guid: e6611fb6684836449c2dc03fead2db36
+      id: 739897482
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b160a9b7e077d1499156be92b9f82962
+      - ElementName: World
+        ObjectType: 4
+        guid: bc37408400639549908b67f897d5462e
+      - ElementName: Events
+        ObjectType: 4
+        guid: 99a2c09d2bc260438607e0cc95d05c6e
+      - ElementName: Play_Creaks_and_Knocking
+        ObjectType: 3
+        guid: e6611fb6684836449c2dc03fead2db36
+      Path: Events/Default Work Unit/World/Events/Play_Creaks_and_Knocking
+      maxAttenuation: 0
+      maxDuration: 18.47779
+      minDuration: 0.55
     - name: Play_Door_Close
       guid: 16c621d3bd07f9479af01c782208aff8
       id: 2292458263
@@ -1505,8 +1528,8 @@ MonoBehaviour:
       - ElementName: Play_Door_Close
         ObjectType: 3
         guid: 16c621d3bd07f9479af01c782208aff8
-      Path: Events\Default Work Unit\World\Intractibles\Door\Play_Door_Close
-      maxAttenuation: 0
+      Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Close
+      maxAttenuation: 8
       maxDuration: 3.326119
       minDuration: 3.209246
     - name: Play_Door_Handle
@@ -1531,7 +1554,7 @@ MonoBehaviour:
       - ElementName: Play_Door_Handle
         ObjectType: 3
         guid: e2c9e93c1b349a4bb745643e4884f154
-      Path: Events\Default Work Unit\World\Intractibles\Door\Play_Door_Handle
+      Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Handle
       maxAttenuation: 0
       maxDuration: 0.75525314
       minDuration: 0.75525314
@@ -1557,8 +1580,8 @@ MonoBehaviour:
       - ElementName: Play_Door_Open
         ObjectType: 3
         guid: 4fd0c0880b430240a24b8f773a316325
-      Path: Events\Default Work Unit\World\Intractibles\Door\Play_Door_Open
-      maxAttenuation: 0
+      Path: Events/Default Work Unit/World/Intractibles/Door/Play_Door_Open
+      maxAttenuation: 8
       maxDuration: 2.1737213
       minDuration: 2.0404284
     - name: Play_Door_Slam
@@ -1583,7 +1606,7 @@ MonoBehaviour:
       - ElementName: Play_Door_Slam
         ObjectType: 3
         guid: e27166cbde2fa544b31c915de1a23f22
-      Path: Events\Default Work Unit\World\Entities\Entity Spawn\Play_Door_Slam
+      Path: Events/Default Work Unit/World/Entities/Entity Spawn/Play_Door_Slam
       maxAttenuation: 12
       maxDuration: 3.1368935
       minDuration: 2.989093
@@ -1612,7 +1635,7 @@ MonoBehaviour:
       - ElementName: Play_Drawer_Close
         ObjectType: 3
         guid: cadba2429fba9f4798ff83fb2674b882
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Item\Play_Drawer_Close
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item/Play_Drawer_Close
       maxAttenuation: 8
       maxDuration: 1.2906667
       minDuration: 1.2906667
@@ -1641,7 +1664,7 @@ MonoBehaviour:
       - ElementName: Play_Drawer_Close_Empty
         ObjectType: 3
         guid: 0409d1d668b0d0429900f50a9206f148
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Empty\Play_Drawer_Close_Empty
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty/Play_Drawer_Close_Empty
       maxAttenuation: 8
       maxDuration: 3.3931866
       minDuration: 3.38
@@ -1670,7 +1693,7 @@ MonoBehaviour:
       - ElementName: Play_Drawer_Open
         ObjectType: 3
         guid: 9bbe4e554a565b4fb03a048a573bde2c
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Item\Play_Drawer_Open
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Item/Play_Drawer_Open
       maxAttenuation: 8
       maxDuration: 1.088
       minDuration: 1.088
@@ -1699,7 +1722,7 @@ MonoBehaviour:
       - ElementName: Play_Drawer_Open_Empty
         ObjectType: 3
         guid: 828b239e4a268d4b86278f463895175e
-      Path: Events\Default Work Unit\World\Intractibles\Drawer\Empty\Play_Drawer_Open_Empty
+      Path: Events/Default Work Unit/World/Intractibles/Drawer/Empty/Play_Drawer_Open_Empty
       maxAttenuation: 8
       maxDuration: 3.412
       minDuration: 1.748
@@ -1725,7 +1748,7 @@ MonoBehaviour:
       - ElementName: Play_Drunk_Enter
         ObjectType: 3
         guid: 3076322076f72b449d49736b4c331cc3
-      Path: Events\Default Work Unit\World\Entities\Drunk\Play_Drunk_Enter
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Enter
       maxAttenuation: 0
       maxDuration: 5.3170977
       minDuration: 5.3170977
@@ -1751,7 +1774,7 @@ MonoBehaviour:
       - ElementName: Play_Drunk_Footsteps
         ObjectType: 3
         guid: 89f4cf9fce0aaa498e3a9b8b3bb59b25
-      Path: Events\Default Work Unit\World\Entities\Drunk\Play_Drunk_Footsteps
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Footsteps
       maxAttenuation: 8
       maxDuration: 0.43958333
       minDuration: 0.33095834
@@ -1777,7 +1800,7 @@ MonoBehaviour:
       - ElementName: Play_Drunk_Growl
         ObjectType: 3
         guid: d310b4afb4a32c42b7fdd5fd121a6b66
-      Path: Events\Default Work Unit\World\Entities\Drunk\Play_Drunk_Growl
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Growl
       maxAttenuation: 8
       maxDuration: 22.793922
       minDuration: 2.7869387
@@ -1803,7 +1826,7 @@ MonoBehaviour:
       - ElementName: Play_Drunk_Scream
         ObjectType: 3
         guid: e9af0a1ef7edf74194671c7578dc5aca
-      Path: Events\Default Work Unit\World\Entities\Drunk\Play_Drunk_Scream
+      Path: Events/Default Work Unit/World/Entities/Drunk/Play_Drunk_Scream
       maxAttenuation: 0
       maxDuration: 1.5154195
       minDuration: 1.5154195
@@ -1829,7 +1852,7 @@ MonoBehaviour:
       - ElementName: Play_Ductape_Pickup
         ObjectType: 3
         guid: d3978833f7110f42b071bf5d29beada5
-      Path: Events\Default Work Unit\World\Intractibles\Pickups\Play_Ductape_Pickup
+      Path: Events/Default Work Unit/World/Intractibles/Pickups/Play_Ductape_Pickup
       maxAttenuation: 0
       maxDuration: 0.4542857
       minDuration: 0.4542857
@@ -1852,7 +1875,7 @@ MonoBehaviour:
       - ElementName: Play_Entity_Glow_Loop
         ObjectType: 3
         guid: 1b9586cc1b4e4e4b9231da1d1a8b990e
-      Path: Events\Default Work Unit\World\Entities\Play_Entity_Glow_Loop
+      Path: Events/Default Work Unit/World/Entities/Play_Entity_Glow_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -1878,7 +1901,7 @@ MonoBehaviour:
       - ElementName: Play_Entity_Spawn_Particle
         ObjectType: 3
         guid: 78baed771f466348aabeeb32ee4cae88
-      Path: Events\Default Work Unit\World\Entities\Entity Spawn\Play_Entity_Spawn_Particle
+      Path: Events/Default Work Unit/World/Entities/Entity Spawn/Play_Entity_Spawn_Particle
       maxAttenuation: 12
       maxDuration: 0.88687074
       minDuration: 0.88687074
@@ -1904,7 +1927,7 @@ MonoBehaviour:
       - ElementName: Play_Flashlight_On
         ObjectType: 3
         guid: ec910927e8cef74d89ce13e47032fe00
-      Path: Events\Default Work Unit\World\Intractibles\Pickups\Play_Flashlight_On
+      Path: Events/Default Work Unit/World/Intractibles/Pickups/Play_Flashlight_On
       maxAttenuation: 0
       maxDuration: 0.026621316
       minDuration: 0.021678004
@@ -1933,7 +1956,7 @@ MonoBehaviour:
       - ElementName: Play_Freezer_Door_Close
         ObjectType: 3
         guid: 890e693ca6a4b842859f19fbeceb318c
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Freezer Door\Play_Freezer_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Freezer Door/Play_Freezer_Door_Close
       maxAttenuation: 8
       maxDuration: 0.5226667
       minDuration: 0.26666668
@@ -1962,7 +1985,7 @@ MonoBehaviour:
       - ElementName: Play_Freezer_Door_Open
         ObjectType: 3
         guid: 790cc5f90560b247a4dbf14b4351d46d
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Freezer Door\Play_Freezer_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Freezer Door/Play_Freezer_Door_Open
       maxAttenuation: 8
       maxDuration: 1.9548796
       minDuration: 0.21333334
@@ -1991,7 +2014,7 @@ MonoBehaviour:
       - ElementName: Play_Fridge_Door_Close
         ObjectType: 3
         guid: eec927b71cc1834ebd41b64fbb6e5022
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Fridge Door\Play_Fridge_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Fridge Door/Play_Fridge_Door_Close
       maxAttenuation: 8
       maxDuration: 0.8808384
       minDuration: 0.85333335
@@ -2020,7 +2043,7 @@ MonoBehaviour:
       - ElementName: Play_Fridge_Door_Open
         ObjectType: 3
         guid: 914a715516e0884aac5829b7cc5f5383
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Fridge Door\Play_Fridge_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Fridge Door/Play_Fridge_Door_Open
       maxAttenuation: 8
       maxDuration: 0.6371277
       minDuration: 0.6371277
@@ -2046,7 +2069,7 @@ MonoBehaviour:
       - ElementName: Play_Fridge_Open_Loop
         ObjectType: 3
         guid: 81cf33a46dc59c438d13229184689369
-      Path: Events\Default Work Unit\World\Intractibles\Fridge\Play_Fridge_Open_Loop
+      Path: Events/Default Work Unit/World/Intractibles/Fridge/Play_Fridge_Open_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -2075,7 +2098,7 @@ MonoBehaviour:
       - ElementName: Play_Fusebox_Breaker_Off
         ObjectType: 3
         guid: 08c1c01aed3a7940af6282ce3d84cd0c
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Breaker\Play_Fusebox_Breaker_Off
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Breaker/Play_Fusebox_Breaker_Off
       maxAttenuation: 8
       maxDuration: 0.52424794
       minDuration: 0.52424794
@@ -2104,7 +2127,7 @@ MonoBehaviour:
       - ElementName: Play_Fusebox_Breaker_On
         ObjectType: 3
         guid: f08c33064da9654e9fdef019b06497d9
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Breaker\Play_Fusebox_Breaker_On
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Breaker/Play_Fusebox_Breaker_On
       maxAttenuation: 8
       maxDuration: 0.42885706
       minDuration: 0.42885706
@@ -2130,7 +2153,7 @@ MonoBehaviour:
       - ElementName: Play_Fusebox_Button
         ObjectType: 3
         guid: cbbe3a7f5f369f4285a3ec2e30320bc6
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Play_Fusebox_Button
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Play_Fusebox_Button
       maxAttenuation: 0
       maxDuration: 0.15345843
       minDuration: 0.09709788
@@ -2159,7 +2182,7 @@ MonoBehaviour:
       - ElementName: Play_Fusebox_Door_Close
         ObjectType: 3
         guid: a41d527c12f0b7409e626b9c4118764b
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Door\Play_Fusebox_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door/Play_Fusebox_Door_Close
       maxAttenuation: 8
       maxDuration: 0.40165895
       minDuration: 0.40165895
@@ -2188,7 +2211,7 @@ MonoBehaviour:
       - ElementName: Play_Fusebox_Door_Open
         ObjectType: 3
         guid: 21a647f565e08a42826be7da379b8d08
-      Path: Events\Default Work Unit\World\Intractibles\Fusebox\Door\Play_Fusebox_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Fusebox/Door/Play_Fusebox_Door_Open
       maxAttenuation: 8
       maxDuration: 1.9835273
       minDuration: 1.9835273
@@ -2214,7 +2237,7 @@ MonoBehaviour:
       - ElementName: Play_Granny_Cane
         ObjectType: 3
         guid: ddaf4018f6cda94594d8b54ead8928cd
-      Path: Events\Default Work Unit\World\Entities\Granny\Play_Granny_Cane
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Cane
       maxAttenuation: 8
       maxDuration: 0.27685356
       minDuration: 0.17338184
@@ -2240,7 +2263,7 @@ MonoBehaviour:
       - ElementName: Play_Granny_Enter
         ObjectType: 3
         guid: 5d14f6534da84f499cd74f749a9a2c66
-      Path: Events\Default Work Unit\World\Entities\Granny\Play_Granny_Enter
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Enter
       maxAttenuation: 0
       maxDuration: 0.5586042
       minDuration: 0.5586042
@@ -2266,7 +2289,7 @@ MonoBehaviour:
       - ElementName: Play_Granny_Footsteps
         ObjectType: 3
         guid: 854ca0b08c8a0e40b5c157878e32c89c
-      Path: Events\Default Work Unit\World\Entities\Granny\Play_Granny_Footsteps
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Footsteps
       maxAttenuation: 8
       maxDuration: 0.32045832
       minDuration: 0.28454167
@@ -2292,7 +2315,7 @@ MonoBehaviour:
       - ElementName: Play_Granny_Scream
         ObjectType: 3
         guid: 564704bb7f1d2a4699b73165382efaea
-      Path: Events\Default Work Unit\World\Entities\Granny\Play_Granny_Scream
+      Path: Events/Default Work Unit/World/Entities/Granny/Play_Granny_Scream
       maxAttenuation: 0
       maxDuration: 7.9936056
       minDuration: 7.9936056
@@ -2318,7 +2341,7 @@ MonoBehaviour:
       - ElementName: Play_Hammer_Hit
         ObjectType: 3
         guid: 7a18687e8a5c3947978cb3de265f1208
-      Path: Events\Default Work Unit\World\Intractibles\Pickups\Play_Hammer_Hit
+      Path: Events/Default Work Unit/World/Intractibles/Pickups/Play_Hammer_Hit
       maxAttenuation: 0
       maxDuration: 0.45827663
       minDuration: 0.37272108
@@ -2344,7 +2367,7 @@ MonoBehaviour:
       - ElementName: Play_Light_Switch_Off
         ObjectType: 3
         guid: ff467a5436c0e147947808c0d13f569e
-      Path: Events\Default Work Unit\World\Intractibles\Light Switch\Play_Light_Switch_Off
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch/Play_Light_Switch_Off
       maxAttenuation: 0
       maxDuration: 0.23070131
       minDuration: 0.20983161
@@ -2370,7 +2393,7 @@ MonoBehaviour:
       - ElementName: Play_Light_Switch_On
         ObjectType: 3
         guid: 91d9b14f3c8dfa43b23c3c7e6535f351
-      Path: Events\Default Work Unit\World\Intractibles\Light Switch\Play_Light_Switch_On
+      Path: Events/Default Work Unit/World/Intractibles/Light Switch/Play_Light_Switch_On
       maxAttenuation: 0
       maxDuration: 0.20967114
       minDuration: 0.1974745
@@ -2396,7 +2419,7 @@ MonoBehaviour:
       - ElementName: Play_Madame_Enter
         ObjectType: 3
         guid: 2a079182352a8042bc89b02e5faa8736
-      Path: Events\Default Work Unit\World\Entities\Madame\Play_Madame_Enter
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Enter
       maxAttenuation: 0
       maxDuration: 11.513197
       minDuration: 11.513197
@@ -2422,7 +2445,7 @@ MonoBehaviour:
       - ElementName: Play_Madame_Footstep
         ObjectType: 3
         guid: 72e135018eeb8944bee47dfd4650f587
-      Path: Events\Default Work Unit\World\Entities\Madame\Play_Madame_Footstep
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Footstep
       maxAttenuation: 8
       maxDuration: 0.30191666
       minDuration: 0.19897917
@@ -2448,7 +2471,7 @@ MonoBehaviour:
       - ElementName: Play_Madame_Scream
         ObjectType: 3
         guid: 9c5dfa8d10a5ce4782c3a3af0987d09b
-      Path: Events\Default Work Unit\World\Entities\Madame\Play_Madame_Scream
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Scream
       maxAttenuation: 0
       maxDuration: 4.9853063
       minDuration: 4.9853063
@@ -2474,7 +2497,7 @@ MonoBehaviour:
       - ElementName: Play_Madame_Singing
         ObjectType: 3
         guid: 80bc9abc310d3c4f89294ad704a7613a
-      Path: Events\Default Work Unit\World\Entities\Madame\Play_Madame_Singing
+      Path: Events/Default Work Unit/World/Entities/Madame/Play_Madame_Singing
       maxAttenuation: 8
       maxDuration: 21.455193
       minDuration: 21.083696
@@ -2500,7 +2523,7 @@ MonoBehaviour:
       - ElementName: Play_Oven_Beep
         ObjectType: 3
         guid: 93a1f0a307778641a6fdf451ce2815e5
-      Path: Events\Default Work Unit\World\Intractibles\Oven\Play_Oven_Beep
+      Path: Events/Default Work Unit/World/Intractibles/Oven/Play_Oven_Beep
       maxAttenuation: 8
       maxDuration: 1.5
       minDuration: 1.5
@@ -2526,7 +2549,7 @@ MonoBehaviour:
       - ElementName: Play_Oven_Door_Close
         ObjectType: 3
         guid: 27850c4503bc50488a9246e4bc76405a
-      Path: Events\Default Work Unit\World\Intractibles\Oven\Play_Oven_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Oven/Play_Oven_Door_Close
       maxAttenuation: 8
       maxDuration: 1.1970688
       minDuration: 1.1970688
@@ -2552,7 +2575,7 @@ MonoBehaviour:
       - ElementName: Play_Oven_Door_Open
         ObjectType: 3
         guid: f38a5e8063dddb4f8cc7342c68667ab5
-      Path: Events\Default Work Unit\World\Intractibles\Oven\Play_Oven_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Oven/Play_Oven_Door_Open
       maxAttenuation: 8
       maxDuration: 1.8161916
       minDuration: 1.8161916
@@ -2578,7 +2601,7 @@ MonoBehaviour:
       - ElementName: Play_Phone_Message
         ObjectType: 3
         guid: 28709d16c645bf428a84663867960c77
-      Path: Events\Default Work Unit\World\Intractibles\Phone\Play_Phone_Message
+      Path: Events/Default Work Unit/World/Intractibles/Phone/Play_Phone_Message
       maxAttenuation: 0
       maxDuration: 23.543991
       minDuration: 23.543991
@@ -2601,7 +2624,7 @@ MonoBehaviour:
       - ElementName: Play_Pickup
         ObjectType: 3
         guid: de694c8766251b42a85ef6d6ceb782e8
-      Path: Events\Default Work Unit\World\Intractibles\Play_Pickup
+      Path: Events/Default Work Unit/World/Intractibles/Play_Pickup
       maxAttenuation: 0
       maxDuration: 0.5430521
       minDuration: 0.3166875
@@ -2627,7 +2650,7 @@ MonoBehaviour:
       - ElementName: Play_Pills_Pickup
         ObjectType: 3
         guid: 28dacc3903a60e42bf1b04fc8c220406
-      Path: Events\Default Work Unit\World\Intractibles\Pickups\Play_Pills_Pickup
+      Path: Events/Default Work Unit/World/Intractibles/Pickups/Play_Pills_Pickup
       maxAttenuation: 0
       maxDuration: 0.9810431
       minDuration: 0.7287755
@@ -2653,7 +2676,7 @@ MonoBehaviour:
       - ElementName: Play_Player_Footsteps_Wood
         ObjectType: 3
         guid: 785a1930e9c9b84e912fe158b3306378
-      Path: Events\Default Work Unit\World\Player\Footsteps\Play_Player_Footsteps_Wood
+      Path: Events/Default Work Unit/World/Player/Footsteps/Play_Player_Footsteps_Wood
       maxAttenuation: 8
       maxDuration: 0.57767636
       minDuration: 0.19069281
@@ -2676,7 +2699,7 @@ MonoBehaviour:
       - ElementName: Play_Shepard_Tone_Mass_X_Wave
         ObjectType: 3
         guid: 0d1f6a5fa618904e8dde12e7c87e2610
-      Path: Events\Default Work Unit\Music\Shepard Tone\Play_Shepard_Tone_Mass_X_Wave
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X_Wave
       maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
@@ -2699,7 +2722,7 @@ MonoBehaviour:
       - ElementName: Play_Shepard_Tone_Mass_X2
         ObjectType: 3
         guid: 1ae077e44389214aa3f4a35a191d691a
-      Path: Events\Default Work Unit\Music\Shepard Tone\Play_Shepard_Tone_Mass_X2
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Mass_X2
       maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
@@ -2722,7 +2745,7 @@ MonoBehaviour:
       - ElementName: Play_Shepard_Tone_Sine_Wave
         ObjectType: 3
         guid: 3383a689184c304899fc9519c60fab58
-      Path: Events\Default Work Unit\Music\Shepard Tone\Play_Shepard_Tone_Sine_Wave
+      Path: Events/Default Work Unit/Music/Shepard Tone/Play_Shepard_Tone_Sine_Wave
       maxAttenuation: 12
       maxDuration: -1
       minDuration: -1
@@ -2751,7 +2774,7 @@ MonoBehaviour:
       - ElementName: Play_Shower_Door_Close
         ObjectType: 3
         guid: 3c48220e2631ea4d8b528492e190bd64
-      Path: Events\Default Work Unit\World\Intractibles\Shower\Door\Play_Shower_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Door/Play_Shower_Door_Close
       maxAttenuation: 8
       maxDuration: 2.6611302
       minDuration: 2.6611302
@@ -2780,7 +2803,7 @@ MonoBehaviour:
       - ElementName: Play_Shower_Door_Open
         ObjectType: 3
         guid: 6a762bdb0a2032449586d6fbfb562d75
-      Path: Events\Default Work Unit\World\Intractibles\Shower\Door\Play_Shower_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Door/Play_Shower_Door_Open
       maxAttenuation: 8
       maxDuration: 2.8303564
       minDuration: 2.8303564
@@ -2806,7 +2829,7 @@ MonoBehaviour:
       - ElementName: Play_Shower_Handle
         ObjectType: 3
         guid: 945807eadcf8ef40bc78d288a41b0727
-      Path: Events\Default Work Unit\World\Intractibles\Shower\Play_Shower_Handle
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Play_Shower_Handle
       maxAttenuation: 8
       maxDuration: 1.0461458
       minDuration: 1.0461458
@@ -2832,7 +2855,7 @@ MonoBehaviour:
       - ElementName: Play_Shower_On_Loop
         ObjectType: 3
         guid: 25aa7b2ad2d7ac4097c2249577c64961
-      Path: Events\Default Work Unit\World\Intractibles\Shower\Play_Shower_On_Loop
+      Path: Events/Default Work Unit/World/Intractibles/Shower/Play_Shower_On_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -2858,7 +2881,7 @@ MonoBehaviour:
       - ElementName: Play_Sink_Handles
         ObjectType: 3
         guid: 0b5a220a5f148149b14e316e75fc7de9
-      Path: Events\Default Work Unit\World\Intractibles\SInk\Play_Sink_Handles
+      Path: Events/Default Work Unit/World/Intractibles/SInk/Play_Sink_Handles
       maxAttenuation: 8
       maxDuration: 0.4751875
       minDuration: 0.4751875
@@ -2884,7 +2907,7 @@ MonoBehaviour:
       - ElementName: Play_Sink_On_Loop
         ObjectType: 3
         guid: 4f06b66f2f72964080e47ec94844ab79
-      Path: Events\Default Work Unit\World\Intractibles\SInk\Play_Sink_On_Loop
+      Path: Events/Default Work Unit/World/Intractibles/SInk/Play_Sink_On_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -2910,7 +2933,7 @@ MonoBehaviour:
       - ElementName: Play_Stalker_Footsteps
         ObjectType: 3
         guid: 31abc3fdbf06fb4ca0d16c90a83af97a
-      Path: Events\Default Work Unit\World\Entities\Stalker\Play_Stalker_Footsteps
+      Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Footsteps
       maxAttenuation: 8
       maxDuration: 0.3355625
       minDuration: 0.16285416
@@ -2936,7 +2959,7 @@ MonoBehaviour:
       - ElementName: Play_Stalker_Noises
         ObjectType: 3
         guid: 912ee49f82d46140a481186b83b654e1
-      Path: Events\Default Work Unit\World\Entities\Stalker\Play_Stalker_Noises
+      Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Noises
       maxAttenuation: 8
       maxDuration: 9.72059
       minDuration: 9.72059
@@ -2962,7 +2985,7 @@ MonoBehaviour:
       - ElementName: Play_Stalker_Scream
         ObjectType: 3
         guid: 30132eea34578347a77a1d8799ed4932
-      Path: Events\Default Work Unit\World\Entities\Stalker\Play_Stalker_Scream
+      Path: Events/Default Work Unit/World/Entities/Stalker/Play_Stalker_Scream
       maxAttenuation: 0
       maxDuration: 8.033719
       minDuration: 8.033719
@@ -2988,7 +3011,7 @@ MonoBehaviour:
       - ElementName: Play_Standing_Light_Loop
         ObjectType: 3
         guid: 48edd923a6be674381ef101795cbe533
-      Path: Events\Default Work Unit\World\Intractibles\Standing Light\Play_Standing_Light_Loop
+      Path: Events/Default Work Unit/World/Intractibles/Standing Light/Play_Standing_Light_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -3014,7 +3037,7 @@ MonoBehaviour:
       - ElementName: Play_Toilet_Flush
         ObjectType: 3
         guid: 743955de6109e44b852e866234af9f46
-      Path: Events\Default Work Unit\World\Intractibles\Toilet\Play_Toilet_Flush
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Play_Toilet_Flush
       maxAttenuation: 8
       maxDuration: 5.8024583
       minDuration: 5.8024583
@@ -3043,7 +3066,7 @@ MonoBehaviour:
       - ElementName: Play_Toilet_Lid_Close
         ObjectType: 3
         guid: dc74e102ef8dcb4ca6f5d7513d9adddf
-      Path: Events\Default Work Unit\World\Intractibles\Toilet\Lid\Play_Toilet_Lid_Close
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid/Play_Toilet_Lid_Close
       maxAttenuation: 8
       maxDuration: 0.470375
       minDuration: 0.470375
@@ -3072,7 +3095,7 @@ MonoBehaviour:
       - ElementName: Play_Toilet_Lid_Open
         ObjectType: 3
         guid: be38aa92cb3b9d4886bab7118b8582eb
-      Path: Events\Default Work Unit\World\Intractibles\Toilet\Lid\Play_Toilet_Lid_Open
+      Path: Events/Default Work Unit/World/Intractibles/Toilet/Lid/Play_Toilet_Lid_Open
       maxAttenuation: 8
       maxDuration: 0.94945836
       minDuration: 0.94945836
@@ -3098,7 +3121,7 @@ MonoBehaviour:
       - ElementName: Play_Trash_Bag_Pickup
         ObjectType: 3
         guid: d7855f30dc3a0d48ad6ca742bbb2c4b2
-      Path: Events\Default Work Unit\World\Intractibles\Trash\Play_Trash_Bag_Pickup
+      Path: Events/Default Work Unit/World/Intractibles/Trash/Play_Trash_Bag_Pickup
       maxAttenuation: 0
       maxDuration: 0.45783332
       minDuration: 0.45783332
@@ -3127,7 +3150,7 @@ MonoBehaviour:
       - ElementName: Play_Trash_Lid_Close
         ObjectType: 3
         guid: b93de2b9fa1649439a278b2a668dd93a
-      Path: Events\Default Work Unit\World\Intractibles\Trash\Lid\Play_Trash_Lid_Close
+      Path: Events/Default Work Unit/World/Intractibles/Trash/Lid/Play_Trash_Lid_Close
       maxAttenuation: 8
       maxDuration: 0.5368958
       minDuration: 0.5368958
@@ -3156,7 +3179,7 @@ MonoBehaviour:
       - ElementName: Play_Trash_Lid_Open
         ObjectType: 3
         guid: 1f3660b7390e724abf71edbb6022baba
-      Path: Events\Default Work Unit\World\Intractibles\Trash\Lid\Play_Trash_Lid_Open
+      Path: Events/Default Work Unit/World/Intractibles/Trash/Lid/Play_Trash_Lid_Open
       maxAttenuation: 8
       maxDuration: 1.8953959
       minDuration: 1.8953959
@@ -3182,7 +3205,7 @@ MonoBehaviour:
       - ElementName: Play_TV_Loop
         ObjectType: 3
         guid: ff53e7a88630004b94f485a966b57d1b
-      Path: Events\Default Work Unit\World\Intractibles\TV\Play_TV_Loop
+      Path: Events/Default Work Unit/World/Intractibles/TV/Play_TV_Loop
       maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
@@ -3211,7 +3234,7 @@ MonoBehaviour:
       - ElementName: Play_TV_Power_Off
         ObjectType: 3
         guid: 4bd38e75de35374f80edc658fc4c0d57
-      Path: Events\Default Work Unit\World\Intractibles\TV\Power\Play_TV_Power_Off
+      Path: Events/Default Work Unit/World/Intractibles/TV/Power/Play_TV_Power_Off
       maxAttenuation: 8
       maxDuration: 1.2937266
       minDuration: 1.2937266
@@ -3240,7 +3263,7 @@ MonoBehaviour:
       - ElementName: Play_TV_Power_On
         ObjectType: 3
         guid: 5dd3ac75b4a5b4468e92ebe39a709d0f
-      Path: Events\Default Work Unit\World\Intractibles\TV\Power\Play_TV_Power_On
+      Path: Events/Default Work Unit/World/Intractibles/TV/Power/Play_TV_Power_On
       maxAttenuation: 8
       maxDuration: 2.0079665
       minDuration: 2.0079665
@@ -3263,7 +3286,7 @@ MonoBehaviour:
       - ElementName: Play_Utility_Power_Outage_Loop
         ObjectType: 3
         guid: 27ba0411afdfec459d0cdcbcc2fb77fb
-      Path: Events\Default Work Unit\World\Events\Play_Utility_Power_Outage_Loop
+      Path: Events/Default Work Unit/World/Events/Play_Utility_Power_Outage_Loop
       maxAttenuation: 15
       maxDuration: 82.810684
       minDuration: 82.810684
@@ -3289,7 +3312,7 @@ MonoBehaviour:
       - ElementName: Play_Utility_Room_Loop
         ObjectType: 3
         guid: e8d8db6d7b604b4db977d9895bc9fa0f
-      Path: Events\Default Work Unit\World\Ambience\Rooms\Play_Utility_Room_Loop
+      Path: Events/Default Work Unit/World/Ambience/Rooms/Play_Utility_Room_Loop
       maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
@@ -3318,7 +3341,7 @@ MonoBehaviour:
       - ElementName: Play_Wash_Door_Close
         ObjectType: 3
         guid: 979e645d9089fb4e8bc03912739be87a
-      Path: Events\Default Work Unit\World\Intractibles\Wash\Door\Play_Wash_Door_Close
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Door/Play_Wash_Door_Close
       maxAttenuation: 8
       maxDuration: 0.8425981
       minDuration: 0.8425981
@@ -3347,7 +3370,7 @@ MonoBehaviour:
       - ElementName: Play_Wash_Door_Open
         ObjectType: 3
         guid: 8c34e9b701ae254997e15d401205b2f3
-      Path: Events\Default Work Unit\World\Intractibles\Wash\Door\Play_Wash_Door_Open
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Door/Play_Wash_Door_Open
       maxAttenuation: 8
       maxDuration: 0.6942598
       minDuration: 0.6942598
@@ -3373,7 +3396,7 @@ MonoBehaviour:
       - ElementName: Play_Wash_Machine_Knob
         ObjectType: 3
         guid: 3c785f71ee56fa47a0c9a2ec03d771a8
-      Path: Events\Default Work Unit\World\Intractibles\Wash\Play_Wash_Machine_Knob
+      Path: Events/Default Work Unit/World/Intractibles/Wash/Play_Wash_Machine_Knob
       maxAttenuation: 8
       maxDuration: 0.83435684
       minDuration: 0.83435684
@@ -3399,7 +3422,7 @@ MonoBehaviour:
       - ElementName: Play_Window_Close
         ObjectType: 3
         guid: 035f678179e848418fec13adf12af599
-      Path: Events\Default Work Unit\World\Intractibles\Window\Play_Window_Close
+      Path: Events/Default Work Unit/World/Intractibles/Window/Play_Window_Close
       maxAttenuation: 12
       maxDuration: 0.5964519
       minDuration: 0.5964519
@@ -3425,7 +3448,7 @@ MonoBehaviour:
       - ElementName: Play_Window_Close_Loop
         ObjectType: 3
         guid: 576d01b970e31b4da30efdb6232a6a51
-      Path: Events\Default Work Unit\World\Ambience\Window\Play_Window_Close_Loop
+      Path: Events/Default Work Unit/World/Ambience/Window/Play_Window_Close_Loop
       maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
@@ -3451,7 +3474,7 @@ MonoBehaviour:
       - ElementName: Play_Window_Open
         ObjectType: 3
         guid: 489c4b4661888a4ba8ce7dae0833ae51
-      Path: Events\Default Work Unit\World\Intractibles\Window\Play_Window_Open
+      Path: Events/Default Work Unit/World/Intractibles/Window/Play_Window_Open
       maxAttenuation: 12
       maxDuration: 0.6690205
       minDuration: 0.6690205
@@ -3477,7 +3500,7 @@ MonoBehaviour:
       - ElementName: Play_Window_Open_Loop
         ObjectType: 3
         guid: 19772e380f6a074cbe92fef57463d073
-      Path: Events\Default Work Unit\World\Ambience\Window\Play_Window_Open_Loop
+      Path: Events/Default Work Unit/World/Ambience/Window/Play_Window_Open_Loop
       maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
@@ -3497,7 +3520,7 @@ MonoBehaviour:
       - ElementName: Player
         ObjectType: 4
         guid: 20056e7ff77dd046aee3d92985e5c4db
-      Path: Events\Default Work Unit\World\Player
+      Path: Events/Default Work Unit/World/Player
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3523,7 +3546,7 @@ MonoBehaviour:
       - ElementName: Power
         ObjectType: 4
         guid: 462bcb0cb42b8646846a5805f9e03dbc
-      Path: Events\Default Work Unit\World\Intractibles\TV\Power
+      Path: Events/Default Work Unit/World/Intractibles/TV/Power
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3546,7 +3569,7 @@ MonoBehaviour:
       - ElementName: Rooms
         ObjectType: 4
         guid: 4845bd0638c32946b23a71e5e46172b0
-      Path: Events\Default Work Unit\World\Ambience\Rooms
+      Path: Events/Default Work Unit/World/Ambience/Rooms
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3566,7 +3589,7 @@ MonoBehaviour:
       - ElementName: Shepard Tone
         ObjectType: 4
         guid: 130723c3a4e03644a30011ab43dbe077
-      Path: Events\Default Work Unit\Music\Shepard Tone
+      Path: Events/Default Work Unit/Music/Shepard Tone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3589,7 +3612,7 @@ MonoBehaviour:
       - ElementName: Shower
         ObjectType: 4
         guid: 0280bbf0bb614f41afcd31fc483f1968
-      Path: Events\Default Work Unit\World\Intractibles\Shower
+      Path: Events/Default Work Unit/World/Intractibles/Shower
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3612,7 +3635,7 @@ MonoBehaviour:
       - ElementName: SInk
         ObjectType: 4
         guid: f54943e3d89c6b47947be9a71f877264
-      Path: Events\Default Work Unit\World\Intractibles\SInk
+      Path: Events/Default Work Unit/World/Intractibles/SInk
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3635,7 +3658,7 @@ MonoBehaviour:
       - ElementName: Stalker
         ObjectType: 4
         guid: ff6d977c2aadca41bd0f7678f914e44c
-      Path: Events\Default Work Unit\World\Entities\Stalker
+      Path: Events/Default Work Unit/World/Entities/Stalker
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3658,7 +3681,7 @@ MonoBehaviour:
       - ElementName: Standing Light
         ObjectType: 4
         guid: 2f98789ad760524992b119ba69e2a08b
-      Path: Events\Default Work Unit\World\Intractibles\Standing Light
+      Path: Events/Default Work Unit/World/Intractibles/Standing Light
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3681,7 +3704,7 @@ MonoBehaviour:
       - ElementName: Stop_1_Bit_Jam_Menu_MX_v2_LOOP
         ObjectType: 3
         guid: 4137f28d2cb9a141affe3ad4609ee37e
-      Path: Events\Default Work Unit\Music\Main Menu\Stop_1_Bit_Jam_Menu_MX_v2_LOOP
+      Path: Events/Default Work Unit/Music/Main Menu/Stop_1_Bit_Jam_Menu_MX_v2_LOOP
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3698,7 +3721,7 @@ MonoBehaviour:
       - ElementName: Stop_All
         ObjectType: 3
         guid: 0f0a75ef60b3d34e9efa710be332851a
-      Path: Events\Default Work Unit\Stop_All
+      Path: Events/Default Work Unit/Stop_All
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3721,7 +3744,7 @@ MonoBehaviour:
       - ElementName: Stop_Ambience_Clock_Loop
         ObjectType: 3
         guid: 7dc57bb35901f04db5966803f4783378
-      Path: Events\Default Work Unit\World\Ambience\Stop_Ambience_Clock_Loop
+      Path: Events/Default Work Unit/World/Ambience/Stop_Ambience_Clock_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3747,7 +3770,7 @@ MonoBehaviour:
       - ElementName: Stop_Celing_Light_Loop
         ObjectType: 3
         guid: d025aa2d11efad4b8220630a8e1cb969
-      Path: Events\Default Work Unit\World\Ambience\Ceiling Light\Stop_Celing_Light_Loop
+      Path: Events/Default Work Unit/World/Ambience/Ceiling Light/Stop_Celing_Light_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3770,7 +3793,7 @@ MonoBehaviour:
       - ElementName: Stop_Entity_Glow_Loop
         ObjectType: 3
         guid: 753b1d58182ec2469feb79ebb8ea1a84
-      Path: Events\Default Work Unit\World\Entities\Stop_Entity_Glow_Loop
+      Path: Events/Default Work Unit/World/Entities/Stop_Entity_Glow_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3793,7 +3816,7 @@ MonoBehaviour:
       - ElementName: Stop_Shepard_Tone_Mass_X_Wave
         ObjectType: 3
         guid: 407fcb126805b144be0ee9f922436ec7
-      Path: Events\Default Work Unit\Music\Shepard Tone\Stop_Shepard_Tone_Mass_X_Wave
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Mass_X_Wave
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3816,7 +3839,7 @@ MonoBehaviour:
       - ElementName: Stop_Shepard_Tone_Mass_X2
         ObjectType: 3
         guid: 6fe0a0e756baa542936a9492de691053
-      Path: Events\Default Work Unit\Music\Shepard Tone\Stop_Shepard_Tone_Mass_X2
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Mass_X2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3839,7 +3862,7 @@ MonoBehaviour:
       - ElementName: Stop_Shepard_Tone_Sine_Wave
         ObjectType: 3
         guid: fa8fb5adc8043942a685881a0813f938
-      Path: Events\Default Work Unit\Music\Shepard Tone\Stop_Shepard_Tone_Sine_Wave
+      Path: Events/Default Work Unit/Music/Shepard Tone/Stop_Shepard_Tone_Sine_Wave
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3865,7 +3888,7 @@ MonoBehaviour:
       - ElementName: Stop_Standing_Light_Loop
         ObjectType: 3
         guid: e7dabd302b90654aa9148e09de45797b
-      Path: Events\Default Work Unit\World\Intractibles\Standing Light\Stop_Standing_Light_Loop
+      Path: Events/Default Work Unit/World/Intractibles/Standing Light/Stop_Standing_Light_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3888,7 +3911,7 @@ MonoBehaviour:
       - ElementName: Stop_Utility_Power_Outage_Loop
         ObjectType: 3
         guid: 916465252972cc4e8ff2e8065bef52fb
-      Path: Events\Default Work Unit\World\Events\Stop_Utility_Power_Outage_Loop
+      Path: Events/Default Work Unit/World/Events/Stop_Utility_Power_Outage_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3914,7 +3937,7 @@ MonoBehaviour:
       - ElementName: Stop_Window_Close_Loop
         ObjectType: 3
         guid: 3898d9091c7a954693b0362aec4ef416
-      Path: Events\Default Work Unit\World\Ambience\Window\Stop_Window_Close_Loop
+      Path: Events/Default Work Unit/World/Ambience/Window/Stop_Window_Close_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3940,7 +3963,7 @@ MonoBehaviour:
       - ElementName: Stop_Window_Open_Loop
         ObjectType: 3
         guid: 643607b1fcfbed4c99008b62ce5e91cb
-      Path: Events\Default Work Unit\World\Ambience\Window\Stop_Window_Open_Loop
+      Path: Events/Default Work Unit/World/Ambience/Window/Stop_Window_Open_Loop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -3963,7 +3986,7 @@ MonoBehaviour:
       - ElementName: Toilet
         ObjectType: 4
         guid: 4734dc804ed17a40a1b64742aff03fd5
-      Path: Events\Default Work Unit\World\Intractibles\Toilet
+      Path: Events/Default Work Unit/World/Intractibles/Toilet
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3986,7 +4009,7 @@ MonoBehaviour:
       - ElementName: Trash
         ObjectType: 4
         guid: 7ce151d480c6d74fbfe7db5cf3a5c7a0
-      Path: Events\Default Work Unit\World\Intractibles\Trash
+      Path: Events/Default Work Unit/World/Intractibles/Trash
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -4009,7 +4032,7 @@ MonoBehaviour:
       - ElementName: TV
         ObjectType: 4
         guid: 5e237d88fc04d348913817a977682f8b
-      Path: Events\Default Work Unit\World\Intractibles\TV
+      Path: Events/Default Work Unit/World/Intractibles/TV
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -4032,7 +4055,7 @@ MonoBehaviour:
       - ElementName: Wash
         ObjectType: 4
         guid: 0efd54e62b37d4478fdbf6ae7cb9df57
-      Path: Events\Default Work Unit\World\Intractibles\Wash
+      Path: Events/Default Work Unit/World/Intractibles/Wash
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -4055,7 +4078,7 @@ MonoBehaviour:
       - ElementName: Window
         ObjectType: 4
         guid: 98443fb4dde412428d1b6c8487f3645d
-      Path: Events\Default Work Unit\World\Intractibles\Window
+      Path: Events/Default Work Unit/World/Intractibles/Window
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -4078,7 +4101,7 @@ MonoBehaviour:
       - ElementName: Window
         ObjectType: 4
         guid: 397a9c460f0c0a4494ae51e398fe081b
-      Path: Events\Default Work Unit\World\Ambience\Window
+      Path: Events/Default Work Unit/World/Ambience/Window
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -4095,12 +4118,12 @@ MonoBehaviour:
       - ElementName: World
         ObjectType: 4
         guid: bc37408400639549908b67f897d5462e
-      Path: Events\Default Work Unit\World
+      Path: Events/Default Work Unit/World
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -4108,13 +4131,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c0f63c476475754ead71100cb51d1bd3
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: c0f63c476475754ead71100cb51d1bd3
     GuidInternal: 
-    m_lastTime: -8585092838209694548
+    m_lastTime: -8585092596622428616
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -4122,13 +4145,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 3a11c9e2aa43484c925da731bddf6397
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 3a11c9e2aa43484c925da731bddf6397
     GuidInternal: 
-    m_lastTime: -8585092838146688165
+    m_lastTime: -8585092596548192531
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -4136,10 +4159,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 04ef1c97b4f6b34ebbf7bd3cb098da70
     GuidInternal: 
-    m_lastTime: -8585092838146678157
+    m_lastTime: -8585092596548190768
     List:
     - name: New_Switch_Group
       guid: 8542da5d90c45746b37d8e65cc679cd4
@@ -4154,7 +4177,7 @@ MonoBehaviour:
       - ElementName: New_Switch_Group
         ObjectType: 11
         guid: 8542da5d90c45746b37d8e65cc679cd4
-      Path: Switches\Default Work Unit\New_Switch_Group
+      Path: Switches/Default Work Unit/New_Switch_Group
       values:
       - name: Bedroom
         guid: fe58c4003d1fbf4891a994511fb67a50
@@ -4176,7 +4199,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -4184,14 +4207,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 810460807133634ea4cfabeddb460d1e
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 810460807133634ea4cfabeddb460d1e
     GuidInternal: 
-    m_lastTime: -8585092838146678157
+    m_lastTime: -8585092596548189048
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000060000000b0000000c0000000d0000001700000019000000
-  ExpandedWaapiItemIds: 0c0000000d000000
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 050000000600000009000000270000002d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 
