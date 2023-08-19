@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311932, g: 0.38073996, b: 0.3587271, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -500,11 +500,11 @@ GameObject:
   m_Component:
   - component: {fileID: 671471319}
   - component: {fileID: 671471318}
+  - component: {fileID: 671471324}
+  - component: {fileID: 671471323}
   - component: {fileID: 671471322}
   - component: {fileID: 671471321}
   - component: {fileID: 671471320}
-  - component: {fileID: 671471324}
-  - component: {fileID: 671471323}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -569,7 +569,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: dfb840b5405d640cdac919dfe1db0c66, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: d32dee1a35c904fd3875864f4c8cccc4, type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d32dee1a35c904fd3875864f4c8cccc4, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: dfb840b5405d640cdac919dfe1db0c66, type: 2}
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0

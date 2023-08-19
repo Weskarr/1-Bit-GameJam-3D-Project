@@ -9,14 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{6A885147-BD91-7660-958A-E3416CFF3077}">
+		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{CB40FB97-0341-77F7-B087-0633BE2AB1DD}">
 			<ShortName>Ambience_Events</ShortName>
 			<Path>Ambience_Events.bnk</Path>
 			<Media>
-				<File Id="51488684" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>etincelle-spark.wav</ShortName>
-					<CachePath>SFX/etincelle-spark_10C4C929.wem</CachePath>
-				</File>
 				<File Id="112068193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambience_Clock_Loop.wav</ShortName>
 					<CachePath>SFX/Ambience_Clock_Loop_D79FB2B7.wem</CachePath>
@@ -24,6 +20,10 @@
 				<File Id="365044523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>City Noise Inside Apartment.wav</ShortName>
 					<CachePath>SFX/City Noise Inside Apartment_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="418083787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cutting Power.wav</ShortName>
+					<CachePath>SFX/Cutting Power_10C4C929.wem</CachePath>
 				</File>
 				<File Id="485154323" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Open Windows, Rain 05(2).wav</ShortName>
@@ -45,6 +45,10 @@
 					<ShortName>sparks.wav</ShortName>
 					<CachePath>SFX/sparks_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1006721998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Switch.Big.Power.wav</ShortName>
+					<CachePath>SFX/Switch.Big.Power_1DE26B3E.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="1829767974" Name="Play_Ambience_Clock_Loop" MaxAttenuation="8" DurationType="Infinite">
@@ -65,10 +69,11 @@
 						<MediaRef Id="706244841"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="63654547" Name="Play_Utility_Power_Outage_Loop" MaxAttenuation="12" DurationType="OneShot" DurationMin="82.810684" DurationMax="82.810684">
+				<Event Id="63654547" Name="Play_Utility_Power_Outage_Loop" MaxAttenuation="15" DurationType="OneShot" DurationMin="82.810684" DurationMax="82.810684">
 					<MediaRefs>
-						<MediaRef Id="51488684"/>
+						<MediaRef Id="418083787"/>
 						<MediaRef Id="814838590"/>
+						<MediaRef Id="1006721998"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3290767985" Name="Play_Utility_Room_Loop" MaxAttenuation="5" DurationType="Infinite">
@@ -1300,7 +1305,7 @@
 				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9004B6E5-85C2-2798-6A7A-69871483BEA8}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{4A92EFD4-298F-062E-4641-065FBAC8C169}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -1349,5 +1354,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{39DC7D8F-0A03-C7A0-BC3A-EF00A23F80CE}</FileHash>
+	<FileHash>{A875C348-257E-44BC-3ED8-302579149B53}</FileHash>
 </SoundBanksInfo>

@@ -5959,7 +5959,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="etincelle-spark" ID="{573F5C85-0666-4F93-B867-3C750C2EA36C}" ShortID="515275786">
+												<BlendContainer Name="Utility_Power_Outage" ID="{DAA297F8-6E80-4704-AEC3-DA64EBC747EB}" ShortID="290497026">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
@@ -5969,18 +5969,68 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="etincelle-spark" ID="{79F1DC7C-55BC-4A57-B0D5-5AA03E5124C9}">
-															<Language>SFX</Language>
-															<AudioFile>etincelle-spark.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="51488684"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="Cutting Power" ID="{F01E90B1-AA31-4324-801D-A6E0F8A81997}" ShortID="390660005">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-960</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="Power Outage" ID="{98BDB64F-7B26-4962-8415-BA3D503FC0D3}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Cutting Power" ID="{CF4B3198-D7B6-4E94-8E12-20F0D8015170}">
+																	<Language>SFX</Language>
+																	<AudioFile>Cutting Power.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="418083787"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Cutting Power" ID="{CF4B3198-D7B6-4E94-8E12-20F0D8015170}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Switch_Big_Power" ID="{DBC3CF82-7533-4792-BFDC-5B9CA52FBEF8}" ShortID="608496577">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Switch_Big_Power" ID="{F87DCA09-DF99-4C67-843D-449517757162}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0194583078335373"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Switch.Big.Power.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1006721998"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Switch_Big_Power" ID="{F87DCA09-DF99-4C67-843D-449517757162}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="etincelle-spark" ID="{79F1DC7C-55BC-4A57-B0D5-5AA03E5124C9}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</BlendContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Utility_Power_Outage_Loop" ID="{2581C313-434B-4AF5-B23F-57100BE7C815}" ShortID="668640691">
