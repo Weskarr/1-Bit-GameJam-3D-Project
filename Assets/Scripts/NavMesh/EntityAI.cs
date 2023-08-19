@@ -225,7 +225,6 @@ public class ChaseState : IAIState {
             }
 
             if(DistToPlayer() < chaseRadius / 2 && !wander) {
-                Debug.Log("Chase wander time");
                 wander = true;
                 agent.SetDestination(WanderState.RandomNavmeshLocation(15, ai));
                 lastWander = Time.time;
@@ -233,9 +232,10 @@ public class ChaseState : IAIState {
 
             if (wander && Time.time > lastWander + chaseWanderTime) {
                 wander = false;
-            } else {
-                agent.SetDestination(player.transform.position);
-            }
+            } 
+
+            if (!wander) agent.SetDestination(player.transform.position);
+            
 
 
 
