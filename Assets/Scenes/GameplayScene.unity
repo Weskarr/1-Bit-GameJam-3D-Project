@@ -5587,19 +5587,19 @@ MonoBehaviour:
   wakeupSounds:
   - idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
-  - idInternal: 0
-    valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 6146f199a706e75439b6df3014436ccf, type: 2}
   - idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5fc3f916532fb450da3ed9ea99b2b578, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: aba79b442c4cdaa42904cf0bcd072ebd, type: 2}
   - idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 45fa783269ec949c8a3428a026123a41, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 9c99c06bbe827f0418aadc6f5c543464, type: 2}
   - idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e94394417ef304cacb6865163ceedbbc, type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6d87f5fce26eb457bbb0705174c9caf2, type: 2}
   bedOutSound:
     idInternal: 0
     valueGuidInternal: 
@@ -19519,6 +19519,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 73586610945415269, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseSoundFrequency
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 73586610945415269, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSounds.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -19644,6 +19648,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: catchRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseSoundFrequency
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 370160190309903939, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
@@ -19887,6 +19895,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4598557056278647068, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseSoundFrequency
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4598557056278647068, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: chaseSounds.Array.size
       value: 13
       objectReference: {fileID: 0}
@@ -19996,6 +20008,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5505771069372024721, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: catchRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505771069372024721, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseSoundFrequency
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5505771069372024721, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
@@ -20148,6 +20164,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
       propertyPath: catchRadius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
+      propertyPath: chaseSoundFrequency
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9218958115117255336, guid: a52e0600c68d226409ea91d420a52ba7, type: 3}
