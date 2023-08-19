@@ -153,20 +153,29 @@ public class ChaseState : IAIState {
     float chaseRadius;
     float chaseSpeed;
     float regularSpeed;
+    float chaseSoundFrequency;
     NavMeshAgent agent;
     Transform ai;
     Transform player;
     EntitySound soundPlayer;
-    public ChaseState(float pauseTime, float chaseTime, float chaseRadius, float chaseSpeed, float regularSpeed, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer) {
+    [Header("Wwise Events")]
+    AK.Wwise.Event[] chaseSounds;
+    GameObject[] chaseSoundLocations;
+    public ChaseState(float pauseTime, float chaseTime, float chaseRadius, float chaseSpeed, float regularSpeed, 
+        float chaseSoundFrequency, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer, 
+        AK.Wwise.Event[] chaseSounds, GameObject[] chaseSoundLocations) {
         this.pauseTime = pauseTime;
         this.chaseTime = chaseTime;
         this.chaseRadius = chaseRadius;
         this.chaseSpeed = chaseSpeed;
         this.regularSpeed = regularSpeed;
+        this.chaseSoundFrequency = chaseSoundFrequency;
         this.agent = agent;
         this.ai = ai;
         this.player = player;
         this.soundPlayer = soundPlayer;
+        this.chaseSounds = chaseSounds;
+        this.chaseSoundLocations = chaseSoundLocations;
     }
 
     public void EnterState() {
@@ -193,6 +202,7 @@ public class ChaseState : IAIState {
         return Vector3.Distance(player.position, ai.position);
     }
 
+    float lastChaseSound;
     float lastTime;
     bool hasPaused;
     public void UpdateState(float deltaTime) {
@@ -203,6 +213,12 @@ public class ChaseState : IAIState {
                 agent.speed = chaseSpeed;
             }
         } else {
+            if(Time.time > lastChaseSound + chaseSoundFrequency) {
+                int i = Random.Range(0, chaseSounds.Length);
+                int j = Random.Range(0, chaseSoundLocations.Length);
+                chaseSounds[i].Post(chaseSoundLocations[j]);
+            }
+
             if (Time.time > lastTime + chaseTime && DistToPlayer() > chaseRadius) {
                 ExitState();
             }
@@ -234,6 +250,11 @@ public class EntityAI : MonoBehaviour
     public float catchRadius;
     public float quietTime;
 
+    public float chaseSoundFrequency;
+    [Header("Wwise Events")]
+    public AK.Wwise.Event[] chaseSounds;
+    public GameObject[] chaseSoundLocations;
+
     State state = State.wander;
     IAIState[] states;
 
@@ -252,7 +273,8 @@ public class EntityAI : MonoBehaviour
         List<IAIState> s = new List<IAIState> {
             new WanderState(randomRadius, moveTime, transform, myNavAgent, footstepFrequency, idleFrequncy, soundPlayer),
             new SeekState(moveTime, myNavAgent, player.transform, footstepFrequency, soundPlayer),
-            new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, chaseSpeed, myNavAgent.speed, myNavAgent, transform, player.transform, soundPlayer)
+            new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, chaseSpeed, myNavAgent.speed, chaseSoundFrequency, 
+                myNavAgent, transform, player.transform, soundPlayer, chaseSounds, chaseSoundLocations)
         };
         states = s.ToArray();
         SeekState.exit += ExitSeekState;
