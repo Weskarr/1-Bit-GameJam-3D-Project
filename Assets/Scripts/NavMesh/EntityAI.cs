@@ -214,6 +214,7 @@ public class ChaseState : IAIState {
             }
         } else {
             if(Time.time > lastChaseSound + chaseSoundFrequency) {
+                lastChaseSound = Time.time;
                 int i = Random.Range(0, chaseSounds.Length);
                 int j = Random.Range(0, chaseSoundLocations.Length);
                 chaseSounds[i].Post(chaseSoundLocations[j]);

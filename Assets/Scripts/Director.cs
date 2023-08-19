@@ -110,14 +110,14 @@ public class Director : MonoBehaviour
 
     }
 
-    public void GetTool() {
+    public void GetTool(GameObject tool) {
         toolsLeft--;
         toolText.text = string.Format("Tools: {0} / {1}", toolSpawnCount - toolsLeft, toolSpawnCount);
+        GetComponent<ToolSpawn>().RemoveTool(tool);
         if (toolsLeft < 0) {
             if (firstTime) {
                 fuseBoxPath.SetActive(true);
             }
-            GetComponent<ToolSpawn>().ClearTools();
             fuseBoxDoor.GetComponent<BoxCollider>().enabled = true;
         }
     }

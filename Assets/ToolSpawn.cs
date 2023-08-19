@@ -37,6 +37,7 @@ public class ToolSpawn : MonoBehaviour
             
             if (spawnPoint.TryGetComponent<SpawnDoor>(out SpawnDoor door)) {
                 EchoManager.instance.AddAlwaysLitObject(door.Door);
+                Debug.Log(go.name);
                 spawnedLitObj[go] = door.Door;
             }
 
@@ -57,6 +58,7 @@ public class ToolSpawn : MonoBehaviour
     public void RemoveTool(GameObject tool) {
         if (spawnedLitObj.ContainsKey(tool)) {
             EchoManager.instance.RemoveAlwaysLitObject(spawnedLitObj[tool]);
+            EchoManager.instance.TurnOffObject(spawnedLitObj[tool].gameObject);
             spawnedLitObj.Remove(tool);
         }
         spawned.Remove(tool);

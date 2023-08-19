@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EchoManager : MonoBehaviour
@@ -96,11 +97,22 @@ public class EchoManager : MonoBehaviour
         return ret;
     }
 
+    public void TurnOffObject(GameObject go) {
+        if (go.TryGetComponent<Renderer>(out Renderer renderer)) {
+
+        }
+            Material[] mats = renderer.sharedMaterials;
+            for (int i = 0; i < mats.Length; i++)
+                mats[i] = _echoMat;
+            renderer.sharedMaterials = mats;
+    }
+
     public void AddAlwaysLitObject(GameObject go) {
         _alwaysOnObjects.Add(go);
     }
 
     public void RemoveAlwaysLitObject(GameObject go) {
+        Debug.Log(go.name);
         _alwaysOnObjects.Remove(go);
     }
 
