@@ -31,7 +31,7 @@ public class MainMenu : MonoBehaviour
         {
             startGame = true;
             OnButtonClick.Post(gameObject);
-            MenuMusic.Stop(gameObject);
+            MenuMusic.Post(gameObject);
             StartCoroutine(StartAnimation());
         }
     }

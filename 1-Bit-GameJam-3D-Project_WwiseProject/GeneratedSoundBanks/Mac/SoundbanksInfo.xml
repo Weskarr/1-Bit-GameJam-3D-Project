@@ -609,25 +609,25 @@
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{2B929656-31EC-7DD5-C63E-96C6912EEAA6}">
+		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{79A00CE3-8303-3839-64B1-58275959E01E}">
 			<ShortName>Interactibles</ShortName>
 			<Path>Interactibles.bnk</Path>
 			<Media>
 				<File Id="444089" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_5.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_5_448F2495.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_5_D3DBB348.wem</CachePath>
 				</File>
 				<File Id="6944452" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
-					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._99064E9C.wem</CachePath>
+					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._EDED2F45.wem</CachePath>
 				</File>
 				<File Id="29066256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>03 Wood Door #3_ Open And Slam With Metal Latch Knob.wav</ShortName>
-					<CachePath>SFX/03 Wood Door #3_ Open And Slam With Metal Latch Knob_C5394352.wem</CachePath>
+					<CachePath>SFX/03 Wood Door #3_ Open And Slam With Metal Latch Knob_F7BE465E.wem</CachePath>
 				</File>
 				<File Id="37149225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_3.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_3_BE525590.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_3_EBB6CE45.wem</CachePath>
 				</File>
 				<File Id="47976970" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>hammer v1(3).wav</ShortName>
@@ -639,7 +639,7 @@
 				</File>
 				<File Id="79665570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_1.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_1_1FBC070D.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_1_A2DE87C9.wem</CachePath>
 				</File>
 				<File Id="101304777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_03.wav</ShortName>
@@ -659,7 +659,7 @@
 				</File>
 				<File Id="148774718" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
-					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._0E55D076.wem</CachePath>
+					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._4750A804.wem</CachePath>
 				</File>
 				<File Id="168958372" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button 02.wav</ShortName>
@@ -679,7 +679,7 @@
 				</File>
 				<File Id="238130164" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FRIDGE_DOOR_SLAM_HUM_01_CS.wav</ShortName>
-					<CachePath>SFX/FRIDGE_DOOR_SLAM_HUM_01_CS_07374A13.wem</CachePath>
+					<CachePath>SFX/FRIDGE_DOOR_SLAM_HUM_01_CS_374FF9FE.wem</CachePath>
 				</File>
 				<File Id="252798503" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_51_2.wav</ShortName>
@@ -703,15 +703,15 @@
 				</File>
 				<File Id="315886849" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_7.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_7_886E95B2.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_7_17A51A9E.wem</CachePath>
 				</File>
 				<File Id="332868805" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shower-door-open-close01.flac.wav</ShortName>
-					<CachePath>SFX/shower-door-open-close01.flac_BD19BCC2.wem</CachePath>
+					<CachePath>SFX/shower-door-open-close01.flac_759082FE.wem</CachePath>
 				</File>
 				<File Id="341294441" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bedsheets Ruffle zip (16-44.1).wav</ShortName>
-					<CachePath>SFX/Bedsheets Ruffle zip (16-44.1)_9473A172.wem</CachePath>
+					<CachePath>SFX/Bedsheets Ruffle zip (16-44.1)_3119DFBC.wem</CachePath>
 				</File>
 				<File Id="352765158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_53_3.wav</ShortName>
@@ -723,7 +723,7 @@
 				</File>
 				<File Id="441456926" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective..wav</ShortName>
-					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._8DD43770.wem</CachePath>
+					<CachePath>SFX/25-63 Washing Machine Door_ Open _ Close; Washing Machine Door Open _ Close ( Twice ). Close Perspective._B81A32C2.wem</CachePath>
 				</File>
 				<File Id="445383689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pull switch(3).wav</ShortName>
@@ -731,15 +731,15 @@
 				</File>
 				<File Id="454006259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_1.wav</ShortName>
-					<CachePath>SFX/DoorRefrigerator 6048_49_1_760AFD7C.wem</CachePath>
+					<CachePath>SFX/DoorRefrigerator 6048_49_1_F94EC921.wem</CachePath>
 				</File>
 				<File Id="456848155" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</ShortName>
-					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._297F97D3.wem</CachePath>
+					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._05C37E21.wem</CachePath>
 				</File>
 				<File Id="465081962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_2.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_2_A3CC9FF1.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_2_7FF985B8.wem</CachePath>
 				</File>
 				<File Id="476508581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shower handle turn on and off quickly, water shutoff with drips.wav</ShortName>
@@ -779,7 +779,7 @@
 				</File>
 				<File Id="589509217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>01 Wood Door #1_ Open And Close With Metal Latch Knob.wav</ShortName>
-					<CachePath>SFX/01 Wood Door #1_ Open And Close With Metal Latch Knob_E288E2D2.wem</CachePath>
+					<CachePath>SFX/01 Wood Door #1_ Open And Close With Metal Latch Knob_AB04A89C.wem</CachePath>
 				</File>
 				<File Id="590605312" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Button 01.wav</ShortName>
@@ -807,7 +807,7 @@
 				</File>
 				<File Id="703608910" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorRefrigerator 6048_49_2.wav</ShortName>
-					<CachePath>SFX/DoorRefrigerator 6048_49_2_AAE9B47C.wem</CachePath>
+					<CachePath>SFX/DoorRefrigerator 6048_49_2_65636FF9.wem</CachePath>
 				</File>
 				<File Id="723430980" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Tap Water, Rapid.wav</ShortName>
@@ -819,11 +819,11 @@
 				</File>
 				<File Id="732695407" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>shower-door-open-close01.flac(2).wav</ShortName>
-					<CachePath>SFX/shower-door-open-close01.flac(2)_D3553F7E.wem</CachePath>
+					<CachePath>SFX/shower-door-open-close01.flac(2)_2F8B7620.wem</CachePath>
 				</File>
 				<File Id="741383288" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>05 Wood Door #5_ Open With Squeak And Close With Bounce.wav</ShortName>
-					<CachePath>SFX/05 Wood Door #5_ Open With Squeak And Close With Bounce_D6DA9878.wem</CachePath>
+					<CachePath>SFX/05 Wood Door #5_ Open With Squeak And Close With Bounce_43C18BB6.wem</CachePath>
 				</File>
 				<File Id="757925668" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Toilet Flush with Lid Drop.wav</ShortName>
@@ -859,7 +859,7 @@
 				</File>
 				<File Id="819368908" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DoorCabinet 6018_09_4.wav</ShortName>
-					<CachePath>SFX/DoorCabinet 6018_09_4_AE376E79.wem</CachePath>
+					<CachePath>SFX/DoorCabinet 6018_09_4_145874D1.wem</CachePath>
 				</File>
 				<File Id="833179533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Footstep_Wood_01.wav</ShortName>
@@ -875,7 +875,7 @@
 				</File>
 				<File Id="843634942" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle.wav</ShortName>
-					<CachePath>SFX/02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle_C2A250AD.wem</CachePath>
+					<CachePath>SFX/02 Wood Door #2_ Open And Close With Metal Latch Knob, Slight Rattle_0FED48BE.wem</CachePath>
 				</File>
 				<File Id="849882323" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>foley_sports_bag_grab_pickup_catch_04.wav</ShortName>
@@ -887,7 +887,7 @@
 				</File>
 				<File Id="855674886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>DeskDrawer 6028_52_3.wav</ShortName>
-					<CachePath>SFX/DeskDrawer 6028_52_3_71122F7B.wem</CachePath>
+					<CachePath>SFX/DeskDrawer 6028_52_3_A53695B2.wem</CachePath>
 				</File>
 				<File Id="870598308" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Metal lid closed and opened.wav</ShortName>
@@ -907,7 +907,7 @@
 				</File>
 				<File Id="901250480" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven..wav</ShortName>
-					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._F2988DBF.wem</CachePath>
+					<CachePath>SFX/25-39 Microwave 1; Door Open _ Close Three Times. Close Perspective. Kitchen, Oven._58EE81E0.wem</CachePath>
 				</File>
 				<File Id="906693199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TelevisionStatic_BW.50827.wav</ShortName>
@@ -931,15 +931,15 @@
 				</File>
 				<File Id="952922977" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective..wav</ShortName>
-					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._FC295A12.wem</CachePath>
+					<CachePath>SFX/26-38 Switches_ Breaker On _ Off 1; Older Breaker Style Switch Being Turned On And Then Off Again; Medium Perspective._F758A4FD.wem</CachePath>
 				</File>
 				<File Id="958533742" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>04 Wood Door #4_ Open And Close With Squeak.wav</ShortName>
-					<CachePath>SFX/04 Wood Door #4_ Open And Close With Squeak_D9E1187B.wem</CachePath>
+					<CachePath>SFX/04 Wood Door #4_ Open And Close With Squeak_C927FBF2.wem</CachePath>
 				</File>
 				<File Id="959443216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bedsheets Ruffle zip (16-44.1).wav</ShortName>
-					<CachePath>SFX/Bedsheets Ruffle zip (16-44.1)_5EE16A97.wem</CachePath>
+					<CachePath>SFX/Bedsheets Ruffle zip (16-44.1)_5CBE8151.wem</CachePath>
 				</File>
 				<File Id="965341472" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TV Old On Off 01.wav</ShortName>
@@ -1300,7 +1300,7 @@
 				<Event Id="798871922" Name="Stop_Standing_Light_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9414C96A-9B09-FC4C-1FA9-BC07600E11D8}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9004B6E5-85C2-2798-6A7A-69871483BEA8}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -1349,5 +1349,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{97FEC102-D6C6-2A5D-9BA6-B5900794FE31}</FileHash>
+	<FileHash>{39DC7D8F-0A03-C7A0-BC3A-EF00A23F80CE}</FileHash>
 </SoundBanksInfo>
