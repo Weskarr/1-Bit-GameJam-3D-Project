@@ -20,18 +20,14 @@ public class MainMenu : MonoBehaviour
     [Header("Wwise Events")]
     public AK.Wwise.Event MenuMusic;
 
-    private void Start()
-    {
-        MenuMusic.Post(gameObject);
-    }
-
+    
     public void LoadGame()
     {
         if (startGame == false)
         {
             startGame = true;
-            OnButtonClick.Post(gameObject);
             MenuMusic.Post(gameObject);
+            OnButtonClick.Post(gameObject);
             StartCoroutine(StartAnimation());
         }
     }
