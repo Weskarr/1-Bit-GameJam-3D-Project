@@ -30,6 +30,7 @@ namespace AK
         static const AkUniqueID PLAY_CHILD_FOOTSTEPS = 701872540U;
         static const AkUniqueID PLAY_CHILD_SCREAM = 568573080U;
         static const AkUniqueID PLAY_CHLLD_LAUGH = 468398047U;
+        static const AkUniqueID PLAY_CREAKS_AND_KNOCKING = 739897482U;
         static const AkUniqueID PLAY_DOOR_CLOSE = 2292458263U;
         static const AkUniqueID PLAY_DOOR_HANDLE = 2575131963U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;

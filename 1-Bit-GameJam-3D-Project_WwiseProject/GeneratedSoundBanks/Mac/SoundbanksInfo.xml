@@ -9,13 +9,29 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{CB40FB97-0341-77F7-B087-0633BE2AB1DD}">
+		<SoundBank Id="253349559" Type="User" Language="SFX" Hash="{E2967E4E-802A-AF8F-0726-1E9170993245}">
 			<ShortName>Ambience_Events</ShortName>
 			<Path>Ambience_Events.bnk</Path>
 			<Media>
+				<File Id="86762960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>G27-10-General Wooden Creak.wav</ShortName>
+					<CachePath>SFX/G27-10-General Wooden Creak_10C4C929.wem</CachePath>
+				</File>
+				<File Id="86910456" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Knocking on Wood Door (1).wav</ShortName>
+					<CachePath>SFX/Knocking on Wood Door (1)_10C4C929.wem</CachePath>
+				</File>
 				<File Id="112068193" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Ambience_Clock_Loop.wav</ShortName>
 					<CachePath>SFX/Ambience_Clock_Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="245806979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Someone knock on door (4 knocks)(3).wav</ShortName>
+					<CachePath>SFX/Someone knock on door (4 knocks)(3)_10C4C929.wem</CachePath>
+				</File>
+				<File Id="273214253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Creaking in Room 6.wav</ShortName>
+					<CachePath>SFX/Creaking in Room 6_10C4C929.wem</CachePath>
 				</File>
 				<File Id="365044523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>City Noise Inside Apartment.wav</ShortName>
@@ -45,9 +61,21 @@
 					<ShortName>sparks.wav</ShortName>
 					<CachePath>SFX/sparks_10C4C929.wem</CachePath>
 				</File>
+				<File Id="841621240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sorry whisper, male.flac.wav</ShortName>
+					<CachePath>SFX/sorry whisper, male.flac_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924757192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>knocks.wav</ShortName>
+					<CachePath>SFX/knocks_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1006721998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Switch.Big.Power.wav</ShortName>
 					<CachePath>SFX/Switch.Big.Power_1DE26B3E.wem</CachePath>
+				</File>
+				<File Id="1062060977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Knocking.wav</ShortName>
+					<CachePath>SFX/Knocking_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -68,6 +96,20 @@
 					<MediaRefs>
 						<MediaRef Id="706244841"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="739897482" Name="Play_Creaks_and_Knocking" DurationType="OneShot" DurationMin="0.55" DurationMax="18.47779">
+					<MediaRefs>
+						<MediaRef Id="86762960"/>
+						<MediaRef Id="86910456"/>
+						<MediaRef Id="245806979"/>
+						<MediaRef Id="273214253"/>
+						<MediaRef Id="841621240"/>
+						<MediaRef Id="924757192"/>
+						<MediaRef Id="1062060977"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1572913279" Name="RoomVerb"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="63654547" Name="Play_Utility_Power_Outage_Loop" MaxAttenuation="15" DurationType="OneShot" DurationMin="82.810684" DurationMax="82.810684">
 					<MediaRefs>
@@ -614,7 +656,7 @@
 				<Event Id="4143921100" Name="Stop_Entity_Glow_Loop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{79A00CE3-8303-3839-64B1-58275959E01E}">
+		<SoundBank Id="2987141838" Type="User" Language="SFX" Hash="{5912D3E8-C39C-C13D-10F5-8FEE9ECB90D5}">
 			<ShortName>Interactibles</ShortName>
 			<Path>Interactibles.bnk</Path>
 			<Media>
@@ -1018,7 +1060,7 @@
 						<MediaRef Id="37149225"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2292458263" Name="Play_Door_Close" DurationType="OneShot" DurationMin="3.209246" DurationMax="3.326119">
+				<Event Id="2292458263" Name="Play_Door_Close" MaxAttenuation="8" DurationType="OneShot" DurationMin="3.209246" DurationMax="3.326119">
 					<MediaRefs>
 						<MediaRef Id="29066256"/>
 						<MediaRef Id="589509217"/>
@@ -1030,7 +1072,7 @@
 						<MediaRef Id="840610040"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1660008929" Name="Play_Door_Open" DurationType="OneShot" DurationMin="2.0404284" DurationMax="2.1737213">
+				<Event Id="1660008929" Name="Play_Door_Open" MaxAttenuation="8" DurationType="OneShot" DurationMin="2.0404284" DurationMax="2.1737213">
 					<MediaRefs>
 						<MediaRef Id="741383288"/>
 						<MediaRef Id="958533742"/>
@@ -1354,5 +1396,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A875C348-257E-44BC-3ED8-302579149B53}</FileHash>
+	<FileHash>{A41F6713-E3CC-4391-B655-2230E596BD39}</FileHash>
 </SoundBanksInfo>
