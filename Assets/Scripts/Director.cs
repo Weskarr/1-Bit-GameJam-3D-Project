@@ -208,11 +208,12 @@ public class Director : MonoBehaviour
 
     public void sleep() {
         if (canSleep) {
+            toolSpawnCount = Mathf.Min(toolSpawnCount + 1, 5);
             bedPath.SetActive(false);
             player.GetComponent<FPSController>().moving = false;
             firstTime = false;
             bedInSound.Post(player.gameObject);
-            if(hour > 4) {
+            if(hour > 3) {
                 StartCoroutine(win());
             } else {
                 StartCoroutine(startProcess());

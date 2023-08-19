@@ -339,7 +339,7 @@ public class EntityAI : MonoBehaviour
             case State.wander:
                 if (chaseCooldown) break;
 
-                if (Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
+                if (player.GetComponent<FPSController>().moving && Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
                     ChangeState(State.chase);
                 }else if (player.GetComponent<FPSController>().moving && Vector3.Distance(transform.position, player.transform.position) < seekRadius) {
                     ChangeState(State.seek);
@@ -348,7 +348,7 @@ public class EntityAI : MonoBehaviour
                 
             case State.seek:
                 if (chaseCooldown) break;
-                if (Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
+                if (player.GetComponent<FPSController>().moving && Vector3.Distance(transform.position, player.transform.position) < chaseRadius) {
                     ChangeState(State.chase);
                 }
                 break;
