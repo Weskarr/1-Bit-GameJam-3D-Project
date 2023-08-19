@@ -1290,6 +1290,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Creaks_and_Knocking" ID="{B61F61E6-4868-4436-9C2D-C03FEAD2DB36}">
+									<ChildrenList>
+										<Action Name="" ID="{759C8673-FA5C-4451-9E4F-5413F84AF235}" ShortID="1048052301">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Creaks_and_Knocking" ID="{605E6658-1034-4041-94E4-5FA2F4ECCC17}" WorkUnitID="{855F08A2-7CFB-42A1-9BFE-2CB2CACB5B0B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

@@ -5412,7 +5412,13 @@
 								<Folder Name="Door" ID="{A6D4AC7C-E263-4C48-9D70-9ECFFAFF20CF}" ShortID="556921270">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Door_Open" ID="{65B28FE1-EF8F-40FE-9930-D25997CFF45B}" ShortID="264507649">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -5480,7 +5486,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Door_Close" ID="{3FB51FAA-7C4F-4367-99A1-0E8A1F22FCF1}" ShortID="356899480">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Doors" ID="{6E3FAF62-930D-483F-A8DE-8FE0BC748DC2}" WorkUnitID="{6A2331CF-5ACC-45A9-9DAC-F8E975177190}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
 												</Reference>
@@ -6072,6 +6084,293 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Creaks and Knocking" ID="{1F4BB797-651B-4FAC-9509-D1D5CA22CC20}" ShortID="677882102">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Creaks_and_Knocking" ID="{605E6658-1034-4041-94E4-5FA2F4ECCC17}" ShortID="957455158">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Someone knock on door (4 knocks)(3)" ID="{DD1ACDD7-7C67-463A-BD6A-431B9252524A}" ShortID="636038155">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Someone knock on door (4 knocks)(3)" ID="{993AE0C1-A32F-4364-BFD2-8D2B160440EE}">
+															<Language>SFX</Language>
+															<AudioFile>Someone knock on door (4 knocks)(3).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="245806979"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{0CC18A1F-B00A-4582-A0DC-8F4B57F18E1D}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="95.2380952380953"/>
+																<Property Name="PanY" Type="Real64" Value="75.4940711462451"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Someone knock on door (4 knocks)(3)" ID="{993AE0C1-A32F-4364-BFD2-8D2B160440EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Knocking on Wood Door (1)" ID="{FC638557-6650-4BE7-B1D2-19079A03CA08}" ShortID="537110771">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-14</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Knocking on Wood Door (1)" ID="{19894F56-695C-44E9-81E5-7CF0A87CF0F3}">
+															<Language>SFX</Language>
+															<AudioFile>Knocking on Wood Door (1).wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="86910456"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{218EDD38-92B0-4ECD-9CC6-9AA8906DB629}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="-76.1904761904762"/>
+																<Property Name="PanY" Type="Real64" Value="68.7747035573123"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Knocking on Wood Door (1)" ID="{19894F56-695C-44E9-81E5-7CF0A87CF0F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Knocking" ID="{D7C62730-9849-4C11-9445-5B048EA2BA54}" ShortID="1064324690">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Knocking" ID="{713EB160-2C56-476E-B2CB-A421AD033F65}">
+															<Language>SFX</Language>
+															<AudioFile>Knocking.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1062060977"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{F12A63AB-77EC-42E7-A716-94CEF9794832}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="-92.6739926739927"/>
+																<Property Name="PanY" Type="Real64" Value="-84.5849802371542"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Knocking" ID="{713EB160-2C56-476E-B2CB-A421AD033F65}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="knocks" ID="{1DAB8344-AD85-4961-A542-5BCE22042422}" ShortID="352861561">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="knocks" ID="{8C64E522-EB0A-48F4-8ECD-4CC5B27C9DBB}">
+															<Language>SFX</Language>
+															<AudioFile>knocks.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="924757192"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{CF41D87F-57A6-48C3-B712-FBE63CAFFD2E}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="93.040293040293"/>
+																<Property Name="PanY" Type="Real64" Value="-77.8656126482214"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="knocks" ID="{8C64E522-EB0A-48F4-8ECD-4CC5B27C9DBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="G27-10-General Wooden Creak" ID="{8443553A-ABA4-4445-8B0E-EEEC53DD55FB}" ShortID="880193019">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="G27-10-General Wooden Creak" ID="{A5556882-FBAB-41AC-8E1E-CEF927155B4C}">
+															<Language>SFX</Language>
+															<AudioFile>G27-10-General Wooden Creak.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="86762960"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{AA1A00F9-1B49-4BE3-BF90-47ED1D456FE4}">
+															<PropertyList>
+																<Property Name="PanY" Type="Real64" Value="-31.2252964426877"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="G27-10-General Wooden Creak" ID="{A5556882-FBAB-41AC-8E1E-CEF927155B4C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Creaking in Room 6" ID="{F0DD3E4F-16AD-41C0-A6FB-E492EEE4B102}" ShortID="625220295">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Creaking in Room 6" ID="{A06DD2C4-859D-438A-BFE9-012C4DB62E15}">
+															<Language>SFX</Language>
+															<AudioFile>Creaking in Room 6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="273214253"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{55A957A3-4C30-49E4-AB48-7D2DB350B69B}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="-64.8351648351648"/>
+																<Property Name="PanY" Type="Real64" Value="70.3557312252964"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="Creaking in Room 6" ID="{A06DD2C4-859D-438A-BFE9-012C4DB62E15}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sorry whisper, male_flac" ID="{209F5F18-C949-4471-B0D7-6A4E3AB36876}" ShortID="226709724">
+													<PropertyList>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-13</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{64554EEE-F757-4A91-B2A3-A24AEAF46F2A}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="RoomVerb" ID="{04110CE8-135A-46E9-9746-020250676988}" WorkUnitID="{706962CF-E836-49B1-A875-548D00E4C73F}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sorry whisper, male_flac" ID="{72E5D5CD-2819-41FE-B0F0-F5B9BD6F893E}">
+															<Language>SFX</Language>
+															<AudioFile>sorry whisper, male.flac.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="841621240"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{8B330C0E-53DA-4370-A8D5-8D297CC3ECA0}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="-10.2564102564103"/>
+																<Property Name="PanY" Type="Real64" Value="-79.4466403162055"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="sorry whisper, male_flac" ID="{72E5D5CD-2819-41FE-B0F0-F5B9BD6F893E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{8FDA4F28-8F3E-4783-B814-2FE320C088EF}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="96.3369963369964"/>
+														<Property Name="PanY" Type="Real64" Value="75.098814229249"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
