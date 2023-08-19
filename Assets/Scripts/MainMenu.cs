@@ -5,18 +5,41 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [SerializeField]
+    private float animationTime = 2f;
+
+    [SerializeField]
+    private bool startGame = false;
+
+    [SerializeField]
+    private Animator animator;
+
     [Header("Wwise Events")]
     public AK.Wwise.Event OnButtonClick;
 
-    public void clickSound()
+    [Header("Wwise Events")]
+    public AK.Wwise.Event MenuMusic;
+
+    private void Start()
     {
-        OnButtonClick.Post(gameObject);
+        MenuMusic.Post(gameObject);
     }
 
     public void LoadGame()
     {
-        clickSound();
-        this.gameObject.SetActive(false);
-        SceneManager.LoadScene("GameplayScene", LoadSceneMode.Additive);
+        if (startGame == false)
+        {
+            startGame = true;
+            OnButtonClick.Post(gameObject);
+            MenuMusic.Stop(gameObject);
+            StartCoroutine(StartAnimation());
+        }
+    }
+
+    IEnumerator StartAnimation()
+    {
+        animator.SetBool("CrossAnimation", true);
+        yield return new WaitForSeconds(animationTime);
+        SceneManager.LoadScene("GameplayScene");
     }
 }
