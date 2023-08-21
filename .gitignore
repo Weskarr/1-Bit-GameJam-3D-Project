@@ -84,7 +84,7 @@ WwiseProject/**/*.akd
 
 # build stuff (unsure?)
 # Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
-
+[Aa]ssets/[Ww]wise
 # WWise Picker (editor)
 # from https://www.audiokinetic.com/library/edge/?source=Unity&id=unity__troubleshooting.html
 # >> Do not keep AkWwiseProjectData.asset under version control! 
