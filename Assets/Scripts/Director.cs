@@ -48,21 +48,19 @@ public class Director : MonoBehaviour
     public float lightsOffWait;
 
     public GameObject wakeupSoundLocation;
-    [Header("Wwise Events")]
-    public AK.Wwise.Event[] wakeupSounds;
+    public AudioSource wakeUpSource;
+    public AudioClip[] wakeUpSounds;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event bedOutSound;
-    [Header("Wwise Events")]
-    public AK.Wwise.Event bedInSound;
+    public AudioSource generalSource;
+    public AudioClip bedOutSound;
+    public AudioClip bedInSound;
 
 
     public GameObject[] switches;
 
     public bool canSleep = false;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event firstChaseSound;
+    public AudioClip firstChaseSound;
     public GameObject firstChaseText;
     public float firstChaseTextTime;
     public bool firstTimeChased = true;
@@ -139,8 +137,8 @@ public class Director : MonoBehaviour
     }
 
     void PlayRandomWakeupSound() {
-        int i = Random.Range(0, wakeupSounds.Length);
-        wakeupSounds[i].Post(wakeupSoundLocation);
+        int i = Random.Range(0, wakeUpSounds.Length);
+        wakeUpSource.PlayOneShot(wakeUpSounds[i]);
     }
 
     IEnumerator startProcess() {
@@ -160,7 +158,7 @@ public class Director : MonoBehaviour
             hour++;
             hourText.text = string.Format("{0}", hour);
         }
-        bedOutSound.Post(player.gameObject);
+        generalSource.PlayOneShot(bedOutSound);
         wakeupStartTime = Time.time;
     }
 
@@ -212,8 +210,8 @@ public class Director : MonoBehaviour
             bedPath.SetActive(false);
             player.GetComponent<FPSController>().moving = false;
             firstTime = false;
-            bedInSound.Post(player.gameObject);
-            if(hour > 3) {
+            generalSource.PlayOneShot(bedInSound);
+            if (hour > 3) {
                 StartCoroutine(win());
             } else {
                 StartCoroutine(startProcess());
@@ -237,7 +235,7 @@ public class Director : MonoBehaviour
     public void FirstChase() {
         Debug.Log("Showing chase text");
         firstTimeChased = false;
-        firstChaseSound.Post(player.gameObject);
+        generalSource.PlayOneShot(firstChaseSound);
         firstChaseText.SetActive(true);
         StartCoroutine(HideChaseText());
     }

@@ -10,17 +10,17 @@ public class VolumeSlider : MonoBehaviour
 
     public void onSliderChanged()
     {
-        AkSoundEngine.SetRTPCValue("Master_Volume", slider.value);
+        AudioListener.volume = slider.value;
 
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        slider.maxValue = 100f;
+        slider.maxValue = 1f;
         slider.minValue = 0f;
-        slider.value = 75f;
+        slider.value = 0.75f;
 
-        AkSoundEngine.SetRTPCValue("Master_Volume", slider.value);
+        AudioListener.volume = slider.value;
     }
 }

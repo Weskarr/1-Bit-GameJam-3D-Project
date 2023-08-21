@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class Window : MonoBehaviour, Interactable
@@ -33,15 +34,16 @@ public class Window : MonoBehaviour, Interactable
     public bool close = true;
     bool moving = false;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event openSound;
+    AudioSource audioSource;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event closeSound;
+    public AudioClip openSound;
+    public AudioClip closeSound;
 
     float p;
     private void Start() // Assumes the object starts in the closed position
     {
+        audioSource = GetComponent<AudioSource>();
+
         closedRotation = transform.rotation;
         closedPosition = transform.position;
 
@@ -75,7 +77,7 @@ public class Window : MonoBehaviour, Interactable
                 p = 0;
                 moving = false;
                 WindowOpen();
-                if (!playCloseInstantly) closeSound.Post(gameObject);
+                if (!playCloseInstantly) audioSource.PlayOneShot(closeSound);
             }
             if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, closedRotation * Quaternion.Euler(openRotation), p); // * is + in quaternion rotations kinda
             if (move) transform.position = Vector3.Lerp(closedPosition, closedPosition + openPosition, p);
@@ -87,11 +89,11 @@ public class Window : MonoBehaviour, Interactable
     {
         if (close && !moving)
         {
-            openSound.Post(gameObject);
+            audioSource.PlayOneShot(openSound);
         }
         if (!close && !moving && playCloseInstantly)
         {
-            closeSound.Post(gameObject);
+            audioSource.PlayOneShot(closeSound);
         }
         close = !close;
         moving = true;

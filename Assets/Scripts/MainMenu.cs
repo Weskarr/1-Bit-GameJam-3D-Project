@@ -14,20 +14,12 @@ public class MainMenu : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event OnButtonClick;
-
-    [Header("Wwise Events")]
-    public AK.Wwise.Event MenuMusic;
-
     
     public void LoadGame()
     {
         if (startGame == false)
         {
             startGame = true;
-            MenuMusic.Post(gameObject);
-            OnButtonClick.Post(gameObject);
             StartCoroutine(StartAnimation());
         }
     }

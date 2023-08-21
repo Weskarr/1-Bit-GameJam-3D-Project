@@ -16,11 +16,12 @@ public class AudioPoster : MonoBehaviour
     private bool footstepIsPlaying = false;
     private float lastFootstepTime = 0;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event myFootstep;
+    public AudioClip[] footsteps;
 
+    AudioSource audioSource;
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         movementScript = GetComponent<FPSController>();
         lastFootstepTime = Time.time;
     }
@@ -30,8 +31,8 @@ public class AudioPoster : MonoBehaviour
     {
         if (movementScript.moving) {
             if (!footstepIsPlaying) {
-                myFootstep.Post(gameObject);
-                // StartCoroutine(delayedSound());
+                int i = Random.Range(0, footsteps.Length);
+                audioSource.PlayOneShot(footsteps[i]);
                 EchoManager.instance.StartEcho();
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;
@@ -45,8 +46,4 @@ public class AudioPoster : MonoBehaviour
         }
     }
 
-    IEnumerator delayedSound() {
-        yield return new WaitForSeconds(behindStepDelay);
-        myFootstep.Post(behindGO);
-    }
 }

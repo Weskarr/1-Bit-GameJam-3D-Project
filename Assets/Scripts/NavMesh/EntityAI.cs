@@ -154,17 +154,17 @@ public class ChaseState : IAIState {
     float chaseSpeed;
     float regularSpeed;
     float chaseSoundFrequency;
+    AudioSource source;
     NavMeshAgent agent;
     Transform ai;
     Transform player;
     EntitySound soundPlayer;
-    [Header("Wwise Events")]
-    AK.Wwise.Event[] chaseSounds;
+    public AudioClip[] chaseSounds;
     GameObject[] chaseSoundLocations;
     float chaseWanderTime;
     public ChaseState(float pauseTime, float chaseTime, float chaseRadius, float chaseSpeed, float regularSpeed, 
         float chaseSoundFrequency, NavMeshAgent agent, Transform ai, Transform player, EntitySound soundPlayer, 
-        AK.Wwise.Event[] chaseSounds, GameObject[] chaseSoundLocations, float chaseWanderTime) {
+        AudioClip[] chaseSounds, AudioSource source, GameObject[] chaseSoundLocations, float chaseWanderTime) {
         this.pauseTime = pauseTime;
         this.chaseTime = chaseTime;
         this.chaseRadius = chaseRadius;
@@ -176,6 +176,7 @@ public class ChaseState : IAIState {
         this.player = player;
         this.soundPlayer = soundPlayer;
         this.chaseSounds = chaseSounds;
+        this.source = source;
         this.chaseSoundLocations = chaseSoundLocations;
         this.chaseWanderTime = chaseWanderTime;
     }
@@ -221,7 +222,7 @@ public class ChaseState : IAIState {
                 lastChaseSound = Time.time;
                 int i = Random.Range(0, chaseSounds.Length);
                 int j = Random.Range(0, chaseSoundLocations.Length);
-                chaseSounds[i].Post(chaseSoundLocations[j]);
+                source.PlayOneShot(chaseSounds[i]);
             }
 
             if(DistToPlayer() < chaseRadius / 2 && !wander) {
@@ -277,8 +278,7 @@ public class EntityAI : MonoBehaviour
     public float quietTime;
 
     public float chaseSoundFrequency;
-    [Header("Wwise Events")]
-    public AK.Wwise.Event[] chaseSounds;
+    public AudioClip[] chaseSounds;
     public GameObject[] chaseSoundLocations;
 
     State state = State.wander;
@@ -300,7 +300,7 @@ public class EntityAI : MonoBehaviour
             new WanderState(randomRadius, moveTime, transform, myNavAgent, footstepFrequency, idleFrequncy, soundPlayer),
             new SeekState(moveTime, myNavAgent, player.transform, footstepFrequency, soundPlayer),
             new ChaseState(chasePauseTime, chaseTime, continueChaseRadius, chaseSpeed, myNavAgent.speed, chaseSoundFrequency, 
-                myNavAgent, transform, player.transform, soundPlayer, chaseSounds, chaseSoundLocations, chaseWanderTime)
+                myNavAgent, transform, player.transform, soundPlayer, chaseSounds, GetComponent<AudioSource>(), chaseSoundLocations, chaseWanderTime)
         };
         states = s.ToArray();
         SeekState.exit += ExitSeekState;

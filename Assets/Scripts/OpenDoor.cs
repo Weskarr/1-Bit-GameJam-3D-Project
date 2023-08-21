@@ -32,15 +32,15 @@ public class OpenDoor : MonoBehaviour, Interactable
     bool close = true;
     public bool moving = false;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event openSound;
+    public AudioClip openSound;
+    public AudioClip closeSound;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event closeSound;
-
+    AudioSource source;
     float p;
     private void Start() // Assumes the object starts in the closed position
     {
+        source = GetComponent<AudioSource>();
+
         closedRotation = transform.rotation;
         closedPosition = transform.position;
 
@@ -68,7 +68,7 @@ public class OpenDoor : MonoBehaviour, Interactable
             if (p < 0) {
                 p = 0;
                 StopMoving();
-                if (!playCloseInstantly) closeSound.Post(gameObject);
+                if (!playCloseInstantly) source.PlayOneShot(closeSound);
             }
             if (rotate) transform.rotation = Quaternion.Lerp(closedRotation, closedRotation * Quaternion.Euler(openRotation), p); // * is + in quaternion rotations kinda
             if (move)   transform.position = Vector3.Lerp(closedPosition, closedPosition + openPosition, p);
@@ -105,10 +105,10 @@ public class OpenDoor : MonoBehaviour, Interactable
     public void Interact()
     {
         if (close && !moving) {
-            openSound.Post(gameObject);
+            source.PlayOneShot(openSound);
         }
         if (!close && !moving && playCloseInstantly) {
-            closeSound.Post(gameObject);
+            source.PlayOneShot(closeSound);
         }
         close = !close;
         moving = true;

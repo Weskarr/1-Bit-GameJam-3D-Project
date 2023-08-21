@@ -11,8 +11,7 @@ public class FuseBox : MonoBehaviour
 
     public bool powered = true;
 
-    [Header("Wwise Events")]
-    public AK.Wwise.Event powerOutage;
+    public AudioClip powerOutage;
 
     [SerializeField]
     private Breaker[] breakers;
@@ -24,8 +23,19 @@ public class FuseBox : MonoBehaviour
     // 5 = Living
     // 6 = Hall
 
+    AudioSource audioSource;
+    private void Start() {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void stopOutage() {
-        powerOutage.Stop(gameObject);
+        audioSource.Stop();
+    }
+
+    IEnumerator SoundPlay() {
+        audioSource.PlayOneShot(powerOutage);
+        yield return new WaitWhile(() => audioSource.isPlaying);
+        audioSource.Play();
     }
 
     public void turnAllPowerOff()
@@ -34,7 +44,8 @@ public class FuseBox : MonoBehaviour
         foreach (var breaker in breakers)
         {
             breaker.BreakerIsOut();
-            powerOutage.Post(gameObject);
+
+            SoundPlay();
         }
     }
 }

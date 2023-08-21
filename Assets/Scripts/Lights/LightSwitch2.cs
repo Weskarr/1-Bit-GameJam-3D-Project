@@ -22,18 +22,13 @@ public class LightSwitch2 : MonoBehaviour, Interactable
     [SerializeField]
     private Material normalMaterial;
 
-
-    [Header("Wwise Events")]
-    public AK.Wwise.Event onSound;
-
-    [Header("Wwise Events")]
-    public AK.Wwise.Event offSound;
-
     public bool isLightOn = true;
     private bool hasPower = true;
 
+    AudioSource source;
     private void Start()
     {
+        source = GetComponent<AudioSource>();
         if (!isLightOn) {
             turnOff(false);
         } else {
@@ -99,7 +94,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             myMasterMind.LightIsOff(lightIdentity);
         }
 
-        if (playSound) offSound.Post(gameObject);
+        if (playSound) source.Play();
         isLightOn = false;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(0f, 0f, 0f);
     }
@@ -117,7 +112,7 @@ public class LightSwitch2 : MonoBehaviour, Interactable
             myMasterMind.LightIsOn(lightIdentity);
         }
 
-        if (playSound) onSound.Post(gameObject);
+        if (playSound) source.Play();
         isLightOn = true;
         lightSwitchButton.transform.localRotation = Quaternion.Euler(-12f, 0f, 0f);
     }
