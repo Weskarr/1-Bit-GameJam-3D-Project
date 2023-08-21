@@ -78,13 +78,10 @@ public class MasterMind : MonoBehaviour
     private bool stalkerAtPlay;
     [SerializeField]
     private bool madameAtPlay;
-    [SerializeField]
-    private bool grannyAtPlay;
     private GameObject child;
     private GameObject drunk;
     private GameObject stalker;
     private GameObject madame;
-    private GameObject granny;
 
     [Header("Spawning")]
     [SerializeField]
@@ -348,15 +345,13 @@ public class MasterMind : MonoBehaviour
         drunk = this.transform.GetChild(1).gameObject;
         stalker = this.transform.GetChild(2).gameObject;
         madame = this.transform.GetChild(3).gameObject;
-        granny = this.transform.GetChild(4).gameObject;
     }
     private void AnyEntitiesOnThePlayField()
     {
         if (childAtPlay == true ||
             drunkAtPlay == true ||
             stalkerAtPlay == true ||
-            madameAtPlay == true ||
-            grannyAtPlay == true)
+            madameAtPlay == true)
         {
             AnyoneOnPlayField = true;
         }
@@ -386,10 +381,6 @@ public class MasterMind : MonoBehaviour
             case 3:
                 madameAtPlay = true;
                 currentEntity = madame;
-                break;
-            case 4:
-                grannyAtPlay = true;
-                currentEntity = granny;
                 break;
         }
     }
@@ -434,11 +425,6 @@ public class MasterMind : MonoBehaviour
         {
             madame.SetActive(false);
             madameAtPlay = false;
-        }
-        else if (grannyAtPlay == true)
-        {
-            granny.SetActive(false);
-            grannyAtPlay = false;
         }
         currentEntity = null;
         AnyEntitiesOnThePlayField();

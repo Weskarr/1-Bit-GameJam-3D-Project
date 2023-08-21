@@ -9,10 +9,16 @@ public class FlashlighPickup : MonoBehaviour, Interactable
         audioSource = GetComponent<AudioSource>();
     }
 
+    IEnumerator SoundPlay() {
+        audioSource.Play();
+        yield return new WaitWhile(() => audioSource.isPlaying);
+        Destroy(gameObject);
+    }
+
     public void Interact() {
         Director.instance.GetFlashlight();
-        audioSource.Play();
-        Destroy(gameObject);
+        StartCoroutine(SoundPlay());
+        
     }
 
 

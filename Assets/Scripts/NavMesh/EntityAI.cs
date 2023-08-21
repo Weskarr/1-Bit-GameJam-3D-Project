@@ -294,7 +294,6 @@ public class EntityAI : MonoBehaviour
     {
         startLocation = transform.position;
         soundPlayer = GetComponent<EntitySound>();
-        soundPlayer.PlayGlow();
         animator = GetComponent<Animator>();
         List<IAIState> s = new List<IAIState> {
             new WanderState(randomRadius, moveTime, transform, myNavAgent, footstepFrequency, idleFrequncy, soundPlayer),

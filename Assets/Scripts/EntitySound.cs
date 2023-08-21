@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class EntitySound : MonoBehaviour
 {
-    AudioSource footstepSource;
-    AudioSource glowSource;
-    AudioSource enterSource;
-    AudioSource idleSource;
-    AudioSource screamSource;
-    AudioSource chaseSource;
+    public AudioClip[] footstepSounds;
+
+    public AudioSource footstepSource;
+    public AudioSource enterSource;
+    public AudioSource idleSource;
+    public AudioSource screamSource;
+    public AudioSource chaseSource;
 
     public bool quiet = false;
 
     public void StopAll() {
         StopFootstep();
-        StopGlow();
         StopEnter();
         StopIdle();
         StopScream();
@@ -24,19 +24,12 @@ public class EntitySound : MonoBehaviour
 
     public void PlayFootstep() {
         if (quiet) return;
-        footstepSource.Play();
+        int i = Random.Range(0, footstepSounds.Length);
+        footstepSource.PlayOneShot(footstepSounds[i]);
     }
 
     public void StopFootstep() {
         footstepSource.Stop();
-    }
-
-    public void PlayGlow() {
-        glowSource.Play();
-    }
-
-    public void StopGlow() {
-        glowSource.Stop();
     }
 
     public void PlayEnter() {
@@ -71,7 +64,4 @@ public class EntitySound : MonoBehaviour
     public void StopChase() {
         chaseSource.Stop();
     }
-
-
-
 }

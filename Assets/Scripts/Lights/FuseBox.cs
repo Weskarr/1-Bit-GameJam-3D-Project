@@ -44,8 +44,7 @@ public class FuseBox : MonoBehaviour
         foreach (var breaker in breakers)
         {
             breaker.BreakerIsOut();
-
-            SoundPlay();
+            StartCoroutine(SoundPlay());
         }
     }
 }
