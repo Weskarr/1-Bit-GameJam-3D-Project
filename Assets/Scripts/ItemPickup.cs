@@ -8,10 +8,16 @@ public class ItemPickup : MonoBehaviour, Interactable {
     private void Start() {
         audioSource = GetComponent<AudioSource>();
     }
+
+    IEnumerator SoundPlay() {
+        audioSource.Play();
+        GetComponent<MeshRenderer>().enabled = false;
+        yield return new WaitWhile(() => audioSource.isPlaying);
+        Destroy(gameObject);
+    }
     public void Interact() {
         Director.instance.GetTool(gameObject);
-        audioSource.Play();
-        Destroy(gameObject);
+        StartCoroutine(SoundPlay());
     }
 }
 

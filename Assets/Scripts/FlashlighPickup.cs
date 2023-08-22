@@ -11,6 +11,7 @@ public class FlashlighPickup : MonoBehaviour, Interactable
 
     IEnumerator SoundPlay() {
         audioSource.Play();
+        GetComponent<MeshRenderer>().enabled = false;
         yield return new WaitWhile(() => audioSource.isPlaying);
         Destroy(gameObject);
     }

@@ -33,7 +33,6 @@ public class AudioPoster : MonoBehaviour
             if (!footstepIsPlaying) {
                 int i = Random.Range(0, footsteps.Length);
                 audioSource.PlayOneShot(footsteps[i]);
-                Debug.Log(Time.time);
                 EchoManager.instance.StartEcho();
                 lastFootstepTime = Time.time;
                 footstepIsPlaying = true;
